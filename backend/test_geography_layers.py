@@ -218,3 +218,24 @@ class GeographyLayersTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class UnsearchableActivityTests(GeographyLayersTests):
+    """An activity with no selectors must not report an empty competitor layer
+    as evidence of no competition (RULES.md rule 6)."""
+
+    def test_activity_without_selectors_is_labelled_unknown(self):
+        result = self.fetch(activity='other')
+        self.assertEqual(result['layers']['competitors'], [])
+        self.assertEqual(result['completeness'], 'unknown')
+        self.assertEqual(result['completeness_note_key'], 'notes.no_competitor_selector')
+
+    def test_searchable_activity_stays_partial(self):
+        result = self.fetch(activity='retail')
+        self.assertEqual(result['completeness'], 'partial')
+        self.assertEqual(result['completeness_note_key'], 'notes.osm_partial')
+
+    def test_manufacturing_is_searchable(self):
+        selectors = geography.TAGS['manufacturing']
+        self.assertTrue(selectors['direct'] or selectors['adjacent'])
+        self.assertGreater(len(self.fetch(activity='manufacturing')['layers']['competitors']), -1)

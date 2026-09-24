@@ -100,8 +100,8 @@ TAGS = {
         "adjacent": ('["shop"~"^gift$"]',),
     },
     "manufacturing": {
-        "direct": (),
-        "adjacent": (),
+        "direct": ('["craft"]', '["man_made"~"^works$"]'),
+        "adjacent": ('["landuse"~"^industrial$"]',),
     },
     "transport.taxi": {
         "direct": ('["amenity"~"^taxi$"]',),
@@ -186,6 +186,10 @@ def nearby(lat, lon, category, radius_km=15):
         fail("invalid_input", 422, "unknown_activity")
 
     selectors = TAGS[category]
+    # An activity with no selector cannot be searched for. An empty competitor
+    # layer must then read as "we did not look", never as "there is none"
+    # (RULES.md rule 6), so the response is labelled differently.
+    has_selectors = bool(selectors["direct"] or selectors["adjacent"])
     radius_m = int(radius_km * 1000)
     source_url = os.getenv("OVERPASS_URL", "https://overpass-api.de/api/interpreter")
     # Versioned namespace prevents the old mixed-layer cache from leaking into v3.
@@ -325,8 +329,10 @@ def nearby(lat, lon, category, radius_km=15):
             "centre": {"lat": lat, "lon": lon},
             "radius_km": int(radius_km),
             "observed": observed,
-            "completeness": "partial",
-            "completeness_note_key": "notes.osm_partial",
+            "completeness": "partial" if has_selectors else "unknown",
+            "completeness_note_key": (
+                "notes.osm_partial" if has_selectors else "notes.no_competitor_selector"
+            ),
             "provenance": provenance,
             "freshness": {
                 "dataset": "osm_nearby",
