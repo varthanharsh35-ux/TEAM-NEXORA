@@ -1,0 +1,690 @@
+[
+ {
+  "type": "node",
+  "id": 245602518,
+  "lat": 12.1020673,
+  "lon": 78.5904558,
+  "tags": {
+   "name": "Theerthamalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245605799,
+  "lat": 12.3096919,
+  "lon": 77.965972,
+  "tags": {
+   "name": "Belluranhalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313274104,
+  "lat": 12.2101857,
+  "lon": 78.0560214,
+  "tags": {
+   "name": "Paparpatti",
+   "name:kn": "ಪಪ್ಪಾರಪಟ್ಟಿ",
+   "name:ml": "പാപ്പാരപ്പട്ടി",
+   "name:ta": "பாப்பாரப்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313274269,
+  "lat": 12.1331737,
+  "lon": 77.8992272,
+  "tags": {
+   "name": "Pennagaram",
+   "name:kn": "ಪೆನ್ನಗರಂ",
+   "name:ml": "പെന്നാകരം",
+   "name:ta": "பென்னாகரம்",
+   "place": "town",
+   "population": "15000",
+   "postal_code": "636810",
+   "wikidata": "Q2716664",
+   "wikipedia": "en:Pennagaram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 353317573,
+  "lat": 12.1347988,
+  "lon": 78.1589864,
+  "tags": {
+   "capital": "5",
+   "is_in:state": "Tamil Nadu",
+   "name": "Dharmapuri",
+   "name:ar": "دارمابوري",
+   "name:bn": "ধর্মপুরী",
+   "name:en": "Dharmapuri",
+   "name:fa": "درماپوری",
+   "name:hi": "धर्मपुरी",
+   "name:kn": "ಧರ್ಮಪುರಿ",
+   "name:ml": "ധർമ്മപുരി",
+   "name:ru": "Дхармапури",
+   "name:ta": "தர்மபுரி",
+   "name:te": "ధర్మపురి",
+   "name:zh": "达尔玛普利",
+   "place": "city",
+   "population": "10000",
+   "postal_code": "636700",
+   "wikidata": "Q9894",
+   "wikipedia": "en:Dharmapuri"
+  }
+ },
+ {
+  "type": "node",
+  "id": 353327285,
+  "lat": 12.3078191,
+  "lon": 78.205895,
+  "tags": {
+   "name": "Kariamangalam",
+   "name:kn": "ಕರಿಮಂಗಳಂ",
+   "name:ml": "കരിയമംഗലം",
+   "name:ta": "கரியமங்கலம்",
+   "place": "town",
+   "postal_code": "635111",
+   "wikidata": "Q2443911",
+   "wikipedia": "en:Kariamangalam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 353327286,
+  "lat": 12.2527921,
+  "lon": 78.1967742,
+  "tags": {
+   "name": "Periyapati",
+   "name:ml": "പെരിയപട്ടി",
+   "name:ta": "பெரியபட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 577523076,
+  "lat": 11.9398301,
+  "lon": 78.0572664,
+  "tags": {
+   "name": "Toppur",
+   "name:ml": "തോപ്പൂർ",
+   "name:ta": "தோப்பூர்",
+   "place": "village",
+   "postal_code": "636352"
+  }
+ },
+ {
+  "type": "node",
+  "id": 838561479,
+  "lat": 12.1251285,
+  "lon": 77.7731928,
+  "tags": {
+   "name": "Wodapatti",
+   "name:kn": "ಒಡಪಟ್ಟಿ",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 838571693,
+  "lat": 12.1214298,
+  "lon": 77.7776786,
+  "tags": {
+   "name": "Hogenakkal",
+   "name:kn": "ಹೊಗೆನಕಲ್",
+   "name:ml": "ഹൊഗെനക്കൽ",
+   "name:ta": "ஒகேனக்கல்",
+   "place": "village",
+   "wikidata": "Q5877199",
+   "wikipedia": "en:Hogenakkal, Dharmapuri"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1114856429,
+  "lat": 12.080578,
+  "lon": 78.3575863,
+  "tags": {
+   "name": "Thonganur",
+   "name:ml": "തൊങ്കനൂർ",
+   "name:ta": "தொங்கனூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1114856431,
+  "lat": 11.9824026,
+  "lon": 78.2450064,
+  "tags": {
+   "name": "Bommidi",
+   "name:ml": "ബൊമ്മിടി",
+   "name:ta": "பொம்மிடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1114856480,
+  "lat": 12.1799897,
+  "lon": 78.4216154,
+  "tags": {
+   "name": "Doddampatti",
+   "name:kn": "ದೊಡ್ಡಂಪಟ್ಟಿ",
+   "name:ml": "തൊട്ടംപട്ടി",
+   "name:ta": "தொட்டம்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1202133973,
+  "lat": 12.1137024,
+  "lon": 78.5700209,
+  "tags": {
+   "name": "Poyyapatti",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1300454671,
+  "lat": 12.104246,
+  "lon": 78.605416,
+  "tags": {
+   "name": "Andiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3080897171,
+  "lat": 11.9706857,
+  "lon": 78.2686151,
+  "tags": {
+   "name": "Turinjipatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4355130515,
+  "lat": 12.1233535,
+  "lon": 78.3973307,
+  "tags": {
+   "name": "Morappur",
+   "name:ml": "മൊരപ്പൂർ",
+   "name:ta": "மொரப்பூர்",
+   "place": "village",
+   "postal_code": "635305"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4569876914,
+  "lat": 12.1463679,
+  "lon": 78.4362135,
+  "tags": {
+   "name": "Maruthipatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4569876947,
+  "lat": 12.1608004,
+  "lon": 78.4355198,
+  "tags": {
+   "name": "Vellampatti",
+   "place": "village",
+   "population": "2500"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4927283883,
+  "lat": 12.3041231,
+  "lon": 78.0728817,
+  "tags": {
+   "name": "Palacode",
+   "name:kn": "ಪಾಲಕ್ಕಾಡು",
+   "name:ml": "പാലക്കോട്",
+   "name:ta": "பாலக்கோடு",
+   "place": "town",
+   "postal_code": "636808"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5185524703,
+  "lat": 11.8902284,
+  "lon": 78.5103232,
+  "tags": {
+   "name": "Sitheri",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5185525788,
+  "lat": 12.0545748,
+  "lon": 78.4786186,
+  "tags": {
+   "name": "Harur",
+   "name:kn": "ಅರೂರ್",
+   "name:ml": "അരൂർ",
+   "name:ta": "அரூர்",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "636803",
+   "wikidata": "Q1707447",
+   "wikimedia_commons": "Category:Harur",
+   "wikipedia": "en:Harur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267457894,
+  "lat": 11.9276138,
+  "lon": 78.3487712,
+  "tags": {
+   "name": "Venkadasamuthiram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267457913,
+  "lat": 11.9379958,
+  "lon": 78.3446197,
+  "tags": {
+   "name": "Molayanoor",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267457914,
+  "lat": 11.9753508,
+  "lon": 78.3644782,
+  "tags": {
+   "name": "Menasi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267458053,
+  "lat": 11.9554072,
+  "lon": 78.3367978,
+  "tags": {
+   "name": "Vizhuthupatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267458058,
+  "lat": 11.9745645,
+  "lon": 78.332238,
+  "tags": {
+   "name": "Gundalmadduvu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5267458114,
+  "lat": 11.9845577,
+  "lon": 78.3655108,
+  "tags": {
+   "name": "Boothanatham",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5344697727,
+  "lat": 12.038691,
+  "lon": 78.6435485,
+  "tags": {
+   "name": "Bairanayakkampatty",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5344697744,
+  "lat": 12.0208106,
+  "lon": 78.5281705,
+  "tags": {
+   "name": "Keeraipatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5344698284,
+  "lat": 11.9827372,
+  "lon": 78.6708426,
+  "tags": {
+   "name": "Kottappatti",
+   "place": "village",
+   "postal_code": "636911"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5355416216,
+  "lat": 12.3879935,
+  "lon": 78.0034824,
+  "tags": {
+   "name": "Marandahalli",
+   "name:kn": "ಮಾರಂಡಹಳ್ಳಿ",
+   "place": "village",
+   "wikidata": "Q2540915",
+   "wikipedia": "en:Marandahalli"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754401719,
+  "lat": 12.0873106,
+  "lon": 78.5718906,
+  "tags": {
+   "name": "Palayam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754401720,
+  "lat": 12.0737716,
+  "lon": 78.5692459,
+  "tags": {
+   "name": "Veerappanayakanpatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754410948,
+  "lat": 12.0360835,
+  "lon": 78.522023,
+  "tags": {
+   "name": "Kelapaarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754410949,
+  "lat": 12.0490263,
+  "lon": 78.5245335,
+  "tags": {
+   "name": "Kammaalampatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754410951,
+  "lat": 12.0579342,
+  "lon": 78.5064554,
+  "tags": {
+   "name": "Maaveripatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754410981,
+  "lat": 12.0542515,
+  "lon": 78.5200489,
+  "tags": {
+   "name": "Purakalluddai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754411321,
+  "lat": 12.0499024,
+  "lon": 78.5649115,
+  "tags": {
+   "name": "Maambadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754411322,
+  "lat": 12.0467022,
+  "lon": 78.5611108,
+  "tags": {
+   "name": "Veppampatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754411325,
+  "lat": 12.0546974,
+  "lon": 78.5417747,
+  "tags": {
+   "name": "Ettiyampatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5754411361,
+  "lat": 12.0562607,
+  "lon": 78.5280794,
+  "tags": {
+   "name": "Muthanoor",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7142431093,
+  "lat": 11.9138178,
+  "lon": 78.3671093,
+  "tags": {
+   "name": "Pappireddipatti",
+   "name:kn": "ಪಾಪಿರೆಡ್ಡಿಪಟ್ಟಿ",
+   "name:ml": "പാപ്പിറെഡ്ഡിപ്പട്ടി",
+   "name:ta": "பாப்பிரெட்டிப்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7142431094,
+  "lat": 12.0574306,
+  "lon": 78.1181144,
+  "tags": {
+   "name": "Nallampalli",
+   "name:ml": "നല്ലംപള്ളി",
+   "name:ta": "நல்லம்பள்ளி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 8482054625,
+  "lat": 12.0508205,
+  "lon": 78.6767864,
+  "tags": {
+   "name": "Naripalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9904982605,
+  "lat": 12.1926812,
+  "lon": 77.838355,
+  "tags": {
+   "name": "Spider Valley",
+   "note": "Author Kenneth Anderson's Spider valley",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9904985513,
+  "lat": 12.2268351,
+  "lon": 77.8105926,
+  "tags": {
+   "alt_name": "Anebidehalla",
+   "name": "Aanaibiddamadhuvu",
+   "note": "Kenneth Anderson's elephant pools of Spider Valley",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9905008440,
+  "lat": 12.179878,
+  "lon": 77.8503685,
+  "tags": {
+   "name": "Sopathy",
+   "note": "Where the Spider Valley stream meets the Chinar river, above its junction with Kaveri.\n\nAuthor Kenneth Anderson described this location in his story \"The crossed tusker of Gerhatti\". The elephant was known as the Black Rogue and, fo",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9913307131,
+  "lat": 12.1727675,
+  "lon": 77.8432075,
+  "tags": {
+   "name": "Muttur",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10719832793,
+  "lat": 12.0117859,
+  "lon": 78.3988881,
+  "tags": {
+   "name": "Thenkaraikkottai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10921907678,
+  "lat": 12.189731,
+  "lon": 78.1697933,
+  "tags": {
+   "name": "Mallikotai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10921977733,
+  "lat": 12.1741753,
+  "lon": 78.1876973,
+  "tags": {
+   "name": "Kottaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11585256869,
+  "lat": 12.0102687,
+  "lon": 78.3920011,
+  "tags": {
+   "name": "Fathima Nagar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470131,
+  "lat": 12.2376073,
+  "lon": 78.2697452,
+  "tags": {
+   "name": "Thippampatti",
+   "name:kn": "ತಿಪ್ಪಂಪಟ್ಟಿ",
+   "name:ml": "തിപ്പംപട്ടി",
+   "name:ta": "திப்பம்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470132,
+  "lat": 12.1385042,
+  "lon": 77.9906756,
+  "tags": {
+   "name": "Nagadasampatti",
+   "name:ml": "നാഗദാസമ്പട്ടി",
+   "name:ta": "நாகதாசம்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12278903367,
+  "lat": 12.1125241,
+  "lon": 78.4937528,
+  "tags": {
+   "name": "Ichampadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12278903368,
+  "lat": 12.0856891,
+  "lon": 78.2911512,
+  "tags": {
+   "name": "Kadathur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12278903369,
+  "lat": 12.2066084,
+  "lon": 78.3160451,
+  "tags": {
+   "name": "Kambainallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12470581024,
+  "lat": 11.9194319,
+  "lon": 78.0184613,
+  "tags": {
+   "name": "Sendrayareddiyur",
+   "place": "hamlet",
+   "population": "373",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13955275062,
+  "lat": 12.1792476,
+  "lon": 78.2022307,
+  "tags": {
+   "name": "Sengalmedu, Dharmpuri 635205",
+   "place": "village"
+  }
+ }
+]

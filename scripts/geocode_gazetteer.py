@@ -49,6 +49,33 @@ def norm(text):
     return "".join(c for c in decomposed if c.isalnum())
 
 
+# Tamil romanisation is not standardised: the same village is written Arumbuliyur
+# or Arumpuliyur, Edayambudur or Edayampudur. Voiced and unvoiced stops alternate
+# freely (b/p, d/t, g/k, j/s), aspirates are optional, consonants double or not,
+# and long vowels are spelled with doubled letters or macrons. Folding these
+# equivalences turns near-misses into exact matches without loosening the fuzzy
+# threshold, which would instead let genuinely different names through.
+DIGRAPHS = [
+    ("zh", "l"), ("th", "t"), ("dh", "t"), ("ph", "p"), ("bh", "p"),
+    ("gh", "k"), ("kh", "k"), ("ch", "c"), ("sh", "s"),
+    ("oo", "u"), ("ee", "i"), ("aa", "a"), ("ai", "y"), ("ay", "y"),
+]
+LETTERS = str.maketrans({"b": "p", "d": "t", "g": "k", "j": "c", "z": "s", "w": "v"})
+
+
+def fold(text):
+    """Normalised key with Tamil romanisation variants collapsed."""
+    key = norm(text)
+    for src, dst in DIGRAPHS:
+        key = key.replace(src, dst)
+    key = key.translate(LETTERS)
+    out = []
+    for char in key:
+        if not out or out[-1] != char:
+            out.append(char)
+    return "".join(out)
+
+
 def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -186,21 +213,36 @@ def load_osm_places():
 
 
 def index_by_district(places):
+    """Two indexes per district: strict normalised names, and folded keys."""
     index = {}
     for place in places:
-        index.setdefault(place["district"], {}).setdefault(norm(place["name"]), []).append(place)
+        tables = index.setdefault(place["district"], {"strict": {}, "folded": {}})
+        for name in {place["name"], *place["aliases"], *(v for v in place["names"].values() if v)}:
+            tables["strict"].setdefault(norm(name), []).append(place)
+            tables["folded"].setdefault(fold(name), []).append(place)
     return index
 
 
-def match(name, district, index, fuzzy_floor=0.86):
-    """Exact normalised match first, then a conservative fuzzy pass."""
-    bucket = index.get(district, {})
+def match(name, district, index, fuzzy_floor=0.88):
+    """Strict name, then romanisation-folded name, then a conservative fuzzy pass.
+
+    Fuzzy runs on folded keys so the threshold measures real difference rather
+    than spelling convention.
+    """
+    tables = index.get(district)
+    if not tables:
+        return None, 0.0, "none"
+    strict, folded = tables["strict"], tables["folded"]
     key = norm(name)
-    if key in bucket:
-        return bucket[key][0], 1.0, "exact"
-    close = difflib.get_close_matches(key, list(bucket), 1, fuzzy_floor)
+    if key in strict:
+        return strict[key][0], 1.0, "exact"
+    folded_key = fold(name)
+    if folded_key in folded:
+        return folded[folded_key][0], 1.0, "exact"
+    close = difflib.get_close_matches(folded_key, list(folded), 1, fuzzy_floor)
     if close:
-        return bucket[close[0]][0], round(difflib.SequenceMatcher(None, key, close[0]).ratio(), 3), "fuzzy"
+        score = round(difflib.SequenceMatcher(None, folded_key, close[0]).ratio(), 3)
+        return folded[close[0]][0], score, "fuzzy"
     return None, 0.0, "none"
 
 

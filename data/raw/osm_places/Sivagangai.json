@@ -1,0 +1,2575 @@
+[
+ {
+  "type": "node",
+  "id": 523575463,
+  "lat": 10.1925967,
+  "lon": 78.8090318,
+  "tags": {
+   "is_in": "Pudukkottai",
+   "name": "Kothamangalam",
+   "name:ml": "കൊത്തമംഗലം",
+   "name:ta": "கொத்தமங்களம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 523575902,
+  "lat": 10.1752079,
+  "lon": 78.7784482,
+  "tags": {
+   "is_in": "Sivagangai",
+   "name": "Kanadukathan",
+   "name:ml": "കാനാടുകാത്താൻ",
+   "name:ta": "கானாடுகாத்தான்",
+   "place": "village",
+   "postal_code": "623103",
+   "wikidata": "Q981017",
+   "wikipedia": "en:Kanadukathan"
+  }
+ },
+ {
+  "type": "node",
+  "id": 603462341,
+  "lat": 10.1562921,
+  "lon": 78.7269872,
+  "tags": {
+   "name": "Athangudi",
+   "name:ml": "ആത്തങ്കുടി",
+   "name:ta": "ஆத்தங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610185526,
+  "lat": 10.1836565,
+  "lon": 78.7707751,
+  "tags": {
+   "name": "Nemathampatti",
+   "name:ml": "നേമത്താൻപട്ടി",
+   "name:ta": "நேமத்தான்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610192981,
+  "lat": 10.1434916,
+  "lon": 78.8002061,
+  "tags": {
+   "name": "Pallathur",
+   "name:ml": "പള്ളത്തൂർ",
+   "name:ta": "பள்ளத்தூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610194077,
+  "lat": 10.0784104,
+  "lon": 78.7437022,
+  "tags": {
+   "name": "Koviloor",
+   "name:ml": "കോവിലൂർ",
+   "name:ta": "கோவிலூர்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610194078,
+  "lat": 10.1122732,
+  "lon": 78.7302916,
+  "tags": {
+   "alt_name": "Uyyakondan Siruvayal",
+   "name": "Uyikondan Siruvayal",
+   "name:ml": "ഉയ്കൊണ്ടാൻ സിറുവയൽ",
+   "name:ta": "உய்கொண்டான் சிறுவயல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610194136,
+  "lat": 10.1225597,
+  "lon": 78.6692601,
+  "tags": {
+   "name": "Pillayarpatti",
+   "name:ml": "പിള്ളയാർപട്ടി",
+   "name:ta": "பிள்ளையார்பட்டி",
+   "place": "village",
+   "wikidata": "Q12986255",
+   "wikimedia_commons": "Category:Karpaka Vinayakar Temple",
+   "wikipedia": "en:Karpaka Vinayakar Temple"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610194149,
+  "lat": 10.1144887,
+  "lon": 78.698003,
+  "tags": {
+   "alt_name:ml": "കുണ്ഡ്രക്കുടി",
+   "name": "Kundrakudi",
+   "name:ml": "കുന്നക്കുടി",
+   "name:ta": "குன்றக்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610284776,
+  "lat": 10.1472754,
+  "lon": 78.6432477,
+  "tags": {
+   "name": "Sirugudalpatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610284780,
+  "lat": 10.2596,
+  "lon": 78.5981,
+  "tags": {
+   "name": "Sevvur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610740923,
+  "lat": 10.0466513,
+  "lon": 78.608879,
+  "tags": {
+   "name": "Pattamangalam",
+   "name:ml": "പട്ടമംഗലം",
+   "name:ta": "பட்டமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610740926,
+  "lat": 10.105278,
+  "lon": 78.826667,
+  "tags": {
+   "name": "Kandanur",
+   "name:ta": "கண்டனூர்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610740927,
+  "lat": 10.1023776,
+  "lon": 78.8440168,
+  "tags": {
+   "name": "Pudhuvayal",
+   "name:ta": "புதுவயல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610740928,
+  "lat": 10.1109225,
+  "lon": 78.7938166,
+  "tags": {
+   "name": "Kottayur",
+   "name:ml": "കോട്ടയൂർ",
+   "name:ta": "கோட்டையூர்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 613341596,
+  "lat": 10.1854033,
+  "lon": 78.6645631,
+  "tags": {
+   "name": "Kilaseevalpatti",
+   "name:ml": "കീഴച്ചിവൽപട്ടി",
+   "name:ta": "கீழச்சிவல்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 614591479,
+  "lat": 10.0033,
+  "lon": 78.5169,
+  "tags": {
+   "name": "Alavaakkottai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 773237631,
+  "lat": 10.1095888,
+  "lon": 78.6014428,
+  "tags": {
+   "name": "Tiruppattur",
+   "name:ja": "ティルッパットゥール",
+   "name:kn": "ತಿರುಪತ್ತೂರು",
+   "name:ml": "തിരുപ്പത്തൂർ",
+   "name:ta": "திருப்பத்தூர்",
+   "note": "There two Tiruppattur's in Tamil Nadu, this is in Sivaganga District other is in Vellur District",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "623211",
+   "wikidata": "Q1109865",
+   "wikipedia": "en:Tirupattur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 980809658,
+  "lat": 9.9887912,
+  "lon": 78.6632357,
+  "tags": {
+   "name": "Kallal",
+   "name:ml": "കല്ലൽ",
+   "name:ta": "கல்லல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1053978493,
+  "lat": 9.8486881,
+  "lon": 78.4870461,
+  "tags": {
+   "capital": "5",
+   "name": "Sivaganga",
+   "name:en": "Sivaganga",
+   "name:hi": "शिवगंगा",
+   "name:kn": "ಶಿವಗಂಗೈ",
+   "name:ml": "ശിവഗംഗ",
+   "name:ta": "சிவகங்கை",
+   "place": "town",
+   "postal_code": "623560",
+   "wikidata": "Q1025396",
+   "wikipedia": "en:Sivaganga"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669619011,
+  "lat": 9.8577716,
+  "lon": 78.6006036,
+  "tags": {
+   "alt_name": "Algapuri",
+   "habitationcode": "2",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Kollangudi",
+   "is_in:village:ta": "கொல்லங்குடி",
+   "name": "Azhakapuri",
+   "name:ta": "அழகாபுரி",
+   "place": "hamlet",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "15"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669635350,
+  "lat": 9.9756748,
+  "lon": 78.8199347,
+  "tags": {
+   "name": "Kanadevi",
+   "name:ta": "கண்டதேவி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669647828,
+  "lat": 10.0728444,
+  "lon": 78.7795194,
+  "tags": {
+   "name": "Karaikudi",
+   "name:ar": "كاريكودي",
+   "name:fa": "کاراکودی",
+   "name:hi": "कराईकुड़ी",
+   "name:kn": "ಕಾರೈಕುಡಿ",
+   "name:ml": "കാരക്കുടി",
+   "name:pa": "ਕਰਾਈਕੁੜੀ",
+   "name:ru": "Карайккуди",
+   "name:ta": "காரைக்குடி",
+   "place": "city",
+   "population": "106700",
+   "postal_code": "623001",
+   "wikidata": "Q1023693",
+   "wikipedia": "en:Karaikudi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669653474,
+  "lat": 10.0899295,
+  "lon": 78.7227739,
+  "tags": {
+   "name": "Patharakkudi",
+   "name:en": "Patharakkudi",
+   "name:ml": "പാതരക്കുടി",
+   "name:ta": "பாதரக்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2038225926,
+  "lat": 9.6456154,
+  "lon": 78.6258119,
+  "tags": {
+   "name": "Pudur",
+   "name:ta": "புதூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2038225927,
+  "lat": 9.6835347,
+  "lon": 78.6040624,
+  "tags": {
+   "name": "Thayamangalam",
+   "name:ml": "തായമംഗലം",
+   "name:ta": "தாயமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2124976706,
+  "lat": 9.8820809,
+  "lon": 78.624408,
+  "tags": {
+   "name": "Ayyannarkulam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2447112138,
+  "lat": 9.7110626,
+  "lon": 78.4619134,
+  "tags": {
+   "name": "Dhayapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2447112648,
+  "lat": 9.715857,
+  "lon": 78.4649113,
+  "tags": {
+   "name": "Sipcot",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2714328720,
+  "lat": 9.8015768,
+  "lon": 78.3848795,
+  "tags": {
+   "name": "Vembattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3631181933,
+  "lat": 9.664792,
+  "lon": 78.704353,
+  "tags": {
+   "name": "Aramanaarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3631181934,
+  "lat": 9.660433,
+  "lon": 78.677047,
+  "tags": {
+   "name": "Aranaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3631181935,
+  "lat": 9.663606,
+  "lon": 78.666446,
+  "tags": {
+   "name": "Sathani",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3631181936,
+  "lat": 9.657514,
+  "lon": 78.651385,
+  "tags": {
+   "name": "Sothukudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4400725201,
+  "lat": 10.0601017,
+  "lon": 78.5598194,
+  "tags": {
+   "name": "Thirukoshtiyur",
+   "name:ml": "തിരുക്കോഷ്ടിയൂർ",
+   "name:ta": "திருக்கோஷ்டியூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4592194578,
+  "lat": 9.9456925,
+  "lon": 78.826915,
+  "tags": {
+   "admin_level": "6",
+   "name": "Devakottai",
+   "name:kn": "ದೇವಕೊಟ್ಟೈ",
+   "name:ml": "ദേവകോട്ട",
+   "name:ta": "தேவகோட்டை",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "623300",
+   "wikidata": "Q1260517",
+   "wikipedia": "en:Devakottai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4708839660,
+  "lat": 9.5728859,
+  "lon": 78.6119191,
+  "tags": {
+   "name": "Kumarakurichi",
+   "name:ml": "കുമാരക്കുറിച്ചി",
+   "name:ta": "குமாரக்குறிச்சி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5156512641,
+  "lat": 10.1004069,
+  "lon": 78.665419,
+  "tags": {
+   "name": "Siravayal Pudur",
+   "name:en": "Siravayal Pudur",
+   "name:ml": "സിരാവയൽ പുതൂർ",
+   "name:ta": "சிராவயல் புதூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5156527506,
+  "lat": 10.1241331,
+  "lon": 78.6585415,
+  "tags": {
+   "name": "Vairavanpatti",
+   "name:ml": "വൈരവൻപട്ടി",
+   "name:ta": "வைரவன்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781575,
+  "lat": 10.0490431,
+  "lon": 78.9216077,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14316001",
+   "is_in:country": "India",
+   "name": "Tiruppanvayal",
+   "place": "hamlet",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781576,
+  "lat": 10.0579381,
+  "lon": 78.9219618,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315946",
+   "is_in:country": "India",
+   "name": "Vettivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781579,
+  "lat": 10.0638856,
+  "lon": 78.9347184,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "18493297",
+   "is_in:country": "India",
+   "name": "Pālākkurichchi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781580,
+  "lat": 10.0617834,
+  "lon": 78.9349222,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315943",
+   "is_in:country": "India",
+   "name": "Kadappanvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781581,
+  "lat": 10.0579698,
+  "lon": 78.9319074,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315944",
+   "is_in:country": "India",
+   "name": "Pānankādu",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5198781582,
+  "lat": 10.0541034,
+  "lon": 78.9372289,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315945",
+   "is_in:country": "India",
+   "name": "Sānāngādu",
+   "place": "hamlet",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594956,
+  "lat": 10.0378554,
+  "lon": 78.8674486,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315936",
+   "is_in:country": "India",
+   "name": "Pirambuvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594957,
+  "lat": 10.0424404,
+  "lon": 78.8619876,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315997",
+   "is_in:country": "India",
+   "name": "Uravayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594958,
+  "lat": 10.048853,
+  "lon": 78.8655925,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315998",
+   "is_in:country": "India",
+   "name": "Sittivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594959,
+  "lat": 10.0463809,
+  "lon": 78.8813424,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315999",
+   "is_in:country": "India",
+   "name": "Vediyankudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594960,
+  "lat": 10.0292452,
+  "lon": 78.8832092,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315935",
+   "is_in:country": "India",
+   "name": "Sirukkanāvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594961,
+  "lat": 10.0240683,
+  "lon": 78.8831663,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315934",
+   "is_in:country": "India",
+   "name": "Nenmeni",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594962,
+  "lat": 10.0150562,
+  "lon": 78.8969958,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315925",
+   "is_in:country": "India",
+   "name": "Mādappanendal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594963,
+  "lat": 10.0182469,
+  "lon": 78.9063299,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315922",
+   "is_in:country": "India",
+   "name": "Pāppākudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594964,
+  "lat": 10.024829,
+  "lon": 78.9052355,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315930",
+   "is_in:country": "India",
+   "name": "Tiruttangūr",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594965,
+  "lat": 10.0241423,
+  "lon": 78.9127564,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315929",
+   "is_in:country": "India",
+   "name": "Abhisekhāpuram",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594966,
+  "lat": 10.0214904,
+  "lon": 78.9156317,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315931",
+   "is_in:country": "India",
+   "name": "Umayāndavayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594967,
+  "lat": 10.0169896,
+  "lon": 78.9207172,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315921",
+   "is_in:country": "India",
+   "name": "Palanivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594968,
+  "lat": 10.0110942,
+  "lon": 78.9280987,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315920",
+   "is_in:country": "India",
+   "name": "Pūdukudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594981,
+  "lat": 10.031823,
+  "lon": 78.9186573,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315928",
+   "is_in:country": "India",
+   "name": "Sengāttānkudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594982,
+  "lat": 10.03869,
+  "lon": 78.8976288,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315926",
+   "is_in:country": "India",
+   "name": "Āndakkudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594983,
+  "lat": 10.0438878,
+  "lon": 78.9032721,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315927",
+   "is_in:country": "India",
+   "name": "Mittirāvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594984,
+  "lat": 10.0628398,
+  "lon": 78.8950967,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "18493302",
+   "is_in:country": "India",
+   "name": "Āmbakkudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200594985,
+  "lat": 10.0527406,
+  "lon": 78.9054822,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14316000",
+   "is_in:country": "India",
+   "name": "Āvanam",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620221,
+  "lat": 10.0028107,
+  "lon": 78.9538479,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14316003",
+   "alt_name": "Kodikkulam",
+   "is_in:country": "India",
+   "name": "Kodikulam",
+   "name:en": "Kodikulam",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:alt_name": "GNS",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620222,
+  "lat": 10.000613,
+  "lon": 78.9614439,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14316021",
+   "is_in:country": "India",
+   "name": "Sanānvayal",
+   "name:en": "Sananvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620230,
+  "lat": 10.0095727,
+  "lon": 78.9004612,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315924",
+   "is_in:country": "India",
+   "name": "Sellappanendal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620231,
+  "lat": 10.0116752,
+  "lon": 78.8994849,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315923",
+   "is_in:country": "India",
+   "name": "Kiriyāniendal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620232,
+  "lat": 10.007074,
+  "lon": 78.882426,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315937",
+   "is_in:country": "India",
+   "name": "Tachchakudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620233,
+  "lat": 10.0123409,
+  "lon": 78.8578677,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14316010",
+   "is_in:country": "India",
+   "name": "Nallivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620234,
+  "lat": 10.0133763,
+  "lon": 78.8679528,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315939",
+   "is_in:country": "India",
+   "name": "Chinna Kottagudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200620235,
+  "lat": 10.0153098,
+  "lon": 78.8796151,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315938",
+   "is_in:country": "India",
+   "name": "Periya Kottagudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200663391,
+  "lat": 10.0946457,
+  "lon": 78.9764321,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315870",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Appalai",
+   "name:en": "Appalai",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200663393,
+  "lat": 10.0887623,
+  "lon": 78.9835024,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315886",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Kākkākottai",
+   "name:en": "Kakkakottai",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5200663394,
+  "lat": 10.0927233,
+  "lon": 78.9815605,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315871",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Molumbūr",
+   "name:en": "Molumbur",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103335,
+  "lat": 10.08478,
+  "lon": 78.9289892,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315863",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Periyanāyanārvayal",
+   "name:en": "Periyanayanarvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103336,
+  "lat": 10.0789491,
+  "lon": 78.9332592,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315865",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Valaiyanvayal",
+   "name:en": "Valaiyanvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103338,
+  "lat": 10.1038035,
+  "lon": 78.9739537,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315873",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Narikkudi",
+   "name:en": "Narikkudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103339,
+  "lat": 10.1124224,
+  "lon": 78.9631176,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315784",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Mudukkuvayal",
+   "name:en": "Mudukkuvayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103340,
+  "lat": 10.1078384,
+  "lon": 78.95962,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315875",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Kadaiyankudi",
+   "name:en": "Kadaiyankudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103341,
+  "lat": 10.1034127,
+  "lon": 78.955661,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315876",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Poyyāvayal",
+   "name:en": "Poyyavayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103342,
+  "lat": 10.103888,
+  "lon": 78.9613581,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315874",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Kadappanendal",
+   "name:en": "Kadappanendal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103343,
+  "lat": 10.0983004,
+  "lon": 78.958472,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315877",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Usilangudi",
+   "name:en": "Usilangudi",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103344,
+  "lat": 10.095945,
+  "lon": 78.9688468,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315872",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Settivayal",
+   "name:en": "Settivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103345,
+  "lat": 10.0928501,
+  "lon": 78.9639652,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315869",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Aramanaivayal",
+   "name:en": "Aramanaivayal",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103346,
+  "lat": 10.0883292,
+  "lon": 78.9431834,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315879",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Nāttichcheri",
+   "name:en": "Nattichcheri",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5203103347,
+  "lat": 10.0851603,
+  "lon": 78.9459729,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14315864",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Solangādu",
+   "name:en": "Solangadu",
+   "place": "village",
+   "source": "bing;geonames.nga.mil(GNS)",
+   "source:name": "GNS"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5247227048,
+  "lat": 9.6803125,
+  "lon": 78.4506708,
+  "tags": {
+   "name": "Keppanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5247227049,
+  "lat": 9.6711906,
+  "lon": 78.4501424,
+  "tags": {
+   "name": "Singamangaiar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5247244480,
+  "lat": 9.678898,
+  "lon": 78.444837,
+  "tags": {
+   "name": "Narchaiodai Velanodu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5299548649,
+  "lat": 10.0674577,
+  "lon": 78.7216602,
+  "tags": {
+   "name": "Managiri",
+   "name:en": "Managiri",
+   "name:ml": "മാനഗിരി",
+   "name:ta": "மானகிரி",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5299548653,
+  "lat": 10.1129313,
+  "lon": 78.6356653,
+  "tags": {
+   "name": "Kummangudi",
+   "name:en": "Kummangudi",
+   "name:ta": "கும்மங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5299742807,
+  "lat": 9.695667,
+  "lon": 78.456273,
+  "tags": {
+   "name": "Manamadurai",
+   "name:kn": "ಮನಮದುರೈ",
+   "name:ml": "മാനമധുര",
+   "name:ta": "மானாமதுரை",
+   "place": "town",
+   "postal_code": "623600",
+   "wikidata": "Q2444092",
+   "wikipedia": "en:Manamadurai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5342630284,
+  "lat": 9.609054,
+  "lon": 78.4163439,
+  "tags": {
+   "name": "Velaneri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5434642691,
+  "lat": 10.0055208,
+  "lon": 78.4708303,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14312379",
+   "alt_name": "Alagamangalam;Alagamānagari",
+   "habitationcode": "5",
+   "is_in:block": "Sivaganga",
+   "is_in:block:ta": "சிவகங்கை",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Alagamanagari",
+   "is_in:village:ta": "அழகமாநகரி",
+   "name": "Alagamanagari",
+   "name:ta": "அழகமாநகிரி",
+   "place": "village",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "geonames.nga.mil(GNS)",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "5"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5434642695,
+  "lat": 10.0133552,
+  "lon": 78.4771442,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14312377",
+   "alt_name": "Alagamangalam;Alagamānagari",
+   "habitationcode": "26",
+   "is_in:block": "Thiruppathur",
+   "is_in:block:ta": "திருப்பத்தூர்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Poolankurichi",
+   "is_in:village:ta": "பூலாங்குறிச்சி",
+   "name": "Usilampatti",
+   "name:ta": "உசிலம்பட்டி",
+   "note": "PPL",
+   "place": "hamlet",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "geonames.nga.mil(GNS)",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "23"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6052682463,
+  "lat": 9.8471964,
+  "lon": 78.8645207,
+  "tags": {
+   "name": "Puliyal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6302336458,
+  "lat": 9.8278532,
+  "lon": 78.2554704,
+  "tags": {
+   "name": "Tiruppuvanam",
+   "name:ml": "തിരുപ്പുവനം",
+   "name:ta": "திருப்புவனம்",
+   "place": "town",
+   "postal_code": "623611",
+   "wikidata": "Q3535783",
+   "wikipedia": "en:Thirupuvanam, Sivaganga"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6437133757,
+  "lat": 9.8576761,
+  "lon": 78.2778425,
+  "tags": {
+   "name": "Poovanthi",
+   "name:ml": "പൂവന്തി",
+   "name:ta": "பூவந்தி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6492361738,
+  "lat": 9.7668876,
+  "lon": 78.6399811,
+  "tags": {
+   "name": "Maravamangalam",
+   "name:ml": "മറവമംഗലം",
+   "name:ta": "மறவமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6807983937,
+  "lat": 9.8630875,
+  "lon": 78.2160126,
+  "tags": {
+   "name": "Manalur",
+   "name:ml": "മണലൂർ",
+   "name:ta": "மணலூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6810049657,
+  "lat": 9.8604907,
+  "lon": 78.1904375,
+  "tags": {
+   "name": "Palli Chandai",
+   "place": "hamlet",
+   "wikidata": "Q15983079",
+   "wikipedia": "en:Pallichandai Silaiman"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6854106209,
+  "lat": 9.8691953,
+  "lon": 78.5545152,
+  "tags": {
+   "name": "Nattarasankottai",
+   "name:ml": "നാട്ടരചൻകോട്ട",
+   "name:ta": "நாட்டரசன்கோட்டை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898405544,
+  "lat": 9.8440746,
+  "lon": 78.6379909,
+  "tags": {
+   "AND_a_nosr_p": "10012363",
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320724",
+   "alt_name": "Kalaiyarkoil;Kālaiyārkovil",
+   "habitationcode": "8",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:municipality": "Sivagangai",
+   "is_in:municipality:ta": "சிவகங்கை",
+   "is_in:village": "Kalayarkovil",
+   "is_in:village:ta": "காளையார்கோவில்",
+   "name": "Kalaiyarkovil",
+   "name:ml": "കാളയാർകോവിൽ",
+   "name:ta": "காளையார்கோவில்",
+   "place": "town",
+   "population": "5000",
+   "postal_code": "623551",
+   "source": "geonames.nga.mil(GNS);AND",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name_ml": "wikidata",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "8",
+   "wikidata": "Q6351711",
+   "wikimedia_commons": "Category:Kalayar Kovil",
+   "wikipedia": "en:Kalayar Kovil",
+   "wikipedia:ta": "காளையார்கோயில் (நகரம்)"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898405545,
+  "lat": 9.8438962,
+  "lon": 78.6540386,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320727",
+   "is_in:state": "Tamil Nadu",
+   "name": "Susaiyapparpatnam",
+   "place": "village",
+   "source": "geonames.nga.mil(GNS)"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898405546,
+  "lat": 9.8379223,
+  "lon": 78.6731118,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320730",
+   "is_in:country": "India",
+   "is_in:state": "Tamil Nadu",
+   "name": "Kattatti",
+   "place": "village",
+   "source": "geonames.nga.mil(GNS)"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898451767,
+  "lat": 9.8490006,
+  "lon": 78.6429691,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320725",
+   "alt_name": "Mattupatti",
+   "habitationcode": "3",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:municipality:ta": "சிவகங்கை",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Kalayarkovil",
+   "is_in:village:ta": "காளையார்கோவில்",
+   "name": "Mettupatti",
+   "name:ta": "மேட்டுப்பட்டி",
+   "place": "hamlet",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "8"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898524413,
+  "lat": 9.8261459,
+  "lon": 78.6188721,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320722",
+   "alt_name": "Parittikanmay;Parittikanmāy",
+   "habitationcode": "29",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Paruthikkanmoi",
+   "is_in:village:ta": "பருத்திக்கண்மாய்",
+   "name": "Paruthikkanmoi",
+   "name:ta": "பருத்திக்கண்மாய்",
+   "place": "village",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "29"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898524414,
+  "lat": 9.8173715,
+  "lon": 78.623507,
+  "tags": {
+   "alt_name": "Pullikanmai",
+   "habitationcode": "3",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:municipality:ta": "சிவகங்கை",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Paruthikkanmoi",
+   "is_in:village:ta": "பருத்திக்கண்மாய்",
+   "name": "Pulikkanmoi",
+   "name:ta": "புலிக்கண்மாய்",
+   "place": "hamlet",
+   "source:alt_name": "ISROBhuvan",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "29"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898524415,
+  "lat": 9.8221023,
+  "lon": 78.6359739,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320792",
+   "alt_name": "Valaiyanpatti",
+   "habitationcode": "12",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:municipality:ta": "சிவகங்கை",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "A.Velangulam",
+   "is_in:village:ta": "எ.வேலாங்குளம்",
+   "name": "Valayampatti",
+   "name:ta": "வளையம்பட்டி",
+   "place": "hamlet",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "41"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898524416,
+  "lat": 9.8250095,
+  "lon": 78.6449754,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "alt_name": "Sevvalkanmay;Sevvalkanmāy",
+   "habitationcode": "7",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:municipality:ta": "சிவகங்கை",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "A.Velangulam",
+   "is_in:village:ta": "எ.வேலாங்குளம்",
+   "name": "Sevalkanmoi",
+   "name:ta": "செவல்கண்மாய்",
+   "place": "hamlet",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "41"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898634817,
+  "lat": 9.8141365,
+  "lon": 78.6399007,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320791",
+   "alt_name": "Iluppamuchchi;Iruppanpuchchi",
+   "habitationcode": "4",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "A.Velangulam",
+   "is_in:village:ta": "எ.வேலாங்குளம்",
+   "name": "Iruppanpoochi",
+   "name:ta": "இருப்பான்பூச்சி",
+   "place": "hamlet",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "41"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898674319,
+  "lat": 9.8600151,
+  "lon": 78.595022,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320717",
+   "alt_name": "Sattappuli",
+   "habitationcode": "10",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Kollangudi",
+   "is_in:village:ta": "கொல்லங்குடி",
+   "name": "Sathapuli",
+   "name:ta": "சாத்தப்புளி",
+   "place": "hamlet",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "15"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898674320,
+  "lat": 9.8555966,
+  "lon": 78.5905909,
+  "tags": {
+   "habitationcode": "15",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Kollangudi",
+   "is_in:village:ta": "கொல்லங்குடி",
+   "name": "Kollangudi",
+   "name:ta": "கொல்லங்குடி",
+   "place": "hamlet",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "15"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898674348,
+  "lat": 9.849064,
+  "lon": 78.5879516,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320713",
+   "alt_name": "Ariyakurichchi;Ariyākurichchi",
+   "habitationcode": "1",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Kollangudi",
+   "is_in:village:ta": "கொல்லங்குடி",
+   "name": "Ariyakkurichi",
+   "name:ta": "அறியாக்குறிச்சி",
+   "place": "hamlet",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "15"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6898675002,
+  "lat": 9.8380861,
+  "lon": 78.5919911,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320709;14320712",
+   "alt_name": "Vittaneripudukkudi",
+   "habitationcode": "43",
+   "is_in:block": "Kalaiyarkovil",
+   "is_in:block:ta": "காளையார்கோவில்",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:village": "Vittaneri",
+   "is_in:village:ta": "விட்டனேரி",
+   "name": "Vittaneri",
+   "name:ta": "விட்டனேரி",
+   "place": "village",
+   "source:alt_name": "geonames.nga.mil(GNS)",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:name": "www.tnrd.gov.in/",
+   "source:name_ta": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "43"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6990774778,
+  "lat": 10.0264137,
+  "lon": 78.6807454,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14314773",
+   "alt_name": "Elumāpatti",
+   "habitationcode": "1",
+   "is_in:block": "Kallal",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:taluk": "Thiruppathur",
+   "is_in:village": "Alangudi",
+   "is_in:village:ta": "ஆலங்குடி",
+   "name": "Elumapatti",
+   "name:en": "Elumapatti",
+   "name:ta": "எழுமாபட்டி",
+   "place": "hamlet",
+   "source": "Census2011;bing;www.tnrd.gov.in/databases.html;geonames.nga.mil(GNS)",
+   "source:alt_name": "geonames.nga.mil",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "5"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6990837521,
+  "lat": 10.0020711,
+  "lon": 78.6499643,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14314798",
+   "alt_name": "Porandi",
+   "habitationcode": "3",
+   "is_in:block": "Kallal",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:taluk": "Karaikkudi",
+   "is_in:village": "Kallal",
+   "is_in:village:ta": "கல்லல்",
+   "name": "Purandi",
+   "name:en": "Purandi",
+   "name:ta": "புரண்டி",
+   "place": "hamlet",
+   "source": "Census2011;bing;www.tnrd.gov.in/databases.html;geonames.nga.mil(GNS)",
+   "source:alt_name": "geonames.nga.mil",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "9"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6990837522,
+  "lat": 9.9979716,
+  "lon": 78.6309314,
+  "tags": {
+   "GNS:dsg_code": "PPL",
+   "GNS:dsg_string": "populated place",
+   "GNS:id": "14320545",
+   "alt_name": "Sembanūr",
+   "habitationcode": "37",
+   "is_in:block": "Kallal",
+   "is_in:country": "India",
+   "is_in:municipality": "Sivagangai",
+   "is_in:state": "Tamil Nadu",
+   "is_in:taluk": "Karaikkudi",
+   "is_in:village": "Sembanur",
+   "is_in:village:ta": "செம்பனூர்",
+   "name": "Sembanur",
+   "name:en": "Sembanur",
+   "name:ml": "ചെമ്പനൂർ",
+   "name:ta": "செம்பனூர்",
+   "place": "village",
+   "source": "Census2011;bing;www.tnrd.gov.in/databases.html;geonames.nga.mil(GNS)",
+   "source:alt_name": "geonames.nga.mil",
+   "source:habitationcode": "www.tnrd.gov.in/databases.html",
+   "source:villagecode": "www.tnrd.gov.in/databases.html",
+   "villagecode": "37"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7001797711,
+  "lat": 9.6268674,
+  "lon": 78.6222678,
+  "tags": {
+   "name": "Ilaiyankudi",
+   "name:ml": "ഇളയാങ്കുടി",
+   "name:ta": "இளையாங்குடி",
+   "place": "town",
+   "postal_code": "623702"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7745952071,
+  "lat": 9.7872037,
+  "lon": 78.3940601,
+  "tags": {
+   "name": "V.Pudukkulam",
+   "name:ta": "வ.புதுக்குளம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010663959,
+  "lat": 10.0823716,
+  "lon": 78.7762749,
+  "tags": {
+   "name": "Sekkalai",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010665451,
+  "lat": 10.0808822,
+  "lon": 78.7814677,
+  "tags": {
+   "name": "Subramaniyapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010697520,
+  "lat": 10.0789386,
+  "lon": 78.7928831,
+  "tags": {
+   "name": "Alagappapuram",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010713972,
+  "lat": 10.0689772,
+  "lon": 78.7863278,
+  "tags": {
+   "name": "Soodamanipuram",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010765646,
+  "lat": 10.0422925,
+  "lon": 78.785609,
+  "tags": {
+   "name": "Ariyakudi",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010766439,
+  "lat": 10.0714808,
+  "lon": 78.764205,
+  "tags": {
+   "name": "Muthupattinam",
+   "name:ml": "മുത്തുപ്പട്ടണം",
+   "name:ta": "முத்துப்பட்டினம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9010766444,
+  "lat": 10.0656075,
+  "lon": 78.7663507,
+  "tags": {
+   "name": "Kallukatti",
+   "name:ml": "കല്ലുക്കട്ടി",
+   "name:ta": "கல்லுக்கட்டி",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9053961864,
+  "lat": 9.8612624,
+  "lon": 78.1667644,
+  "tags": {
+   "name": "Sottathatty",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9062992745,
+  "lat": 9.8166526,
+  "lon": 78.2299947,
+  "tags": {
+   "name": "Kaliyanthur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9080088261,
+  "lat": 10.2374117,
+  "lon": 78.4378767,
+  "tags": {
+   "alt_name": "கொடுங்குன்றம்",
+   "description": "Singampunari Taluk in Sivaganga district, Tamil Nadu, India.[1] The nearest town is Singampunari located 7 kilometers (4.3 mi) away.",
+   "ele": "760",
+   "image": "https://en.wikipedia.org/wiki/Piranmalai#/media/File:Piranmalai_(26).jpg",
+   "loc_name": "பறம்பு நாடு",
+   "name": "Piranmalai",
+   "place": "village",
+   "population": "5000",
+   "population:date": "2011-01-01",
+   "source:population": "census"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9080093338,
+  "lat": 10.1834134,
+  "lon": 78.4216117,
+  "tags": {
+   "name": "Singampunari",
+   "name:ml": "സിങ്കംപുണരി",
+   "name:ta": "சிங்கம்புணரி",
+   "place": "town",
+   "wikidata": "Q2715579",
+   "wikipedia": "en:Singampunari"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9179174729,
+  "lat": 9.9644812,
+  "lon": 78.4900993,
+  "tags": {
+   "name": "Kilapungudi",
+   "name:ml": "കീഴപ്പൂങ്കുടി",
+   "name:ta": "கீழப்பூங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9179205826,
+  "lat": 9.8210716,
+  "lon": 78.1322122,
+  "tags": {
+   "name": "Konarpatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744557872,
+  "lat": 10.0521768,
+  "lon": 78.6913681,
+  "tags": {
+   "name": "Karugudi",
+   "name:en": "Karugudi",
+   "name:ta": "கருகுடி",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744557873,
+  "lat": 10.0463981,
+  "lon": 78.6914324,
+  "tags": {
+   "name": "Melamaganam",
+   "name:en": "Melamaganam",
+   "name:ml": "മേലമാകാണം",
+   "name:ta": "மேலமாகாணம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744557874,
+  "lat": 10.0411476,
+  "lon": 78.692044,
+  "tags": {
+   "name": "Alangudi",
+   "name:en": "Alangudi",
+   "name:ml": "ആലങ്കുടി",
+   "name:ta": "ஆலங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744558303,
+  "lat": 10.0717568,
+  "lon": 78.6962095,
+  "tags": {
+   "name": "Ilangudi",
+   "name:en": "Ilangudi",
+   "name:ml": "ഇളങ്കുടി",
+   "name:ta": "இளங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744558304,
+  "lat": 10.0784329,
+  "lon": 78.6708465,
+  "tags": {
+   "name": "Nachiapuram",
+   "name:en": "Nachiapuram",
+   "name:ml": "നാച്ചിയാപുരം",
+   "name:ta": "நாச்சியாபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10744558305,
+  "lat": 10.0762991,
+  "lon": 78.6598387,
+  "tags": {
+   "name": "Kambanur",
+   "name:en": "Kambanur",
+   "name:ml": "കമ്പനൂർ",
+   "name:ta": "கம்பனூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10745340395,
+  "lat": 10.1074581,
+  "lon": 78.6610356,
+  "tags": {
+   "name": "Siravayal",
+   "name:en": "Siravayal",
+   "name:ml": "സിരാവയൽ",
+   "name:ta": "சிராவயல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607334,
+  "lat": 10.1018639,
+  "lon": 78.6851665,
+  "tags": {
+   "name": "Thulavur",
+   "name:en": "Thulavur",
+   "name:ml": "തുഴാവൂർ",
+   "name:ta": "துழாவூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607446,
+  "lat": 10.0945334,
+  "lon": 78.6668792,
+  "tags": {
+   "name": "Keelaiyapatti",
+   "name:en": "Keelaiyapatti",
+   "name:ml": "കീഴയപ്പട്ടി",
+   "name:ta": "கீழையப்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607447,
+  "lat": 10.1125371,
+  "lon": 78.6632815,
+  "tags": {
+   "name": "Maruthangudi",
+   "name:en": "Maruthangudi",
+   "name:ml": "മരുതങ്കുടി",
+   "name:ta": "மருதங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607448,
+  "lat": 10.0910587,
+  "lon": 78.68876,
+  "tags": {
+   "name": "Thattatti",
+   "name:en": "Thattatti",
+   "name:ml": "തട്ടട്ടി",
+   "name:ta": "தட்டட்டி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607449,
+  "lat": 10.0914911,
+  "lon": 78.6818397,
+  "tags": {
+   "name": "Thattatti Pudhur",
+   "name:en": "Thattatti Pudhur",
+   "name:ta": "தட்டட்டி புதூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10750607450,
+  "lat": 10.0904755,
+  "lon": 78.6926279,
+  "tags": {
+   "name": "Koratti",
+   "name:en": "Koratti",
+   "name:ml": "കൊരട്ടി",
+   "name:ta": "கொரட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10752501460,
+  "lat": 10.0458088,
+  "lon": 78.7053795,
+  "tags": {
+   "name": "Keeranippatti",
+   "name:en": "Keeranippatti",
+   "name:ml": "കീരനിപ്പട്ടി",
+   "name:ta": "கீரனிப்பட்டி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10752501461,
+  "lat": 10.0607602,
+  "lon": 78.7130176,
+  "tags": {
+   "name": "Thalakkavur",
+   "name:en": "Thalakkavur",
+   "name:ml": "തലക്കാവൂർ",
+   "name:ta": "தலக்காவூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10844865694,
+  "lat": 9.8480783,
+  "lon": 78.2673391,
+  "tags": {
+   "name": "Kalunkupatti",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10844865695,
+  "lat": 9.8238413,
+  "lon": 78.2516241,
+  "tags": {
+   "name": "Pazhaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10844865696,
+  "lat": 9.8197396,
+  "lon": 78.2698631,
+  "tags": {
+   "name": "Harijan Colony",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10867953249,
+  "lat": 9.8540639,
+  "lon": 78.1357741,
+  "tags": {
+   "name": "Vaikkam Periyar Nagar",
+   "name:ml": "വൈക്കം പേരിയാർ നഗർ",
+   "name:ta": "வைக்கம் பேரியார் நகர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10892734689,
+  "lat": 10.1019391,
+  "lon": 78.6438904,
+  "tags": {
+   "name": "Thenkarai",
+   "name:en": "Thenkarai",
+   "name:ml": "തെൻകര",
+   "name:ta": "தென்கரை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10892734690,
+  "lat": 10.0945347,
+  "lon": 78.6402855,
+  "tags": {
+   "name": "Athikaram",
+   "name:en": "Athikaram",
+   "name:ml": "അധികരം",
+   "name:ta": "அதிகரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11500046800,
+  "lat": 9.9412801,
+  "lon": 78.5193932,
+  "tags": {
+   "name": "Okkur",
+   "name:ml": "ഒക്കൂർ",
+   "name:ta": "ஒக்கூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11500046801,
+  "lat": 9.7767661,
+  "lon": 78.3426897,
+  "tags": {
+   "name": "Thiruppachethi",
+   "name:ml": "തിരുപ്പാച്ചേത്തി",
+   "name:ta": "திருப்பாச்சேத்தி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11634266381,
+  "lat": 10.1743648,
+  "lon": 78.4727011,
+  "tags": {
+   "name": "SV Mangalam",
+   "name:ml": "എസ് വി മംഗലം",
+   "name:ta": "எஸ்வி மங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470118,
+  "lat": 9.9208586,
+  "lon": 78.6059512,
+  "tags": {
+   "name": "Natarajapuram",
+   "name:ml": "നടരാജപുരം",
+   "name:ta": "நடராசபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470125,
+  "lat": 9.9318685,
+  "lon": 78.6147773,
+  "tags": {
+   "name": "Panangudi",
+   "name:ml": "പനങ്കുടി",
+   "name:ta": "பனங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470126,
+  "lat": 9.9674925,
+  "lon": 78.5893144,
+  "tags": {
+   "name": "Paganeri",
+   "name:ml": "പാകനേരി",
+   "name:ta": "பாகனேரி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11753470127,
+  "lat": 10.0091565,
+  "lon": 78.5843929,
+  "tags": {
+   "name": "Chokkanathapuram",
+   "name:ml": "ചൊക്കനാഥപുരം",
+   "name:ta": "சொக்கநாதபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13820121667,
+  "lat": 10.0496608,
+  "lon": 78.6304094,
+  "tags": {
+   "name": "Kandramanickam",
+   "name:ml": "കണ്ഠരമാണിക്കം",
+   "name:ta": "கண்டரமாணிக்கம்",
+   "place": "village",
+   "wikidata": "Q6361611",
+   "wikipedia": "en:Kandramanickam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13820121668,
+  "lat": 10.1198848,
+  "lon": 78.7911331,
+  "tags": {
+   "name": "Velangudi",
+   "name:ml": "വേലങ്കുടി",
+   "name:ta": "வேலங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13820121669,
+  "lat": 10.1448368,
+  "lon": 78.7589183,
+  "tags": {
+   "name": "Soorakudi",
+   "name:ml": "ശൂരക്കുടി",
+   "name:ta": "சூரக்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13820121670,
+  "lat": 10.1351375,
+  "lon": 78.7233925,
+  "tags": {
+   "name": "Palavangudi",
+   "name:ml": "പലവാൻകുടി",
+   "name:ta": "பலவான்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13820121671,
+  "lat": 10.1502401,
+  "lon": 78.74468,
+  "tags": {
+   "name": "Chokalingampudur",
+   "name:ml": "ചൊക്കലിംഗംപുതൂർ",
+   "name:ta": "சொக்கலிங்கம்புதூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14173093946,
+  "lat": 10.2160961,
+  "lon": 78.4528799,
+  "tags": {
+   "alt_name": "கொடுங்குன்றம்",
+   "description": "Singampunari Taluk in Sivaganga district, Tamil Nadu, India.[1] The nearest town is Singampunari located 7 kilometers (4.3 mi) away.",
+   "ele": "760",
+   "image": "https://en.wikipedia.org/wiki/Piranmalai#/media/File:Piranmalai_(26).jpg",
+   "loc_name": "பறம்பு நாடு",
+   "name": "poolapatti",
+   "place": "village",
+   "population": "2000",
+   "population:date": "2011-01-01",
+   "source:population": "census"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14173097046,
+  "lat": 10.2265383,
+  "lon": 78.4571416,
+  "tags": {
+   "alt_name": "கொடுங்குன்றம்",
+   "description": "Singampunari Taluk in Sivaganga district, Tamil Nadu, India.[1] The nearest town is Singampunari located 7 kilometers (4.3 mi) away.",
+   "ele": "760",
+   "image": "https://en.wikipedia.org/wiki/Piranmalai#/media/File:Piranmalai_(26).jpg",
+   "loc_name": "பறம்பு நாடு",
+   "name": "Thenammal patti",
+   "place": "village",
+   "population": "2000",
+   "population:date": "2011-01-01",
+   "source:population": "census"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14188843287,
+  "lat": 10.233538,
+  "lon": 78.4581236,
+  "tags": {
+   "alt_name": "Thennammalpatti bus stop",
+   "description": "Singampunari Taluk in Sivaganga district, Tamil Nadu, India.[1] The nearest town is Singampunari located 7 kilometers (4.3 mi) away.",
+   "ele": "760",
+   "image": "https://en.wikipedia.org/wiki/Piranmalai#/media/File:Piranmalai_(26).jpg",
+   "loc_name": "பறம்பு நாடு",
+   "name": "Thennammalpatti bus stop",
+   "place": "village",
+   "population": "100",
+   "population:date": "2011-01-01",
+   "source:population": "census"
+  }
+ }
+]

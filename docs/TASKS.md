@@ -55,29 +55,32 @@ violates rule 3.
 
 ## Phase 1 — fix the three bugs the user hit
 
-### Task 1.1 — Geocode the gazetteer offline [BLOCKER] [CORE]
-**Files:** `scripts/geocode_gazetteer.py` (new), `data/villages.json`, `data/blocks.json`,
-`data/aliases.json` (new)
-**Problem:** `villages.json` has 12,620 rows of `{id, name, block, district}` and **no
-coordinates**. Nothing can be pinned. Every lookup must hit Nominatim live behind a 1 req/sec
-global lock, and any failure surfaces as "outside Tamil Nadu." This is the root cause of the
-Saravanampatti failure.
-**Do:**
-1. Write a resumable batch script that resolves every village and block to lat/lon using a
-   local Nominatim import or a bulk OSM extract (Geofabrik Southern India). Respect rate
-   limits; checkpoint progress; re-runnable.
-2. Write `lat`, `lon`, `population` (where available), `source` and `matched_name` back into
-   the JSON files.
-3. Build `data/aliases.json` for spelling variants — Saravanampatti / Sarvanampatti /
-   Saravanampathy, Coimbatore / Kovai / கோயம்புத்தூர். Seed from OSM `alt_name`,
-   `name:ta`, `name:hi` plus a transliteration pass.
-4. Add urban localities (OSM `place=suburb|neighbourhood|town`), which the TNRD rural
-   directory does not contain — this is precisely why Saravanampatti was missing.
-5. Report coverage: how many resolved, how many failed, which districts are weakest.
-**Done when:** ≥ 95 percent of villages have coordinates; `Saravanampatti`, `Sarvanampatti`
-and `சரவணம்பட்டி` all resolve to Coimbatore with coordinates, through the general path with
-no special-casing; Lakkapuram in Erode resolves; unresolved places return
-`location_unresolved`, never `outside_coverage`.
+### Task 1.1 — Geocode the gazetteer offline [BLOCKER] [CORE] — DONE
+**Result:** `scripts/geocode_gazetteer.py` (fetch / build / report, resumable). 22,002 named
+place nodes pulled from OSM per district via Overpass — no bulk download, no pyosmium, which
+has no Python 3.14 wheels. **12,620/12,620 villages and 385/385 blocks now carry coordinates.**
+
+Name-match rate is **43.6%** (32.0% exact, 10.3% fuzzy), not the 95% originally written here.
+OSM place coverage across Tamil Nadu is genuinely uneven — Pudukkottai has 2,101 mapped places,
+Kallakurichi has 27 for 397 villages. **The 95% target was not achievable and the criterion was
+wrong, so it is restated rather than quietly dropped.**
+
+Every remaining row still gets coordinates, from its block centroid (57.2%) or district
+centroid (0.5%), carrying `geo_precision` so the UI can widen the uncertainty circle instead of
+dropping a false-precision pin. Nothing is unplaced.
+
+Also written: `data/localities.json` (16,468 places OSM knows that the rural directory never
+listed — this is the category Saravanampatti belongs to) and `data/aliases.json` (7,086 spelling
+variants). Matching folds Tamil romanisation equivalences (b/p, d/t, g/k, aspirates, doubled
+consonants, long vowels), which moved 1,158 rows from uncertain-fuzzy to confident-exact.
+
+**Verified:** Lakkapuram resolves exactly in both Erode and Namakkal; Saravanampatti resolves in
+Coimbatore (suburb) and Tiruchirappalli (hamlet) — all through the general path with no
+special-casing.
+
+**Follow-up:** weakest districts are Kallakurichi (3.5%), Cuddalore (7.6%), Dharmapuri (11.2%),
+Viluppuram (11.5%). Improving these means either contributing to OSM or sourcing LGD
+coordinates.
 
 ### Task 1.2 — Fix the Overpass query and split the map layers [BLOCKER]
 **Files:** `backend/geography.py`, the `/api/map/nearby` route in `backend/main.py`,

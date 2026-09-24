@@ -1,0 +1,4027 @@
+[
+ {
+  "type": "node",
+  "id": 245607635,
+  "lat": 12.5643214,
+  "lon": 78.5797192,
+  "tags": {
+   "alt_name": "Jolarpettai",
+   "name": "Jolarpet",
+   "name:ml": "ജോലാർപേട്ട",
+   "name:ta": "ஜோலார்பேட்டை",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "635851",
+   "wikidata": "Q2308195",
+   "wikipedia": "en:Jolarpettai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245608828,
+  "lat": 12.6787174,
+  "lon": 78.6199879,
+  "tags": {
+   "name": "Vaniyambadi",
+   "name:kn": "ವಾಣಿಯಂಬಾಡಿ",
+   "name:ml": "വാണിയമ്പാടി",
+   "name:ta": "வாணியம்பாடி",
+   "place": "town",
+   "population": "90000",
+   "postal_code": "635752",
+   "wikidata": "Q282212",
+   "wikimedia_commons": "Category:Vaniyambadi",
+   "wikipedia": "en:Vaniyambadi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 263014886,
+  "lat": 12.7874171,
+  "lon": 78.7188211,
+  "tags": {
+   "name": "Ambur",
+   "name:kn": "ಆಂಬೂರ",
+   "name:ml": "ആമ്പൂർ",
+   "name:ta": "ஆம்பூர்",
+   "name:te": "అంబూర్",
+   "place": "town",
+   "population": "114600",
+   "postal_code": "635802",
+   "wikidata": "Q584854",
+   "wikimedia_commons": "Category:Ambur",
+   "wikipedia": "en:Ambur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1114856465,
+  "lat": 12.6203728,
+  "lon": 78.5692233,
+  "tags": {
+   "name": "Kettandapatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1430455063,
+  "lat": 12.4890727,
+  "lon": 78.5182282,
+  "tags": {
+   "name": "Periyagaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2665397388,
+  "lat": 12.589316,
+  "lon": 78.6323577,
+  "tags": {
+   "name": "Yelagiri",
+   "name:kn": "ಏಲಗಿರಿ",
+   "name:ml": "ഏലഗിരി",
+   "name:ta": "ஏலகிரி",
+   "place": "town",
+   "wikidata": "Q1098939",
+   "wikimedia_commons": "Category:Yelagiri",
+   "wikipedia": "en:Yelagiri"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4262361230,
+  "lat": 12.6226672,
+  "lon": 78.7525044,
+  "tags": {
+   "name": "Alangayam",
+   "name:ml": "ആലങ്കായം",
+   "name:ta": "ஆலங்காயம்",
+   "place": "town",
+   "postal_code": "635700",
+   "wikidata": "Q590029",
+   "wikipedia": "en:Alangayam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4685494147,
+  "lat": 12.490898,
+  "lon": 78.564709,
+  "tags": {
+   "alt_name": "Tirupathur",
+   "name": "Tirupattur",
+   "name:en": "Tirupattur",
+   "name:ml": "തിരുപ്പത്തൂർ",
+   "name:ta": "திருப்பத்தூர்",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "635600",
+   "wikidata": "Q1109865",
+   "wikipedia": "en:Tiruppattur, Vellore"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686457483,
+  "lat": 12.474836,
+  "lon": 78.6123706,
+  "tags": {
+   "name": "Kadirampatti",
+   "place": "village",
+   "source": "AMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686457484,
+  "lat": 12.5186619,
+  "lon": 78.5794545,
+  "tags": {
+   "name": "Annandapatti",
+   "place": "village",
+   "source": "AMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686457485,
+  "lat": 12.5937269,
+  "lon": 78.5140944,
+  "tags": {
+   "name": "Natrampalli",
+   "name:ml": "നാട്രംപള്ളി",
+   "name:ta": "நாட்டறம்பள்ளி",
+   "place": "village",
+   "source": "AMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686457486,
+  "lat": 12.5702715,
+  "lon": 78.5110903,
+  "tags": {
+   "name": "Bandarappa",
+   "place": "village",
+   "source": "AMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686559707,
+  "lat": 12.4071977,
+  "lon": 78.4551206,
+  "tags": {
+   "name": "Sundarampalli",
+   "place": "village",
+   "source": "ANMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686560434,
+  "lat": 12.459777,
+  "lon": 78.504763,
+  "tags": {
+   "name": "Lakkinayakkampatti",
+   "place": "village",
+   "source": "ANMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4686560435,
+  "lat": 12.4528731,
+  "lon": 78.523871,
+  "tags": {
+   "name": "Kumchchi",
+   "place": "village",
+   "source": "ANMS1955",
+   "source:name": "AMS1955"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896630,
+  "lat": 12.8548424,
+  "lon": 78.815285,
+  "tags": {
+   "name": "Kulidikki",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896631,
+  "lat": 12.8492097,
+  "lon": 78.8005542,
+  "tags": {
+   "name": "Vengili Shrotriyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896632,
+  "lat": 12.8237693,
+  "lon": 78.7639582,
+  "tags": {
+   "name": "Pachaikuppam",
+   "name:ml": "പച്ചക്കുപ്പം",
+   "name:ta": "பச்சகுப்பம்",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896636,
+  "lat": 12.7866396,
+  "lon": 78.7925827,
+  "tags": {
+   "name": "Sikkujonni",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896647,
+  "lat": 12.8447327,
+  "lon": 78.7828731,
+  "tags": {
+   "name": "Kīlmurungi",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5124896648,
+  "lat": 12.8339269,
+  "lon": 78.775658,
+  "tags": {
+   "name": "Vadapudupattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807313,
+  "lat": 12.586828,
+  "lon": 78.8039111,
+  "tags": {
+   "name": "Vīrarāghavalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807314,
+  "lat": 12.560784,
+  "lon": 78.8106608,
+  "tags": {
+   "name": "Chinnagirivalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807315,
+  "lat": 12.5641141,
+  "lon": 78.8126778,
+  "tags": {
+   "name": "Timmarāyavalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807316,
+  "lat": 12.5699783,
+  "lon": 78.8060689,
+  "tags": {
+   "name": "Nāyakkanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807317,
+  "lat": 12.5815178,
+  "lon": 78.8171196,
+  "tags": {
+   "name": "Kavalanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807318,
+  "lat": 12.5894261,
+  "lon": 78.8160578,
+  "tags": {
+   "name": "Bhīmakulam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807319,
+  "lat": 12.5938526,
+  "lon": 78.8093734,
+  "tags": {
+   "name": "Reddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159807320,
+  "lat": 12.6149607,
+  "lon": 78.8309383,
+  "tags": {
+   "name": "Mandārkuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159808093,
+  "lat": 12.6362346,
+  "lon": 78.8266467,
+  "tags": {
+   "name": "Sattapanam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5159861408,
+  "lat": 12.5282453,
+  "lon": 78.785727,
+  "tags": {
+   "name": "Vasantapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310388,
+  "lat": 12.485479,
+  "lon": 78.7449359,
+  "tags": {
+   "name": "Kambugudi",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310389,
+  "lat": 12.4789005,
+  "lon": 78.7318897,
+  "tags": {
+   "name": "Nadūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310390,
+  "lat": 12.4695354,
+  "lon": 78.7413311,
+  "tags": {
+   "name": "Pālaiyapālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310392,
+  "lat": 12.4646942,
+  "lon": 78.7244117,
+  "tags": {
+   "name": "Rangasamudram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310393,
+  "lat": 12.4568175,
+  "lon": 78.6877942,
+  "tags": {
+   "name": "Serkānūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310394,
+  "lat": 12.4571527,
+  "lon": 78.6942529,
+  "tags": {
+   "name": "Perampalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310395,
+  "lat": 12.4664345,
+  "lon": 78.6969781,
+  "tags": {
+   "name": "Kandāgalanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310396,
+  "lat": 12.4668117,
+  "lon": 78.7003255,
+  "tags": {
+   "name": "Pūngampatti",
+   "place": "locality",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161310397,
+  "lat": 12.4717143,
+  "lon": 78.7006259,
+  "tags": {
+   "name": "Chinnavattanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699848,
+  "lat": 12.4921725,
+  "lon": 78.6147737,
+  "tags": {
+   "name": "Kalathūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699948,
+  "lat": 12.5040821,
+  "lon": 78.6314678,
+  "tags": {
+   "name": "Periyasamudram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699949,
+  "lat": 12.5058562,
+  "lon": 78.6228526,
+  "tags": {
+   "name": "Chinnasamudram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699950,
+  "lat": 12.5034118,
+  "lon": 78.6122417,
+  "tags": {
+   "name": "Tatavalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699951,
+  "lat": 12.4969176,
+  "lon": 78.6289787,
+  "tags": {
+   "name": "Kāvapattarai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699952,
+  "lat": 12.507811,
+  "lon": 78.6428403,
+  "tags": {
+   "name": "Kalgudda",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699954,
+  "lat": 12.4994733,
+  "lon": 78.6460805,
+  "tags": {
+   "name": "Kurichchilāppattu",
+   "name:en": "Kurusilapattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699955,
+  "lat": 12.5098848,
+  "lon": 78.6541217,
+  "tags": {
+   "name": "Kurichchilāppattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699956,
+  "lat": 12.5171119,
+  "lon": 78.6348796,
+  "tags": {
+   "name": "Bothanur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699957,
+  "lat": 12.5152894,
+  "lon": 78.6455869,
+  "tags": {
+   "name": "Bālināyakkanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699959,
+  "lat": 12.5304971,
+  "lon": 78.6487198,
+  "tags": {
+   "name": "Peramāpattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699960,
+  "lat": 12.5351262,
+  "lon": 78.6534834,
+  "tags": {
+   "name": "Yertikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699961,
+  "lat": 12.5345607,
+  "lon": 78.6593199,
+  "tags": {
+   "name": "Nārāyanpuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699962,
+  "lat": 12.5263706,
+  "lon": 78.6668515,
+  "tags": {
+   "name": "Pappanur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699963,
+  "lat": 12.5263391,
+  "lon": 78.6759388,
+  "tags": {
+   "name": "Irunapattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699995,
+  "lat": 12.5159388,
+  "lon": 78.6766147,
+  "tags": {
+   "name": "Jolagoundanūru",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699996,
+  "lat": 12.5083556,
+  "lon": 78.6692762,
+  "tags": {
+   "name": "Pallattur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161699997,
+  "lat": 12.5028671,
+  "lon": 78.6882877,
+  "tags": {
+   "name": "Kodagumalai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161700736,
+  "lat": 12.4521241,
+  "lon": 78.7298297,
+  "tags": {
+   "name": "Thagarakuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161701149,
+  "lat": 12.4262669,
+  "lon": 78.706913,
+  "tags": {
+   "name": "Kottānūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161701150,
+  "lat": 12.4280271,
+  "lon": 78.6864424,
+  "tags": {
+   "name": "Kilanur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776453,
+  "lat": 12.3125403,
+  "lon": 78.6778163,
+  "tags": {
+   "abandoned:place": "hamlet",
+   "name": "Malayāndapattu",
+   "place": "locality",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776454,
+  "lat": 12.3261667,
+  "lon": 78.6890601,
+  "tags": {
+   "name": "Malaitirupattūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776455,
+  "lat": 12.3205485,
+  "lon": 78.6789321,
+  "tags": {
+   "name": "Malayāndapattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776456,
+  "lat": 12.3308624,
+  "lon": 78.662281,
+  "tags": {
+   "name": "Nelvasal",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776457,
+  "lat": 12.3213032,
+  "lon": 78.6452006,
+  "tags": {
+   "name": "Nellīpattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776458,
+  "lat": 12.3343841,
+  "lon": 78.6542129,
+  "tags": {
+   "name": "Sembārai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776459,
+  "lat": 12.3562679,
+  "lon": 78.6621951,
+  "tags": {
+   "name": "Melpattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776460,
+  "lat": 12.3540041,
+  "lon": 78.6783313,
+  "tags": {
+   "name": "Puliyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776461,
+  "lat": 12.3686763,
+  "lon": 78.6963557,
+  "tags": {
+   "name": "Kilūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776462,
+  "lat": 12.3816499,
+  "lon": 78.705647,
+  "tags": {
+   "name": "Kombai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776463,
+  "lat": 12.3801409,
+  "lon": 78.6907768,
+  "tags": {
+   "name": "Melūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776464,
+  "lat": 12.3966768,
+  "lon": 78.6762714,
+  "tags": {
+   "name": "Valasai",
+   "place": "hamlet",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776465,
+  "lat": 12.3993593,
+  "lon": 78.6812496,
+  "tags": {
+   "name": "Molalai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776466,
+  "lat": 12.4036345,
+  "lon": 78.688631,
+  "tags": {
+   "name": "Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776467,
+  "lat": 12.3927787,
+  "lon": 78.6858844,
+  "tags": {
+   "name": "Sittūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776468,
+  "lat": 12.3971378,
+  "lon": 78.6903047,
+  "tags": {
+   "name": "Aramalampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776469,
+  "lat": 12.3951259,
+  "lon": 78.7077713,
+  "tags": {
+   "abandoned:place": "hamlet",
+   "name": "Mūndapattu",
+   "place": "locality",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776470,
+  "lat": 12.4103406,
+  "lon": 78.7099599,
+  "tags": {
+   "name": "Valathalampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161776471,
+  "lat": 12.4127716,
+  "lon": 78.7225341,
+  "tags": {
+   "name": "Nadukuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161827282,
+  "lat": 12.3949164,
+  "lon": 78.7347221,
+  "tags": {
+   "name": "Velānkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5161827284,
+  "lat": 12.4050596,
+  "lon": 78.729658,
+  "tags": {
+   "abandoned:place": "hamlet",
+   "name": "Dindapattu",
+   "place": "locality",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095878,
+  "lat": 12.6353554,
+  "lon": 78.7470433,
+  "tags": {
+   "name": "Badakuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095879,
+  "lat": 12.6318889,
+  "lon": 78.7418341,
+  "tags": {
+   "name": "Gazzelanagi Reddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095880,
+  "lat": 12.6280815,
+  "lon": 78.7408177,
+  "tags": {
+   "name": "Puluguberpalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095881,
+  "lat": 12.6267057,
+  "lon": 78.747277,
+  "tags": {
+   "name": "Kongiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095882,
+  "lat": 12.6149471,
+  "lon": 78.7445064,
+  "tags": {
+   "name": "Bangūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095883,
+  "lat": 12.6196347,
+  "lon": 78.7422112,
+  "tags": {
+   "name": "Nadamur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095884,
+  "lat": 12.6187388,
+  "lon": 78.7402439,
+  "tags": {
+   "name": "Rājapālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095885,
+  "lat": 12.6109315,
+  "lon": 78.7327353,
+  "tags": {
+   "name": "Narasingapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095887,
+  "lat": 12.5939892,
+  "lon": 78.7701211,
+  "tags": {
+   "name": "Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095888,
+  "lat": 12.6089885,
+  "lon": 78.7587223,
+  "tags": {
+   "name": "Kalarapatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163095889,
+  "lat": 12.6271882,
+  "lon": 78.7543009,
+  "tags": {
+   "name": "Peddūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096246,
+  "lat": 12.7392276,
+  "lon": 78.7021611,
+  "tags": {
+   "name": "Rangapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096247,
+  "lat": 12.7288018,
+  "lon": 78.7053296,
+  "tags": {
+   "name": "Kamiyampattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096248,
+  "lat": 12.7339463,
+  "lon": 78.7129499,
+  "tags": {
+   "name": "Nāchchārkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096249,
+  "lat": 12.7730447,
+  "lon": 78.7914604,
+  "tags": {
+   "name": "Naduvūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096250,
+  "lat": 12.7700915,
+  "lon": 78.7894349,
+  "tags": {
+   "name": "Nayakkaneri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096251,
+  "lat": 12.7731816,
+  "lon": 78.7883119,
+  "tags": {
+   "name": "Melur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096252,
+  "lat": 12.7622292,
+  "lon": 78.7943682,
+  "tags": {
+   "name": "Selakollai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096253,
+  "lat": 12.7329291,
+  "lon": 78.7739936,
+  "tags": {
+   "name": "Panangattūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096254,
+  "lat": 12.7172997,
+  "lon": 78.7539398,
+  "tags": {
+   "name": "Kavanūrthattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096255,
+  "lat": 12.71818,
+  "lon": 78.7462592,
+  "tags": {
+   "name": "Kavanūrthattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163096256,
+  "lat": 12.691066,
+  "lon": 78.6713184,
+  "tags": {
+   "name": "Nekkanāmalai",
+   "place": "hamlet",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380080,
+  "lat": 12.5598379,
+  "lon": 78.6400713,
+  "tags": {
+   "name": "Nelanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380081,
+  "lat": 12.5644911,
+  "lon": 78.6532259,
+  "tags": {
+   "name": "Rayaneri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380082,
+  "lat": 12.5748581,
+  "lon": 78.6340427,
+  "tags": {
+   "name": "Kilkaniyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380083,
+  "lat": 12.5698527,
+  "lon": 78.6221122,
+  "tags": {
+   "name": "Kottūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380084,
+  "lat": 12.5801919,
+  "lon": 78.6180152,
+  "tags": {
+   "name": "Varaikuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380085,
+  "lat": 12.5856854,
+  "lon": 78.6300945,
+  "tags": {
+   "name": "Attanāyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380086,
+  "lat": 12.5939207,
+  "lon": 78.6370522,
+  "tags": {
+   "name": "Kottaiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380087,
+  "lat": 12.5896853,
+  "lon": 78.633399,
+  "tags": {
+   "name": "Punganūr",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380088,
+  "lat": 12.5740622,
+  "lon": 78.6480975,
+  "tags": {
+   "name": "Kaniyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380089,
+  "lat": 12.5794695,
+  "lon": 78.6630955,
+  "tags": {
+   "name": "Tayalūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil",
+   "wikidata": "Q7689749",
+   "wikipedia": "en:Tayalur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380090,
+  "lat": 12.5854707,
+  "lon": 78.6580324,
+  "tags": {
+   "name": "Mangalam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380091,
+  "lat": 12.5707323,
+  "lon": 78.6543845,
+  "tags": {
+   "name": "Paduvanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380092,
+  "lat": 12.6077574,
+  "lon": 78.6345576,
+  "tags": {
+   "name": "Muthanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380093,
+  "lat": 12.6163009,
+  "lon": 78.6226272,
+  "tags": {
+   "name": "Valaganūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380094,
+  "lat": 12.6256816,
+  "lon": 78.6401366,
+  "tags": {
+   "name": "Vellaisamaneri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380095,
+  "lat": 12.6430314,
+  "lon": 78.6391201,
+  "tags": {
+   "name": "Oddateruvu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380096,
+  "lat": 12.6436046,
+  "lon": 78.6503934,
+  "tags": {
+   "name": "Vallipattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380097,
+  "lat": 12.6478758,
+  "lon": 78.6550712,
+  "tags": {
+   "name": "Kurumpatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380098,
+  "lat": 12.6379619,
+  "lon": 78.6618411,
+  "tags": {
+   "name": "Reddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380099,
+  "lat": 12.6318166,
+  "lon": 78.661015,
+  "tags": {
+   "name": "Bālappanur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380100,
+  "lat": 12.6300368,
+  "lon": 78.6689329,
+  "tags": {
+   "name": "Kurumbateruvu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380101,
+  "lat": 12.6328845,
+  "lon": 78.6684179,
+  "tags": {
+   "name": "Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380102,
+  "lat": 12.6363602,
+  "lon": 78.6718082,
+  "tags": {
+   "name": "Sorakkāyanattam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380103,
+  "lat": 12.6407152,
+  "lon": 78.6738252,
+  "tags": {
+   "name": "Veppampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380104,
+  "lat": 12.649132,
+  "lon": 78.6712932,
+  "tags": {
+   "name": "Kondampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380105,
+  "lat": 12.6280058,
+  "lon": 78.6965918,
+  "tags": {
+   "name": "Kottūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380106,
+  "lat": 12.6330127,
+  "lon": 78.7001055,
+  "tags": {
+   "name": "Nimmiyampattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380107,
+  "lat": 12.6491739,
+  "lon": 78.7111616,
+  "tags": {
+   "name": "Turanjikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380108,
+  "lat": 12.6519375,
+  "lon": 78.693695,
+  "tags": {
+   "name": "Velakkuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380109,
+  "lat": 12.6792374,
+  "lon": 78.7051105,
+  "tags": {
+   "abandoned:place": "hamlet",
+   "name": "Vellakkal",
+   "place": "locality",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380110,
+  "lat": 12.6602283,
+  "lon": 78.702321,
+  "tags": {
+   "name": "Nanneri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380111,
+  "lat": 12.657381,
+  "lon": 78.6893177,
+  "tags": {
+   "name": "Periyavelakkuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380112,
+  "lat": 12.7128873,
+  "lon": 78.6536336,
+  "tags": {
+   "name": "Marapet",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380113,
+  "lat": 12.718162,
+  "lon": 78.6598027,
+  "tags": {
+   "name": "Sengilikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380114,
+  "lat": 12.7234889,
+  "lon": 78.65314,
+  "tags": {
+   "name": "Bāpanaballi",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380115,
+  "lat": 12.7381819,
+  "lon": 78.6673021,
+  "tags": {
+   "name": "Sānānkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380116,
+  "lat": 12.7386842,
+  "lon": 78.6726665,
+  "tags": {
+   "name": "Vadakarai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163380117,
+  "lat": 12.7361622,
+  "lon": 78.6738467,
+  "tags": {
+   "name": "Minnūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163381327,
+  "lat": 12.7315312,
+  "lon": 78.6759648,
+  "tags": {
+   "name": "Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163381328,
+  "lat": 12.7422727,
+  "lon": 78.6926507,
+  "tags": {
+   "name": "Vinnamangalam",
+   "name:ml": "വിണ്ണമംഗലം",
+   "name:ta": "விண்ணமங்கலம்",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil",
+   "wikidata": "Q20758136",
+   "wikipedia": "en:Vinnamangalam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163381329,
+  "lat": 12.7456558,
+  "lon": 78.6965899,
+  "tags": {
+   "name": "Kannadikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163381330,
+  "lat": 12.7455229,
+  "lon": 78.6996001,
+  "tags": {
+   "name": "Rangapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5163552930,
+  "lat": 12.6157146,
+  "lon": 78.6940383,
+  "tags": {
+   "name": "Reddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021843,
+  "lat": 12.4817812,
+  "lon": 78.6446321,
+  "tags": {
+   "name": "Rajāpālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021844,
+  "lat": 12.4747941,
+  "lon": 78.6392569,
+  "tags": {
+   "name": "Kūduvanepatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021845,
+  "lat": 12.4685926,
+  "lon": 78.6275625,
+  "tags": {
+   "name": "Tādanvalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021846,
+  "lat": 12.4609203,
+  "lon": 78.622768,
+  "tags": {
+   "name": "Bommaikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021847,
+  "lat": 12.4373309,
+  "lon": 78.6199665,
+  "tags": {
+   "name": "Mottūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021848,
+  "lat": 12.4418151,
+  "lon": 78.6321544,
+  "tags": {
+   "name": "Balanakuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021849,
+  "lat": 12.4325324,
+  "lon": 78.6065125,
+  "tags": {
+   "name": "Thammanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021850,
+  "lat": 12.4304945,
+  "lon": 78.5974574,
+  "tags": {
+   "name": "Pallattūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021851,
+  "lat": 12.4223692,
+  "lon": 78.5973501,
+  "tags": {
+   "name": "Chinnaudyāmuttūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021852,
+  "lat": 12.4201689,
+  "lon": 78.606019,
+  "tags": {
+   "name": "Mattarappalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021853,
+  "lat": 12.4166694,
+  "lon": 78.6206531,
+  "tags": {
+   "name": "Merkathiyanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021854,
+  "lat": 12.4244648,
+  "lon": 78.6215972,
+  "tags": {
+   "name": "Jammana Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021855,
+  "lat": 12.4087898,
+  "lon": 78.5886383,
+  "tags": {
+   "name": "Veppālampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021856,
+  "lat": 12.4056673,
+  "lon": 78.5935092,
+  "tags": {
+   "name": "Vishamangalam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021857,
+  "lat": 12.4069876,
+  "lon": 78.6026287,
+  "tags": {
+   "name": "Setteri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil",
+   "wikipedia": "en:Setteri"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021858,
+  "lat": 12.4017274,
+  "lon": 78.6179495,
+  "tags": {
+   "name": "Anganādavalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021859,
+  "lat": 12.3953355,
+  "lon": 78.6229706,
+  "tags": {
+   "name": "Kularapādi",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021860,
+  "lat": 12.3942667,
+  "lon": 78.5979724,
+  "tags": {
+   "name": "Nāgarajampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021861,
+  "lat": 12.3854853,
+  "lon": 78.6109113,
+  "tags": {
+   "name": "Kurumberi",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021862,
+  "lat": 12.3798684,
+  "lon": 78.5924792,
+  "tags": {
+   "name": "Perāmpattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021863,
+  "lat": 12.3781708,
+  "lon": 78.6013412,
+  "tags": {
+   "name": "Puluganvalasa",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169021865,
+  "lat": 12.3776049,
+  "lon": 78.6437845,
+  "tags": {
+   "name": "Māmbakkam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250024,
+  "lat": 12.5877851,
+  "lon": 78.5810101,
+  "tags": {
+   "name": "Chinnakammiyampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250025,
+  "lat": 12.5837063,
+  "lon": 78.5847759,
+  "tags": {
+   "name": "Reddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250026,
+  "lat": 12.5801592,
+  "lon": 78.5822198,
+  "tags": {
+   "name": "Puthūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250027,
+  "lat": 12.5761146,
+  "lon": 78.5863852,
+  "tags": {
+   "name": "Mettusakkaraikkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250028,
+  "lat": 12.5778738,
+  "lon": 78.5748625,
+  "tags": {
+   "name": "Hodsonpettai",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250029,
+  "lat": 12.5815021,
+  "lon": 78.5748249,
+  "tags": {
+   "name": "Solaiyūr",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250030,
+  "lat": 12.5821356,
+  "lon": 78.5717297,
+  "tags": {
+   "name": "Ramireddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250031,
+  "lat": 12.5735177,
+  "lon": 78.5620093,
+  "tags": {
+   "name": "Kudiyanakuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250032,
+  "lat": 12.5635696,
+  "lon": 78.574841,
+  "tags": {
+   "name": "Edayāmpatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250033,
+  "lat": 12.5616532,
+  "lon": 78.5720408,
+  "tags": {
+   "name": "Muniyanūr",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250034,
+  "lat": 12.5644806,
+  "lon": 78.5706568,
+  "tags": {
+   "name": "Thathukavundanūr",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250035,
+  "lat": 12.5702715,
+  "lon": 78.5731673,
+  "tags": {
+   "name": "Jalārpet",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250036,
+  "lat": 12.5762298,
+  "lon": 78.5717296,
+  "tags": {
+   "name": "Pattersonpettai",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250041,
+  "lat": 12.5668839,
+  "lon": 78.5836655,
+  "tags": {
+   "name": "Kodiyur",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250042,
+  "lat": 12.5618312,
+  "lon": 78.5834026,
+  "tags": {
+   "name": "Vakkanampatti",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250043,
+  "lat": 12.5637581,
+  "lon": 78.5852694,
+  "tags": {
+   "name": "Sakkaraikkuppam",
+   "place": "suburb",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250044,
+  "lat": 12.5459787,
+  "lon": 78.5727328,
+  "tags": {
+   "name": "Katteri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250045,
+  "lat": 12.5495368,
+  "lon": 78.5779309,
+  "tags": {
+   "name": "Fakīrthakkā",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250046,
+  "lat": 12.5443005,
+  "lon": 78.5864925,
+  "tags": {
+   "name": "Yelagiri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250047,
+  "lat": 12.5377497,
+  "lon": 78.5836869,
+  "tags": {
+   "name": "Pālanamkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250048,
+  "lat": 12.5345397,
+  "lon": 78.5820079,
+  "tags": {
+   "name": "Pappanputhūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250049,
+  "lat": 12.5320052,
+  "lon": 78.587501,
+  "tags": {
+   "name": "Vattapattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250050,
+  "lat": 12.5130689,
+  "lon": 78.5847464,
+  "tags": {
+   "name": "Karuppanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250051,
+  "lat": 12.5034327,
+  "lon": 78.5861546,
+  "tags": {
+   "name": "Karimandur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250052,
+  "lat": 12.5015787,
+  "lon": 78.5904622,
+  "tags": {
+   "name": "Pudukottai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250053,
+  "lat": 12.5014216,
+  "lon": 78.5940134,
+  "tags": {
+   "name": "Savalanur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250054,
+  "lat": 12.5021758,
+  "lon": 78.5919857,
+  "tags": {
+   "name": "Kallaraimodu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250055,
+  "lat": 12.506994,
+  "lon": 78.602221,
+  "tags": {
+   "name": "Puttur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250056,
+  "lat": 12.5123986,
+  "lon": 78.5937238,
+  "tags": {
+   "name": "Periyavengayapalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250057,
+  "lat": 12.517447,
+  "lon": 78.5964274,
+  "tags": {
+   "name": "Vengāyapalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250058,
+  "lat": 12.51707,
+  "lon": 78.6018133,
+  "tags": {
+   "name": "Sorakavundanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250060,
+  "lat": 12.509026,
+  "lon": 78.6089801,
+  "tags": {
+   "name": "Somālapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250061,
+  "lat": 12.5015683,
+  "lon": 78.6025857,
+  "tags": {
+   "name": "Savanampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250062,
+  "lat": 12.4864898,
+  "lon": 78.5996944,
+  "tags": {
+   "name": "Paracheri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250063,
+  "lat": 12.4906117,
+  "lon": 78.6009764,
+  "tags": {
+   "name": "Mādappalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250064,
+  "lat": 12.4845572,
+  "lon": 78.6089587,
+  "tags": {
+   "name": "Selandampalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250065,
+  "lat": 12.4885063,
+  "lon": 78.6339462,
+  "tags": {
+   "name": "Kangarampālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250066,
+  "lat": 12.491324,
+  "lon": 78.6398363,
+  "tags": {
+   "name": "Kūdappattu",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169250067,
+  "lat": 12.4828026,
+  "lon": 78.6166942,
+  "tags": {
+   "name": "Agaram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261092,
+  "lat": 12.4400078,
+  "lon": 78.5912454,
+  "tags": {
+   "name": "Udayāmuttūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261093,
+  "lat": 12.4321133,
+  "lon": 78.5867286,
+  "tags": {
+   "name": "Kottaiyanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261094,
+  "lat": 12.4340411,
+  "lon": 78.5911274,
+  "tags": {
+   "name": "Ragupattiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261095,
+  "lat": 12.4425379,
+  "lon": 78.5936487,
+  "tags": {
+   "name": "Pambākuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261096,
+  "lat": 12.4466344,
+  "lon": 78.5943031,
+  "tags": {
+   "name": "Chinnapambākuttai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261097,
+  "lat": 12.4605051,
+  "lon": 78.5873937,
+  "tags": {
+   "name": "Chandrakavundanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261098,
+  "lat": 12.4606309,
+  "lon": 78.6001825,
+  "tags": {
+   "name": "Chavudekuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261099,
+  "lat": 12.4681735,
+  "lon": 78.60044,
+  "tags": {
+   "name": "Sirangampatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261100,
+  "lat": 12.4583261,
+  "lon": 78.6073494,
+  "tags": {
+   "name": "Tippasamūdram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261101,
+  "lat": 12.4472211,
+  "lon": 78.6073494,
+  "tags": {
+   "name": "Timmanāmattūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261102,
+  "lat": 12.4551832,
+  "lon": 78.618679,
+  "tags": {
+   "name": "Attikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5169261103,
+  "lat": 12.4417313,
+  "lon": 78.6124134,
+  "tags": {
+   "name": "Kustampalli",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897859,
+  "lat": 12.5205473,
+  "lon": 78.7169551,
+  "tags": {
+   "name": "Pudūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897860,
+  "lat": 12.5576215,
+  "lon": 78.7412881,
+  "tags": {
+   "name": "Batappanattam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897861,
+  "lat": 12.5727428,
+  "lon": 78.7529182,
+  "tags": {
+   "name": "Pūngulam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897862,
+  "lat": 12.5772874,
+  "lon": 78.7108183,
+  "tags": {
+   "name": "Omaikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897863,
+  "lat": 12.5680201,
+  "lon": 78.7198949,
+  "tags": {
+   "name": "Reddivalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897864,
+  "lat": 12.5669206,
+  "lon": 78.7158823,
+  "tags": {
+   "name": "Nāchchiyārkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897865,
+  "lat": 12.5667949,
+  "lon": 78.7079429,
+  "tags": {
+   "name": "Marimānikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897866,
+  "lat": 12.5603861,
+  "lon": 78.7091017,
+  "tags": {
+   "name": "Mottūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897867,
+  "lat": 12.5564486,
+  "lon": 78.7144017,
+  "tags": {
+   "name": "Velānkuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897868,
+  "lat": 12.5546683,
+  "lon": 78.7243151,
+  "tags": {
+   "name": "Timmarāyavalasai",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897869,
+  "lat": 12.5490132,
+  "lon": 78.7185645,
+  "tags": {
+   "name": "Kurumpatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170897870,
+  "lat": 12.5358384,
+  "lon": 78.7139082,
+  "tags": {
+   "name": "Lalapet",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170898800,
+  "lat": 12.5541028,
+  "lon": 78.7113762,
+  "tags": {
+   "name": "Mūlandiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170898801,
+  "lat": 12.5492017,
+  "lon": 78.6984587,
+  "tags": {
+   "name": "Kundiredddiyūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170898803,
+  "lat": 12.5342465,
+  "lon": 78.7023425,
+  "tags": {
+   "name": "Andiyappanūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5170898804,
+  "lat": 12.5380168,
+  "lon": 78.6976003,
+  "tags": {
+   "name": "Rājapālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924669,
+  "lat": 12.8624728,
+  "lon": 78.8353908,
+  "tags": {
+   "name": "Gollapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924670,
+  "lat": 12.8620858,
+  "lon": 78.8323223,
+  "tags": {
+   "name": "Tottālam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924671,
+  "lat": 12.869146,
+  "lon": 78.8419246,
+  "tags": {
+   "name": "Devikapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924673,
+  "lat": 12.8733401,
+  "lon": 78.8535225,
+  "tags": {
+   "name": "Kuttiyanunpatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924674,
+  "lat": 12.876691,
+  "lon": 78.8596567,
+  "tags": {
+   "name": "Sitapuram",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924675,
+  "lat": 12.8820734,
+  "lon": 78.8654047,
+  "tags": {
+   "name": "Vadakattapatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924676,
+  "lat": 12.8853784,
+  "lon": 78.874197,
+  "tags": {
+   "name": "Kūttambākkam Shrotriyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924677,
+  "lat": 12.8883277,
+  "lon": 78.8779092,
+  "tags": {
+   "name": "Palandipatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924678,
+  "lat": 12.8898128,
+  "lon": 78.8987231,
+  "tags": {
+   "name": "Subbunāyakkanpālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924679,
+  "lat": 12.8948956,
+  "lon": 78.8959551,
+  "tags": {
+   "name": "Agaramcheri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924680,
+  "lat": 12.9041823,
+  "lon": 78.907156,
+  "tags": {
+   "name": "Chinnacheri",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924688,
+  "lat": 12.8759236,
+  "lon": 78.8978004,
+  "tags": {
+   "name": "Gollamangalam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924689,
+  "lat": 12.8738736,
+  "lon": 78.8962126,
+  "tags": {
+   "name": "Surakuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924695,
+  "lat": 12.859063,
+  "lon": 78.889904,
+  "tags": {
+   "name": "Pallikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924698,
+  "lat": 12.8604228,
+  "lon": 78.8514304,
+  "tags": {
+   "name": "Pūdūr",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924699,
+  "lat": 12.8550817,
+  "lon": 78.8628468,
+  "tags": {
+   "name": "Palur",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924700,
+  "lat": 12.8542305,
+  "lon": 78.8716972,
+  "tags": {
+   "name": "Battuvanpatti",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924701,
+  "lat": 12.8533519,
+  "lon": 78.8653672,
+  "tags": {
+   "name": "Rājapālaiyam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924702,
+  "lat": 12.8484984,
+  "lon": 78.8705304,
+  "tags": {
+   "name": "Rangapuram",
+   "place": "hamlet",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5178924704,
+  "lat": 12.8448791,
+  "lon": 78.871386,
+  "tags": {
+   "name": "Tirumalaikuppam",
+   "place": "village",
+   "source": "bing",
+   "source:name": "geonames.nga.mil"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5535621835,
+  "lat": 12.6280217,
+  "lon": 78.4326957,
+  "tags": {
+   "name": "Kadaisikallai",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5535621864,
+  "lat": 12.7522464,
+  "lon": 78.5592319,
+  "tags": {
+   "name": "Chintakampenta",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9548915222,
+  "lat": 12.6917063,
+  "lon": 78.5283924,
+  "tags": {
+   "name": "Thimmampettai",
+   "name:te": "తిమంపెట్టై",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9548915223,
+  "lat": 12.6904613,
+  "lon": 78.5256597,
+  "tags": {
+   "name": "Mottur",
+   "name:te": "మొట్టుర్",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9548915224,
+  "lat": 12.7068218,
+  "lon": 78.5255577,
+  "tags": {
+   "name": "Alasanthapuram",
+   "name:te": "సిముగంపట్టు",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9548915225,
+  "lat": 12.6797748,
+  "lon": 78.535111,
+  "tags": {
+   "name": "Ammavarikuppam",
+   "name:ta": "அம்மாவாரிக்குப்பம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9548915226,
+  "lat": 12.6718516,
+  "lon": 78.5366289,
+  "tags": {
+   "name": "Kuddoor",
+   "name:ta": "குட்டூர்",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10922002871,
+  "lat": 12.6159861,
+  "lon": 78.6905193,
+  "tags": {
+   "name": "Reddiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11466237832,
+  "lat": 12.5951444,
+  "lon": 78.4614852,
+  "tags": {
+   "name": "Patchur",
+   "name:ml": "പച്ചൂർ",
+   "name:ta": "பச்சூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11466237833,
+  "lat": 12.6141223,
+  "lon": 78.4339443,
+  "tags": {
+   "name": "Kothur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800129,
+  "lat": 12.5074632,
+  "lon": 78.53508,
+  "tags": {
+   "name": "Chinna Konappattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800130,
+  "lat": 12.5085233,
+  "lon": 78.5230702,
+  "tags": {
+   "name": "Amman Nagar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800131,
+  "lat": 12.5028924,
+  "lon": 78.5251439,
+  "tags": {
+   "name": "Muthurampallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800132,
+  "lat": 12.5336324,
+  "lon": 78.5082218,
+  "tags": {
+   "name": "Pudupettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800133,
+  "lat": 12.5427787,
+  "lon": 78.5115314,
+  "tags": {
+   "name": "Mottur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800134,
+  "lat": 12.5732596,
+  "lon": 78.4771884,
+  "tags": {
+   "name": "Muddonapalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800155,
+  "lat": 12.6172695,
+  "lon": 78.4434238,
+  "tags": {
+   "name": "Katterikollai",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11476800156,
+  "lat": 12.6271531,
+  "lon": 78.4351179,
+  "tags": {
+   "name": "Gandhi Nagar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11974381802,
+  "lat": 12.6156446,
+  "lon": 78.4504065,
+  "tags": {
+   "name": "Gundukollai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11976913101,
+  "lat": 12.6153464,
+  "lon": 78.4970671,
+  "tags": {
+   "name": "Nayanacheruvu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11976913113,
+  "lat": 12.6016371,
+  "lon": 78.5046522,
+  "tags": {
+   "name": "Chinnagirisamudram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11976913114,
+  "lat": 12.6068454,
+  "lon": 78.5021958,
+  "tags": {
+   "name": "N M Koil Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11976915303,
+  "lat": 12.6538335,
+  "lon": 78.4841995,
+  "tags": {
+   "name": "Thagarakuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568089,
+  "lat": 12.5881066,
+  "lon": 78.474342,
+  "tags": {
+   "name": "Mallaripalli",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568090,
+  "lat": 12.5848239,
+  "lon": 78.4746339,
+  "tags": {
+   "name": "Arasanapalli",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568124,
+  "lat": 12.5816907,
+  "lon": 78.466731,
+  "tags": {
+   "name": "Nallakadiranapalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568125,
+  "lat": 12.580866,
+  "lon": 78.4601808,
+  "tags": {
+   "name": "Kolimodanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568136,
+  "lat": 12.5817,
+  "lon": 78.4488504,
+  "tags": {
+   "name": "Pazhayapettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568174,
+  "lat": 12.5907337,
+  "lon": 78.45306,
+  "tags": {
+   "name": "Sandampatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568255,
+  "lat": 12.595752,
+  "lon": 78.454743,
+  "tags": {
+   "name": "Parur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568256,
+  "lat": 12.5974938,
+  "lon": 78.4610195,
+  "tags": {
+   "name": "Samakavundanur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568257,
+  "lat": 12.605298,
+  "lon": 78.4601983,
+  "tags": {
+   "name": "Samakavundanur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983568277,
+  "lat": 12.6096905,
+  "lon": 78.4598156,
+  "tags": {
+   "name": "Mallarapatti",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983652998,
+  "lat": 12.6344287,
+  "lon": 78.519258,
+  "tags": {
+   "name": "Mallangunda",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983652999,
+  "lat": 12.6104715,
+  "lon": 78.4788724,
+  "tags": {
+   "name": "Mallangunda",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11983653000,
+  "lat": 12.586653,
+  "lon": 78.4921357,
+  "tags": {
+   "name": "Jayanthipuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12245714667,
+  "lat": 12.7115513,
+  "lon": 78.5355683,
+  "tags": {
+   "name": "Venkatarajapuram",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246053369,
+  "lat": 12.6839028,
+  "lon": 78.5223541,
+  "tags": {
+   "name": "Pullur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246053381,
+  "lat": 12.6848295,
+  "lon": 78.5075586,
+  "tags": {
+   "name": "Mel Pallathur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246053382,
+  "lat": 12.6822932,
+  "lon": 78.5125005,
+  "tags": {
+   "name": "Kil pallathur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246053394,
+  "lat": 12.6939886,
+  "lon": 78.5062256,
+  "tags": {
+   "name": "Gandhi Nagar Pullur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246053395,
+  "lat": 12.6962395,
+  "lon": 78.5118422,
+  "tags": {
+   "name": "Guddur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061129,
+  "lat": 12.6924197,
+  "lon": 78.5236222,
+  "tags": {
+   "name": "Mindapattu",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061134,
+  "lat": 12.6861731,
+  "lon": 78.5174527,
+  "tags": {
+   "name": "Elamman Kuttai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061136,
+  "lat": 12.6879565,
+  "lon": 78.5107299,
+  "tags": {
+   "name": "Kanagapuram",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061149,
+  "lat": 12.7018121,
+  "lon": 78.521045,
+  "tags": {
+   "name": "Simugampattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061158,
+  "lat": 12.7015074,
+  "lon": 78.5135055,
+  "tags": {
+   "name": "Dasiri Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061168,
+  "lat": 12.706841,
+  "lon": 78.5109724,
+  "tags": {
+   "name": "Kollapalli",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061282,
+  "lat": 12.7109455,
+  "lon": 78.5195764,
+  "tags": {
+   "name": "Kadiripuram",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061301,
+  "lat": 12.7167902,
+  "lon": 78.5250072,
+  "tags": {
+   "name": "Mitnan Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246061312,
+  "lat": 12.7212515,
+  "lon": 78.5167786,
+  "tags": {
+   "name": "Narayanapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246102351,
+  "lat": 12.7250432,
+  "lon": 78.512416,
+  "tags": {
+   "name": "Naidu Vattam Narayanapuram",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246102372,
+  "lat": 12.7278949,
+  "lon": 78.5069043,
+  "tags": {
+   "name": "Javadhiramasamudram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246102400,
+  "lat": 12.7321882,
+  "lon": 78.5058451,
+  "tags": {
+   "name": "Madhu Kollai Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246102530,
+  "lat": 12.7355114,
+  "lon": 78.506975,
+  "tags": {
+   "name": "Pananthoppu Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246102531,
+  "lat": 12.7311994,
+  "lon": 78.5087655,
+  "tags": {
+   "name": "Mel Naidu Vattam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246181234,
+  "lat": 12.7548091,
+  "lon": 78.5677689,
+  "tags": {
+   "name": "Velathigamanibenta",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12246181250,
+  "lat": 12.7605829,
+  "lon": 78.5905444,
+  "tags": {
+   "name": "Madakadapalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247604076,
+  "lat": 12.6891759,
+  "lon": 78.5392297,
+  "tags": {
+   "name": "Battur Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626402,
+  "lat": 12.6834728,
+  "lon": 78.5336741,
+  "tags": {
+   "name": "Kovil Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626403,
+  "lat": 12.6804231,
+  "lon": 78.5294751,
+  "tags": {
+   "name": "Saran Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626443,
+  "lat": 12.6894903,
+  "lon": 78.545354,
+  "tags": {
+   "name": "Jettu Vattam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626453,
+  "lat": 12.6917651,
+  "lon": 78.5542878,
+  "tags": {
+   "name": "Diguvapalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626464,
+  "lat": 12.6884264,
+  "lon": 78.5652205,
+  "tags": {
+   "name": "Nathar Kuttai",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626465,
+  "lat": 12.6858787,
+  "lon": 78.5714872,
+  "tags": {
+   "name": "Rajan Vattam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626556,
+  "lat": 12.6825414,
+  "lon": 78.5740466,
+  "tags": {
+   "name": "Godugamanipattadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626557,
+  "lat": 12.6860558,
+  "lon": 78.5788988,
+  "tags": {
+   "name": "Chiknankuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626558,
+  "lat": 12.6888758,
+  "lon": 78.5779266,
+  "tags": {
+   "name": "Vaniyambadi Part",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626559,
+  "lat": 12.6920683,
+  "lon": 78.5775534,
+  "tags": {
+   "name": "Nattan Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626560,
+  "lat": 12.6837609,
+  "lon": 78.5788467,
+  "tags": {
+   "name": "Echangal Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626561,
+  "lat": 12.6869619,
+  "lon": 78.5764336,
+  "tags": {
+   "name": "Sevathan Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626562,
+  "lat": 12.6785113,
+  "lon": 78.5772975,
+  "tags": {
+   "name": "Sankarapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626563,
+  "lat": 12.6796209,
+  "lon": 78.5830306,
+  "tags": {
+   "name": "Ichankadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626564,
+  "lat": 12.6810163,
+  "lon": 78.5973928,
+  "tags": {
+   "name": "Devasthanam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626565,
+  "lat": 12.6903651,
+  "lon": 78.5841138,
+  "tags": {
+   "name": "Alangikulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626566,
+  "lat": 12.6935678,
+  "lon": 78.5848571,
+  "tags": {
+   "name": "Arupandakuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626567,
+  "lat": 12.6944259,
+  "lon": 78.5876693,
+  "tags": {
+   "name": "Mel Alinjikulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626577,
+  "lat": 12.6846532,
+  "lon": 78.6029715,
+  "tags": {
+   "name": "Nadupatrai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626578,
+  "lat": 12.6866527,
+  "lon": 78.5938432,
+  "tags": {
+   "name": "Manthiri Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626579,
+  "lat": 12.694381,
+  "lon": 78.5925786,
+  "tags": {
+   "name": "Putheri Kollai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626580,
+  "lat": 12.6981955,
+  "lon": 78.5862121,
+  "tags": {
+   "name": "Thumberi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626581,
+  "lat": 12.6926652,
+  "lon": 78.6106026,
+  "tags": {
+   "name": "Jaffrabad",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626582,
+  "lat": 12.6958642,
+  "lon": 78.6218681,
+  "tags": {
+   "name": "Uthayendram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626583,
+  "lat": 12.703834,
+  "lon": 78.6102811,
+  "tags": {
+   "name": "Pallippattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626584,
+  "lat": 12.7002621,
+  "lon": 78.6050653,
+  "tags": {
+   "name": "Keelur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626585,
+  "lat": 12.7064257,
+  "lon": 78.6082957,
+  "tags": {
+   "name": "Nathikuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626586,
+  "lat": 12.7036969,
+  "lon": 78.5994182,
+  "tags": {
+   "name": "Sangathu Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12247626587,
+  "lat": 12.7021746,
+  "lon": 78.5962676,
+  "tags": {
+   "name": "Thathar Vattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14018486498,
+  "lat": 12.8399628,
+  "lon": 78.7092304,
+  "tags": {
+   "name": "Umrabad",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14020803605,
+  "lat": 12.7625427,
+  "lon": 78.6521101,
+  "tags": {
+   "addr:city": "Ambur",
+   "addr:district": "Tirupathur",
+   "addr:postcode": "635811",
+   "name": "Chinnamalaiyampattu",
+   "place": "village"
+  }
+ }
+]

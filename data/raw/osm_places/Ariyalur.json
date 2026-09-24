@@ -1,0 +1,8978 @@
+[
+ {
+  "type": "node",
+  "id": 245589617,
+  "lat": 11.1357708,
+  "lon": 79.0723203,
+  "tags": {
+   "capital": "5",
+   "is_in:state": "Tamil Nadu",
+   "name": "Ariyalur",
+   "name:en": "Ariyalur",
+   "name:hi": "अरियालुर",
+   "name:kn": "ಅರಿಯಲೂರ್",
+   "name:ml": "അരിയലൂർ",
+   "name:ta": "அரியலூர்",
+   "place": "town",
+   "population": "25000",
+   "postal_code": "621704",
+   "wikidata": "Q589083",
+   "wikipedia": "en:Ariyalur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245589936,
+  "lat": 11.2057389,
+  "lon": 79.4668561,
+  "tags": {
+   "name": "Sengamedu",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245589987,
+  "lat": 11.2119861,
+  "lon": 79.3648642,
+  "tags": {
+   "name": "Jayankondam",
+   "name:ml": "ജയങ്കോണ്ടം",
+   "name:ta": "ஜெயங்கொண்டம்",
+   "place": "town",
+   "postal_code": "621802",
+   "wikidata": "Q769532",
+   "wikipedia": "en:Jayankondam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245590422,
+  "lat": 11.2538986,
+  "lon": 79.1771548,
+  "tags": {
+   "name": "Sendurai",
+   "name:en": "Sendurai",
+   "name:hi": "सेंदुराई",
+   "name:ml": "സെന്ദുറ",
+   "name:ta": "செந்துறை",
+   "place": "town",
+   "population": "6727",
+   "postal_code": "621714",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q12981023",
+   "wikipedia": "ta:செந்துறை"
+  }
+ },
+ {
+  "type": "node",
+  "id": 961457751,
+  "lat": 10.9351706,
+  "lon": 79.1034943,
+  "tags": {
+   "name": "Thirumanur",
+   "name:ml": "തിരുമാനൂർ",
+   "name:ta": "திருமானூர்",
+   "place": "village",
+   "population": "6520",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q17075113"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1082478707,
+  "lat": 11.3357062,
+  "lon": 79.3747352,
+  "tags": {
+   "name": "Andimadam",
+   "name:ml": "ആണ്ടിമഠം",
+   "name:ta": "ஆண்டிமடம்",
+   "place": "town",
+   "population": "2075",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q4754467"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1082478877,
+  "lat": 11.31083,
+  "lon": 79.2562,
+  "tags": {
+   "name": "Kodukkur",
+   "place": "village",
+   "population": "1840",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q6425443"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1192534130,
+  "lat": 11.2075353,
+  "lon": 79.4490929,
+  "tags": {
+   "name": "Gangaikondacholapuram",
+   "name:ml": "ഗംഗൈകൊണ്ട ചോഴപുരം",
+   "name:ta": "கங்கைகொண்ட சோழபுரம்",
+   "place": "village",
+   "population": "800",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q1493439"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1201925634,
+  "lat": 11.1595739,
+  "lon": 79.3693582,
+  "tags": {
+   "name": "Silakal",
+   "place": "village",
+   "population": "891",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669820751,
+  "lat": 11.1837725,
+  "lon": 79.4601957,
+  "tags": {
+   "name": "Veeracholapuram",
+   "place": "village",
+   "population": "550",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1669830541,
+  "lat": 11.2351753,
+  "lon": 79.4757826,
+  "tags": {
+   "name": "Meensurutty",
+   "place": "village",
+   "population": "1187",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2408532874,
+  "lat": 11.10096,
+  "lon": 79.28397,
+  "tags": {
+   "name": "Kakapalayam",
+   "place": "hamlet",
+   "population": "309",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2473154915,
+  "lat": 11.0430255,
+  "lon": 79.0689347,
+  "tags": {
+   "name": "Keezhapalur",
+   "name:ml": "കീഴപ്പലൂർ",
+   "name:ta": "கீழப்பலூர்",
+   "place": "village",
+   "population": "5000",
+   "postal_code": "621712"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2490022643,
+  "lat": 11.1842716,
+  "lon": 79.2956995,
+  "tags": {
+   "name": "Udayarpalayam",
+   "name:en": "Udayarpalayam",
+   "name:ml": "ഉടയാർപാളയം",
+   "name:ta": "உடையார்பாளையம்",
+   "place": "town",
+   "postal_code": "621804",
+   "wikidata": "Q2716056",
+   "wikipedia": "en:Udayarpalayam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3788549587,
+  "lat": 11.0661077,
+  "lon": 79.1679297,
+  "tags": {
+   "name": "Periyathirukonam",
+   "place": "village",
+   "population": "1073",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4003662088,
+  "lat": 11.0906426,
+  "lon": 79.3852377,
+  "tags": {
+   "name": "Koothangudi",
+   "place": "village",
+   "population": "742",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4355130513,
+  "lat": 11.0779103,
+  "lon": 79.3576638,
+  "tags": {
+   "name": "Karaikurichi",
+   "place": "village",
+   "population": "1479",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4355130514,
+  "lat": 11.0638223,
+  "lon": 79.3611131,
+  "tags": {
+   "name": "Madhanathur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427245454,
+  "lat": 11.0130216,
+  "lon": 79.1501157,
+  "tags": {
+   "name": "Keelaessanai",
+   "place": "village",
+   "population": "762",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246044,
+  "lat": 11.0309368,
+  "lon": 79.1267323,
+  "tags": {
+   "name": "Kallakudi",
+   "name:ml": "കല്ലക്കുടി",
+   "name:ta": "கல்லக்குடி",
+   "place": "village",
+   "population": "1056",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246239,
+  "lat": 11.0284688,
+  "lon": 79.1762427,
+  "tags": {
+   "name": "Keelakangianur",
+   "place": "hamlet",
+   "population": "245",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246240,
+  "lat": 11.0277881,
+  "lon": 79.1684461,
+  "tags": {
+   "name": "Melakangianur",
+   "place": "hamlet",
+   "population": "205",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246280,
+  "lat": 11.0334747,
+  "lon": 79.1801405,
+  "tags": {
+   "name": "Alanthuraiyaarkattalai",
+   "place": "village",
+   "population": "897",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246281,
+  "lat": 11.0252713,
+  "lon": 79.1947102,
+  "tags": {
+   "name": "Ottakovil",
+   "place": "village",
+   "population": "607",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5427246282,
+  "lat": 11.0333483,
+  "lon": 79.1902792,
+  "tags": {
+   "name": "Sundakudi",
+   "place": "village",
+   "population": "1848",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5468110643,
+  "lat": 11.1136401,
+  "lon": 79.171915,
+  "tags": {
+   "name": "V.Kaikatti",
+   "place": "village",
+   "population": "473",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5468176933,
+  "lat": 11.0322926,
+  "lon": 79.2965625,
+  "tags": {
+   "name": "Govindaputhur",
+   "place": "village",
+   "population": "1115",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6035786361,
+  "lat": 11.3459719,
+  "lon": 79.2049131,
+  "tags": {
+   "name": "Mullaiyur",
+   "place": "village",
+   "population": "1021",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6040509447,
+  "lat": 11.09793,
+  "lon": 79.27144,
+  "tags": {
+   "name": "Suthamalli",
+   "place": "village",
+   "population": "2650",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6040511931,
+  "lat": 11.1545418,
+  "lon": 79.2006635,
+  "tags": {
+   "name": "Kavanur",
+   "place": "hamlet",
+   "population": "298",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6040511954,
+  "lat": 11.1201562,
+  "lon": 79.1992313,
+  "tags": {
+   "name": "Villangudi",
+   "place": "village",
+   "population": "1017",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6040512206,
+  "lat": 11.1505712,
+  "lon": 79.2084323,
+  "tags": {
+   "name": "Ambapur",
+   "place": "village",
+   "population": "834",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6040546360,
+  "lat": 11.1695532,
+  "lon": 79.1714561,
+  "tags": {
+   "name": "Ayanathur",
+   "place": "village",
+   "population": "955",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6041493453,
+  "lat": 11.3112422,
+  "lon": 79.150108,
+  "tags": {
+   "name": "Kulumur",
+   "place": "village",
+   "population": "4748",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6043846590,
+  "lat": 11.3384,
+  "lon": 79.23601,
+  "tags": {
+   "name": "Thamaraipoondi",
+   "place": "village",
+   "population": "846",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6043846598,
+  "lat": 11.2723792,
+  "lon": 79.2347455,
+  "tags": {
+   "name": "Ponparapi",
+   "place": "village",
+   "wikidata": "Q7227957"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223611,
+  "lat": 11.238215,
+  "lon": 79.3074854,
+  "tags": {
+   "name": "Variankaval",
+   "place": "village",
+   "population": "3920",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223613,
+  "lat": 11.0961297,
+  "lon": 79.2921912,
+  "tags": {
+   "name": "Naduvalur",
+   "place": "village",
+   "population": "1204",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223616,
+  "lat": 11.0777529,
+  "lon": 79.2493175,
+  "tags": {
+   "name": "Koraikuzhi",
+   "place": "village",
+   "population": "990",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223619,
+  "lat": 11.1071301,
+  "lon": 79.2362295,
+  "tags": {
+   "name": "Sundaresapuram",
+   "place": "village",
+   "population": "688",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223624,
+  "lat": 11.1229433,
+  "lon": 79.2240888,
+  "tags": {
+   "name": "Nachiyarpettai",
+   "place": "village",
+   "population": "1065",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223634,
+  "lat": 11.0890112,
+  "lon": 79.3118403,
+  "tags": {
+   "name": "Saveriyarpatti",
+   "place": "hamlet",
+   "population": "235",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223635,
+  "lat": 11.1490524,
+  "lon": 79.2803425,
+  "tags": {
+   "name": "Thathanur",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223639,
+  "lat": 11.1436508,
+  "lon": 79.2992386,
+  "tags": {
+   "name": "Cholankuruchi",
+   "place": "village",
+   "population": "2291",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223643,
+  "lat": 11.1456716,
+  "lon": 79.2630883,
+  "tags": {
+   "name": "Thathanur",
+   "name:ml": "തത്തനൂർ",
+   "name:ta": "தத்தனூர்",
+   "place": "village",
+   "population": "2063",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223644,
+  "lat": 11.1183443,
+  "lon": 79.2069533,
+  "tags": {
+   "alt_name": "Keelakkottai",
+   "name": "Keelavillangudi",
+   "place": "village",
+   "population": "765",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223657,
+  "lat": 11.0847484,
+  "lon": 79.3171323,
+  "tags": {
+   "name": "Poovanthikollai",
+   "place": "village",
+   "population": "636",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223658,
+  "lat": 11.1407426,
+  "lon": 79.2820958,
+  "tags": {
+   "name": "Keelaveli",
+   "place": "village",
+   "population": "1017",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223660,
+  "lat": 11.0948981,
+  "lon": 79.2422079,
+  "tags": {
+   "name": "Nathavelli",
+   "place": "village",
+   "population": "552",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044223665,
+  "lat": 11.1387374,
+  "lon": 79.2366519,
+  "tags": {
+   "name": "Managathi",
+   "place": "village",
+   "population": "1080",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044251054,
+  "lat": 11.1239099,
+  "lon": 79.088992,
+  "tags": {
+   "name": "Valajanagaram",
+   "place": "suburb",
+   "population": "3025",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044251059,
+  "lat": 11.12253,
+  "lon": 79.102389,
+  "tags": {
+   "name": "Venkatakrishnapuram",
+   "place": "village",
+   "population": "1078",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044251064,
+  "lat": 11.1183538,
+  "lon": 79.124935,
+  "tags": {
+   "alt_name": "Hastinapuram",
+   "name": "Asthinapuram",
+   "place": "village",
+   "population": "1389",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044319881,
+  "lat": 10.9736255,
+  "lon": 79.1472298,
+  "tags": {
+   "name": "Ezhunachipuram",
+   "place": "village",
+   "population": "698",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044319990,
+  "lat": 11.0442362,
+  "lon": 79.0406378,
+  "tags": {
+   "name": "Keelaiyur",
+   "name:ml": "കീഴയൂർ",
+   "name:ta": "கீழையூர்",
+   "place": "hamlet",
+   "population": "502",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320001,
+  "lat": 10.9538011,
+  "lon": 79.1636848,
+  "tags": {
+   "name": "Elakkuruchi",
+   "place": "village",
+   "population": "2835",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320005,
+  "lat": 11.0377,
+  "lon": 79.15505,
+  "tags": {
+   "name": "Eleri",
+   "place": "village",
+   "population": "588",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320013,
+  "lat": 10.9602254,
+  "lon": 79.1677048,
+  "tags": {
+   "name": "Nayakkarpalayam",
+   "place": "village",
+   "population": "695",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320021,
+  "lat": 11.0387165,
+  "lon": 79.0174488,
+  "tags": {
+   "name": "Veppankuzhi",
+   "name:ml": "വേപ്പങ്കുഴി",
+   "name:ta": "வேப்பங்குழி",
+   "place": "village",
+   "population": "460",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320032,
+  "lat": 10.9488549,
+  "lon": 79.1485259,
+  "tags": {
+   "name": "periyamarai",
+   "place": "village",
+   "population": "658",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320036,
+  "lat": 11.0034239,
+  "lon": 79.1581916,
+  "tags": {
+   "name": "Chinnapattakadu",
+   "place": "village",
+   "population": "585",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320061,
+  "lat": 10.9536853,
+  "lon": 79.1383382,
+  "tags": {
+   "name": "Vizhuppanankurichi",
+   "place": "village",
+   "population": "1071",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320065,
+  "lat": 10.9939166,
+  "lon": 79.1659696,
+  "tags": {
+   "name": "Kovilur",
+   "name:ml": "കോവിലൂർ",
+   "name:ta": "கோவிலூர்",
+   "place": "village",
+   "population": "1822",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6044320073,
+  "lat": 10.953684,
+  "lon": 79.1776227,
+  "tags": {
+   "name": "Karayankurichi",
+   "place": "village",
+   "population": "505",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437833,
+  "lat": 11.2656784,
+  "lon": 79.4897227,
+  "tags": {
+   "name": "Vennenkuli",
+   "place": "village",
+   "population": "558",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 7216706960,
+  "lat": 11.2122222,
+  "lon": 79.3867012,
+  "tags": {
+   "name": "Chinnavalayam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9236108050,
+  "lat": 10.9278557,
+  "lon": 79.0315461,
+  "tags": {
+   "name": "Elandakudam",
+   "place": "village",
+   "population": "3310",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy",
+   "wikidata": "Q5353422"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9236108051,
+  "lat": 10.8986005,
+  "lon": 79.0560508,
+  "tags": {
+   "name": "Thirumazhapadi",
+   "place": "village",
+   "population": "2718",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9238702969,
+  "lat": 11.04681,
+  "lon": 79.30958,
+  "tags": {
+   "name": "Sripuranthan",
+   "place": "village",
+   "population": "1806",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9239011351,
+  "lat": 11.3482511,
+  "lon": 79.310174,
+  "tags": {
+   "name": "Silambur",
+   "place": "village",
+   "population": "1480",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9243020576,
+  "lat": 10.9699003,
+  "lon": 79.025082,
+  "tags": {
+   "name": "Venganur",
+   "place": "village",
+   "population": "2327",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9243020578,
+  "lat": 10.9505965,
+  "lon": 79.0201835,
+  "tags": {
+   "name": "Kovilesanai",
+   "place": "village",
+   "population": "1130",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9243020584,
+  "lat": 10.9737606,
+  "lon": 78.9934158,
+  "tags": {
+   "name": "Sannavoor",
+   "place": "village",
+   "population": "1176",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9671919141,
+  "lat": 10.9716949,
+  "lon": 78.9424214,
+  "tags": {
+   "name": "Dalmiapuram",
+   "name:ml": "ഡാൽമിയാപുരം",
+   "name:ta": "டால்மியாபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9984510229,
+  "lat": 10.9319569,
+  "lon": 79.0618217,
+  "tags": {
+   "name": "Palayappadi",
+   "place": "village",
+   "population": "1155",
+   "postal_code": "621851",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9984510230,
+  "lat": 10.9286776,
+  "lon": 79.067715,
+  "tags": {
+   "addr:postcode": "621851",
+   "name": "Annimangalam",
+   "place": "village",
+   "population": "980",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9984510231,
+  "lat": 10.9270755,
+  "lon": 79.0591635,
+  "tags": {
+   "name": "Aranmanaikurichi",
+   "place": "village",
+   "population": "910",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519279,
+  "lat": 11.30345,
+  "lon": 79.344842,
+  "tags": {
+   "name": "Kattathur",
+   "place": "village",
+   "population": "1982",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519280,
+  "lat": 11.2287246,
+  "lon": 79.3080176,
+  "tags": {
+   "name": "Elaiyur",
+   "place": "village",
+   "population": "1002",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519281,
+  "lat": 11.3471361,
+  "lon": 79.4225263,
+  "tags": {
+   "name": "Tennur",
+   "place": "village",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519282,
+  "lat": 11.3124419,
+  "lon": 79.4558501,
+  "tags": {
+   "name": "Dharmasamuthiram",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519283,
+  "lat": 11.2755682,
+  "lon": 79.3887579,
+  "tags": {
+   "alt_name": "Panchanankarai",
+   "name": "Munrankaduvetti",
+   "place": "village",
+   "population": "502",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519284,
+  "lat": 11.2810788,
+  "lon": 79.3266467,
+  "tags": {
+   "name": "Kalvettu",
+   "place": "village",
+   "population": "650",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519285,
+  "lat": 11.2859356,
+  "lon": 79.3983008,
+  "tags": {
+   "name": "Anikuthichan",
+   "place": "village",
+   "population": "1409",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519286,
+  "lat": 11.3276387,
+  "lon": 79.3664508,
+  "tags": {
+   "name": "Savaraveli",
+   "place": "village",
+   "population": "568",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519287,
+  "lat": 11.2815694,
+  "lon": 79.3694008,
+  "tags": {
+   "name": "Vadugarpalayam",
+   "place": "village",
+   "population": "980",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519288,
+  "lat": 11.3071261,
+  "lon": 79.3876621,
+  "tags": {
+   "name": "Kuppam",
+   "place": "hamlet",
+   "population": "290",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519289,
+  "lat": 11.317978,
+  "lon": 79.3753054,
+  "tags": {
+   "name": "Arulanthapuram",
+   "place": "hamlet",
+   "population": "320",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519290,
+  "lat": 11.356477,
+  "lon": 79.430809,
+  "tags": {
+   "name": "Mettukuppam",
+   "place": "hamlet",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519291,
+  "lat": 11.2905581,
+  "lon": 79.3317292,
+  "tags": {
+   "name": "Kolathur",
+   "place": "village",
+   "population": "1858",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519292,
+  "lat": 11.3370638,
+  "lon": 79.4035548,
+  "tags": {
+   "name": "Thavasukuzhi",
+   "place": "hamlet",
+   "population": "300",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519293,
+  "lat": 11.3114374,
+  "lon": 79.4406661,
+  "tags": {
+   "name": "Muthuvinayagakuppam",
+   "place": "village",
+   "population": "514",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519294,
+  "lat": 11.2785333,
+  "lon": 79.2977239,
+  "tags": {
+   "name": "Keelapatti",
+   "place": "village",
+   "population": "695",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519296,
+  "lat": 11.2508415,
+  "lon": 79.3401113,
+  "tags": {
+   "name": "Melachery",
+   "place": "village",
+   "population": "495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519297,
+  "lat": 11.2661415,
+  "lon": 79.3204361,
+  "tags": {
+   "name": "Devanur",
+   "place": "village",
+   "population": "1285",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519298,
+  "lat": 11.34463,
+  "lon": 79.3718,
+  "tags": {
+   "name": "Surakuzhi",
+   "place": "village",
+   "population": "690",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519299,
+  "lat": 11.2277283,
+  "lon": 79.302974,
+  "tags": {
+   "name": "Melaveli",
+   "place": "village",
+   "population": "662",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519300,
+  "lat": 11.3206902,
+  "lon": 79.350005,
+  "tags": {
+   "name": "Villanatham",
+   "place": "village",
+   "population": "750",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519301,
+  "lat": 11.2528815,
+  "lon": 79.2901117,
+  "tags": {
+   "name": "Elanthankuzhi",
+   "place": "village",
+   "population": "740",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519302,
+  "lat": 11.3428107,
+  "lon": 79.4292768,
+  "tags": {
+   "name": "Salakarai",
+   "place": "village",
+   "population": "590",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519303,
+  "lat": 11.2680438,
+  "lon": 79.279224,
+  "tags": {
+   "name": "Thoppulanpatti",
+   "place": "hamlet",
+   "population": "246",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519304,
+  "lat": 11.3271937,
+  "lon": 79.4346978,
+  "tags": {
+   "name": "Periyakrishnapuram",
+   "place": "village",
+   "population": "1355",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519305,
+  "lat": 11.2280184,
+  "lon": 79.3153389,
+  "tags": {
+   "name": "Koriampatti",
+   "place": "hamlet",
+   "population": "450",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519306,
+  "lat": 11.3295961,
+  "lon": 79.4303867,
+  "tags": {
+   "name": "Valaikurichi",
+   "place": "hamlet",
+   "population": "215",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519307,
+  "lat": 11.2973213,
+  "lon": 79.3871853,
+  "tags": {
+   "name": "Agnespuram",
+   "place": "village",
+   "population": "850",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519308,
+  "lat": 11.3064128,
+  "lon": 79.4162104,
+  "tags": {
+   "name": "Netlankurichi",
+   "place": "village",
+   "population": "862",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519309,
+  "lat": 11.2191591,
+  "lon": 79.3346032,
+  "tags": {
+   "name": "Karaimedu",
+   "place": "village",
+   "population": "495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519310,
+  "lat": 11.3124929,
+  "lon": 79.4354763,
+  "tags": {
+   "name": "Thirukalapur",
+   "place": "village",
+   "population": "1504",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519311,
+  "lat": 11.3226893,
+  "lon": 79.3611029,
+  "tags": {
+   "name": "Patnakurichi",
+   "place": "village",
+   "population": "1458",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519312,
+  "lat": 11.3471544,
+  "lon": 79.3835658,
+  "tags": {
+   "name": "Kavarapalayam",
+   "place": "village",
+   "population": "1470",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519313,
+  "lat": 11.3493907,
+  "lon": 79.3955221,
+  "tags": {
+   "name": "Manakollai",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519314,
+  "lat": 11.2323527,
+  "lon": 79.308845,
+  "tags": {
+   "name": "Kamarajnagar",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519315,
+  "lat": 11.3208739,
+  "lon": 79.4175587,
+  "tags": {
+   "name": "Velichankudi",
+   "place": "hamlet",
+   "population": "476",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519316,
+  "lat": 11.3433002,
+  "lon": 79.3816738,
+  "tags": {
+   "name": "Annakarankuppam",
+   "place": "village",
+   "population": "1698",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519317,
+  "lat": 11.2832421,
+  "lon": 79.2854571,
+  "tags": {
+   "name": "Kuvagam",
+   "place": "village",
+   "population": "2329",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519318,
+  "lat": 11.3333913,
+  "lon": 79.433356,
+  "tags": {
+   "name": "Ponnankanninatham",
+   "place": "hamlet",
+   "population": "256",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519319,
+  "lat": 11.3155616,
+  "lon": 79.3129278,
+  "tags": {
+   "name": "Ayyur",
+   "place": "village",
+   "population": "1460",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519320,
+  "lat": 11.31645,
+  "lon": 79.4524,
+  "tags": {
+   "name": "Koilvazhkkai",
+   "name:ta": "கோவில் வாழ்க்கை",
+   "place": "village",
+   "population": "1431",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519321,
+  "lat": 11.2425631,
+  "lon": 79.3337778,
+  "tags": {
+   "name": "Puthukudi-north",
+   "place": "village",
+   "population": "921",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519322,
+  "lat": 11.2998982,
+  "lon": 79.365768,
+  "tags": {
+   "name": "Kombuthi",
+   "place": "hamlet",
+   "population": "318",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519323,
+  "lat": 11.3599692,
+  "lon": 79.4233846,
+  "tags": {
+   "name": "Kandiyankuppam",
+   "place": "village",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519324,
+  "lat": 11.30436,
+  "lon": 79.32313,
+  "tags": {
+   "name": "Therkunatham",
+   "place": "village",
+   "population": "762",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519325,
+  "lat": 11.3397057,
+  "lon": 79.3804176,
+  "tags": {
+   "name": "Naduthoppu",
+   "place": "hamlet",
+   "population": "255",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519326,
+  "lat": 11.2327935,
+  "lon": 79.3123763,
+  "tags": {
+   "name": "Kandiankollai",
+   "place": "village",
+   "population": "550",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519327,
+  "lat": 11.2462831,
+  "lon": 79.3035189,
+  "tags": {
+   "name": "Thideerkuppam",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519328,
+  "lat": 11.3308696,
+  "lon": 79.3555933,
+  "tags": {
+   "name": "Melaneduvai",
+   "place": "village",
+   "population": "499",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519329,
+  "lat": 11.3429257,
+  "lon": 79.4062819,
+  "tags": {
+   "name": "Surapallam",
+   "place": "hamlet",
+   "population": "254",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519330,
+  "lat": 11.2523889,
+  "lon": 79.3464506,
+  "tags": {
+   "name": "Melur",
+   "place": "village",
+   "population": "1575",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519331,
+  "lat": 11.320323,
+  "lon": 79.3348808,
+  "tags": {
+   "name": "Kallampallam",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519332,
+  "lat": 11.34227,
+  "lon": 79.41776,
+  "tags": {
+   "alt_name": "Chinnatattur",
+   "name": "Reddithathur",
+   "place": "village",
+   "population": "1006",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519333,
+  "lat": 11.3144908,
+  "lon": 79.3847321,
+  "tags": {
+   "name": "Kudikadu",
+   "place": "hamlet",
+   "population": "398",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519334,
+  "lat": 11.31181,
+  "lon": 79.40257,
+  "tags": {
+   "name": "Sathnapattu",
+   "place": "village",
+   "population": "630",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519335,
+  "lat": 11.2900098,
+  "lon": 79.3613006,
+  "tags": {
+   "name": "Udayartheru",
+   "place": "village",
+   "population": "963",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222519336,
+  "lat": 11.3315362,
+  "lon": 79.4124117,
+  "tags": {
+   "alt_name": "Tattur",
+   "name": "Periyathathur",
+   "place": "village",
+   "population": "1402",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537637,
+  "lat": 11.3165223,
+  "lon": 79.4114131,
+  "tags": {
+   "name": "Keezhaneduvai",
+   "place": "village",
+   "population": "1100",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537638,
+  "lat": 11.2978954,
+  "lon": 79.301945,
+  "tags": {
+   "name": "vallam",
+   "place": "village",
+   "population": "1118",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537639,
+  "lat": 11.2811693,
+  "lon": 79.3983585,
+  "tags": {
+   "name": "Poovanipattu",
+   "place": "hamlet",
+   "population": "420",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537640,
+  "lat": 11.2542066,
+  "lon": 79.3545926,
+  "tags": {
+   "name": "Keelachery",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537641,
+  "lat": 11.3343421,
+  "lon": 79.3623698,
+  "tags": {
+   "name": "sivalingapuram",
+   "place": "hamlet",
+   "population": "502",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537642,
+  "lat": 11.2635432,
+  "lon": 79.2721856,
+  "tags": {
+   "name": "Maruthur",
+   "place": "village",
+   "population": "2594",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537643,
+  "lat": 11.3095808,
+  "lon": 79.446173,
+  "tags": {
+   "name": "ChinnaKrishnapuram",
+   "place": "hamlet",
+   "population": "300",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537644,
+  "lat": 11.3365131,
+  "lon": 79.3815118,
+  "tags": {
+   "name": "Subramaniyapuram",
+   "place": "village",
+   "population": "4865",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537645,
+  "lat": 11.2869601,
+  "lon": 79.3036217,
+  "tags": {
+   "alt_name": "Kil Kuvagam",
+   "name": "Vettitheru",
+   "place": "village",
+   "population": "1450",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537646,
+  "lat": 11.2794946,
+  "lon": 79.2843275,
+  "tags": {
+   "name": "Annanagarcolony",
+   "place": "village",
+   "population": "595",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537647,
+  "lat": 11.3546467,
+  "lon": 79.4123983,
+  "tags": {
+   "name": "Varadarajampettai",
+   "place": "hamlet",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537648,
+  "lat": 11.2958654,
+  "lon": 79.3739867,
+  "tags": {
+   "name": "Madathutheru",
+   "place": "hamlet",
+   "population": "320",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537649,
+  "lat": 11.3193288,
+  "lon": 79.3145601,
+  "tags": {
+   "alt_name": "Vadakku Patti",
+   "name": "Ayyursalai",
+   "place": "hamlet",
+   "population": "251",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537650,
+  "lat": 11.31773,
+  "lon": 79.39463,
+  "tags": {
+   "name": "Kolapadi",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537651,
+  "lat": 11.2331875,
+  "lon": 79.3331712,
+  "tags": {
+   "name": "Puthukudi-south",
+   "place": "hamlet",
+   "population": "260",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537652,
+  "lat": 11.2988921,
+  "lon": 79.372243,
+  "tags": {
+   "name": "Koovathur",
+   "place": "village",
+   "population": "2100",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537653,
+  "lat": 11.25811,
+  "lon": 79.27973,
+  "tags": {
+   "name": "Therkupatti",
+   "place": "village",
+   "population": "1050",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537654,
+  "lat": 11.3241906,
+  "lon": 79.3294939,
+  "tags": {
+   "name": "Kankuli",
+   "place": "village",
+   "population": "750",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537656,
+  "lat": 11.33061,
+  "lon": 79.39615,
+  "tags": {
+   "alt_name": "Vilandai",
+   "name": "Thilagarnagar",
+   "place": "village",
+   "population": "2150",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537657,
+  "lat": 11.3828778,
+  "lon": 79.3501282,
+  "tags": {
+   "name": "Tavadanallur",
+   "place": "village",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537658,
+  "lat": 11.3881221,
+  "lon": 79.3826077,
+  "tags": {
+   "name": "R.Vallam",
+   "place": "hamlet",
+   "population": "432",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537659,
+  "lat": 11.4003628,
+  "lon": 79.3168098,
+  "tags": {
+   "name": "Kudikadu",
+   "place": "village",
+   "population": "770",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537660,
+  "lat": 11.4091376,
+  "lon": 79.3535434,
+  "tags": {
+   "name": "Periyathukurichi",
+   "place": "village",
+   "population": "1479",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537661,
+  "lat": 11.3675747,
+  "lon": 79.2902361,
+  "tags": {
+   "name": "Pukkuzhi",
+   "place": "village",
+   "population": "1066",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537662,
+  "lat": 11.3870008,
+  "lon": 79.3554497,
+  "tags": {
+   "name": "Chinnatavadanallur",
+   "place": "hamlet",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537663,
+  "lat": 11.4050001,
+  "lon": 79.3856051,
+  "tags": {
+   "name": "Sriraman Colony",
+   "place": "village",
+   "population": "495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537664,
+  "lat": 11.4013338,
+  "lon": 79.390912,
+  "tags": {
+   "name": "Reddipalayam",
+   "place": "village",
+   "population": "591",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537665,
+  "lat": 11.3051307,
+  "lon": 79.2557858,
+  "tags": {
+   "alt_name": "Terku Kodukkur",
+   "name": "Kudikaadu",
+   "place": "village",
+   "population": "1173",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537666,
+  "lat": 11.4049013,
+  "lon": 79.3137145,
+  "tags": {
+   "name": "Pilakurichi",
+   "place": "hamlet",
+   "source:name": "SOI"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537667,
+  "lat": 11.3961049,
+  "lon": 79.3676547,
+  "tags": {
+   "name": "Chinnakarukkai",
+   "place": "village",
+   "population": "995",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537668,
+  "lat": 11.3628798,
+  "lon": 79.3541875,
+  "tags": {
+   "name": "Siluvaichery",
+   "place": "village",
+   "population": "637",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537669,
+  "lat": 11.396498,
+  "lon": 79.3808047,
+  "tags": {
+   "name": "Sriraman Kudikadu",
+   "place": "village",
+   "population": "505",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537670,
+  "lat": 11.4059724,
+  "lon": 79.3176627,
+  "tags": {
+   "name": "Olaiyur",
+   "place": "village",
+   "population": "1947",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537671,
+  "lat": 11.3246237,
+  "lon": 79.2690871,
+  "tags": {
+   "name": "Edaiyakurichi",
+   "place": "village",
+   "population": "4015",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537672,
+  "lat": 11.4128075,
+  "lon": 79.3397454,
+  "tags": {
+   "name": "Viluthudaiyan",
+   "place": "village",
+   "population": "1059",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537673,
+  "lat": 11.3534055,
+  "lon": 79.3243471,
+  "tags": {
+   "name": "Kumilankuzhi",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537674,
+  "lat": 11.3713819,
+  "lon": 79.3346908,
+  "tags": {
+   "name": "Alagapuram",
+   "place": "village",
+   "population": "3750",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537675,
+  "lat": 11.3657838,
+  "lon": 79.3887511,
+  "tags": {
+   "name": "Thanjavooranchavadi",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537676,
+  "lat": 11.3949686,
+  "lon": 79.3635092,
+  "tags": {
+   "name": "Periyakarukkai",
+   "place": "village",
+   "population": "1086",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537677,
+  "lat": 11.3432702,
+  "lon": 79.2929417,
+  "tags": {
+   "name": "Melapatti",
+   "place": "hamlet",
+   "population": "120",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537678,
+  "lat": 11.3763346,
+  "lon": 79.3744846,
+  "tags": {
+   "name": "Rangiam",
+   "place": "village",
+   "population": "1350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537679,
+  "lat": 11.37212,
+  "lon": 79.296,
+  "tags": {
+   "name": "Thirukonam",
+   "place": "village",
+   "population": "842",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537680,
+  "lat": 11.3578293,
+  "lon": 79.3298498,
+  "tags": {
+   "name": "Agaram",
+   "place": "village",
+   "population": "1550",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11222537681,
+  "lat": 11.4095766,
+  "lon": 79.3688558,
+  "tags": {
+   "name": "Nagampandal",
+   "place": "village",
+   "population": "790",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265008,
+  "lat": 11.1164224,
+  "lon": 79.2013192,
+  "tags": {
+   "name": "Naduvalur",
+   "place": "hamlet",
+   "population": "320",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265009,
+  "lat": 11.1321774,
+  "lon": 79.2066162,
+  "tags": {
+   "name": "Alamelumangaipuram",
+   "place": "hamlet",
+   "population": "112",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265010,
+  "lat": 11.0217652,
+  "lon": 79.1499956,
+  "tags": {
+   "name": "Keelavanam",
+   "place": "hamlet",
+   "population": "425",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265011,
+  "lat": 11.0160435,
+  "lon": 79.1422367,
+  "tags": {
+   "name": "Vannaraipettai",
+   "place": "hamlet",
+   "population": "117",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265012,
+  "lat": 11.0566525,
+  "lon": 79.1520552,
+  "tags": {
+   "name": "Edayathangudi",
+   "place": "village",
+   "population": "965",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265013,
+  "lat": 11.00616,
+  "lon": 79.19253,
+  "tags": {
+   "name": "Puthur",
+   "place": "hamlet",
+   "population": "315",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265014,
+  "lat": 11.03735,
+  "lon": 79.18227,
+  "tags": {
+   "name": "Siruthondankani",
+   "place": "hamlet",
+   "population": "253",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265015,
+  "lat": 11.0152624,
+  "lon": 79.1821762,
+  "tags": {
+   "name": "Andipattakadu",
+   "place": "village",
+   "population": "756",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265016,
+  "lat": 10.9996372,
+  "lon": 79.2130068,
+  "tags": {
+   "name": "Oriyur",
+   "place": "village",
+   "population": "935",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265017,
+  "lat": 10.9987714,
+  "lon": 79.2020912,
+  "tags": {
+   "name": "Nanangur",
+   "place": "village",
+   "population": "1032",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265018,
+  "lat": 11.025219,
+  "lon": 79.2090071,
+  "tags": {
+   "name": "P. Athanur",
+   "place": "village",
+   "population": "630",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265019,
+  "lat": 11.01622,
+  "lon": 79.18833,
+  "tags": {
+   "name": "Pungankuzhi",
+   "place": "hamlet",
+   "population": "456",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265020,
+  "lat": 11.0390715,
+  "lon": 79.1666866,
+  "tags": {
+   "name": "Panangur",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265021,
+  "lat": 11.00869,
+  "lon": 79.19651,
+  "tags": {
+   "name": "Silupanur",
+   "place": "village",
+   "population": "689",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265022,
+  "lat": 11.0232036,
+  "lon": 79.1842434,
+  "tags": {
+   "name": "Vallakulam",
+   "place": "hamlet",
+   "population": "236",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265023,
+  "lat": 11.0644117,
+  "lon": 79.1074419,
+  "tags": {
+   "name": "Poyyur",
+   "name:ml": "പൊയ്യൂർ",
+   "name:ta": "பொய்யூர்",
+   "place": "village",
+   "population": "2613",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265024,
+  "lat": 11.03999,
+  "lon": 79.08589,
+  "tags": {
+   "name": "Karuvidacheri",
+   "name:ml": "കരുവിടച്ചേരി",
+   "name:ta": "கருவிடச்சேரி",
+   "place": "village",
+   "population": "980",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265025,
+  "lat": 11.0031243,
+  "lon": 79.1303579,
+  "tags": {
+   "name": "Pappankulam",
+   "place": "hamlet",
+   "population": "381",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265026,
+  "lat": 10.99921,
+  "lon": 79.1133064,
+  "tags": {
+   "name": "Aruchunapuram",
+   "place": "hamlet",
+   "population": "306",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265027,
+  "lat": 11.0308803,
+  "lon": 79.1436512,
+  "tags": {
+   "name": "Karupilakkattalai",
+   "name:ml": "കരുപ്പിലക്കട്ടള",
+   "name:ta": "கருப்பிலக்கட்டளை",
+   "place": "village",
+   "population": "1423",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265028,
+  "lat": 11.0166678,
+  "lon": 79.11061,
+  "tags": {
+   "name": "Arungal",
+   "name:ml": "അരുങ്കൽ",
+   "name:ta": "அருங்கல்",
+   "place": "village",
+   "population": "1192",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265029,
+  "lat": 11.0230636,
+  "lon": 79.1095521,
+  "tags": {
+   "name": "Palayam",
+   "place": "village",
+   "population": "1002",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265030,
+  "lat": 11.041013,
+  "lon": 79.1147541,
+  "tags": {
+   "name": "Semanthakudi",
+   "place": "village",
+   "population": "741",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265031,
+  "lat": 11.0513679,
+  "lon": 79.0990429,
+  "tags": {
+   "name": "Karuppur",
+   "name:ml": "കരുപ്പൂർ",
+   "name:ta": "கருப்பூர்",
+   "place": "village",
+   "population": "2613",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265032,
+  "lat": 11.0315976,
+  "lon": 79.1063096,
+  "tags": {
+   "name": "Sathya nagar",
+   "place": "hamlet",
+   "population": "412",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265033,
+  "lat": 11.05046,
+  "lon": 79.127,
+  "tags": {
+   "name": "Vaippam",
+   "place": "village",
+   "population": "816",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265034,
+  "lat": 11.08384,
+  "lon": 79.12117,
+  "tags": {
+   "name": "Siruvalur",
+   "place": "village",
+   "population": "1164",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265035,
+  "lat": 11.08874,
+  "lon": 79.10046,
+  "tags": {
+   "name": "Subburayapuram",
+   "place": "hamlet",
+   "population": "370",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231265036,
+  "lat": 11.082187,
+  "lon": 79.1059504,
+  "tags": {
+   "name": "Pallakrishnapuram",
+   "place": "hamlet",
+   "population": "330",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271437,
+  "lat": 11.123553,
+  "lon": 79.1173346,
+  "tags": {
+   "name": "Mandayankudisal",
+   "place": "hamlet",
+   "population": "495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271438,
+  "lat": 11.0943,
+  "lon": 79.0915,
+  "tags": {
+   "name": "Rengasamuthiram",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271439,
+  "lat": 11.12833,
+  "lon": 79.08212,
+  "tags": {
+   "name": "Minnagar",
+   "place": "suburb",
+   "population": "921",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271440,
+  "lat": 11.1260987,
+  "lon": 79.0968918,
+  "tags": {
+   "name": "Thenmanam",
+   "place": "hamlet",
+   "population": "320",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271441,
+  "lat": 11.1120313,
+  "lon": 79.0800447,
+  "tags": {
+   "name": "Ammakulam",
+   "place": "hamlet",
+   "population": "340",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271442,
+  "lat": 11.10233,
+  "lon": 79.10604,
+  "tags": {
+   "name": "Kurichinatham",
+   "place": "village",
+   "population": "910",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271443,
+  "lat": 11.111532,
+  "lon": 79.0727251,
+  "tags": {
+   "name": "Thavuthaikulam",
+   "place": "village",
+   "population": "703",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271444,
+  "lat": 11.12899,
+  "lon": 79.16001,
+  "tags": {
+   "name": "Periyanagalur",
+   "place": "village",
+   "population": "993",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271445,
+  "lat": 11.1258963,
+  "lon": 79.1532529,
+  "tags": {
+   "name": "Chinnanagalur",
+   "place": "village",
+   "population": "696",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271446,
+  "lat": 11.1134825,
+  "lon": 79.1401303,
+  "tags": {
+   "name": "Kattupringiam",
+   "place": "village",
+   "population": "1598",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271447,
+  "lat": 11.09328,
+  "lon": 79.15693,
+  "tags": {
+   "name": "Naickerpalayam",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271448,
+  "lat": 11.0741777,
+  "lon": 79.1488517,
+  "tags": {
+   "name": "Veliprinkiyam",
+   "place": "village",
+   "population": "1611",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271449,
+  "lat": 11.0899081,
+  "lon": 79.1420475,
+  "tags": {
+   "name": "Nerinchikorai",
+   "place": "village",
+   "population": "628",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271450,
+  "lat": 11.0901525,
+  "lon": 79.1312513,
+  "tags": {
+   "name": "Pudupalayam",
+   "place": "village",
+   "population": "1121",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271451,
+  "lat": 11.07394,
+  "lon": 79.13921,
+  "tags": {
+   "name": "Aranur",
+   "place": "hamlet",
+   "population": "317",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271452,
+  "lat": 11.065572,
+  "lon": 79.1818584,
+  "tags": {
+   "name": "Settithirukonam",
+   "place": "village",
+   "population": "990",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271453,
+  "lat": 11.0749,
+  "lon": 79.16692,
+  "tags": {
+   "name": "Muniyankurichi",
+   "place": "village",
+   "population": "800",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271454,
+  "lat": 11.08017,
+  "lon": 79.16882,
+  "tags": {
+   "name": "Pudhur",
+   "place": "village",
+   "population": "611",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271455,
+  "lat": 11.065174,
+  "lon": 79.1768526,
+  "tags": {
+   "name": "Kamarajapuram",
+   "place": "village",
+   "population": "477",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271456,
+  "lat": 11.0623175,
+  "lon": 79.1994181,
+  "tags": {
+   "name": "Therkukudisal",
+   "place": "hamlet",
+   "population": "162",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271457,
+  "lat": 11.080899,
+  "lon": 79.185615,
+  "tags": {
+   "name": "Kanakkarpalayam",
+   "place": "hamlet",
+   "population": "201",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271458,
+  "lat": 11.07768,
+  "lon": 79.19731,
+  "tags": {
+   "name": "Arasukarankottai",
+   "place": "hamlet",
+   "population": "312",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271459,
+  "lat": 11.0883773,
+  "lon": 79.1916928,
+  "tags": {
+   "name": "Kangilikottai",
+   "place": "hamlet",
+   "population": "306",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271460,
+  "lat": 11.07711,
+  "lon": 79.19102,
+  "tags": {
+   "name": "Nagamangalam",
+   "place": "village",
+   "population": "1601",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271461,
+  "lat": 11.072264,
+  "lon": 79.2072096,
+  "tags": {
+   "name": "Pattatankuruchi",
+   "place": "hamlet",
+   "population": "407",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271462,
+  "lat": 11.10316,
+  "lon": 79.17119,
+  "tags": {
+   "name": "Chandrapalayam",
+   "place": "hamlet",
+   "population": "191",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271463,
+  "lat": 11.0944168,
+  "lon": 79.1757977,
+  "tags": {
+   "name": "Selathankotai",
+   "place": "hamlet",
+   "population": "130",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271464,
+  "lat": 11.0993512,
+  "lon": 79.1879998,
+  "tags": {
+   "name": "Orathur",
+   "place": "hamlet",
+   "population": "467",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271465,
+  "lat": 11.1095494,
+  "lon": 79.1640325,
+  "tags": {
+   "name": "Reddipalayam",
+   "place": "village",
+   "population": "1160",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271466,
+  "lat": 11.1159908,
+  "lon": 79.1630628,
+  "tags": {
+   "name": "Pullikolam",
+   "place": "hamlet",
+   "population": "246",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271467,
+  "lat": 11.12475,
+  "lon": 79.18225,
+  "tags": {
+   "name": "Thelur",
+   "place": "village",
+   "population": "1292",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271468,
+  "lat": 11.1548779,
+  "lon": 79.2151534,
+  "tags": {
+   "name": "Ponparappian street",
+   "place": "village",
+   "population": "480",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271469,
+  "lat": 11.133813,
+  "lon": 79.19419,
+  "tags": {
+   "name": "Kathankudikadu",
+   "place": "village",
+   "population": "765",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271470,
+  "lat": 11.138701,
+  "lon": 79.1672799,
+  "tags": {
+   "name": "Mannuli",
+   "place": "village",
+   "population": "1141",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271471,
+  "lat": 11.13606,
+  "lon": 79.18415,
+  "tags": {
+   "alt_name": "Kudisalnattam",
+   "name": "Kudisal",
+   "place": "village",
+   "population": "622",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271472,
+  "lat": 11.1601811,
+  "lon": 79.2106112,
+  "tags": {
+   "alt_name": "Akkiyali",
+   "name": "Ikali",
+   "place": "hamlet",
+   "population": "311",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271475,
+  "lat": 11.1441547,
+  "lon": 79.1383595,
+  "tags": {
+   "name": "Nuraiyur",
+   "place": "hamlet",
+   "population": "264",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271476,
+  "lat": 11.15519,
+  "lon": 79.15041,
+  "tags": {
+   "name": "Koppiliyankudikadu",
+   "place": "village",
+   "population": "661",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271477,
+  "lat": 11.14938,
+  "lon": 79.1371513,
+  "tags": {
+   "name": "Manakudi",
+   "place": "village",
+   "population": "1274",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271479,
+  "lat": 11.1679359,
+  "lon": 79.1496161,
+  "tags": {
+   "name": "Kadugur",
+   "place": "village",
+   "population": "1617",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271480,
+  "lat": 11.16289,
+  "lon": 79.12823,
+  "tags": {
+   "name": "Morakuzhi",
+   "place": "hamlet",
+   "population": "217",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271481,
+  "lat": 11.1646155,
+  "lon": 79.1019929,
+  "tags": {
+   "name": "West Srinivasapuram",
+   "place": "village",
+   "population": "583",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271482,
+  "lat": 11.1504816,
+  "lon": 79.1201343,
+  "tags": {
+   "name": "Kallankuruchi",
+   "place": "village",
+   "population": "1770",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271483,
+  "lat": 11.1735089,
+  "lon": 79.1382154,
+  "tags": {
+   "name": "Poomudiyanpatti",
+   "place": "village",
+   "population": "658",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271484,
+  "lat": 11.1551442,
+  "lon": 79.1025471,
+  "tags": {
+   "alt_name": "Pallakkaveri",
+   "name": "Usenabath",
+   "place": "village",
+   "population": "763",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271485,
+  "lat": 11.1668923,
+  "lon": 79.1354975,
+  "tags": {
+   "name": "K.Poyyur",
+   "place": "village",
+   "population": "1323",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271486,
+  "lat": 11.16341,
+  "lon": 79.1226525,
+  "tags": {
+   "name": "Srinivasapuram",
+   "place": "hamlet",
+   "population": "248",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271487,
+  "lat": 11.13113,
+  "lon": 79.10232,
+  "tags": {
+   "name": "Kaiyarlabath",
+   "place": "village",
+   "population": "1321",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271488,
+  "lat": 11.1391115,
+  "lon": 79.0912613,
+  "tags": {
+   "name": "Sasthrinagar",
+   "place": "suburb",
+   "population": "236",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271489,
+  "lat": 11.1409532,
+  "lon": 79.0868313,
+  "tags": {
+   "name": "Ravuthanpatti",
+   "place": "suburb",
+   "population": "1907",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271490,
+  "lat": 11.1390726,
+  "lon": 79.0979917,
+  "tags": {
+   "name": "Arasunagar",
+   "place": "suburb",
+   "population": "295",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271491,
+  "lat": 11.1696067,
+  "lon": 79.1048499,
+  "tags": {
+   "name": "Venkataramapuram",
+   "place": "village",
+   "population": "513",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271492,
+  "lat": 11.1757368,
+  "lon": 79.1051105,
+  "tags": {
+   "name": "Thamaraikulam",
+   "place": "village",
+   "population": "632",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271493,
+  "lat": 11.1765,
+  "lon": 79.11362,
+  "tags": {
+   "name": "Venkataramanapuram",
+   "place": "village",
+   "population": "527",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271494,
+  "lat": 11.15252,
+  "lon": 79.08252,
+  "tags": {
+   "name": "Kurumbanchavadi",
+   "place": "village",
+   "population": "505",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271495,
+  "lat": 11.1475163,
+  "lon": 79.0729829,
+  "tags": {
+   "name": "Annanagar",
+   "place": "suburb",
+   "population": "951",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271496,
+  "lat": 11.1520879,
+  "lon": 79.0723336,
+  "tags": {
+   "name": "Eruthukaranpatti",
+   "place": "village",
+   "population": "867",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271497,
+  "lat": 11.1582868,
+  "lon": 79.07951,
+  "tags": {
+   "name": "Kollapuram",
+   "place": "hamlet",
+   "population": "234",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271499,
+  "lat": 11.169745,
+  "lon": 79.0900967,
+  "tags": {
+   "name": "Aminabad",
+   "place": "village",
+   "population": "986",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271500,
+  "lat": 11.1786385,
+  "lon": 79.0764679,
+  "tags": {
+   "name": "Jeyaramapuram",
+   "place": "hamlet",
+   "population": "342",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271501,
+  "lat": 11.1663084,
+  "lon": 79.0768024,
+  "tags": {
+   "name": "Mahalingapuram",
+   "place": "hamlet",
+   "population": "245",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271502,
+  "lat": 11.1918581,
+  "lon": 79.0962036,
+  "tags": {
+   "name": "Nallampathai",
+   "place": "hamlet",
+   "population": "161",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271503,
+  "lat": 11.1982602,
+  "lon": 79.0756034,
+  "tags": {
+   "name": "Manakkal",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271504,
+  "lat": 11.20128,
+  "lon": 79.08363,
+  "tags": {
+   "name": "Subarayapuram",
+   "place": "hamlet",
+   "population": "192",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271505,
+  "lat": 11.1883034,
+  "lon": 79.1122617,
+  "tags": {
+   "name": "Ottakovil",
+   "place": "village",
+   "population": "908",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271506,
+  "lat": 11.2171066,
+  "lon": 79.1241354,
+  "tags": {
+   "name": "Poyyathanallur",
+   "place": "village",
+   "population": "2590",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271507,
+  "lat": 11.2047671,
+  "lon": 79.096635,
+  "tags": {
+   "name": "Krishnapuram",
+   "place": "hamlet",
+   "population": "249",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271508,
+  "lat": 11.2025736,
+  "lon": 79.1498917,
+  "tags": {
+   "name": "Kaveripalayam",
+   "place": "village",
+   "population": "634",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271509,
+  "lat": 11.212631,
+  "lon": 79.097436,
+  "tags": {
+   "name": "O.Koothur",
+   "place": "village",
+   "population": "810",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271510,
+  "lat": 11.1836624,
+  "lon": 79.1323264,
+  "tags": {
+   "name": "Salaikurichi",
+   "place": "village",
+   "population": "1465",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271511,
+  "lat": 11.1872499,
+  "lon": 79.1315543,
+  "tags": {
+   "name": "Kallamedu",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271512,
+  "lat": 11.2025016,
+  "lon": 79.1576381,
+  "tags": {
+   "name": "Mettupalayam",
+   "place": "village",
+   "population": "631",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271513,
+  "lat": 11.2261645,
+  "lon": 79.1778116,
+  "tags": {
+   "name": "Athikudikadu",
+   "place": "village",
+   "population": "814",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271514,
+  "lat": 11.2186272,
+  "lon": 79.1599127,
+  "tags": {
+   "name": "Rayampuram",
+   "place": "village",
+   "population": "1968",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271515,
+  "lat": 11.2106592,
+  "lon": 79.1652869,
+  "tags": {
+   "name": "Chinnasennivanam",
+   "place": "hamlet",
+   "population": "301",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271516,
+  "lat": 11.20912,
+  "lon": 79.1615611,
+  "tags": {
+   "name": "Sennivanam",
+   "place": "village",
+   "population": "748",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271517,
+  "lat": 11.24991,
+  "lon": 79.13465,
+  "tags": {
+   "name": "Vellur",
+   "place": "village",
+   "population": "770",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271518,
+  "lat": 11.2391686,
+  "lon": 79.1267711,
+  "tags": {
+   "name": "Illuppaiyur",
+   "place": "village",
+   "population": "1097",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271519,
+  "lat": 11.2332125,
+  "lon": 79.1493551,
+  "tags": {
+   "name": "Pottaveli",
+   "place": "village",
+   "population": "2238",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11231271520,
+  "lat": 11.2380313,
+  "lon": 79.1630425,
+  "tags": {
+   "name": "Agaram",
+   "place": "village",
+   "population": "687",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321819,
+  "lat": 11.2030898,
+  "lon": 79.4701214,
+  "tags": {
+   "name": "Keelasengalmedu",
+   "place": "village",
+   "population": "883",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321820,
+  "lat": 11.1910215,
+  "lon": 79.4446528,
+  "tags": {
+   "name": "Thottikulam",
+   "place": "village",
+   "population": "614",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321821,
+  "lat": 11.17857,
+  "lon": 79.47905,
+  "tags": {
+   "name": "Kuyavankuppam",
+   "place": "hamlet",
+   "population": "212",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321822,
+  "lat": 11.1984935,
+  "lon": 79.4818111,
+  "tags": {
+   "name": "Kulothunganallur",
+   "place": "hamlet",
+   "population": "336",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321823,
+  "lat": 11.2357809,
+  "lon": 79.410776,
+  "tags": {
+   "name": "Poovaikulam",
+   "place": "hamlet",
+   "population": "308",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321824,
+  "lat": 11.24228,
+  "lon": 79.42954,
+  "tags": {
+   "name": "VettiyarvettuColony",
+   "place": "village",
+   "population": "1550",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321825,
+  "lat": 11.2236217,
+  "lon": 79.4871946,
+  "tags": {
+   "name": "Veerapoham",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321826,
+  "lat": 11.2359374,
+  "lon": 79.4396892,
+  "tags": {
+   "name": "Pagalmedu",
+   "place": "village",
+   "population": "694",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321827,
+  "lat": 11.1736805,
+  "lon": 79.4241911,
+  "tags": {
+   "name": "NorthAyuthakalam",
+   "place": "village",
+   "population": "670",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321828,
+  "lat": 11.24226,
+  "lon": 79.44656,
+  "tags": {
+   "name": "Chathiram",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321829,
+  "lat": 11.1772317,
+  "lon": 79.4572311,
+  "tags": {
+   "name": "Thaluthalaimedu Colony",
+   "place": "hamlet",
+   "population": "280",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321830,
+  "lat": 11.2002305,
+  "lon": 79.4590643,
+  "tags": {
+   "name": "Manmalai",
+   "place": "hamlet",
+   "population": "200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321831,
+  "lat": 11.1959425,
+  "lon": 79.4627252,
+  "tags": {
+   "name": "Maikavalputhur",
+   "place": "hamlet",
+   "population": "200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321832,
+  "lat": 11.1942133,
+  "lon": 79.4796711,
+  "tags": {
+   "name": "Kulothunganallur Colony",
+   "place": "hamlet",
+   "population": "285",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321833,
+  "lat": 11.2490507,
+  "lon": 79.4007389,
+  "tags": {
+   "name": "Vizhapallam",
+   "place": "hamlet",
+   "population": "387",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321834,
+  "lat": 11.22443,
+  "lon": 79.48948,
+  "tags": {
+   "name": "Veerapoham Colony",
+   "place": "village",
+   "population": "1176",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321835,
+  "lat": 11.2191713,
+  "lon": 79.4295963,
+  "tags": {
+   "name": "PallarStreet",
+   "place": "village",
+   "population": "805",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251321836,
+  "lat": 11.2005062,
+  "lon": 79.4306313,
+  "tags": {
+   "name": "Edakattu colony",
+   "place": "village",
+   "population": "760",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345337,
+  "lat": 11.20696,
+  "lon": 79.43418,
+  "tags": {
+   "name": "Guruvalaparkoil",
+   "place": "village",
+   "population": "1260",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345338,
+  "lat": 11.1873094,
+  "lon": 79.4804974,
+  "tags": {
+   "name": "Valavaneri",
+   "place": "hamlet",
+   "population": "346",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345339,
+  "lat": 11.2452458,
+  "lon": 79.4501056,
+  "tags": {
+   "name": "chathiramColony",
+   "place": "hamlet",
+   "population": "325",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345340,
+  "lat": 11.1829753,
+  "lon": 79.4693809,
+  "tags": {
+   "name": "Vanavanallur",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345341,
+  "lat": 11.19969,
+  "lon": 79.4503,
+  "tags": {
+   "name": "Mettupalayam",
+   "place": "hamlet",
+   "population": "250",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345342,
+  "lat": 11.1806274,
+  "lon": 79.4200206,
+  "tags": {
+   "name": "Kokkaranai",
+   "place": "village",
+   "population": "888",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345343,
+  "lat": 11.2461647,
+  "lon": 79.4460821,
+  "tags": {
+   "name": "AlagarKoil",
+   "place": "hamlet",
+   "population": "180",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345344,
+  "lat": 11.2006945,
+  "lon": 79.4792698,
+  "tags": {
+   "name": "Pillaipalayam colony",
+   "place": "village",
+   "population": "684",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345345,
+  "lat": 11.1872258,
+  "lon": 79.4538508,
+  "tags": {
+   "name": "Veerareddustreet",
+   "place": "hamlet",
+   "population": "265",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345346,
+  "lat": 11.22153,
+  "lon": 79.4693,
+  "tags": {
+   "name": "Pallikondaperomal koil",
+   "place": "hamlet",
+   "population": "275",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345347,
+  "lat": 11.2244176,
+  "lon": 79.4553383,
+  "tags": {
+   "name": "Elaiyaperumalnallur",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345348,
+  "lat": 11.2126445,
+  "lon": 79.4750636,
+  "tags": {
+   "name": "Gangavadanganallur",
+   "place": "village",
+   "population": "1010",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345349,
+  "lat": 11.1901245,
+  "lon": 79.4325267,
+  "tags": {
+   "name": "Utkottai",
+   "place": "village",
+   "population": "1363",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345350,
+  "lat": 11.2352998,
+  "lon": 79.4499877,
+  "tags": {
+   "name": "Pallividai",
+   "place": "hamlet",
+   "population": "300",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345351,
+  "lat": 11.227459,
+  "lon": 79.493226,
+  "tags": {
+   "name": "Mandapatheri",
+   "place": "village",
+   "population": "4013",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345352,
+  "lat": 11.2077803,
+  "lon": 79.466755,
+  "tags": {
+   "name": "Sundipallam",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345353,
+  "lat": 11.20674,
+  "lon": 79.4885082,
+  "tags": {
+   "name": "kollapuram",
+   "place": "hamlet",
+   "population": "166",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345354,
+  "lat": 11.21205,
+  "lon": 79.46384,
+  "tags": {
+   "name": "kattukollai",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345355,
+  "lat": 11.2363423,
+  "lon": 79.3939869,
+  "tags": {
+   "name": "Pirancheri",
+   "place": "hamlet",
+   "population": "212",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345356,
+  "lat": 11.2088503,
+  "lon": 79.4581192,
+  "tags": {
+   "name": "Sambodai",
+   "place": "hamlet",
+   "population": "199",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345357,
+  "lat": 11.1842131,
+  "lon": 79.4321788,
+  "tags": {
+   "name": "Pottakulamcolony",
+   "place": "hamlet",
+   "population": "290",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345358,
+  "lat": 11.2302714,
+  "lon": 79.4532613,
+  "tags": {
+   "name": "Elaiyaperumalnallurcolony",
+   "place": "village",
+   "population": "672",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345359,
+  "lat": 11.1927802,
+  "lon": 79.4297075,
+  "tags": {
+   "name": "Edaikattu",
+   "place": "village",
+   "population": "414",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345360,
+  "lat": 11.18199,
+  "lon": 79.45223,
+  "tags": {
+   "name": "VanathirayanKuppam",
+   "place": "hamlet",
+   "population": "335",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345361,
+  "lat": 11.2115146,
+  "lon": 79.482056,
+  "tags": {
+   "name": "Gangavadanganallur Colony",
+   "place": "village",
+   "population": "540",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345362,
+  "lat": 11.1892379,
+  "lon": 79.4358492,
+  "tags": {
+   "name": "Utkottai Colony",
+   "place": "village",
+   "population": "827",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345363,
+  "lat": 11.1942457,
+  "lon": 79.4517288,
+  "tags": {
+   "name": "Mangadevanallur",
+   "place": "hamlet",
+   "population": "222",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345364,
+  "lat": 11.2205818,
+  "lon": 79.4709429,
+  "tags": {
+   "name": "Muthuservamadam",
+   "place": "village",
+   "population": "1048",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345365,
+  "lat": 11.174707,
+  "lon": 79.4569269,
+  "tags": {
+   "name": "Thaluthalaimedu",
+   "place": "village",
+   "population": "554",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345366,
+  "lat": 11.2117081,
+  "lon": 79.4508446,
+  "tags": {
+   "name": "kozhikondan",
+   "place": "village",
+   "population": "518",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345367,
+  "lat": 11.1865541,
+  "lon": 79.4367234,
+  "tags": {
+   "alt_name": "Kankanur",
+   "name": "Uthapallam",
+   "place": "village",
+   "population": "500",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345368,
+  "lat": 11.16911,
+  "lon": 79.44862,
+  "tags": {
+   "name": "Thoppapuram",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345369,
+  "lat": 11.2230607,
+  "lon": 79.4784483,
+  "tags": {
+   "name": "Kailasapuram",
+   "place": "hamlet",
+   "population": "250",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345370,
+  "lat": 11.2278802,
+  "lon": 79.4212,
+  "tags": {
+   "name": "Pitchanur",
+   "place": "village",
+   "population": "660",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345371,
+  "lat": 11.2465709,
+  "lon": 79.4285621,
+  "tags": {
+   "name": "Vettiyarvettu",
+   "place": "village",
+   "population": "1392",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345451,
+  "lat": 11.19166,
+  "lon": 79.41242,
+  "tags": {
+   "name": "kadarakondan",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345452,
+  "lat": 11.20817,
+  "lon": 79.40335,
+  "tags": {
+   "name": "Puduchavadi",
+   "place": "hamlet",
+   "population": "410",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345453,
+  "lat": 11.1859033,
+  "lon": 79.4173882,
+  "tags": {
+   "name": "Kadarakondancolony",
+   "place": "village",
+   "population": "600",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345454,
+  "lat": 11.1969596,
+  "lon": 79.3889038,
+  "tags": {
+   "name": "Periyavalayam",
+   "place": "village",
+   "population": "1049",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345455,
+  "lat": 11.1927759,
+  "lon": 79.3910294,
+  "tags": {
+   "name": "Periyavalayamcolony",
+   "place": "hamlet",
+   "population": "476",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345456,
+  "lat": 11.20463,
+  "lon": 79.40962,
+  "tags": {
+   "name": "Amanakanthondi",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345457,
+  "lat": 11.2101194,
+  "lon": 79.4089306,
+  "tags": {
+   "name": "Pudhchavadi colony",
+   "place": "hamlet",
+   "population": "410",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345458,
+  "lat": 11.15166,
+  "lon": 79.32152,
+  "tags": {
+   "name": "Pilichikuli",
+   "place": "hamlet",
+   "population": "359",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345459,
+  "lat": 11.1580312,
+  "lon": 79.3450389,
+  "tags": {
+   "name": "Vanathirayanpattinamcolony",
+   "place": "village",
+   "population": "1269",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345460,
+  "lat": 11.1438659,
+  "lon": 79.2863919,
+  "tags": {
+   "name": "Naduveli",
+   "place": "village",
+   "population": "850",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345461,
+  "lat": 11.1768536,
+  "lon": 79.367856,
+  "tags": {
+   "name": "Uthirakudi",
+   "place": "village",
+   "population": "1001",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345462,
+  "lat": 11.168899,
+  "lon": 79.3395009,
+  "tags": {
+   "name": "Kalchavadi",
+   "place": "hamlet",
+   "population": "345",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345463,
+  "lat": 11.2064158,
+  "lon": 79.339041,
+  "tags": {
+   "name": "Sooriyamanal",
+   "place": "village",
+   "population": "1001",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345464,
+  "lat": 11.1485184,
+  "lon": 79.3226119,
+  "tags": {
+   "name": "Kankeyankuruchi",
+   "place": "hamlet",
+   "population": "372",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345465,
+  "lat": 11.1736048,
+  "lon": 79.3183904,
+  "tags": {
+   "name": "Enthal",
+   "place": "hamlet",
+   "population": "325",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345466,
+  "lat": 11.1827912,
+  "lon": 79.3231308,
+  "tags": {
+   "name": "EdaiyarColony",
+   "place": "village",
+   "population": "790",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345467,
+  "lat": 11.172023,
+  "lon": 79.3551318,
+  "tags": {
+   "name": "Angarayanallur",
+   "place": "village",
+   "population": "1351",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345468,
+  "lat": 11.15032,
+  "lon": 79.2670571,
+  "tags": {
+   "name": "Melur",
+   "place": "village",
+   "population": "1350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345469,
+  "lat": 11.188476,
+  "lon": 79.3405242,
+  "tags": {
+   "name": "Soosaiyyaparpattinam",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345470,
+  "lat": 11.198241,
+  "lon": 79.3247786,
+  "tags": {
+   "name": "Thularankuruchi",
+   "place": "village",
+   "population": "1480",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345471,
+  "lat": 11.1874396,
+  "lon": 79.3321231,
+  "tags": {
+   "name": "Kallankulam",
+   "place": "village",
+   "population": "542",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345472,
+  "lat": 11.1561105,
+  "lon": 79.3232387,
+  "tags": {
+   "name": "Pilichikulicolony",
+   "place": "village",
+   "population": "502",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345473,
+  "lat": 11.1472332,
+  "lon": 79.3181699,
+  "tags": {
+   "name": "Kankeyankuruchicolony",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345474,
+  "lat": 11.165811,
+  "lon": 79.3703898,
+  "tags": {
+   "name": "Uthirakudicolony",
+   "place": "hamlet",
+   "population": "278",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345475,
+  "lat": 11.1745157,
+  "lon": 79.3595215,
+  "tags": {
+   "name": "Angarayanallur colony",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345476,
+  "lat": 11.1475595,
+  "lon": 79.2953834,
+  "tags": {
+   "name": "Cholankuruchicolony",
+   "place": "hamlet",
+   "population": "373",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345477,
+  "lat": 11.1990922,
+  "lon": 79.3313275,
+  "tags": {
+   "name": "Thularankuruchicolony",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345478,
+  "lat": 11.1510822,
+  "lon": 79.3480934,
+  "tags": {
+   "name": "Kattuchavadi",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345479,
+  "lat": 11.1942168,
+  "lon": 79.3138883,
+  "tags": {
+   "name": "Katchiperumal",
+   "place": "village",
+   "population": "1003",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345480,
+  "lat": 11.1334009,
+  "lon": 79.2714452,
+  "tags": {
+   "name": "Valavettikuppam",
+   "place": "village",
+   "population": "1002",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345481,
+  "lat": 11.1713763,
+  "lon": 79.3591078,
+  "tags": {
+   "name": "Angarayanallur old colony",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345482,
+  "lat": 11.16011,
+  "lon": 79.39093,
+  "tags": {
+   "name": "Devamangalam",
+   "place": "village",
+   "population": "2986",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345483,
+  "lat": 11.19384,
+  "lon": 79.34147,
+  "tags": {
+   "name": "Udaiyar Street",
+   "place": "hamlet",
+   "population": "500",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345484,
+  "lat": 11.15006,
+  "lon": 79.27368,
+  "tags": {
+   "name": "Kaikalatheru",
+   "place": "village",
+   "population": "679",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345485,
+  "lat": 11.151551,
+  "lon": 79.3188927,
+  "tags": {
+   "name": "Okkanatham",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345486,
+  "lat": 11.168789,
+  "lon": 79.3864391,
+  "tags": {
+   "name": "DevamangalamColony",
+   "place": "village",
+   "population": "614",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345487,
+  "lat": 11.159399,
+  "lon": 79.3392998,
+  "tags": {
+   "name": "Vanathirayanpattinam",
+   "place": "village",
+   "population": "2231",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345488,
+  "lat": 11.1340512,
+  "lon": 79.2643703,
+  "tags": {
+   "name": "Kudikadu",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345489,
+  "lat": 11.1416558,
+  "lon": 79.3291146,
+  "tags": {
+   "name": "Sarateri",
+   "place": "hamlet",
+   "population": "253",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345490,
+  "lat": 11.1856433,
+  "lon": 79.3670067,
+  "tags": {
+   "name": "Kaluvanthondi",
+   "place": "village",
+   "population": "1305",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345491,
+  "lat": 11.1826046,
+  "lon": 79.3176821,
+  "tags": {
+   "name": "Edaiyar",
+   "place": "village",
+   "population": "811",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345492,
+  "lat": 11.23609,
+  "lon": 79.34991,
+  "tags": {
+   "alt_name": "Kommedu",
+   "name": "Agarathan patti",
+   "place": "hamlet",
+   "population": "300",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345493,
+  "lat": 11.2144854,
+  "lon": 79.3253561,
+  "tags": {
+   "name": "Chettikulipallam",
+   "place": "hamlet",
+   "population": "240",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345494,
+  "lat": 11.2139348,
+  "lon": 79.3116727,
+  "tags": {
+   "name": "Elamangalam",
+   "place": "village",
+   "population": "590",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345495,
+  "lat": 11.2767212,
+  "lon": 79.3588505,
+  "tags": {
+   "name": "Marukkalankuruchi",
+   "place": "village",
+   "population": "857",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345496,
+  "lat": 11.2680203,
+  "lon": 79.3834977,
+  "tags": {
+   "name": "Vadaveekam",
+   "place": "village",
+   "population": "1100",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345497,
+  "lat": 11.2782205,
+  "lon": 79.3694879,
+  "tags": {
+   "name": "Mangalam",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345498,
+  "lat": 11.2645085,
+  "lon": 79.3785026,
+  "tags": {
+   "name": "Vadaveekamcolony",
+   "place": "village",
+   "population": "645",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345499,
+  "lat": 11.260156,
+  "lon": 79.3695533,
+  "tags": {
+   "name": "Thandalai",
+   "place": "village",
+   "population": "1600",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345500,
+  "lat": 11.258534,
+  "lon": 79.3750167,
+  "tags": {
+   "name": "kallathur",
+   "place": "village",
+   "population": "1800",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345501,
+  "lat": 11.2687962,
+  "lon": 79.3753511,
+  "tags": {
+   "name": "Thandalaicolony",
+   "place": "village",
+   "population": "890",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345502,
+  "lat": 11.26084,
+  "lon": 79.37996,
+  "tags": {
+   "name": "Kallathur Colony",
+   "place": "hamlet",
+   "population": "254",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345503,
+  "lat": 11.2560694,
+  "lon": 79.3835907,
+  "tags": {
+   "name": "Thenveekkam",
+   "place": "village",
+   "population": "504",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345504,
+  "lat": 11.2542003,
+  "lon": 79.3775749,
+  "tags": {
+   "name": "keelakudiyiruppu",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345505,
+  "lat": 11.2637157,
+  "lon": 79.4120527,
+  "tags": {
+   "name": "Murugankottai",
+   "place": "village",
+   "population": "505",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345506,
+  "lat": 11.2626026,
+  "lon": 79.399679,
+  "tags": {
+   "name": "Kalleri",
+   "place": "hamlet",
+   "population": "256",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345507,
+  "lat": 11.26415,
+  "lon": 79.41712,
+  "tags": {
+   "name": "Mathapuram",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345508,
+  "lat": 11.26498,
+  "lon": 79.42879,
+  "tags": {
+   "name": "Iruthayapuram",
+   "place": "village",
+   "population": "517",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345509,
+  "lat": 11.2845534,
+  "lon": 79.4276768,
+  "tags": {
+   "name": "Eravangudi",
+   "place": "village",
+   "population": "2000",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345510,
+  "lat": 11.2824387,
+  "lon": 79.438108,
+  "tags": {
+   "name": "Rathapuram",
+   "place": "village",
+   "population": "802",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345511,
+  "lat": 11.2772905,
+  "lon": 79.4084791,
+  "tags": {
+   "name": "Kumilanguzhi",
+   "place": "village",
+   "population": "663",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345512,
+  "lat": 11.2432282,
+  "lon": 79.4696781,
+  "tags": {
+   "alt_name": "Kundaveli",
+   "name": "Gundaveli",
+   "place": "village",
+   "population": "1700",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345513,
+  "lat": 11.2450436,
+  "lon": 79.4777528,
+  "tags": {
+   "name": "Vazhaikuttai",
+   "place": "hamlet",
+   "population": "400",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345514,
+  "lat": 11.2592879,
+  "lon": 79.4695724,
+  "tags": {
+   "name": "Chokkalingapuram Colony",
+   "place": "village",
+   "population": "599",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345515,
+  "lat": 11.2385729,
+  "lon": 79.4712273,
+  "tags": {
+   "alt_name": "Kundaveli Colony",
+   "name": "Gundaveli colony",
+   "place": "village",
+   "population": "919",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345516,
+  "lat": 11.2489278,
+  "lon": 79.4908946,
+  "tags": {
+   "name": "North Ramadevanallur",
+   "place": "village",
+   "population": "628",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345517,
+  "lat": 11.2455216,
+  "lon": 79.4932747,
+  "tags": {
+   "name": "South Ramadevanallur",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345518,
+  "lat": 11.2620704,
+  "lon": 79.4430437,
+  "tags": {
+   "name": "Salupai",
+   "place": "village",
+   "population": "550",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345519,
+  "lat": 11.2561342,
+  "lon": 79.4619535,
+  "tags": {
+   "name": "Odaperi",
+   "place": "hamlet",
+   "population": "300",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345520,
+  "lat": 11.2592081,
+  "lon": 79.44921,
+  "tags": {
+   "name": "Alathipallam",
+   "place": "hamlet",
+   "population": "245",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345521,
+  "lat": 11.23448,
+  "lon": 79.50437,
+  "tags": {
+   "name": "Kuttakarai",
+   "place": "village",
+   "population": "1723",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345522,
+  "lat": 11.2368131,
+  "lon": 79.4871948,
+  "tags": {
+   "name": "Pottakulam colony",
+   "place": "hamlet",
+   "population": "374",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345523,
+  "lat": 11.2355816,
+  "lon": 79.4929573,
+  "tags": {
+   "name": "Kattagaram",
+   "place": "hamlet",
+   "population": "251",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345524,
+  "lat": 11.254664,
+  "lon": 79.4816002,
+  "tags": {
+   "name": "Chokkalingapuram",
+   "place": "village",
+   "population": "700",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345525,
+  "lat": 11.2328621,
+  "lon": 79.4996619,
+  "tags": {
+   "name": "Kuttakaraicolony",
+   "place": "village",
+   "population": "1001",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345526,
+  "lat": 11.2866404,
+  "lon": 79.4863985,
+  "tags": {
+   "name": "PapakudiColony",
+   "place": "village",
+   "population": "851",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345527,
+  "lat": 11.2743477,
+  "lon": 79.4973683,
+  "tags": {
+   "name": "Melanikuli",
+   "place": "village",
+   "population": "4610",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345528,
+  "lat": 11.2636036,
+  "lon": 79.5035108,
+  "tags": {
+   "name": "Papanthoppu",
+   "place": "hamlet",
+   "population": "234",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345529,
+  "lat": 11.2782337,
+  "lon": 79.4848051,
+  "tags": {
+   "name": "Papakudi",
+   "place": "village",
+   "population": "1379",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345530,
+  "lat": 11.28371,
+  "lon": 79.45329,
+  "tags": {
+   "name": "Narasingapalayam",
+   "place": "village",
+   "population": "650",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345531,
+  "lat": 11.28468,
+  "lon": 79.44872,
+  "tags": {
+   "name": "Irular Street",
+   "place": "hamlet",
+   "population": "252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345532,
+  "lat": 11.2772748,
+  "lon": 79.4624742,
+  "tags": {
+   "name": "Vangudi",
+   "place": "village",
+   "population": "2640",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345533,
+  "lat": 11.2925821,
+  "lon": 79.4517227,
+  "tags": {
+   "name": "Chitheri",
+   "place": "hamlet",
+   "population": "180",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345534,
+  "lat": 11.2931784,
+  "lon": 79.4644942,
+  "tags": {
+   "alt_name": "A.N.Pettai",
+   "name": "Ayyappanayakanpettai",
+   "place": "village",
+   "population": "650",
+   "source:alt_name": "pmgsy",
+   "source:name": "SOI",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345535,
+  "lat": 11.3073443,
+  "lon": 79.4866387,
+  "tags": {
+   "name": "Kaduvetty",
+   "name:ml": "കാടുവെട്ടി",
+   "name:ta": "காடுவெட்டி",
+   "place": "village",
+   "population": "504",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11251345536,
+  "lat": 11.3026779,
+  "lon": 79.4758889,
+  "tags": {
+   "name": "Padanilai",
+   "place": "village",
+   "population": "600",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486913,
+  "lat": 11.1894443,
+  "lon": 79.2370973,
+  "tags": {
+   "name": "Kumiliyam",
+   "place": "village",
+   "population": "1915",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486914,
+  "lat": 11.201949,
+  "lon": 79.2328325,
+  "tags": {
+   "name": "North Irumbilikuruchi",
+   "place": "village",
+   "population": "1613",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486915,
+  "lat": 11.1647891,
+  "lon": 79.1895795,
+  "tags": {
+   "name": "Kilimangalam",
+   "place": "village",
+   "population": "586",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486916,
+  "lat": 11.2259997,
+  "lon": 79.2383017,
+  "tags": {
+   "name": "Sethalavadi",
+   "place": "village",
+   "population": "763",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486917,
+  "lat": 11.1675437,
+  "lon": 79.20853,
+  "tags": {
+   "name": "Saurikadu",
+   "place": "hamlet",
+   "population": "152",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486918,
+  "lat": 11.1937033,
+  "lon": 79.2576026,
+  "tags": {
+   "name": "Paranam",
+   "place": "village",
+   "population": "2989",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486919,
+  "lat": 11.1630831,
+  "lon": 79.2194752,
+  "tags": {
+   "name": "Valarakurichi",
+   "place": "village",
+   "population": "923",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486920,
+  "lat": 11.1924631,
+  "lon": 79.167742,
+  "tags": {
+   "name": "Chinna Anandhavadi",
+   "place": "village",
+   "population": "978",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486921,
+  "lat": 11.2324391,
+  "lon": 79.2743383,
+  "tags": {
+   "name": "Nagalkuzhi",
+   "place": "village",
+   "population": "1760",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486922,
+  "lat": 11.2278942,
+  "lon": 79.2869121,
+  "tags": {
+   "name": "Semmanpallam",
+   "place": "hamlet",
+   "population": "486",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486923,
+  "lat": 11.20087,
+  "lon": 79.18954,
+  "tags": {
+   "name": "Cholankuruchi",
+   "place": "village",
+   "population": "714",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486924,
+  "lat": 11.22883,
+  "lon": 79.25397,
+  "tags": {
+   "name": "Veerakkan",
+   "place": "village",
+   "population": "1783",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486925,
+  "lat": 11.1942264,
+  "lon": 79.234376,
+  "tags": {
+   "name": "Kunnakkanthondi",
+   "place": "hamlet",
+   "population": "158",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486926,
+  "lat": 11.1869144,
+  "lon": 79.1769162,
+  "tags": {
+   "name": "Periya Anandhavadi",
+   "place": "village",
+   "population": "1244",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486927,
+  "lat": 11.2200992,
+  "lon": 79.2525092,
+  "tags": {
+   "name": "Pillakurichi",
+   "place": "village",
+   "population": "2159",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486928,
+  "lat": 11.1980468,
+  "lon": 79.2148508,
+  "tags": {
+   "name": "Vennankurichi",
+   "place": "hamlet",
+   "population": "375",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486929,
+  "lat": 11.1770505,
+  "lon": 79.2149364,
+  "tags": {
+   "name": "Palayakudi",
+   "place": "village",
+   "population": "988",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486930,
+  "lat": 11.1944877,
+  "lon": 79.22532,
+  "tags": {
+   "name": "Irumbulikkuruchi",
+   "place": "village",
+   "population": "1615",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486931,
+  "lat": 11.2453199,
+  "lon": 79.1973986,
+  "tags": {
+   "name": "Pasalam",
+   "place": "hamlet",
+   "population": "238",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486932,
+  "lat": 11.275639,
+  "lon": 79.23351,
+  "tags": {
+   "name": "Sirukalathur",
+   "place": "village",
+   "population": "3617",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486933,
+  "lat": 11.2654678,
+  "lon": 79.2353919,
+  "tags": {
+   "name": "Velankuzhi",
+   "place": "village",
+   "population": "655",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486934,
+  "lat": 11.2256219,
+  "lon": 79.2040367,
+  "tags": {
+   "name": "Unjini",
+   "place": "village",
+   "population": "2784",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486935,
+  "lat": 11.2383207,
+  "lon": 79.1849733,
+  "tags": {
+   "name": "Elangaicheri",
+   "place": "village",
+   "population": "1102",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255486936,
+  "lat": 11.2709492,
+  "lon": 79.2364398,
+  "tags": {
+   "name": "Ponparappi",
+   "place": "village",
+   "population": "3592",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521337,
+  "lat": 11.2590128,
+  "lon": 79.1983567,
+  "tags": {
+   "name": "Villupankurichi",
+   "place": "hamlet",
+   "population": "241",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521338,
+  "lat": 11.2521865,
+  "lon": 79.2524765,
+  "tags": {
+   "name": "Mathumadakki",
+   "place": "village",
+   "population": "1364",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521339,
+  "lat": 11.2147129,
+  "lon": 79.2147057,
+  "tags": {
+   "name": "Sirukadampur",
+   "place": "village",
+   "population": "3984",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521340,
+  "lat": 11.2162453,
+  "lon": 79.1794329,
+  "tags": {
+   "name": "Keelarayampuram",
+   "place": "village",
+   "population": "936",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521341,
+  "lat": 11.2394949,
+  "lon": 79.1631864,
+  "tags": {
+   "name": "Kattaiyankudikadu",
+   "place": "hamlet",
+   "population": "400",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521342,
+  "lat": 11.2588369,
+  "lon": 79.2134334,
+  "tags": {
+   "name": "Maruvathur",
+   "place": "village",
+   "population": "1346",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521343,
+  "lat": 11.2614928,
+  "lon": 79.2543345,
+  "tags": {
+   "name": "Rajapalayam",
+   "place": "hamlet",
+   "population": "463",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521344,
+  "lat": 11.267541,
+  "lon": 79.2106708,
+  "tags": {
+   "name": "Sedakkudikadu",
+   "place": "village",
+   "population": "850",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521345,
+  "lat": 11.2380687,
+  "lon": 79.2008933,
+  "tags": {
+   "name": "Nallampalayam",
+   "place": "village",
+   "population": "1853",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521346,
+  "lat": 11.2717262,
+  "lon": 79.2304094,
+  "tags": {
+   "name": "Ponparappikudikadu",
+   "place": "village",
+   "population": "1162",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521347,
+  "lat": 11.257443,
+  "lon": 79.258516,
+  "tags": {
+   "name": "Keelamaligai",
+   "place": "village",
+   "population": "1261",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521348,
+  "lat": 11.2777745,
+  "lon": 79.1165208,
+  "tags": {
+   "name": "Palaiyur",
+   "place": "hamlet",
+   "population": "380",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521349,
+  "lat": 11.2675801,
+  "lon": 79.1776977,
+  "tags": {
+   "name": "Udayankudikadu",
+   "place": "hamlet",
+   "population": "186",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521350,
+  "lat": 11.2800022,
+  "lon": 79.1228158,
+  "tags": {
+   "name": "Namangunam",
+   "place": "village",
+   "population": "1269",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521351,
+  "lat": 11.2787754,
+  "lon": 79.1501908,
+  "tags": {
+   "name": "Perumandi",
+   "place": "village",
+   "population": "946",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521352,
+  "lat": 11.2666779,
+  "lon": 79.1252766,
+  "tags": {
+   "name": "Chokkanathapuram",
+   "place": "village",
+   "population": "964",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521353,
+  "lat": 11.2634157,
+  "lon": 79.1558246,
+  "tags": {
+   "name": "Nakkampadi",
+   "place": "village",
+   "population": "1537",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521354,
+  "lat": 11.2893,
+  "lon": 79.12109,
+  "tags": {
+   "name": "N.Kudikadu",
+   "place": "hamlet",
+   "population": "414",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521355,
+  "lat": 11.2921076,
+  "lon": 79.2041404,
+  "tags": {
+   "name": "Periyakurichi",
+   "place": "village",
+   "population": "2183",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521356,
+  "lat": 11.2870858,
+  "lon": 79.1300722,
+  "tags": {
+   "name": "Palamalainathapuram",
+   "place": "village",
+   "population": "833",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521357,
+  "lat": 11.29233,
+  "lon": 79.19169,
+  "tags": {
+   "name": "Uganthanayagankudikadu",
+   "place": "hamlet",
+   "population": "340",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521358,
+  "lat": 11.2798313,
+  "lon": 79.1851023,
+  "tags": {
+   "name": "Elaikadambur",
+   "place": "village",
+   "population": "1061",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521359,
+  "lat": 11.2713875,
+  "lon": 79.1572134,
+  "tags": {
+   "name": "Nakkambady colony",
+   "place": "village",
+   "population": "616",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521360,
+  "lat": 11.2865951,
+  "lon": 79.1842901,
+  "tags": {
+   "name": "Mamararankudikadu",
+   "place": "hamlet",
+   "population": "270",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521361,
+  "lat": 11.2884007,
+  "lon": 79.1544068,
+  "tags": {
+   "name": "Nallanayagapuram",
+   "place": "village",
+   "population": "1085",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521362,
+  "lat": 11.271213,
+  "lon": 79.1765452,
+  "tags": {
+   "name": "Ninniyur",
+   "place": "village",
+   "population": "1342",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521363,
+  "lat": 11.283515,
+  "lon": 79.1636996,
+  "tags": {
+   "name": "Vanjinapuram",
+   "place": "village",
+   "population": "897",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521364,
+  "lat": 11.32493,
+  "lon": 79.17066,
+  "tags": {
+   "name": "Vangaram",
+   "place": "village",
+   "population": "1271",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521365,
+  "lat": 11.3094573,
+  "lon": 79.2136896,
+  "tags": {
+   "name": "Kanjamalaipatti",
+   "place": "hamlet",
+   "population": "451",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521366,
+  "lat": 11.3196464,
+  "lon": 79.2082489,
+  "tags": {
+   "name": "R.S Mathur",
+   "place": "village",
+   "population": "660",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521367,
+  "lat": 11.3488957,
+  "lon": 79.2390598,
+  "tags": {
+   "name": "Chinnamelakudikadu",
+   "place": "hamlet",
+   "population": "243",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521368,
+  "lat": 11.313077,
+  "lon": 79.2065525,
+  "tags": {
+   "name": "Nainarkudikadu",
+   "place": "hamlet",
+   "population": "182",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521369,
+  "lat": 11.3701479,
+  "lon": 79.2589458,
+  "tags": {
+   "name": "Alathiyur",
+   "place": "village",
+   "population": "1290",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521370,
+  "lat": 11.3202193,
+  "lon": 79.2423165,
+  "tags": {
+   "name": "Marungoor",
+   "place": "village",
+   "population": "847",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521371,
+  "lat": 11.3467688,
+  "lon": 79.2458956,
+  "tags": {
+   "name": "Pudhupalayam",
+   "place": "village",
+   "population": "1242",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521372,
+  "lat": 11.3175891,
+  "lon": 79.2169587,
+  "tags": {
+   "name": "Kurichikulam",
+   "place": "village",
+   "population": "1273",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521373,
+  "lat": 11.2993862,
+  "lon": 79.1931036,
+  "tags": {
+   "name": "Nathakuzhi",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521374,
+  "lat": 11.3577116,
+  "lon": 79.2486911,
+  "tags": {
+   "name": "Athanakurichi",
+   "place": "village",
+   "population": "972",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521375,
+  "lat": 11.33621,
+  "lon": 79.23432,
+  "tags": {
+   "name": "Manakudaiyan",
+   "place": "village",
+   "population": "609",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521376,
+  "lat": 11.32183,
+  "lon": 79.20216,
+  "tags": {
+   "name": "Padavettikudikadu",
+   "place": "village",
+   "population": "760",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521377,
+  "lat": 11.3101824,
+  "lon": 79.232653,
+  "tags": {
+   "name": "Thular",
+   "place": "village",
+   "population": "759",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521378,
+  "lat": 11.3352719,
+  "lon": 79.2418285,
+  "tags": {
+   "name": "Chozhampatti",
+   "place": "hamlet",
+   "population": "307",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521379,
+  "lat": 11.3047154,
+  "lon": 79.1830061,
+  "tags": {
+   "name": "Nallan colony",
+   "place": "hamlet",
+   "population": "396",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521380,
+  "lat": 11.33062,
+  "lon": 79.22325,
+  "tags": {
+   "name": "Irungalakurichi",
+   "place": "village",
+   "population": "1169",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521381,
+  "lat": 11.3256818,
+  "lon": 79.2119462,
+  "tags": {
+   "name": "Marakurichi",
+   "place": "hamlet",
+   "population": "359",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521382,
+  "lat": 11.3116606,
+  "lon": 79.2260944,
+  "tags": {
+   "name": "Poomudaiyankudikadu",
+   "place": "village",
+   "population": "706",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521383,
+  "lat": 11.3163249,
+  "lon": 79.2022487,
+  "tags": {
+   "name": "Nanthiyan kudikadu",
+   "place": "village",
+   "population": "577",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521384,
+  "lat": 11.3587781,
+  "lon": 79.2729563,
+  "tags": {
+   "name": "Mudhukulam",
+   "place": "village",
+   "population": "1351",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521385,
+  "lat": 11.3055823,
+  "lon": 79.1799956,
+  "tags": {
+   "name": "Chithudaiyar",
+   "place": "hamlet",
+   "population": "476",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521386,
+  "lat": 11.3102339,
+  "lon": 79.2182657,
+  "tags": {
+   "name": "Alrankudikadu",
+   "place": "hamlet",
+   "population": "196",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521387,
+  "lat": 11.369689,
+  "lon": 79.253695,
+  "tags": {
+   "name": "Thetheri",
+   "place": "hamlet",
+   "population": "362",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521388,
+  "lat": 11.38018,
+  "lon": 79.2600482,
+  "tags": {
+   "alt_name": "Valasaundaracholapuram",
+   "name": "Kottaikadu",
+   "place": "village",
+   "population": "742",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521389,
+  "lat": 11.3654501,
+  "lon": 79.2524322,
+  "tags": {
+   "name": "Vadakkeri",
+   "place": "hamlet",
+   "population": "186",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521390,
+  "lat": 11.33387,
+  "lon": 79.18526,
+  "tags": {
+   "name": "Ayanthathanur",
+   "place": "village",
+   "population": "1330",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521391,
+  "lat": 11.360039,
+  "lon": 79.2529211,
+  "tags": {
+   "name": "Mullukurichi",
+   "place": "village",
+   "population": "1618",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521392,
+  "lat": 11.31328,
+  "lon": 79.19565,
+  "tags": {
+   "name": "Cholankudikadu",
+   "place": "village",
+   "population": "741",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521393,
+  "lat": 11.31113,
+  "lon": 79.18471,
+  "tags": {
+   "name": "Manapathur",
+   "place": "village",
+   "population": "1369",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521394,
+  "lat": 11.3225509,
+  "lon": 79.2093427,
+  "tags": {
+   "name": "Asaveerankudikadu",
+   "place": "village",
+   "population": "928",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521395,
+  "lat": 11.3662966,
+  "lon": 79.2142054,
+  "tags": {
+   "name": "Echankadu",
+   "place": "village",
+   "population": "864",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521396,
+  "lat": 11.3491673,
+  "lon": 79.2196302,
+  "tags": {
+   "name": "Madhuranagar",
+   "place": "hamlet",
+   "population": "162",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521397,
+  "lat": 11.3623704,
+  "lon": 79.1574179,
+  "tags": {
+   "name": "Palaya Anganur",
+   "place": "village",
+   "population": "551",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521398,
+  "lat": 11.3583153,
+  "lon": 79.2087721,
+  "tags": {
+   "name": "Thalavai",
+   "place": "village",
+   "population": "1770",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521399,
+  "lat": 11.3736759,
+  "lon": 79.2293296,
+  "tags": {
+   "name": "Senthamangalam",
+   "place": "village",
+   "population": "927",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521400,
+  "lat": 11.3571949,
+  "lon": 79.1606641,
+  "tags": {
+   "name": "Anganur",
+   "place": "village",
+   "population": "965",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521401,
+  "lat": 11.3639779,
+  "lon": 79.1717366,
+  "tags": {
+   "name": "Sivaramapuram",
+   "place": "village",
+   "population": "759",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521402,
+  "lat": 11.36843,
+  "lon": 79.18198,
+  "tags": {
+   "name": "Sannasinallur",
+   "place": "village",
+   "population": "1279",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521403,
+  "lat": 11.35381,
+  "lon": 79.2136466,
+  "tags": {
+   "name": "Sengamedu",
+   "place": "village",
+   "population": "600",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521404,
+  "lat": 11.3845,
+  "lon": 79.22783,
+  "tags": {
+   "name": "Siluppanur",
+   "place": "village",
+   "population": "829",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11255521405,
+  "lat": 11.3807862,
+  "lon": 79.2018142,
+  "tags": {
+   "name": "Thalavai-Kudaloor",
+   "place": "village",
+   "population": "680",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311390,
+  "lat": 10.9878102,
+  "lon": 79.2507762,
+  "tags": {
+   "name": "Thoothur",
+   "place": "village",
+   "population": "2360",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311391,
+  "lat": 10.9543515,
+  "lon": 79.1935639,
+  "tags": {
+   "name": "Keelaverapankurichi",
+   "place": "village",
+   "population": "656",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311392,
+  "lat": 10.966646,
+  "lon": 79.1274666,
+  "tags": {
+   "name": "Kumaramangalam",
+   "place": "hamlet",
+   "population": "302",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311393,
+  "lat": 10.9650717,
+  "lon": 79.1791196,
+  "tags": {
+   "name": "Sengarayankattalai",
+   "place": "village",
+   "population": "755",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311394,
+  "lat": 10.9920923,
+  "lon": 79.14828,
+  "tags": {
+   "name": "Narasingapuram",
+   "place": "hamlet",
+   "population": "360",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311395,
+  "lat": 10.99626,
+  "lon": 79.26815,
+  "tags": {
+   "name": "Vaippur",
+   "place": "hamlet",
+   "population": "427",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311396,
+  "lat": 11.0073342,
+  "lon": 79.1590433,
+  "tags": {
+   "name": "Periyapattakadu",
+   "place": "village",
+   "population": "843",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311397,
+  "lat": 10.98046,
+  "lon": 79.17834,
+  "tags": {
+   "name": "Chettikuzhi",
+   "place": "village",
+   "population": "2051",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311398,
+  "lat": 10.9758179,
+  "lon": 79.1161092,
+  "tags": {
+   "name": "Keelakolathur",
+   "place": "village",
+   "population": "2646",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311399,
+  "lat": 10.97673,
+  "lon": 79.22652,
+  "tags": {
+   "name": "Kuruvadi",
+   "place": "village",
+   "population": "2150",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311400,
+  "lat": 10.98319,
+  "lon": 79.2007,
+  "tags": {
+   "name": "Kamarasavalli",
+   "place": "village",
+   "population": "2051",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311401,
+  "lat": 10.9493721,
+  "lon": 79.2201779,
+  "tags": {
+   "name": "Melaramanallur",
+   "place": "village",
+   "population": "525",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311402,
+  "lat": 10.9734,
+  "lon": 79.20236,
+  "tags": {
+   "name": "Mathur",
+   "place": "village",
+   "population": "599",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311403,
+  "lat": 10.9677456,
+  "lon": 79.187472,
+  "tags": {
+   "name": "Vandarayankattalai",
+   "place": "village",
+   "population": "1095",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311404,
+  "lat": 10.96184,
+  "lon": 79.23024,
+  "tags": {
+   "name": "Keelaramanallur",
+   "place": "village",
+   "population": "669",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311405,
+  "lat": 10.95306,
+  "lon": 79.18941,
+  "tags": {
+   "name": "Melavarappankurichi",
+   "place": "village",
+   "population": "546",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311406,
+  "lat": 10.9680628,
+  "lon": 79.122284,
+  "tags": {
+   "name": "Vadugapalaiyam",
+   "place": "village",
+   "population": "1305",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311407,
+  "lat": 10.9928551,
+  "lon": 79.2285546,
+  "tags": {
+   "name": "Koman",
+   "place": "village",
+   "population": "640",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311408,
+  "lat": 10.96407,
+  "lon": 79.18792,
+  "tags": {
+   "name": "Arasancheri",
+   "place": "hamlet",
+   "population": "487",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311409,
+  "lat": 10.9543709,
+  "lon": 79.1428324,
+  "tags": {
+   "name": "Sullangudi",
+   "place": "village",
+   "population": "868",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311410,
+  "lat": 10.95646,
+  "lon": 79.20654,
+  "tags": {
+   "name": "Nathiyanoor",
+   "place": "village",
+   "population": "690",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311411,
+  "lat": 10.9560828,
+  "lon": 79.2022773,
+  "tags": {
+   "name": "Alagiyamanavalam",
+   "place": "village",
+   "population": "761",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311412,
+  "lat": 10.96493,
+  "lon": 79.21598,
+  "tags": {
+   "name": "Thelur",
+   "place": "village",
+   "population": "631",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311413,
+  "lat": 10.9132202,
+  "lon": 79.0092911,
+  "tags": {
+   "name": "Sembiyakudi",
+   "place": "village",
+   "population": "1582",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311414,
+  "lat": 10.9078529,
+  "lon": 79.0396816,
+  "tags": {
+   "name": "kandiratheetham",
+   "place": "village",
+   "population": "1765",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311415,
+  "lat": 10.9088386,
+  "lon": 79.0194311,
+  "tags": {
+   "name": "Adaikalapuram",
+   "place": "hamlet",
+   "population": "507",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311416,
+  "lat": 10.9179107,
+  "lon": 79.05004,
+  "tags": {
+   "name": "K Mettutheru",
+   "place": "village",
+   "population": "988",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311417,
+  "lat": 10.8953927,
+  "lon": 79.0367604,
+  "tags": {
+   "name": "Pudhukottai",
+   "place": "village",
+   "population": "1440",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311418,
+  "lat": 10.9134478,
+  "lon": 79.0133724,
+  "tags": {
+   "name": "Kulamanickam",
+   "place": "village",
+   "population": "2026",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311419,
+  "lat": 10.92019,
+  "lon": 79.06718,
+  "tags": {
+   "name": "Manalmedu",
+   "place": "hamlet",
+   "population": "140",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311420,
+  "lat": 10.9166147,
+  "lon": 79.0257677,
+  "tags": {
+   "name": "Vaithiyanathapuram",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311421,
+  "lat": 10.9050478,
+  "lon": 79.0328136,
+  "tags": {
+   "name": "Pakkiyanathapuram",
+   "place": "hamlet",
+   "population": "257",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311422,
+  "lat": 10.9360977,
+  "lon": 79.0809716,
+  "tags": {
+   "name": "Karaipakkam",
+   "place": "village",
+   "population": "1005",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311423,
+  "lat": 10.9363411,
+  "lon": 79.0859402,
+  "tags": {
+   "name": "Manjamedu",
+   "place": "village",
+   "population": "527",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311424,
+  "lat": 10.9383322,
+  "lon": 79.1174867,
+  "tags": {
+   "name": "Thiruvenganur",
+   "place": "village",
+   "population": "1484",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311425,
+  "lat": 10.9487651,
+  "lon": 79.0791008,
+  "tags": {
+   "name": "Senapathi",
+   "place": "village",
+   "population": "1305",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311426,
+  "lat": 10.94733,
+  "lon": 79.0891077,
+  "tags": {
+   "name": "Mudikondan",
+   "place": "village",
+   "population": "845",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311427,
+  "lat": 10.9636055,
+  "lon": 79.0501831,
+  "tags": {
+   "name": "Parathur",
+   "place": "village",
+   "population": "957",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311428,
+  "lat": 10.9601119,
+  "lon": 79.0596706,
+  "tags": {
+   "name": "Melakavattankuruchi",
+   "place": "hamlet",
+   "population": "415",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311429,
+  "lat": 10.960674,
+  "lon": 79.0637803,
+  "tags": {
+   "name": "Keezhakavattankuruchi",
+   "place": "village",
+   "population": "1567",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311430,
+  "lat": 10.9636692,
+  "lon": 79.0669574,
+  "tags": {
+   "name": "Kundapuram",
+   "place": "village",
+   "population": "1200",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311431,
+  "lat": 10.9616579,
+  "lon": 79.0498727,
+  "tags": {
+   "name": "Karaivetti",
+   "place": "village",
+   "population": "2013",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311432,
+  "lat": 10.9795854,
+  "lon": 79.0612096,
+  "tags": {
+   "name": "Thattanchavadi",
+   "place": "hamlet",
+   "population": "370",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311433,
+  "lat": 10.987,
+  "lon": 79.09359,
+  "tags": {
+   "name": "Vettriyur",
+   "place": "village",
+   "population": "1787",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311434,
+  "lat": 10.99559,
+  "lon": 79.08279,
+  "tags": {
+   "name": "Sathamangalam",
+   "place": "village",
+   "population": "1430",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311435,
+  "lat": 10.981397,
+  "lon": 79.0828938,
+  "tags": {
+   "name": "Viragalur",
+   "place": "village",
+   "population": "750",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311436,
+  "lat": 10.97552,
+  "lon": 79.09655,
+  "tags": {
+   "name": "Kallur",
+   "place": "village",
+   "population": "1450",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311437,
+  "lat": 10.9807705,
+  "lon": 79.071615,
+  "tags": {
+   "name": "Thirupaiyur",
+   "place": "village",
+   "population": "907",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311438,
+  "lat": 10.9667802,
+  "lon": 78.9510423,
+  "tags": {
+   "name": "A.V.K Colony",
+   "place": "suburb",
+   "population": "500",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311440,
+  "lat": 10.941769,
+  "lon": 78.9998917,
+  "tags": {
+   "name": "Vilagam",
+   "place": "village",
+   "population": "1495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311441,
+  "lat": 10.9817164,
+  "lon": 79.002305,
+  "tags": {
+   "name": "Korathakudi",
+   "place": "hamlet",
+   "population": "352",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311442,
+  "lat": 10.9596885,
+  "lon": 78.9750108,
+  "tags": {
+   "name": "Anandhawadi",
+   "place": "hamlet",
+   "population": "360",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311443,
+  "lat": 10.9576193,
+  "lon": 78.9726745,
+  "tags": {
+   "name": "Palinganatham",
+   "place": "village",
+   "population": "2054",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311444,
+  "lat": 10.9957564,
+  "lon": 79.0188259,
+  "tags": {
+   "name": "Angiyanoor",
+   "place": "village",
+   "population": "1385",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311445,
+  "lat": 11.0090393,
+  "lon": 79.0452059,
+  "tags": {
+   "name": "Ayansuthamalli",
+   "place": "village",
+   "population": "615",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311446,
+  "lat": 10.9946909,
+  "lon": 79.0537537,
+  "tags": {
+   "name": "Erakkudi",
+   "place": "hamlet",
+   "population": "380",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311447,
+  "lat": 10.9929271,
+  "lon": 79.0419832,
+  "tags": {
+   "name": "Vettakdui",
+   "place": "village",
+   "population": "615",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311448,
+  "lat": 11.0053463,
+  "lon": 79.0633181,
+  "tags": {
+   "name": "Puthur",
+   "place": "village",
+   "population": "636",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311449,
+  "lat": 11.0287148,
+  "lon": 79.0505313,
+  "tags": {
+   "name": "Malathankulam",
+   "place": "village",
+   "population": "750",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311450,
+  "lat": 11.0150239,
+  "lon": 79.0660471,
+  "tags": {
+   "name": "Melavannam",
+   "place": "hamlet",
+   "population": "499",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311451,
+  "lat": 11.0373597,
+  "lon": 79.0128981,
+  "tags": {
+   "name": "Kanikkapuram",
+   "name:ml": "കാണിക്കപുരം",
+   "name:ta": "காணிக்கைபுரம்",
+   "place": "hamlet",
+   "population": "380",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311452,
+  "lat": 11.02646,
+  "lon": 79.02576,
+  "tags": {
+   "name": "Poondi",
+   "place": "village",
+   "population": "1929",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311453,
+  "lat": 11.02682,
+  "lon": 79.014,
+  "tags": {
+   "name": "Kokkudi",
+   "name:ml": "കോക്കുടി",
+   "name:ta": "கோக்குடி",
+   "place": "village",
+   "population": "1348",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311454,
+  "lat": 11.0426976,
+  "lon": 79.0413903,
+  "tags": {
+   "name": "Melapalur",
+   "name:ml": "മേലപ്പലൂർ",
+   "name:ta": "மேலப்பலூர்",
+   "place": "village",
+   "population": "4422",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311455,
+  "lat": 11.09307,
+  "lon": 79.0646804,
+  "tags": {
+   "name": "Parpanacheri",
+   "place": "hamlet",
+   "population": "467",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311456,
+  "lat": 11.0872039,
+  "lon": 79.0780216,
+  "tags": {
+   "name": "Varanavasi",
+   "name:ml": "വാരണവാസി",
+   "name:ta": "வாரணவாசி",
+   "place": "village",
+   "population": "1717",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311457,
+  "lat": 11.0923216,
+  "lon": 79.1009674,
+  "tags": {
+   "name": "Mettukrishnapuram",
+   "place": "hamlet",
+   "population": "370",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311458,
+  "lat": 11.0826446,
+  "lon": 79.0801039,
+  "tags": {
+   "name": "Nallakapalayam",
+   "place": "hamlet",
+   "population": "580",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311459,
+  "lat": 11.0773295,
+  "lon": 79.0732243,
+  "tags": {
+   "name": "Samathuvapuram",
+   "place": "hamlet",
+   "population": "480",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311460,
+  "lat": 11.0783017,
+  "lon": 79.0857956,
+  "tags": {
+   "name": "Mallur",
+   "place": "hamlet",
+   "population": "420",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11331311461,
+  "lat": 11.0807195,
+  "lon": 79.04461,
+  "tags": {
+   "name": "Maravanur",
+   "place": "hamlet",
+   "population": "445",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600073,
+  "lat": 11.0088645,
+  "lon": 79.2393604,
+  "tags": {
+   "name": "Arakattalai",
+   "place": "village",
+   "population": "503",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600074,
+  "lat": 11.0241993,
+  "lon": 79.2179474,
+  "tags": {
+   "name": "Mazhavarayanallur",
+   "place": "hamlet",
+   "population": "430",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600075,
+  "lat": 11.0108988,
+  "lon": 79.229153,
+  "tags": {
+   "name": "Kadambur",
+   "place": "village",
+   "population": "1008",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600076,
+  "lat": 11.0124903,
+  "lon": 79.2198137,
+  "tags": {
+   "name": "Koilseemai",
+   "place": "village",
+   "population": "587",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600077,
+  "lat": 11.0368189,
+  "lon": 79.2079438,
+  "tags": {
+   "name": "Arasunilaiyettapuram",
+   "place": "hamlet",
+   "population": "105",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600078,
+  "lat": 11.0317575,
+  "lon": 79.3032875,
+  "tags": {
+   "name": "Keelagovindaputur",
+   "place": "village",
+   "population": "998",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600079,
+  "lat": 11.0247706,
+  "lon": 79.2858418,
+  "tags": {
+   "name": "Sathambady",
+   "place": "village",
+   "population": "1551",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600080,
+  "lat": 11.0291304,
+  "lon": 79.2600603,
+  "tags": {
+   "name": "Kunjuveli",
+   "place": "village",
+   "population": "735",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600081,
+  "lat": 11.0340236,
+  "lon": 79.3113026,
+  "tags": {
+   "name": "Arankottai",
+   "place": "village",
+   "population": "929",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600082,
+  "lat": 11.0200143,
+  "lon": 79.2724645,
+  "tags": {
+   "name": "Muthuvancheri",
+   "place": "village",
+   "population": "1596",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600083,
+  "lat": 11.0250121,
+  "lon": 79.2487196,
+  "tags": {
+   "name": "Gunamangalam",
+   "place": "village",
+   "population": "1632",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600084,
+  "lat": 11.041539,
+  "lon": 79.2985702,
+  "tags": {
+   "name": "Kumananthurai",
+   "place": "hamlet",
+   "population": "247",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600085,
+  "lat": 11.06149,
+  "lon": 79.30008,
+  "tags": {
+   "name": "Puthupalayam",
+   "place": "hamlet",
+   "population": "390",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600086,
+  "lat": 11.061636,
+  "lon": 79.3429308,
+  "tags": {
+   "name": "Arulmozhi",
+   "place": "village",
+   "population": "1252",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600087,
+  "lat": 11.0675348,
+  "lon": 79.2971605,
+  "tags": {
+   "name": "Kasankottai",
+   "place": "village",
+   "population": "2207",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600088,
+  "lat": 11.0796921,
+  "lon": 79.2826738,
+  "tags": {
+   "name": "Alampallam",
+   "place": "village",
+   "population": "632",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600089,
+  "lat": 11.0555921,
+  "lon": 79.2679963,
+  "tags": {
+   "name": "Puliyankuzhi",
+   "place": "village",
+   "population": "592",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600090,
+  "lat": 11.0524581,
+  "lon": 79.3393296,
+  "tags": {
+   "name": "Anaikudi",
+   "place": "village",
+   "population": "948",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600091,
+  "lat": 11.0826585,
+  "lon": 79.3513402,
+  "tags": {
+   "name": "Irugaiyur",
+   "place": "village",
+   "population": "1150",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600092,
+  "lat": 11.1019044,
+  "lon": 79.3308221,
+  "tags": {
+   "name": "Koozhattukuppam",
+   "place": "village",
+   "population": "653",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600093,
+  "lat": 11.0799227,
+  "lon": 79.3131161,
+  "tags": {
+   "name": "Palayankarai",
+   "place": "hamlet",
+   "population": "105",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600094,
+  "lat": 11.08213,
+  "lon": 79.33694,
+  "tags": {
+   "name": "Venanallur",
+   "place": "village",
+   "population": "950",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600095,
+  "lat": 11.0988682,
+  "lon": 79.3236805,
+  "tags": {
+   "name": "Kottiyal",
+   "place": "village",
+   "population": "700",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600096,
+  "lat": 11.08852,
+  "lon": 79.30659,
+  "tags": {
+   "name": "Karkudi",
+   "place": "village",
+   "population": "841",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600097,
+  "lat": 11.1028084,
+  "lon": 79.3054748,
+  "tags": {
+   "name": "Karaikattankurichi",
+   "place": "hamlet",
+   "population": "485",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600098,
+  "lat": 11.1145091,
+  "lon": 79.3935402,
+  "tags": {
+   "name": "Kurichi",
+   "place": "village",
+   "population": "518",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600099,
+  "lat": 11.08048,
+  "lon": 79.40315,
+  "tags": {
+   "name": "Melakudikadu",
+   "place": "village",
+   "population": "571",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600100,
+  "lat": 11.0708059,
+  "lon": 79.3802732,
+  "tags": {
+   "name": "Sethuvarayanatham",
+   "place": "hamlet",
+   "population": "110",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600101,
+  "lat": 11.09928,
+  "lon": 79.3865829,
+  "tags": {
+   "name": "Edanganni",
+   "place": "village",
+   "population": "1436",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600102,
+  "lat": 11.0910685,
+  "lon": 79.3797557,
+  "tags": {
+   "name": "South Thathampettai",
+   "place": "village",
+   "population": "1126",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600103,
+  "lat": 11.0999085,
+  "lon": 79.4136484,
+  "tags": {
+   "name": "Keelakudikadu",
+   "place": "hamlet",
+   "population": "499",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600104,
+  "lat": 11.0977821,
+  "lon": 79.3731044,
+  "tags": {
+   "name": "Vakkaramari",
+   "place": "hamlet",
+   "population": "176",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600105,
+  "lat": 11.07062,
+  "lon": 79.39324,
+  "tags": {
+   "name": "Adikkamalai",
+   "place": "hamlet",
+   "population": "210",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600106,
+  "lat": 11.0856244,
+  "lon": 79.3715928,
+  "tags": {
+   "name": "Srinivasapuram",
+   "place": "hamlet",
+   "population": "495",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600107,
+  "lat": 11.1036581,
+  "lon": 79.3721614,
+  "tags": {
+   "name": "Chinthamani",
+   "place": "village",
+   "population": "1061",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600108,
+  "lat": 11.0639404,
+  "lon": 79.361051,
+  "tags": {
+   "name": "Mathanathur",
+   "place": "village",
+   "population": "650",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600109,
+  "lat": 11.09086,
+  "lon": 79.4106312,
+  "tags": {
+   "name": "Thenkachiperumal Natham",
+   "place": "village",
+   "population": "909",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600110,
+  "lat": 11.0958995,
+  "lon": 79.3725065,
+  "tags": {
+   "alt_name": "Thattampettai Paluvur",
+   "name": "T.Palur",
+   "place": "village",
+   "population": "2550",
+   "source:alt_name": "SOI",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600111,
+  "lat": 11.0652984,
+  "lon": 79.3726688,
+  "tags": {
+   "name": "Vazhaikurichi",
+   "place": "village",
+   "population": "770",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600112,
+  "lat": 11.1032011,
+  "lon": 79.3904874,
+  "tags": {
+   "name": "Annakaranpettai",
+   "place": "village",
+   "population": "1064",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600113,
+  "lat": 11.09872,
+  "lon": 79.37712,
+  "tags": {
+   "name": "Pillayarkulam",
+   "place": "village",
+   "population": "506",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600114,
+  "lat": 11.0845767,
+  "lon": 79.3830406,
+  "tags": {
+   "name": "Balasundarapuram",
+   "place": "hamlet",
+   "population": "432",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600115,
+  "lat": 11.0696628,
+  "lon": 79.3595923,
+  "tags": {
+   "name": "Melamathanathur",
+   "place": "village",
+   "population": "802",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600116,
+  "lat": 11.1022007,
+  "lon": 79.3525442,
+  "tags": {
+   "name": "Keelamaikelpatti",
+   "place": "village",
+   "population": "534",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600117,
+  "lat": 11.115058,
+  "lon": 79.3520129,
+  "tags": {
+   "name": "Moorthiyan",
+   "place": "hamlet",
+   "population": "290",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600118,
+  "lat": 11.11841,
+  "lon": 79.3727,
+  "tags": {
+   "name": "Kodangudi",
+   "place": "village",
+   "population": "1064",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600119,
+  "lat": 11.11429,
+  "lon": 79.36407,
+  "tags": {
+   "name": "Panayadi",
+   "place": "hamlet",
+   "population": "379",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600120,
+  "lat": 11.1271299,
+  "lon": 79.3432602,
+  "tags": {
+   "name": "Nayaganaipiriyal",
+   "place": "village",
+   "population": "2356",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600121,
+  "lat": 11.11351,
+  "lon": 79.30032,
+  "tags": {
+   "name": "Vathikudikadu",
+   "place": "hamlet",
+   "population": "240",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600122,
+  "lat": 11.1143963,
+  "lon": 79.333475,
+  "tags": {
+   "name": "Melamaikelpatti",
+   "place": "village",
+   "population": "1603",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600123,
+  "lat": 11.13063,
+  "lon": 79.32059,
+  "tags": {
+   "name": "Nallanam",
+   "place": "village",
+   "population": "507",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600124,
+  "lat": 11.11308,
+  "lon": 79.31374,
+  "tags": {
+   "name": "Singarayapuram",
+   "place": "village",
+   "population": "575",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600125,
+  "lat": 11.13114,
+  "lon": 79.29506,
+  "tags": {
+   "name": "Azhisukudi",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600126,
+  "lat": 11.12299,
+  "lon": 79.31683,
+  "tags": {
+   "name": "Kaduvettankurichi",
+   "place": "village",
+   "population": "874",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600127,
+  "lat": 11.1356396,
+  "lon": 79.3749221,
+  "tags": {
+   "name": "Anaikudam",
+   "place": "village",
+   "population": "2069",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600128,
+  "lat": 11.14249,
+  "lon": 79.36087,
+  "tags": {
+   "name": "Arthaneri",
+   "place": "village",
+   "population": "510",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600129,
+  "lat": 11.1319212,
+  "lon": 79.3631475,
+  "tags": {
+   "name": "Porpathinthanallur",
+   "place": "village",
+   "population": "694",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600130,
+  "lat": 11.1345596,
+  "lon": 79.4149168,
+  "tags": {
+   "name": "Ayeepalayam",
+   "place": "hamlet",
+   "population": "326",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600131,
+  "lat": 11.1428884,
+  "lon": 79.4002037,
+  "tags": {
+   "name": "Amirtharayankottai",
+   "place": "village",
+   "population": "1029",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600132,
+  "lat": 11.1346858,
+  "lon": 79.4223598,
+  "tags": {
+   "name": "Thoobapuram",
+   "place": "village",
+   "population": "640",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600133,
+  "lat": 11.1325537,
+  "lon": 79.3990923,
+  "tags": {
+   "name": "Cholamadevi",
+   "place": "village",
+   "population": "1120",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600134,
+  "lat": 11.13234,
+  "lon": 79.41141,
+  "tags": {
+   "name": "Ambikapuram",
+   "place": "village",
+   "population": "505",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600135,
+  "lat": 11.1306868,
+  "lon": 79.4194244,
+  "tags": {
+   "name": "Kodalikaruppur",
+   "place": "village",
+   "population": "2712",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600136,
+  "lat": 11.1307573,
+  "lon": 79.414476,
+  "tags": {
+   "name": "Vakkaramari",
+   "place": "hamlet",
+   "population": "396",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600137,
+  "lat": 11.15311,
+  "lon": 79.40645,
+  "tags": {
+   "name": "Udayanatham",
+   "place": "village",
+   "population": "1534",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600138,
+  "lat": 11.1453732,
+  "lon": 79.4397334,
+  "tags": {
+   "name": "Kandiyankollai",
+   "place": "village",
+   "population": "1318",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600139,
+  "lat": 11.1536795,
+  "lon": 79.427925,
+  "tags": {
+   "name": "Kodali",
+   "place": "village",
+   "population": "1288",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600140,
+  "lat": 11.1447005,
+  "lon": 79.4486595,
+  "tags": {
+   "name": "Vadavarthalaipu",
+   "place": "hamlet",
+   "population": "350",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600141,
+  "lat": 11.1528811,
+  "lon": 79.4151532,
+  "tags": {
+   "name": "Thinakudi",
+   "place": "village",
+   "population": "610",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600142,
+  "lat": 11.1641808,
+  "lon": 79.4540435,
+  "tags": {
+   "name": "Kuzhavadayan",
+   "place": "village",
+   "population": "590",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600143,
+  "lat": 11.16708,
+  "lon": 79.44401,
+  "tags": {
+   "name": "North vembukudi",
+   "place": "hamlet",
+   "population": "386",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600144,
+  "lat": 11.1636813,
+  "lon": 79.4359043,
+  "tags": {
+   "name": "Kakkaneri",
+   "place": "hamlet",
+   "population": "386",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600145,
+  "lat": 11.1603804,
+  "lon": 79.441413,
+  "tags": {
+   "name": "Vembukudi",
+   "place": "hamlet",
+   "population": "484",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600146,
+  "lat": 11.1542131,
+  "lon": 79.4487534,
+  "tags": {
+   "name": "Thenavanallur",
+   "place": "village",
+   "population": "542",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600147,
+  "lat": 11.0684281,
+  "lon": 79.2111673,
+  "tags": {
+   "name": "Perumaltheeyanur",
+   "place": "hamlet",
+   "population": "456",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600148,
+  "lat": 11.0511279,
+  "lon": 79.2101865,
+  "tags": {
+   "name": "Udayavartheeyanur",
+   "place": "village",
+   "population": "512",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600149,
+  "lat": 11.0603822,
+  "lon": 79.2142596,
+  "tags": {
+   "name": "Senkuzhi",
+   "place": "village",
+   "population": "501",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600150,
+  "lat": 11.0581958,
+  "lon": 79.1985396,
+  "tags": {
+   "name": "Ambalavarkattalai",
+   "place": "hamlet",
+   "population": "272",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600151,
+  "lat": 11.0441252,
+  "lon": 79.2275944,
+  "tags": {
+   "name": "Vikramangalam",
+   "place": "village",
+   "population": "1700",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600152,
+  "lat": 11.0528624,
+  "lon": 79.2367613,
+  "tags": {
+   "name": "Alavoi",
+   "place": "village",
+   "population": "1012",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600153,
+  "lat": 11.049094,
+  "lon": 79.2258956,
+  "tags": {
+   "name": "Ambapur",
+   "place": "village",
+   "population": "910",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379600154,
+  "lat": 11.0424427,
+  "lon": 79.2351385,
+  "tags": {
+   "name": "Keelanatham",
+   "place": "village",
+   "population": "1453",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603971,
+  "lat": 11.0932494,
+  "lon": 79.2598412,
+  "tags": {
+   "name": "Anikurichi",
+   "place": "village",
+   "population": "602",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603972,
+  "lat": 11.090413,
+  "lon": 79.2494916,
+  "tags": {
+   "name": "Nariyankuzhi",
+   "place": "hamlet",
+   "population": "105",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603973,
+  "lat": 11.095191,
+  "lon": 79.2155118,
+  "tags": {
+   "name": "Kolayanur",
+   "place": "village",
+   "population": "687",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603974,
+  "lat": 11.0723171,
+  "lon": 79.2526546,
+  "tags": {
+   "name": "Salai",
+   "place": "hamlet",
+   "population": "277",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603975,
+  "lat": 11.0830408,
+  "lon": 79.228115,
+  "tags": {
+   "name": "Ulliyakudi",
+   "place": "village",
+   "population": "1050",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603976,
+  "lat": 11.1122996,
+  "lon": 79.2231559,
+  "tags": {
+   "name": "Athichanur",
+   "place": "village",
+   "population": "880",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603977,
+  "lat": 11.1163629,
+  "lon": 79.2853114,
+  "tags": {
+   "name": "Parukkal",
+   "place": "village",
+   "population": "1564",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603978,
+  "lat": 11.1202606,
+  "lon": 79.2472185,
+  "tags": {
+   "name": "Venvankondan",
+   "place": "village",
+   "population": "2680",
+   "source:name": "SOI",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11379603979,
+  "lat": 11.1224944,
+  "lon": 79.2642405,
+  "tags": {
+   "name": "Vadakadal",
+   "place": "village",
+   "population": "667",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11391522576,
+  "lat": 11.15489,
+  "lon": 79.06392,
+  "tags": {
+   "name": "Kuringipadi",
+   "place": "hamlet",
+   "population": "416",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11393279951,
+  "lat": 11.3037333,
+  "lon": 79.1487006,
+  "tags": {
+   "name": "Kiliyapattu",
+   "place": "village",
+   "population": "641",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13245734416,
+  "lat": 11.2633342,
+  "lon": 79.1571653,
+  "tags": {
+   "name": "நம்ம நக்கம்பாடி",
+   "place": "village",
+   "population": "2000"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13931254616,
+  "lat": 11.2510447,
+  "lon": 79.3255209,
+  "tags": {
+   "name": "karaimedu (north)",
+   "place": "village"
+  }
+ }
+]
