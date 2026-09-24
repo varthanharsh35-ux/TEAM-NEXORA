@@ -117,7 +117,12 @@ substitute an estimate for a measurement.
 
 ## Phase 2 — the differentiator
 
-### Task 2.1 — Driver engine [CORE]
+### Task 2.1 — Driver engine [CORE] — DONE
+**Result:** `data/drivers.json` (18 driver kinds, 13 sector weight matrices, half-life decay
+classes, caps, bands) and `backend/drivers.py`. Wired into `geography.nearby`, which now fills
+the `drivers` layer and returns `demand_score`. Worked examples reproduce: cafe near a college
+cluster 57 `good`, warehouse near an Amazon FC 48 `fair` (documented prediction was 48).
+17 driver tests; 77 backend tests pass.
 **Files:** `data/drivers.json` (new), `backend/drivers.py` (new), tests
 **Do:** Implement `PERSONALIZATION.md` sections 3 and 4 — taxonomy, anchored selectors,
 weight matrix, half-life distance decay, caps, `demand_score` with band, and `drivers[]`

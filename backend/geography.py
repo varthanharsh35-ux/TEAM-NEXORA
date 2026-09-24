@@ -245,13 +245,15 @@ def nearby(lat, lon, category, radius_km=15, cache_only=False):
                 fail("rate_limited", 429, "overpass_request_interval")
             LAST = time.monotonic()
         around = f"(around:{radius_m},{lat},{lon})"
+        import drivers as driver_engine
         selected = dict.fromkeys(
             ('["amenity"~"^bank$|^post_office$"]',)
             + tuple(selectors["direct"])
             + tuple(selectors["adjacent"])
+            + tuple(driver_engine.all_selectors())
         )
         clauses = "".join(f"nwr{selector}{around};" for selector in selected)
-        query = f"[out:json][timeout:12];({clauses});out center 250;"
+        query = f"[out:json][timeout:12];({clauses});out center 800;"
         with httpx.Client(timeout=16) as client:
             response = client.get(
                 source_url,
@@ -329,10 +331,14 @@ def nearby(lat, lon, category, radius_km=15, cache_only=False):
                     "emoji": "\U0001f3ea",
                 })
         layers["competitors"].sort(key=lambda point: (point["distance_m"], point["id"]))
+        layers["drivers"].sort(key=lambda point: (point["distance_m"], point["id"]))
+        assessment = driver_engine.score(category, layers["drivers"], layers["competitors"])
         result = {
             "layers": layers,
             "centre": {"lat": lat, "lon": lon},
             "radius_km": int(radius_km),
+            "drivers": assessment["drivers"],
+            "demand_score": assessment["demand_score"],
             "observed": observed,
             "completeness": "partial" if has_selectors else "unknown",
             "completeness_note_key": (
