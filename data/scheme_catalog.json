@@ -1,50 +1,1529 @@
 {
   "checked": "2026-09-24",
+  "next_check": "2026-09-25",
   "schemes": [
     {
-      "id": "micro",
-      "community": "sc",
-      "income_limit": 500000,
-      "share": 0.9,
-      "minimum_project": 0,
-      "maximum_project": 140000,
-      "loan_cap": 125000,
-      "rate": 6.5,
-      "tenure": 36,
-      "moratorium": 3,
-      "source": "https://nsfdc.nic.in/faqs",
-      "apply": "https://pmsuraj.dosje.gov.in/",
-      "gender": "any"
+      "id": "nsfdc.micro",
+      "name": {
+        "en": "NSFDC Micro Finance"
+      },
+      "agency": "NSFDC",
+      "eligibility": {
+        "community": [
+          "sc"
+        ],
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": 500000,
+        "income_limit_urban": 500000,
+        "sectors": "any",
+        "stage": [
+          "new",
+          "expansion"
+        ],
+        "education": null
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": 0.9,
+        "project_min": null,
+        "project_max": 140000,
+        "loan_cap": 125000,
+        "interest_rate": 6.5,
+        "tenure_months": 36,
+        "moratorium_months": 3,
+        "subsidy": null
+      },
+      "documents": [
+        {
+          "id": "caste_certificate",
+          "label_key": "docs.caste_certificate",
+          "mandatory": true
+        },
+        {
+          "id": "income_certificate",
+          "label_key": "docs.income_certificate",
+          "mandatory": true
+        }
+      ],
+      "apply_url": "https://pmsuraj.dosje.gov.in/",
+      "source_url": "https://nsfdc.nic.in/faqs",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Income ceiling effective 7 January 2026. Channel agency confirms remaining contribution.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.project_min",
+        "terms.subsidy"
+      ],
+      "provenance": {
+        "source": "NSFDC",
+        "source_url": "https://nsfdc.nic.in/faqs",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
     },
     {
-      "id": "term",
-      "community": "sc",
-      "income_limit": 500000,
-      "share": 0.9,
-      "minimum_project": 140000,
-      "maximum_project": 5000000,
-      "loan_cap": 4500000,
-      "rate": 8,
-      "tenure": 84,
-      "moratorium": 6,
-      "source": "https://nsfdc.nic.in/faqs",
-      "apply": "https://pmsuraj.dosje.gov.in/",
-      "gender": "any"
+      "id": "nsfdc.term",
+      "name": {
+        "en": "NSFDC Term Loan"
+      },
+      "agency": "NSFDC",
+      "eligibility": {
+        "community": [
+          "sc"
+        ],
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": 500000,
+        "income_limit_urban": 500000,
+        "sectors": "any",
+        "stage": [
+          "new",
+          "expansion"
+        ],
+        "education": null,
+        "project_min_exclusive": true
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": 0.9,
+        "project_min": 140000,
+        "project_max": 5000000,
+        "loan_cap": 4500000,
+        "interest_rate": 8,
+        "tenure_months": 84,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        {
+          "id": "caste_certificate",
+          "label_key": "docs.caste_certificate",
+          "mandatory": true
+        },
+        {
+          "id": "income_certificate",
+          "label_key": "docs.income_certificate",
+          "mandatory": true
+        }
+      ],
+      "apply_url": "https://pmsuraj.dosje.gov.in/",
+      "source_url": "https://nsfdc.nic.in/faqs",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Income ceiling effective 7 January 2026. Channel agency confirms remaining contribution. Grace is 6 months normally, 12 for plantation/construction; confirm activity.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.moratorium_months",
+        "terms.subsidy"
+      ],
+      "provenance": {
+        "source": "NSFDC",
+        "source_url": "https://nsfdc.nic.in/faqs",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "term_options": [
+        {
+          "when": {
+            "field": "extended_gestation",
+            "op": "eq",
+            "value": false
+          },
+          "terms": {
+            "moratorium_months": 6
+          }
+        },
+        {
+          "when": {
+            "field": "extended_gestation",
+            "op": "eq",
+            "value": true
+          },
+          "terms": {
+            "moratorium_months": 12
+          }
+        }
+      ],
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
     },
     {
-      "id": "nbcfdc",
-      "community": "obc",
-      "income_limit": 300000,
-      "share": 0.85,
-      "minimum_project": 0,
-      "maximum_project": null,
-      "loan_cap": 1500000,
-      "rate": null,
-      "tenure": null,
-      "moratorium": 3,
-      "source": "https://nbcfdc.gov.in/nbcfdc/web/sites/default/files/2025-12/Annual%20report%202024-25_0.pdf",
-      "apply": "https://nbcfdc.gov.in/nbcfdc/web/howapply",
-      "gender": "any"
+      "id": "nsfdc.mahila_samriddhi",
+      "name": {
+        "en": "NSFDC Mahila Samriddhi"
+      },
+      "agency": "NSFDC",
+      "eligibility": {
+        "community": [
+          "sc"
+        ],
+        "gender": "female",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": null,
+        "stage": null,
+        "education": null
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://coochbehar.gov.in/wbscst-finance-development-and-corporation/",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Official district listing confirms SC women coverage. Current Tamil Nadu availability and financial terms not verified; historical figures are deliberately not reused.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.sectors",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url",
+        "availability_confirmed"
+      ],
+      "provenance": {
+        "source": "NSFDC",
+        "source_url": "https://coochbehar.gov.in/wbscst-finance-development-and-corporation/",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "availability_confirmed": null,
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "nbcfdc.term",
+      "name": {
+        "en": "NBCFDC Individual Term Loan"
+      },
+      "agency": "NBCFDC",
+      "eligibility": {
+        "community": [
+          "obc"
+        ],
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": 500000,
+        "income_limit_urban": 500000,
+        "sectors": "any",
+        "stage": null,
+        "education": null
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": 0.85,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 2500000,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://www.nbcfdc.gov.in/nbcfdc/web/individual-loan-scheme",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Channel partner and beneficiary together provide 15%; own share is not fixed. Repayment inclusion of grace is not specified. Rates depend on requested loan.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "NBCFDC",
+        "source_url": "https://www.nbcfdc.gov.in/nbcfdc/web/individual-loan-scheme",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "term_options": [
+        {
+          "when": {
+            "field": "loan_amount",
+            "op": "lte",
+            "value": 125000
+          },
+          "terms": {
+            "interest_rate": 7
+          }
+        },
+        {
+          "when": {
+            "all": [
+              {
+                "field": "loan_amount",
+                "op": "gt",
+                "value": 125000
+              },
+              {
+                "field": "loan_amount",
+                "op": "lte",
+                "value": 2500000
+              }
+            ]
+          },
+          "terms": {
+            "interest_rate": 8
+          }
+        }
+      ],
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "nbcfdc.micro",
+      "name": {
+        "en": "NBCFDC Micro Finance"
+      },
+      "agency": "NBCFDC",
+      "eligibility": {
+        "community": null,
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": 300000,
+        "income_limit_urban": 300000,
+        "sectors": "any",
+        "stage": null,
+        "education": null,
+        "requirements": [
+          {
+            "any": [
+              {
+                "field": "community",
+                "op": "in",
+                "value": [
+                  "obc"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "field": "weaker_section",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "field": "shg_member",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "field": "shg_obc_percentage",
+                    "op": "gte",
+                    "value": 60
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": 0.9,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 125000,
+        "interest_rate": 5,
+        "tenure_months": 48,
+        "moratorium_months": 6,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://www.nbcfdc.gov.in/nbcfdc/web/loan-scheme-description6",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Individual borrower limits. Non-OBC weaker-section members can participate through a qualifying SHG; do not reject them solely on caste. Remaining 10% is partner/beneficiary combined.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "NBCFDC",
+        "source_url": "https://www.nbcfdc.gov.in/nbcfdc/web/loan-scheme-description6",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [
+        "eligibility.community"
+      ],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "nskfdc.term",
+      "name": {
+        "en": "NSKFDC General Term Loan"
+      },
+      "agency": "NSKFDC",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": null,
+        "education": null,
+        "requirements": [
+          {
+            "field": "sanitation_worker_or_dependant",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 1500000,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://www.nskfdc.nic.in/en/content/home/schemes-programmes",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Occupation based, including dependants, not caste based. Published repayment is 10 years AFTER 120 days implementation and 180 days moratorium; month-based total remains unverified.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "NSKFDC",
+        "source_url": "https://www.nskfdc.nic.in/en/content/home/schemes-programmes",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "sources": [
+        "https://www.nskfdc.nic.in/en/content/home/faq"
+      ],
+      "term_options": [
+        {
+          "when": {
+            "field": "loan_amount",
+            "op": "lte",
+            "value": 1000000
+          },
+          "terms": {
+            "interest_rate": 8
+          }
+        },
+        {
+          "when": {
+            "all": [
+              {
+                "field": "loan_amount",
+                "op": "gt",
+                "value": 1000000
+              },
+              {
+                "field": "loan_amount",
+                "op": "lte",
+                "value": 1500000
+              }
+            ]
+          },
+          "terms": {
+            "interest_rate": 9
+          }
+        }
+      ],
+      "unrestricted": [
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban"
+      ],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "nhfdc.swavalamban",
+      "name": {
+        "en": "NHFDC / NDFDC Divyangjan Swavalamban Yojana"
+      },
+      "agency": "NDFDC (formerly NHFDC)",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": [
+          "new",
+          "expansion"
+        ],
+        "education": null,
+        "requirements": [
+          {
+            "field": "person_with_disability",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://depwd.gov.in/en/national-handicapped-finance-and-development-corporation/",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Ministry confirms income-generating disability support. Detailed guideline PDF could not be retrieved reliably; age, disability threshold, rates and limits require agency confirmation.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "NDFDC (formerly NHFDC)",
+        "source_url": "https://depwd.gov.in/en/national-handicapped-finance-and-development-corporation/",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "nmdfc.term_cl1",
+      "name": {
+        "en": "NMDFC Term Loan - Credit Line 1"
+      },
+      "agency": "NMDFC",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": null,
+        "education": null,
+        "requirements": [
+          {
+            "field": "religion",
+            "op": "in",
+            "value": [
+              "muslim",
+              "christian",
+              "sikh",
+              "buddhist",
+              "parsi",
+              "jain"
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://www.nmdfc.org/nmdfcschemes",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Credit Line 1 only. Numeric figures previously read from indexed official-source text were removed: the current source page returned no readable terms during recheck. Confirm income limits, cap, interest and repayment with NMDFC. Religion is separate from caste.",
+      "unverified": [
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.tenure_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.moratorium_months"
+      ],
+      "provenance": {
+        "source": "NMDFC",
+        "source_url": "https://www.nmdfc.org/nmdfcschemes",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "tahdco.cm_arise",
+      "name": {
+        "en": "TAHDCO CM-ARISE"
+      },
+      "agency": "TAHDCO",
+      "eligibility": {
+        "community": [
+          "sc",
+          "st"
+        ],
+        "gender": "any",
+        "age": {
+          "min": 18,
+          "max": 55
+        },
+        "income_limit_rural": 300000,
+        "income_limit_urban": 300000,
+        "sectors": "any",
+        "stage": [
+          "new"
+        ],
+        "education": "any",
+        "state": [
+          "tamil nadu"
+        ],
+        "income_boundary_uncertain": true
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": {
+          "rate": 0.35,
+          "cap": 350000
+        }
+      },
+      "documents": [
+        {
+          "id": "aadhaar",
+          "label_key": "docs.aadhaar",
+          "mandatory": true
+        },
+        {
+          "id": "ration_card",
+          "label_key": "docs.ration_card",
+          "mandatory": true
+        },
+        {
+          "id": "caste_certificate",
+          "label_key": "docs.caste_certificate",
+          "mandatory": true
+        },
+        {
+          "id": "project_report",
+          "label_key": "docs.project_report",
+          "mandatory": true
+        },
+        {
+          "id": "income_certificate",
+          "label_key": "docs.income_certificate",
+          "mandatory": true
+        }
+      ],
+      "apply_url": "https://newscheme.tahdco.com/",
+      "source_url": "https://tahdco.com/",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Source says both 'up to' and 'less than' three lakh income. Boundary requires agency confirmation. 6% interest subsidy is NOT the borrower interest rate.",
+      "unverified": [
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months"
+      ],
+      "provenance": {
+        "source": "TAHDCO",
+        "source_url": "https://tahdco.com/",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "pmegp.new",
+      "name": {
+        "en": "PMEGP - New Enterprise"
+      },
+      "agency": "KVIC / Ministry of MSME",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": {
+          "min": 18,
+          "max": null,
+          "min_exclusive": true
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": {
+          "excluded": [
+            "slaughtered_meat",
+            "intoxicants",
+            "tobacco",
+            "restricted_plastics"
+          ]
+        },
+        "stage": [
+          "new"
+        ],
+        "education": {
+          "rules": [
+            {
+              "when": {
+                "all": [
+                  {
+                    "field": "sector",
+                    "op": "in",
+                    "value": [
+                      "manufacturing"
+                    ]
+                  },
+                  {
+                    "field": "project_cost",
+                    "op": "gt",
+                    "value": 1000000
+                  }
+                ]
+              },
+              "minimum": "class_8"
+            },
+            {
+              "when": {
+                "all": [
+                  {
+                    "field": "sector",
+                    "op": "in",
+                    "value": [
+                      "services",
+                      "trading"
+                    ]
+                  },
+                  {
+                    "field": "project_cost",
+                    "op": "gt",
+                    "value": 500000
+                  }
+                ]
+              },
+              "minimum": "class_8"
+            }
+          ]
+        },
+        "requirements": [
+          {
+            "field": "prior_government_subsidy",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "family_already_assisted",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "has_capital_expenditure",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "pmegp_activity_permitted",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        {
+          "id": "aadhaar",
+          "label_key": "docs.aadhaar",
+          "mandatory": true
+        }
+      ],
+      "apply_url": "https://common-pmegp.msme.gov.in/",
+      "source_url": "https://common-pmegp.msme.gov.in/Home/TermsAndConditions",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "New-unit window only. Project ceilings for subsidy are not absolute borrowing limits. Bank decides finance and permitted activity; broad sector alone cannot clear the negative list.",
+      "unverified": [
+        "eligibility.age.max",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy"
+      ],
+      "provenance": {
+        "source": "KVIC / Ministry of MSME",
+        "source_url": "https://common-pmegp.msme.gov.in/Home/TermsAndConditions",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban"
+      ],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "mudra.shishu",
+      "name": {
+        "en": "PM MUDRA Shishu"
+      },
+      "agency": "Department of Financial Services",
+      "eligibility": {
+        "community": null,
+        "gender": null,
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": {
+          "excluded": [
+            "agriculture",
+            "crop_cultivation"
+          ]
+        },
+        "stage": null,
+        "education": null,
+        "loan_min": null,
+        "loan_min_exclusive": false,
+        "requirements": [
+          {
+            "field": "microenterprise",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 50000,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan band, not project-cost band. Non-agricultural and agriculture-allied activities qualify. Lender-specific interest, tenure, contribution and eligibility need confirmation.",
+      "unverified": [
+        "eligibility.community",
+        "eligibility.gender",
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "Department of Financial Services",
+        "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [
+        "eligibility.loan_min"
+      ],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "mudra.kishore",
+      "name": {
+        "en": "PM MUDRA Kishore"
+      },
+      "agency": "Department of Financial Services",
+      "eligibility": {
+        "community": null,
+        "gender": null,
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": {
+          "excluded": [
+            "agriculture",
+            "crop_cultivation"
+          ]
+        },
+        "stage": null,
+        "education": null,
+        "loan_min": 50000,
+        "loan_min_exclusive": true,
+        "requirements": [
+          {
+            "field": "microenterprise",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 500000,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan band, not project-cost band. Non-agricultural and agriculture-allied activities qualify. Lender-specific interest, tenure, contribution and eligibility need confirmation.",
+      "unverified": [
+        "eligibility.community",
+        "eligibility.gender",
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "Department of Financial Services",
+        "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "mudra.tarun",
+      "name": {
+        "en": "PM MUDRA Tarun"
+      },
+      "agency": "Department of Financial Services",
+      "eligibility": {
+        "community": null,
+        "gender": null,
+        "age": {
+          "min": null,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": {
+          "excluded": [
+            "agriculture",
+            "crop_cultivation"
+          ]
+        },
+        "stage": null,
+        "education": null,
+        "loan_min": 500000,
+        "loan_min_exclusive": true,
+        "requirements": [
+          {
+            "field": "microenterprise",
+            "op": "eq",
+            "value": true
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 1000000,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan band, not project-cost band. Non-agricultural and agriculture-allied activities qualify. Lender-specific interest, tenure, contribution and eligibility need confirmation.",
+      "unverified": [
+        "eligibility.community",
+        "eligibility.gender",
+        "eligibility.age.min",
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.stage",
+        "eligibility.education",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.tenure_months",
+        "terms.moratorium_months",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "Department of Financial Services",
+        "source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "stand_up_india",
+      "name": {
+        "en": "Stand-Up India"
+      },
+      "agency": "Department of Financial Services",
+      "eligibility": {
+        "community": null,
+        "gender": null,
+        "age": {
+          "min": 18,
+          "max": null,
+          "min_exclusive": true
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": [
+          "manufacturing",
+          "services",
+          "trading",
+          "allied_agriculture"
+        ],
+        "stage": [
+          "new"
+        ],
+        "education": null,
+        "loan_min": 1000000,
+        "requirements": [
+          {
+            "any": [
+              {
+                "field": "community",
+                "op": "in",
+                "value": [
+                  "sc",
+                  "st"
+                ]
+              },
+              {
+                "field": "gender",
+                "op": "eq",
+                "value": "female"
+              }
+            ]
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.1,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 10000000,
+        "interest_rate": null,
+        "tenure_months": 84,
+        "moratorium_months": 18,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": "https://www.jansamarth.in/",
+      "source_url": "https://financialservices.gov.in/stand-india-scheme-supi",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": "2025-03-31",
+      "change_note": "Published scheme validity ended 31 March 2025. Kept visible as withdrawn; no successor assumed. Tenure is an upper limit, own contribution a minimum, subject to bank sanction.",
+      "unverified": [
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "eligibility.education",
+        "terms.agency_share",
+        "terms.project_min",
+        "terms.project_max",
+        "terms.interest_rate",
+        "terms.subsidy",
+        "documents"
+      ],
+      "provenance": {
+        "source": "Department of Financial Services",
+        "source_url": "https://financialservices.gov.in/stand-india-scheme-supi",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "unrestricted": [
+        "eligibility.community",
+        "eligibility.gender"
+      ],
+      "unverified_note_key": "schemes.confirm_with_agency"
+    },
+    {
+      "id": "tn.needs",
+      "name": {
+        "en": "Tamil Nadu NEEDS (TIIC)"
+      },
+      "agency": "TIIC",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": {
+          "min": 21,
+          "max": null
+        },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": [
+          "manufacturing",
+          "services"
+        ],
+        "stage": [
+          "new"
+        ],
+        "education": {
+          "minimum": "class_12"
+        },
+        "state": [
+          "tamil nadu"
+        ],
+        "requirements": [
+          {
+            "field": "first_generation",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "tn_residence_years",
+            "op": "gte",
+            "value": 3
+          },
+          {
+            "field": "has_capital_expenditure",
+            "op": "eq",
+            "value": true
+          },
+          {
+            "field": "self_financed",
+            "op": "eq",
+            "value": false
+          },
+          {
+            "field": "constitution",
+            "op": "in",
+            "value": [
+              "proprietary",
+              "partnership"
+            ]
+          }
+        ],
+        "age_options": [
+          {
+            "when": {
+              "any": [
+                {
+                  "field": "gender",
+                  "op": "in",
+                  "value": [
+                    "female",
+                    "transgender"
+                  ]
+                },
+                {
+                  "field": "community",
+                  "op": "in",
+                  "value": [
+                    "sc",
+                    "st",
+                    "obc"
+                  ]
+                },
+                {
+                  "field": "religion",
+                  "op": "in",
+                  "value": [
+                    "muslim",
+                    "christian",
+                    "sikh",
+                    "buddhist",
+                    "parsi",
+                    "jain"
+                  ]
+                },
+                {
+                  "field": "ex_serviceman",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "field": "person_with_disability",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            },
+            "max": 55
+          },
+          {
+            "when": {
+              "not": {
+                "any": [
+                  {
+                    "field": "gender",
+                    "op": "in",
+                    "value": [
+                      "female",
+                      "transgender"
+                    ]
+                  },
+                  {
+                    "field": "community",
+                    "op": "in",
+                    "value": [
+                      "sc",
+                      "st",
+                      "obc"
+                    ]
+                  },
+                  {
+                    "field": "religion",
+                    "op": "in",
+                    "value": [
+                      "muslim",
+                      "christian",
+                      "sikh",
+                      "buddhist",
+                      "parsi",
+                      "jain"
+                    ]
+                  },
+                  {
+                    "field": "ex_serviceman",
+                    "op": "eq",
+                    "value": true
+                  },
+                  {
+                    "field": "person_with_disability",
+                    "op": "eq",
+                    "value": true
+                  }
+                ]
+              }
+            },
+            "max": 45
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": 1000000,
+        "project_max": 50000000,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": 108,
+        "moratorium_months": 24,
+        "subsidy": null
+      },
+      "documents": [],
+      "apply_url": null,
+      "source_url": "https://www.tiic.org/need-scheme/",
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "TIIC delivery terms: HSC pass, first-generation entrepreneur, Tamil Nadu residence for 3 years. Interest is PLR plus a spread, not a verified fixed rate. Own contribution varies by category.",
+      "unverified": [
+        "eligibility.age.max",
+        "eligibility.income_limit_rural",
+        "eligibility.income_limit_urban",
+        "terms.beneficiary_share",
+        "terms.agency_share",
+        "terms.loan_cap",
+        "terms.interest_rate",
+        "terms.subsidy",
+        "documents",
+        "apply_url"
+      ],
+      "provenance": {
+        "source": "TIIC",
+        "source_url": "https://www.tiic.org/need-scheme/",
+        "retrieved_at": "2026-09-24",
+        "method": "official"
+      },
+      "term_options": [
+        {
+          "when": {
+            "any": [
+              {
+                "field": "gender",
+                "op": "in",
+                "value": [
+                  "female",
+                  "transgender"
+                ]
+              },
+              {
+                "field": "community",
+                "op": "in",
+                "value": [
+                  "sc",
+                  "st",
+                  "obc"
+                ]
+              },
+              {
+                "field": "religion",
+                "op": "in",
+                "value": [
+                  "muslim",
+                  "christian",
+                  "sikh",
+                  "buddhist",
+                  "parsi",
+                  "jain"
+                ]
+              },
+              {
+                "field": "ex_serviceman",
+                "op": "eq",
+                "value": true
+              },
+              {
+                "field": "person_with_disability",
+                "op": "eq",
+                "value": true
+              }
+            ]
+          },
+          "terms": {
+            "beneficiary_share": 0.05
+          }
+        },
+        {
+          "when": {
+            "not": {
+              "any": [
+                {
+                  "field": "gender",
+                  "op": "in",
+                  "value": [
+                    "female",
+                    "transgender"
+                  ]
+                },
+                {
+                  "field": "community",
+                  "op": "in",
+                  "value": [
+                    "sc",
+                    "st",
+                    "obc"
+                  ]
+                },
+                {
+                  "field": "religion",
+                  "op": "in",
+                  "value": [
+                    "muslim",
+                    "christian",
+                    "sikh",
+                    "buddhist",
+                    "parsi",
+                    "jain"
+                  ]
+                },
+                {
+                  "field": "ex_serviceman",
+                  "op": "eq",
+                  "value": true
+                },
+                {
+                  "field": "person_with_disability",
+                  "op": "eq",
+                  "value": true
+                }
+              ]
+            }
+          },
+          "terms": {
+            "beneficiary_share": 0.1
+          }
+        }
+      ],
+      "unrestricted": [],
+      "unverified_note_key": "schemes.confirm_with_agency"
     }
   ]
 }
