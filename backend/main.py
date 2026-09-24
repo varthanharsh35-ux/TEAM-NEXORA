@@ -264,6 +264,27 @@ def discard_statement_batch(batch_id: str, owner: str = 'anonymous'):
         raise HTTPException(404, detail='batch_not_found')
     return {'status': 'discarded', 'batch_id': batch_id}
 
+
+# --- Task 3.5: inventory plan route ---
+
+class InventoryInput(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    activity_id: str = Field(min_length=1, max_length=100)
+    facilities_owned: list[str] = Field(default_factory=list, max_length=20)
+    quantity_overrides: dict[str, int] = Field(default_factory=dict)
+
+@app.post('/api/inventory/plan')
+def inventory_plan(data: InventoryInput):
+    from inventory import plan
+    try:
+        return plan(
+            data.activity_id,
+            facilities_owned=data.facilities_owned,
+            quantity_overrides=data.quantity_overrides,
+        )
+    except Exception as e:
+        raise HTTPException(422, detail=str(e))
+
 from accounts import router as account_router
 app.include_router(account_router)
 

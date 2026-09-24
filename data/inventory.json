@@ -1,0 +1,204 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "source": "curated-sector-priors",
+    "method": "estimated",
+    "note": "Per-activity inventory lists. Costs are Tamil Nadu mid-range estimates. Every number carries provenance because it is an estimate, not a measurement."
+  },
+
+  "dairy": {
+    "items": [
+      { "id": "milch_cow",       "label_key": "inv.milch_cow",       "emoji": "🐄", "quantity": 2,  "unit_cost": 45000, "kind": "one_time" },
+      { "id": "cattle_shed",     "label_key": "inv.cattle_shed",     "emoji": "🏠", "quantity": 1,  "unit_cost": 30000, "kind": "one_time" },
+      { "id": "milking_machine", "label_key": "inv.milking_machine", "emoji": "⚙️", "quantity": 1,  "unit_cost": 12000, "kind": "one_time" },
+      { "id": "milk_cans",       "label_key": "inv.milk_cans",       "emoji": "🥛", "quantity": 4,  "unit_cost": 1200,  "kind": "one_time" },
+      { "id": "chaff_cutter",    "label_key": "inv.chaff_cutter",    "emoji": "🌾", "quantity": 1,  "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "fodder",          "label_key": "inv.fodder",          "emoji": "🌿", "quantity": 1,  "unit_cost": 6000,  "kind": "recurring" },
+      { "id": "veterinary",      "label_key": "inv.veterinary",      "emoji": "💉", "quantity": 1,  "unit_cost": 1500,  "kind": "recurring" },
+      { "id": "transport",       "label_key": "inv.transport",       "emoji": "🚛", "quantity": 1,  "unit_cost": 2000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "poultry": {
+    "items": [
+      { "id": "chicks",          "label_key": "inv.chicks",          "emoji": "🐣", "quantity": 500, "unit_cost": 45,    "kind": "one_time" },
+      { "id": "poultry_shed",    "label_key": "inv.poultry_shed",    "emoji": "🏠", "quantity": 1,   "unit_cost": 40000, "kind": "one_time" },
+      { "id": "feeder",          "label_key": "inv.feeder",          "emoji": "🍽️", "quantity": 10,  "unit_cost": 600,   "kind": "one_time" },
+      { "id": "waterer",         "label_key": "inv.waterer",         "emoji": "💧", "quantity": 10,  "unit_cost": 500,   "kind": "one_time" },
+      { "id": "incubator",       "label_key": "inv.incubator",       "emoji": "🥚", "quantity": 2,   "unit_cost": 18000, "kind": "one_time" },
+      { "id": "brooder",         "label_key": "inv.brooder",         "emoji": "🔥", "quantity": 2,   "unit_cost": 3500,  "kind": "one_time" },
+      { "id": "feed",            "label_key": "inv.feed",            "emoji": "🌾", "quantity": 1,   "unit_cost": 8000,  "kind": "recurring" },
+      { "id": "medicine",        "label_key": "inv.medicine",        "emoji": "💊", "quantity": 1,   "unit_cost": 2000,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1,   "unit_cost": 1500,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "food": {
+    "items": [
+      { "id": "cooking_range",   "label_key": "inv.cooking_range",   "emoji": "🍳", "quantity": 1, "unit_cost": 18000, "kind": "one_time" },
+      { "id": "refrigerator",    "label_key": "inv.refrigerator",    "emoji": "❄️", "quantity": 1, "unit_cost": 15000, "kind": "one_time" },
+      { "id": "utensils",        "label_key": "inv.utensils",        "emoji": "🍲", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "tables_chairs",   "label_key": "inv.tables_chairs",   "emoji": "🪑", "quantity": 5, "unit_cost": 3500,  "kind": "one_time" },
+      { "id": "counter_display", "label_key": "inv.counter_display", "emoji": "🏪", "quantity": 1, "unit_cost": 6000,  "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 3000,  "kind": "one_time" },
+      { "id": "gas_cylinder",    "label_key": "inv.gas_cylinder",    "emoji": "🔥", "quantity": 2, "unit_cost": 2200,  "kind": "one_time" },
+      { "id": "raw_materials",   "label_key": "inv.raw_materials",   "emoji": "🥬", "quantity": 1, "unit_cost": 5000,  "kind": "recurring" },
+      { "id": "gas_refill",      "label_key": "inv.gas_refill",      "emoji": "⛽", "quantity": 1, "unit_cost": 900,   "kind": "recurring" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 5000,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 2000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "retail": {
+    "items": [
+      { "id": "shelving",        "label_key": "inv.shelving",        "emoji": "🗄️", "quantity": 4, "unit_cost": 4500,  "kind": "one_time" },
+      { "id": "counter",         "label_key": "inv.counter",         "emoji": "🏪", "quantity": 1, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "weighing_scale",  "label_key": "inv.weighing_scale",  "emoji": "⚖️", "quantity": 1, "unit_cost": 3000,  "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 3000,  "kind": "one_time" },
+      { "id": "pos_machine",     "label_key": "inv.pos_machine",     "emoji": "💳", "quantity": 1, "unit_cost": 2000,  "kind": "one_time" },
+      { "id": "initial_stock",   "label_key": "inv.initial_stock",   "emoji": "📦", "quantity": 1, "unit_cost": 30000, "kind": "one_time" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 4000,  "kind": "recurring" },
+      { "id": "restock",         "label_key": "inv.restock",         "emoji": "📦", "quantity": 1, "unit_cost": 15000, "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 1500,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "tailoring": {
+    "items": [
+      { "id": "sewing_machine",  "label_key": "inv.sewing_machine",  "emoji": "🧵", "quantity": 2, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "overlock",        "label_key": "inv.overlock",        "emoji": "⚙️", "quantity": 1, "unit_cost": 12000, "kind": "one_time" },
+      { "id": "cutting_table",   "label_key": "inv.cutting_table",   "emoji": "📐", "quantity": 1, "unit_cost": 4000,  "kind": "one_time" },
+      { "id": "iron_press",      "label_key": "inv.iron_press",      "emoji": "♨️", "quantity": 1, "unit_cost": 2500,  "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 2000,  "kind": "one_time" },
+      { "id": "thread_fabric",   "label_key": "inv.thread_fabric",   "emoji": "🧶", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 800,   "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "agriculture": {
+    "items": [
+      { "id": "seeds",           "label_key": "inv.seeds",           "emoji": "🌱", "quantity": 1, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "hand_tools",      "label_key": "inv.hand_tools",      "emoji": "🛠️", "quantity": 1, "unit_cost": 4000,  "kind": "one_time" },
+      { "id": "sprayer",         "label_key": "inv.sprayer",         "emoji": "💦", "quantity": 1, "unit_cost": 3500,  "kind": "one_time" },
+      { "id": "drip_kit",        "label_key": "inv.drip_kit",        "emoji": "💧", "quantity": 1, "unit_cost": 25000, "kind": "one_time" },
+      { "id": "pump_set",        "label_key": "inv.pump_set",        "emoji": "⚙️", "quantity": 1, "unit_cost": 15000, "kind": "one_time" },
+      { "id": "tarpaulin",       "label_key": "inv.tarpaulin",       "emoji": "🏕️", "quantity": 2, "unit_cost": 2000,  "kind": "one_time" },
+      { "id": "fertiliser",      "label_key": "inv.fertiliser",      "emoji": "🧪", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "pesticide",       "label_key": "inv.pesticide",       "emoji": "🐛", "quantity": 1, "unit_cost": 2000,  "kind": "recurring" },
+      { "id": "labour",          "label_key": "inv.labour",          "emoji": "👷", "quantity": 1, "unit_cost": 5000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "fish": {
+    "items": [
+      { "id": "fish_pond",       "label_key": "inv.fish_pond",       "emoji": "🐟", "quantity": 1, "unit_cost": 35000, "kind": "one_time" },
+      { "id": "fingerlings",     "label_key": "inv.fingerlings",     "emoji": "🐠", "quantity": 1000, "unit_cost": 5, "kind": "one_time" },
+      { "id": "aerator",         "label_key": "inv.aerator",         "emoji": "💨", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "nets",            "label_key": "inv.nets",            "emoji": "🕸️", "quantity": 2, "unit_cost": 3000,  "kind": "one_time" },
+      { "id": "ice_box",         "label_key": "inv.ice_box",         "emoji": "🧊", "quantity": 2, "unit_cost": 4000,  "kind": "one_time" },
+      { "id": "fish_feed",       "label_key": "inv.fish_feed",       "emoji": "🌾", "quantity": 1, "unit_cost": 5000,  "kind": "recurring" },
+      { "id": "lime_chemicals",  "label_key": "inv.lime_chemicals",  "emoji": "🧪", "quantity": 1, "unit_cost": 1500,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 2000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "repair": {
+    "items": [
+      { "id": "tool_kit",        "label_key": "inv.tool_kit",        "emoji": "🧰", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "workbench",       "label_key": "inv.workbench",       "emoji": "🪑", "quantity": 1, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "multimeter",      "label_key": "inv.multimeter",      "emoji": "🔌", "quantity": 1, "unit_cost": 2500,  "kind": "one_time" },
+      { "id": "compressor",      "label_key": "inv.compressor",      "emoji": "💨", "quantity": 1, "unit_cost": 12000, "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 2000,  "kind": "one_time" },
+      { "id": "spares",          "label_key": "inv.spares",          "emoji": "⚙️", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 1000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "craft": {
+    "items": [
+      { "id": "raw_materials",   "label_key": "inv.raw_materials",   "emoji": "🪵", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "hand_tools",      "label_key": "inv.hand_tools",      "emoji": "🛠️", "quantity": 1, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "wheel_kiln",      "label_key": "inv.wheel_kiln",      "emoji": "🏺", "quantity": 1, "unit_cost": 10000, "kind": "one_time" },
+      { "id": "drying_racks",    "label_key": "inv.drying_racks",    "emoji": "🪜", "quantity": 2, "unit_cost": 2000,  "kind": "one_time" },
+      { "id": "packaging",       "label_key": "inv.packaging",       "emoji": "📦", "quantity": 1, "unit_cost": 2000,  "kind": "recurring" },
+      { "id": "material_refill", "label_key": "inv.material_refill", "emoji": "🪵", "quantity": 1, "unit_cost": 4000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "manufacturing": {
+    "items": [
+      { "id": "machinery",       "label_key": "inv.machinery",       "emoji": "⚙️", "quantity": 1, "unit_cost": 80000, "kind": "one_time" },
+      { "id": "raw_materials",   "label_key": "inv.raw_materials",   "emoji": "📦", "quantity": 1, "unit_cost": 25000, "kind": "one_time" },
+      { "id": "workbench",       "label_key": "inv.workbench",       "emoji": "🪑", "quantity": 2, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "safety_gear",     "label_key": "inv.safety_gear",     "emoji": "🦺", "quantity": 4, "unit_cost": 1500,  "kind": "one_time" },
+      { "id": "weighing_scale",  "label_key": "inv.weighing_scale",  "emoji": "⚖️", "quantity": 1, "unit_cost": 3000,  "kind": "one_time" },
+      { "id": "material_restock","label_key": "inv.material_restock","emoji": "📦", "quantity": 1, "unit_cost": 12000, "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 4000,  "kind": "recurring" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 6000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "transport": {
+    "items": [
+      { "id": "vehicle",         "label_key": "inv.vehicle",         "emoji": "🚛", "quantity": 1, "unit_cost": 120000,"kind": "one_time" },
+      { "id": "tools_spares",    "label_key": "inv.tools_spares",    "emoji": "🧰", "quantity": 1, "unit_cost": 5000,  "kind": "one_time" },
+      { "id": "licence_permit",  "label_key": "inv.licence_permit",  "emoji": "📄", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "insurance",       "label_key": "inv.insurance",       "emoji": "🛡️", "quantity": 1, "unit_cost": 12000, "kind": "one_time" },
+      { "id": "fuel",            "label_key": "inv.fuel",            "emoji": "⛽", "quantity": 1, "unit_cost": 8000,  "kind": "recurring" },
+      { "id": "maintenance",     "label_key": "inv.maintenance",     "emoji": "🔧", "quantity": 1, "unit_cost": 3000,  "kind": "recurring" },
+      { "id": "toll_parking",    "label_key": "inv.toll_parking",    "emoji": "🅿️", "quantity": 1, "unit_cost": 2000,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "services": {
+    "items": [
+      { "id": "equipment",       "label_key": "inv.equipment",       "emoji": "⚙️", "quantity": 1, "unit_cost": 15000, "kind": "one_time" },
+      { "id": "laptop_phone",    "label_key": "inv.laptop_phone",    "emoji": "💻", "quantity": 1, "unit_cost": 20000, "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 2500,  "kind": "one_time" },
+      { "id": "furniture",       "label_key": "inv.furniture",       "emoji": "🪑", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 4000,  "kind": "recurring" },
+      { "id": "internet",        "label_key": "inv.internet",        "emoji": "📶", "quantity": 1, "unit_cost": 800,   "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 1200,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  },
+
+  "other": {
+    "items": [
+      { "id": "equipment",       "label_key": "inv.equipment",       "emoji": "⚙️", "quantity": 1, "unit_cost": 20000, "kind": "one_time" },
+      { "id": "furniture",       "label_key": "inv.furniture",       "emoji": "🪑", "quantity": 1, "unit_cost": 8000,  "kind": "one_time" },
+      { "id": "signboard",       "label_key": "inv.signboard",       "emoji": "🪧", "quantity": 1, "unit_cost": 2500,  "kind": "one_time" },
+      { "id": "initial_stock",   "label_key": "inv.initial_stock",   "emoji": "📦", "quantity": 1, "unit_cost": 15000, "kind": "one_time" },
+      { "id": "rent",            "label_key": "inv.rent",            "emoji": "🏠", "quantity": 1, "unit_cost": 4000,  "kind": "recurring" },
+      { "id": "supplies",        "label_key": "inv.supplies",        "emoji": "📦", "quantity": 1, "unit_cost": 5000,  "kind": "recurring" },
+      { "id": "electricity",     "label_key": "inv.electricity",     "emoji": "⚡", "quantity": 1, "unit_cost": 1500,  "kind": "recurring" }
+    ],
+    "contingency_pct": 10,
+    "working_capital_months": 3
+  }
+}
