@@ -320,8 +320,7 @@ def build():
     total = sum(stats.values())
     named = stats["exact"] + stats["fuzzy"]
     print(
-        f"
-coverage: {named}/{total} rows matched an OSM place by name "
+        f"\ncoverage: {named}/{total} rows matched an OSM place by name "
         f"({named / total:.1%}) -- exact {stats['exact']}, fuzzy {stats['fuzzy']}"
     )
     print(

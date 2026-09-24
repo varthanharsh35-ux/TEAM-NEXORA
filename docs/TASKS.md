@@ -170,6 +170,61 @@ containing a number absent from `facts` is rejected.
 
 ---
 
+## Phase 2b — from the product walkthrough (docs/UX_FLOW.md)
+
+These are backend-first so the UI team can build against a live contract.
+
+### Task 2.6 — Alternative high-potential ventures [CORE]
+**Files:** `backend/alternatives.py` (new), `POST /api/intelligence/alternatives`, tests
+**Problem:** nothing in the build answers "is this the right business for here?" or "is there a
+better place nearby?". The driver engine makes both computable.
+**Do:** Implement `UX_FLOW.md` §5. (a) Score every activity in the taxonomy against this
+location and return the top 3 that beat the chosen one, each with reason, evidence and capital
+required. (b) Score the chosen activity across neighbouring localities within a sensible travel
+distance and return where it scores better, with distance. Filter (a) to activities affordable
+at the user's margin.
+**Done when:** suggestions differ between two locations; no suggestion exceeds the user's
+reach; every suggestion carries named evidence; the chosen business's own analysis is unchanged
+and still returned first.
+
+### Task 2.7 — One viability score [BLOCKER]
+**Files:** `backend/advisory.py`, `backend/drivers.py`
+**Problem:** Home and Feasibility both show "viability out of 100". Two screens showing the
+same quantity is exactly how the competitor-count divergence happened (rule 5).
+**Do:** Compute the score once, in one function, from the driver engine plus finance and
+readiness checks. Both screens read the same field. Return the component breakdown so the UI
+can explain the number rather than just print it.
+**Done when:** one code path produces the score; a test asserts Home and Feasibility payloads
+carry identical values; the breakdown sums to the total.
+
+### Task 2.8 — Cash Flow and Debt Flow engines [BLOCKER]
+**Files:** `backend/tracker.py` (new), `backend/debt.py` (new), routes, tests
+**Do:** `UX_FLOW.md` §4.5 and §4.6. Cash flow entries (date, direction, amount, category) with
+delete; totals for inflow, outflow and net liquid balance. Loan records with lender, facility
+type, status, principal, rate, tenure, EMI, balance, disbursement date; portfolio totals
+including monthly EMI obligation. **EMI comes from `finance.py`** — do not re-derive it.
+**Done when:** totals recompute on add and delete; EMI matches `finance.py` to the paise;
+actuals and forecasts are never merged; Home reads these totals rather than its own copies.
+
+### Task 2.9 — Financial statement upload [POLISH]
+**Files:** `backend/statements.py` (new), route, tests
+**Do:** Accept PDF/CSV/image, extract candidate transactions, return them as **drafts the user
+confirms or discards**. Never write parsed rows straight into the ledger.
+**Done when:** a malformed file fails with a clear message; no draft is committed without
+explicit confirmation; parse confidence is shown per row.
+
+### Task 2.10 — Onboarding contract [BLOCKER]
+**Files:** `data/taxonomy.json`, `POST /api/onboarding`, `GET /api/onboarding/{id}`, tests
+**Do:** Back the five-step wizard in `UX_FLOW.md` §2 — business (name, sector, activity,
+optional concept), location with radius 5–15 km, the eight predefined resources plus free text,
+demography including education level, and a review payload for step 5. Add the
+existing-business fields from §3. Support guest sessions and migrate them on sign-up.
+**Done when:** a wizard can be completed and resumed; the concept free text is stored and
+returned but never reaches classification, scoring or the narrative; a guest's work survives
+sign-up.
+
+---
+
 ## Phase 3 — the missing features
 
 ### Task 3.1 — Sector and activity taxonomy, dropdown flow [BLOCKER]
@@ -220,6 +275,29 @@ traffic-light verdict at the top.
 **Do:** Recover the 8 locale files and the Bhashini service from `attic/original/`. Complete
 en/ta/hi. Mark the rest as planned. Pluggable provider (Bhashini or Google). Reviewed glossary
 for financial terms.
+
+---
+
+## Phase 5 — UI shell (Fable / the design team, against the frozen contract)
+
+### Task 5.1 — App shell, theme and responsive navigation [BLOCKER]
+**Do:** Green/white token palette in one place. Top navigation bar on desktop collapsing to a
+hamburger containing every dashboard item on tablet and mobile. Persistent language switcher
+that re-renders the whole site. Profile control with log in / sign up / continue as guest.
+**Done when:** no horizontal scroll at 360 px; proportions hold at 360, 768 and 1280; no
+dashboard item is dropped from the hamburger.
+
+### Task 5.2 — Landing and onboarding wizard
+**Do:** `UX_FLOW.md` §1 and §2. Two entry buttons that survive a login redirect; five steps with
+back navigation and no data loss; map with synchronised address entry and pin; live radius
+circle 5–15 km.
+
+### Task 5.3 — Main application pages
+**Do:** `UX_FLOW.md` §4.1–4.7 against the contract. Charts: bar, line, donut, gauge only, values
+printed on every mark, one plain sentence under each.
+
+### Task 5.4 — Scheme cards
+**Do:** `UX_FLOW.md` §4.4, using the PM SVANidhi card as the template. Bank locations on the map.
 
 ---
 
