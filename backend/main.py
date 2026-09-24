@@ -91,10 +91,58 @@ def map_search(q:str):
     return search(q.strip())
 
 @app.get('/api/map/nearby')
-def map_nearby(lat:float,lon:float,category:str='other'):
-    if not (8<=lat<=13.7 and 76<=lon<=80.5):raise HTTPException(422,detail='outside_state')
+def map_nearby(
+    lat: float | None = None,
+    lon: float | None = None,
+    category: str | None = None,
+    radius_km: float = 15,
+    location_id: str | None = None,
+    activity_id: str | None = None,
+):
+    import json
+    import math
     from geography import nearby
-    return nearby(lat,lon,category)
+
+    def fail(code, reason):
+        raise HTTPException(422, detail={
+            'error': code,
+            'message_key': f'errors.{code}',
+            'status': 'unresolved',
+            'detail': {'reason': reason},
+            'candidates': [],
+        })
+
+    if activity_id and category and activity_id != category:
+        fail('invalid_input', 'conflicting_activity_parameters')
+    if location_id is not None:
+        if lat is not None or lon is not None:
+            fail('invalid_input', 'use_location_id_or_coordinates')
+        # Resolve only coordinate-bearing registry rows. Task 1.1 supplies them;
+        # missing coordinates must never acquire an invented district centroid.
+        root = Path(__file__).resolve().parents[1] / 'data'
+        location = None
+        for filename in ('villages.json', 'blocks.json', 'districts.json'):
+            try:
+                rows = json.loads((root / filename).read_text(encoding='utf-8'))
+            except (OSError, ValueError):
+                continue
+            location = next((row for row in rows if row.get('id') == location_id), None)
+            if location is not None:
+                break
+        if location is None or location.get('lat') is None or location.get('lon') is None:
+            fail('location_unresolved', 'location_coordinates_unavailable')
+        try:
+            lat = float(location['lat'])
+            lon = float(location['lon'])
+        except (TypeError, ValueError):
+            fail('location_unresolved', 'location_coordinates_invalid')
+    if lat is None or lon is None:
+        fail('invalid_input', 'location_id_or_coordinate_pair_required')
+    if not math.isfinite(lat) or not math.isfinite(lon):
+        fail('invalid_input', 'non_finite_coordinates')
+    if not (8 <= lat <= 13.7 and 76 <= lon <= 80.5):
+        fail('outside_coverage', 'coordinates_outside_supported_bounds')
+    return nearby(lat, lon, activity_id or category or 'other', radius_km=radius_km)
 
 @app.get('/api/map/cached')
 def cached_places(lat:float,lon:float,category:str='other'):
