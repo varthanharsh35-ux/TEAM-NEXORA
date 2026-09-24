@@ -229,6 +229,71 @@ The UI prints all three on the chart.
 
 ---
 
+## 7b. Pricing strategy, not just a price
+
+Problem statement point 6 asks for "optimal pricing strategies and predicting the local
+market value". A single number is not a strategy, and today the system emits only a number
+(`price = sector_constant * district_index`, 78 possible outputs statewide) while the LLM
+writes strategy prose it is forbidden from putting numbers into. The two never meet.
+
+Strategy means: **three priced options, each with the volume it demands and the risk it
+carries**, chosen against local evidence.
+
+### The three positions
+
+For a market mid price `M` from section 7, compute all three and recommend one:
+
+| Position | Price | Requires | Fails when |
+|---|---|---|---|
+| **Penetration** | `0.90–0.95 × M` | Volume to cover the thinner margin; working capital to survive the ramp | Capacity cannot reach break-even volume |
+| **Match** | `≈ M` | Nothing special — the default | Competitor density is high and you have no differentiator |
+| **Premium** | `1.05–1.15 × M` | A real differentiator: quality, delivery, timing, credit terms | No nearby demand driver supports willingness to pay |
+
+### Break-even at each price — the part that is actually useful
+
+The finance engine already computes fixed costs and the quarterly instalment. Reuse them:
+
+```
+break_even_units(price) = ceil((fixed_cost + debt_service) / (price - variable_cost))
+```
+
+Report all three side by side, because this is the number a beneficiary can act on:
+
+> At ₹48/litre you must sell **1,240 litres a month** to break even.
+> At ₹52 you need **980**. At ₹57 you need **810**, but the two dairies within 1 km both
+> sell at about ₹52, so ₹57 needs a reason the customer can see.
+
+Flag explicitly when a position is **not reachable**: if `break_even_units > capacity`, that
+price cannot work at this project size, and say so rather than listing it as an option.
+
+### Choosing the recommendation
+
+Drive it from the driver engine, not from a constant:
+
+- `demand_score >= 70` **and** `competitor_density` low → premium is viable
+- `competitor_density` high **and** no boost drivers → penetration, with the volume warning
+- otherwise → match
+
+Every recommendation names its evidence: *"Match ₹52. Three dairies within 2 km already sell
+around this price, and nothing nearby supports a premium."*
+
+### Sensitivity
+
+Show profit at `M - 2`, `M`, `M + 2`. Rural pricing decisions are made in rupee steps, and a
+beneficiary needs to see that ₹2 moves their monthly profit by a specific amount. Print the
+values on the chart (`SPEC.md` §9).
+
+### Honesty rules
+
+- OSM does not carry prices. **Never claim to know what a named competitor charges.** Market
+  rates come from Agmarknet or an administered price; competitor pricing is inferred from the
+  market rate, and the UI says so.
+- If no market feed covers the commodity, fall back to the authored prior, badge it
+  `estimated`, and still show all three positions and their break-even volumes — the strategy
+  is useful even when the base number is weak.
+
+---
+
 ## 8. What the LLM does after this exists
 
 Replace the prompt in `backend/llm.py` entirely.

@@ -139,6 +139,22 @@ Every dairy in the state gets the same figure.
 **Done when:** two districts return different prices for the same commodity, each with a
 source and a date.
 
+### Task 2.5 — Pricing strategy engine [CORE]
+**Files:** `backend/pricing.py` (new), `backend/advisory.py`, tests
+**Problem:** the whole pricing model is `price = s['price'] * index` — one authored sector
+constant times one of only 6 distinct district multipliers, giving 78 possible prices for the
+entire state. Every dairy in a district gets the same number regardless of village,
+competitors or demand. The "band" is `price*0.9` to `price*1.1`, which is arithmetic, not
+evidence. There is no strategy at all, while the LLM writes strategy prose it is forbidden
+from putting numbers into.
+**Do:** Implement `PERSONALIZATION.md` §7b — three positions (penetration / match / premium),
+break-even units at each computed from the existing fixed-cost and debt-service figures,
+reachability flagging against capacity, a recommendation driven by `demand_score` and
+competitor density with named evidence, and ±₹2 sensitivity.
+**Done when:** the same activity in two locations with different competitor density yields
+different recommended positions; a position whose break-even exceeds capacity is reported as
+unreachable rather than offered; no output claims to know a named competitor's prices.
+
 ### Task 2.4 — Rewrite the LLM prompt [CORE]
 **File:** `backend/llm.py`
 **Problem:** the system prompt says *"No numbers, prices, rates"* and *"Include supply
