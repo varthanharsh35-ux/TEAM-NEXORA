@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "pageErrors": [],
+  "checks": [
+    "OBC screening and filters",
+    "selected scheme finance",
+    "dedicated repayment and allocation",
+    "saved planned schedule",
+    "integer-paise ledger arithmetic",
+    "persistent entries",
+    "three-language mobile pages"
+  ]
+}

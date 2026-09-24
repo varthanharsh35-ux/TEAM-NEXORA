@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "pageErrors": [],
+  "checks": [
+    "guided selection",
+    "Sarvanampatti district proxy",
+    "profile and facility propagation",
+    "three-language helper navigation",
+    "390px layout",
+    "profile persistence"
+  ]
+}

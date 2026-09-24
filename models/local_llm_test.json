@@ -1,0 +1,22 @@
+{
+  "provider": "local",
+  "seconds": 81.77,
+  "failures": [],
+  "advice": {
+    "market": "Fresh milk and curd delivery",
+    "opportunity": "Dairy farming in Madurai with potential for value-added products like curd paneer and butter",
+    "strengths": "Access to local dairy farms, government incentives, and existing infrastructure",
+    "weaknesses": "Seasonal demand fluctuations and single-buyer dependency",
+    "threats": "Supply disruption due to seasonal demand and single-buyer dependency, as well as competition from other dairy providers",
+    "competition": "Other dairy businesses in the region may offer similar products or services",
+    "pricing": "Pricing will be based on market demand and supply conditions",
+    "steps": "Invest in modern dairy technology and infrastructure Develop partnerships with local milk societies and government bodies Promote seasonal demand management strategies"
+  },
+  "loan": 900000.0,
+  "retrieved_sources": [
+    "sector-dairy",
+    "nabard-172-1600",
+    "nabard-171-1600",
+    "nabard-134-3200"
+  ]
+}

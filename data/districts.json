@@ -1,0 +1,563 @@
+[
+  {
+    "id": "Ariyalur",
+    "names": {
+      "en": "Ariyalur",
+      "ta": "அரியலூர்",
+      "hi": "अरियालूर"
+    },
+    "aliases": [],
+    "region": "delta",
+    "density_estimate": 320,
+    "purchasing_index_estimate": 0.92,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Chengalpattu",
+    "names": {
+      "en": "Chengalpattu",
+      "ta": "செங்கல்பட்டு",
+      "hi": "चेंगलपट्टु"
+    },
+    "aliases": [],
+    "region": "coastal",
+    "density_estimate": 290,
+    "purchasing_index_estimate": 0.94,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Chennai",
+    "names": {
+      "en": "Chennai",
+      "ta": "சென்னை",
+      "hi": "चेन्नई"
+    },
+    "aliases": [],
+    "region": "urban",
+    "density_estimate": 650,
+    "purchasing_index_estimate": 1.18,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Coimbatore",
+    "names": {
+      "en": "Coimbatore",
+      "ta": "கோயம்புத்தூர்",
+      "hi": "कोयंबटूर"
+    },
+    "aliases": [
+      "kovai",
+      "coimbatore"
+    ],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Cuddalore",
+    "names": {
+      "en": "Cuddalore",
+      "ta": "கடலூர்",
+      "hi": "कडलूर"
+    },
+    "aliases": [],
+    "region": "coastal",
+    "density_estimate": 290,
+    "purchasing_index_estimate": 0.94,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Dharmapuri",
+    "names": {
+      "en": "Dharmapuri",
+      "ta": "தருமபுரி",
+      "hi": "धर्मपुरी"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Dindigul",
+    "names": {
+      "en": "Dindigul",
+      "ta": "திண்டுக்கல்",
+      "hi": "डिंडीगुल"
+    },
+    "aliases": [],
+    "region": "hills",
+    "density_estimate": 170,
+    "purchasing_index_estimate": 0.98,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Erode",
+    "names": {
+      "en": "Erode",
+      "ta": "ஈரோடு",
+      "hi": "ईरोड"
+    },
+    "aliases": [],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Kallakurichi",
+    "names": {
+      "en": "Kallakurichi",
+      "ta": "கள்ளக்குறிச்சி",
+      "hi": "कल्लाकुरिची"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Kanchipuram",
+    "names": {
+      "en": "Kanchipuram",
+      "ta": "காஞ்சிபுரம்",
+      "hi": "कांचीपुरम"
+    },
+    "aliases": [
+      "kancheepuram",
+      "kanchipuram"
+    ],
+    "region": "urban",
+    "density_estimate": 650,
+    "purchasing_index_estimate": 1.18,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Kanniyakumari",
+    "names": {
+      "en": "Kanniyakumari",
+      "ta": "கன்னியாகுமரி",
+      "hi": "कन्याकुमारी"
+    },
+    "aliases": [
+      "kanyakumari",
+      "nagercoil"
+    ],
+    "region": "coastal",
+    "density_estimate": 290,
+    "purchasing_index_estimate": 0.94,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Karur",
+    "names": {
+      "en": "Karur",
+      "ta": "கரூர்",
+      "hi": "करूर"
+    },
+    "aliases": [],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Krishnagiri",
+    "names": {
+      "en": "Krishnagiri",
+      "ta": "கிருஷ்ணகிரி",
+      "hi": "कृष्णगिरि"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Madurai",
+    "names": {
+      "en": "Madurai",
+      "ta": "மதுரை",
+      "hi": "मदुरै"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Mayiladuthurai",
+    "names": {
+      "en": "Mayiladuthurai",
+      "ta": "மயிலாடுதுறை",
+      "hi": "मयिलाडुतुरै"
+    },
+    "aliases": [],
+    "region": "delta",
+    "density_estimate": 320,
+    "purchasing_index_estimate": 0.92,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Nagapattinam",
+    "names": {
+      "en": "Nagapattinam",
+      "ta": "நாகப்பட்டினம்",
+      "hi": "नागपट्टिनम"
+    },
+    "aliases": [],
+    "region": "delta",
+    "density_estimate": 320,
+    "purchasing_index_estimate": 0.92,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Namakkal",
+    "names": {
+      "en": "Namakkal",
+      "ta": "நாமக்கல்",
+      "hi": "नामक्कल"
+    },
+    "aliases": [],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Nilgiris",
+    "names": {
+      "en": "Nilgiris",
+      "ta": "நீலகிரி",
+      "hi": "नीलगिरि"
+    },
+    "aliases": [
+      "the nilgiris",
+      "ooty",
+      "udhagai"
+    ],
+    "region": "hills",
+    "density_estimate": 170,
+    "purchasing_index_estimate": 0.98,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Perambalur",
+    "names": {
+      "en": "Perambalur",
+      "ta": "பெரம்பலூர்",
+      "hi": "पेरम्बलूर"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Pudukkottai",
+    "names": {
+      "en": "Pudukkottai",
+      "ta": "புதுக்கோட்டை",
+      "hi": "पुदुक्कोट्टै"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Ramanathapuram",
+    "names": {
+      "en": "Ramanathapuram",
+      "ta": "இராமநாதபுரம்",
+      "hi": "रामनाथपुरम"
+    },
+    "aliases": [],
+    "region": "coastal",
+    "density_estimate": 290,
+    "purchasing_index_estimate": 0.94,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Ranipet",
+    "names": {
+      "en": "Ranipet",
+      "ta": "இராணிப்பேட்டை",
+      "hi": "रानीपेट"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Salem",
+    "names": {
+      "en": "Salem",
+      "ta": "சேலம்",
+      "hi": "सेलम"
+    },
+    "aliases": [],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Sivagangai",
+    "names": {
+      "en": "Sivagangai",
+      "ta": "சிவகங்கை",
+      "hi": "शिवगंगा"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tenkasi",
+    "names": {
+      "en": "Tenkasi",
+      "ta": "தென்காசி",
+      "hi": "तेनकाशी"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Thanjavur",
+    "names": {
+      "en": "Thanjavur",
+      "ta": "தஞ்சாவூர்",
+      "hi": "तंजावुर"
+    },
+    "aliases": [],
+    "region": "delta",
+    "density_estimate": 320,
+    "purchasing_index_estimate": 0.92,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Theni",
+    "names": {
+      "en": "Theni",
+      "ta": "தேனி",
+      "hi": "तेनी"
+    },
+    "aliases": [],
+    "region": "hills",
+    "density_estimate": 170,
+    "purchasing_index_estimate": 0.98,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Thoothukudi",
+    "names": {
+      "en": "Thoothukudi",
+      "ta": "தூத்துக்குடி",
+      "hi": "तूत्तुक्कुडी"
+    },
+    "aliases": [
+      "tuticorin",
+      "thoothukkudi"
+    ],
+    "region": "coastal",
+    "density_estimate": 290,
+    "purchasing_index_estimate": 0.94,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tiruchirappalli",
+    "names": {
+      "en": "Tiruchirappalli",
+      "ta": "திருச்சிராப்பள்ளி",
+      "hi": "तिरुचिरापल्ली"
+    },
+    "aliases": [
+      "trichy",
+      "tiruchi",
+      "trichirapalli"
+    ],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tirunelveli",
+    "names": {
+      "en": "Tirunelveli",
+      "ta": "திருநெல்வேலி",
+      "hi": "तिरुनेलवेली"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tirupathur",
+    "names": {
+      "en": "Tirupathur",
+      "ta": "திருப்பத்தூர்",
+      "hi": "तिरुपत्तूर"
+    },
+    "aliases": [
+      "tiruppathur",
+      "thirupathur"
+    ],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tiruppur",
+    "names": {
+      "en": "Tiruppur",
+      "ta": "திருப்பூர்",
+      "hi": "तिरुप्पूर"
+    },
+    "aliases": [],
+    "region": "industrial",
+    "density_estimate": 420,
+    "purchasing_index_estimate": 1.08,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tiruvallur",
+    "names": {
+      "en": "Tiruvallur",
+      "ta": "திருவள்ளூர்",
+      "hi": "तिरुवल्लूर"
+    },
+    "aliases": [
+      "thiruvallur"
+    ],
+    "region": "urban",
+    "density_estimate": 650,
+    "purchasing_index_estimate": 1.18,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tiruvannamalai",
+    "names": {
+      "en": "Tiruvannamalai",
+      "ta": "திருவண்ணாமலை",
+      "hi": "तिरुवन्नामलै"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Tiruvarur",
+    "names": {
+      "en": "Tiruvarur",
+      "ta": "திருவாரூர்",
+      "hi": "तिरुवारूर"
+    },
+    "aliases": [
+      "thiruvarur"
+    ],
+    "region": "delta",
+    "density_estimate": 320,
+    "purchasing_index_estimate": 0.92,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Viluppuram",
+    "names": {
+      "en": "Viluppuram",
+      "ta": "விழுப்புரம்",
+      "hi": "विलुप्पुरम"
+    },
+    "aliases": [
+      "villupuram"
+    ],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Virudhunagar",
+    "names": {
+      "en": "Virudhunagar",
+      "ta": "விருதுநகர்",
+      "hi": "विरुधुनगर"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  },
+  {
+    "id": "Vellore",
+    "names": {
+      "en": "Vellore",
+      "ta": "வேலூர்",
+      "hi": "वेल्लोर"
+    },
+    "aliases": [],
+    "region": "interior",
+    "density_estimate": 260,
+    "purchasing_index_estimate": 0.88,
+    "source": "curated-district-profiles",
+    "estimated": true
+  }
+]

@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "1-1",
+    "name": "Kanchipuram",
+    "district": "Kanchipuram",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-2",
+    "name": "Walajabad",
+    "district": "Kanchipuram",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-3",
+    "name": "Uthiramerur",
+    "district": "Kanchipuram",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-4",
+    "name": "Sriperumbudur",
+    "district": "Kanchipuram",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-5",
+    "name": "Kundrathur",
+    "district": "Kanchipuram",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-6",
+    "name": "Thiruporur",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-7",
+    "name": "Kattankolathur",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-8",
+    "name": "Thirukalukundram",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-9",
+    "name": "Thomas Malai",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-10",
+    "name": "Acharapakkam",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-11",
+    "name": "Madurantakam",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-12",
+    "name": "Lathur",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "1-13",
+    "name": "Chithamur",
+    "district": "Chengalpattu",
+    "historical_district": "Kanchipuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-1",
+    "name": "Villivakkam",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-2",
+    "name": "Puzhal",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-3",
+    "name": "Minjur",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-4",
+    "name": "Sholavaram",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-5",
+    "name": "Gummidipoondi",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-6",
+    "name": "Tiruvalangadu",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-7",
+    "name": "Tiruttani",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-8",
+    "name": "Pallipet",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-9",
+    "name": "R.K.Pet",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-10",
+    "name": "Tiruvallur",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-11",
+    "name": "Poondi",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-12",
+    "name": "Kadambathur",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-13",
+    "name": "Ellapuram",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "2-14",
+    "name": "Poonamallee",
+    "district": "Tiruvallur",
+    "historical_district": "Tiruvallur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-1",
+    "name": "Cuddalore",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-2",
+    "name": "Annagramam",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-3",
+    "name": "Panruti",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-4",
+    "name": "Kurinjipadi",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-5",
+    "name": "Kattumannar Koil",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-6",
+    "name": "Kumaratchi",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-7",
+    "name": "Keerapalayam",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-8",
+    "name": "Melbhuvanagiri",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-9",
+    "name": "Parangipettai",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-10",
+    "name": "Vridhachalam",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-11",
+    "name": "Kammapuram",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-12",
+    "name": "Nallur",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "3-13",
+    "name": "Mangalur",
+    "district": "Cuddalore",
+    "historical_district": "Cuddalore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-1",
+    "name": "Tirukoilur",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-2",
+    "name": "Mugaiyur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-3",
+    "name": "T.V. Nallur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-4",
+    "name": "Tirunavalur",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-5",
+    "name": "Ulundurpet",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-6",
+    "name": "Kanai",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-7",
+    "name": "Koliyanur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-8",
+    "name": "Kandamangalam",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-9",
+    "name": "Vikkiravandi",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-10",
+    "name": "Olakkur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-11",
+    "name": "Mailam",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-12",
+    "name": "Merkanam",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-13",
+    "name": "Vanur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-14",
+    "name": "Gingee",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-15",
+    "name": "Vallam",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-16",
+    "name": "Melmalayanur",
+    "district": "Viluppuram",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-17",
+    "name": "Kallakurichi",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-18",
+    "name": "Chinnasalem",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-19",
+    "name": "Rishivandiyam",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-20",
+    "name": "Sankarapuram",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-21",
+    "name": "Thiyagadurgam",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "4-22",
+    "name": "Kalrayan Hills",
+    "district": "Kallakurichi",
+    "historical_district": "Villupuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-1",
+    "name": "Vellore",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-2",
+    "name": "Kaniyambadi",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-3",
+    "name": "Anaicut",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-4",
+    "name": "Madhanur",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-5",
+    "name": "Katpadi",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-6",
+    "name": "K.V. Kuppam",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-7",
+    "name": "Gudiyatham",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-8",
+    "name": "Pernambet",
+    "district": "Vellore",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-9",
+    "name": "Walajah",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-10",
+    "name": "Sholinghur",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-11",
+    "name": "Arakonam",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-12",
+    "name": "Nemili",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-13",
+    "name": "Kaveripakkam",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-14",
+    "name": "Arcot",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-15",
+    "name": "Thimiri",
+    "district": "Ranipet",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-16",
+    "name": "Thirupathur",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-17",
+    "name": "Jolarpet",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-18",
+    "name": "Kandhili",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-19",
+    "name": "Natrampalli",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "5-20",
+    "name": "Alangayam",
+    "district": "Tirupathur",
+    "historical_district": "Vellore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-1",
+    "name": "Tiruvannamalai",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-2",
+    "name": "Kilpennathur",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-3",
+    "name": "Thurinjapuram",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-4",
+    "name": "Polur",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-5",
+    "name": "Kalasapakkam",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-6",
+    "name": "Chetpet",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-7",
+    "name": "Chengam",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-8",
+    "name": "Pudupalayam",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-9",
+    "name": "Thandrampet",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-10",
+    "name": "Jawadumalai",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-11",
+    "name": "Cheyyar",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-12",
+    "name": "Anakkavoor",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-13",
+    "name": "Vembakkam",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-14",
+    "name": "Vandavasi",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-15",
+    "name": "Thellar",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-16",
+    "name": "Peranamallur",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-17",
+    "name": "Arni",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "6-18",
+    "name": "West Arni",
+    "district": "Tiruvannamalai",
+    "historical_district": "Tiruvannamalai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-1",
+    "name": "Salem",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-2",
+    "name": "Veerapandy",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-3",
+    "name": "Panamarathupatti",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-4",
+    "name": "Ayothiyapattinam",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-5",
+    "name": "Valapady",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-6",
+    "name": "Yercaud",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-7",
+    "name": "P.N.Palayam",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-8",
+    "name": "Attur",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-9",
+    "name": "Gangavalli",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-10",
+    "name": "Thalaivasal",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-11",
+    "name": "Kolathur",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-12",
+    "name": "Nangavalli",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-13",
+    "name": "Mecheri",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-14",
+    "name": "Omalur",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-15",
+    "name": "Tharamangalam",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-16",
+    "name": "Kadayampatti",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-17",
+    "name": "Sankari",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-18",
+    "name": "Idappady",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-19",
+    "name": "Konganapuram",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "7-20",
+    "name": "Mac. Choultry",
+    "district": "Salem",
+    "historical_district": "Salem",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-1",
+    "name": "Elacipalayam",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-2",
+    "name": "Erumapatty",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-3",
+    "name": "Kabilarmalai",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-4",
+    "name": "Kollihills",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-5",
+    "name": "Mallasamudram",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-6",
+    "name": "Mohanur",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-7",
+    "name": "Namakkal",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-8",
+    "name": "Namagiripet",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-9",
+    "name": "Puduchatram",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-10",
+    "name": "Paramathy",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-11",
+    "name": "Pallipalayam",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-12",
+    "name": "Rasipuram",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-13",
+    "name": "Sendamangalam",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-14",
+    "name": "Tiruchengode",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "8-15",
+    "name": "Vennandur",
+    "district": "Namakkal",
+    "historical_district": "Namakkal",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-1",
+    "name": "Dharmapuri",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-2",
+    "name": "Nallampalli",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-3",
+    "name": "Pennagaram",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-4",
+    "name": "Harur",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-5",
+    "name": "Morappur",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-6",
+    "name": "Pappireddipatti",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-7",
+    "name": "Karimangalam",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "9-8",
+    "name": "Palacode",
+    "district": "Dharmapuri",
+    "historical_district": "Dharmapuri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-1",
+    "name": "Erode",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-2",
+    "name": "Modakkuruchi",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-3",
+    "name": "Kodumudi",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-4",
+    "name": "Perundurai",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-5",
+    "name": "Chennimalai",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-12",
+    "name": "Ammapet",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-13",
+    "name": "Anthiyur",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-14",
+    "name": "Bhavani",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-15",
+    "name": "Gobi",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-16",
+    "name": "Nambiyur",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-17",
+    "name": "T.N. Palayam",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-18",
+    "name": "Sathy",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-19",
+    "name": "Bhavanisagar",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "10-20",
+    "name": "Talavadi",
+    "district": "Erode",
+    "historical_district": "Erode",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-1",
+    "name": "Karamadai",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-2",
+    "name": "Madukkarai",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-3",
+    "name": "P.N.Palayam",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-4",
+    "name": "S.S.Kulam",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-5",
+    "name": "Thondamuthur",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-6",
+    "name": "Anaimalai",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-8",
+    "name": "Kinathukadavu",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-10",
+    "name": "Pollachi(N)",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-11",
+    "name": "Pollachi(S)",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-13",
+    "name": "Annur",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-17",
+    "name": "Sulur",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "11-18",
+    "name": "Sultanpet",
+    "district": "Coimbatore",
+    "historical_district": "Coimbatore",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "12-1",
+    "name": "Udhagai",
+    "district": "Nilgiris",
+    "historical_district": "The Nilgiris",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "12-2",
+    "name": "Coonoor",
+    "district": "Nilgiris",
+    "historical_district": "The Nilgiris",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "12-3",
+    "name": "Kotagiri",
+    "district": "Nilgiris",
+    "historical_district": "The Nilgiris",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "12-4",
+    "name": "Gudalur",
+    "district": "Nilgiris",
+    "historical_district": "The Nilgiris",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-1",
+    "name": "Thanjavur",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-2",
+    "name": "Budalur",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-3",
+    "name": "Thiruvaiyaru",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-4",
+    "name": "Orathanadu",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-5",
+    "name": "Thiruvonam",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-6",
+    "name": "Kumbakonam",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-7",
+    "name": "Thiruvidaimarudur",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-8",
+    "name": "Tiruppanandal",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-9",
+    "name": "Papanasam",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-10",
+    "name": "Ammapet",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-11",
+    "name": "Pattukkottai",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-12",
+    "name": "Madukkur",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-13",
+    "name": "Peravurani",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "13-14",
+    "name": "Sethubavachatram",
+    "district": "Thanjavur",
+    "historical_district": "Thanjavur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-1",
+    "name": "Nagapattinam",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-2",
+    "name": "Keelaiyur",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-3",
+    "name": "Kilvelur",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-4",
+    "name": "Thirumarugal",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-5",
+    "name": "Thalainayar",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-6",
+    "name": "Vedaranyam",
+    "district": "Nagapattinam",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-7",
+    "name": "Mayiladuthurai",
+    "district": "Mayiladuthurai",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-8",
+    "name": "Kuthalam",
+    "district": "Mayiladuthurai",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-9",
+    "name": "Sembanarkoil",
+    "district": "Mayiladuthurai",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-10",
+    "name": "Sirkali",
+    "district": "Mayiladuthurai",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "14-11",
+    "name": "Kollidam",
+    "district": "Mayiladuthurai",
+    "historical_district": "Nagapattinam",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-1",
+    "name": "Valangaiman",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-2",
+    "name": "Nannilam",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-3",
+    "name": "Kodavasal",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-4",
+    "name": "Thiruvarur",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-5",
+    "name": "Koradacheri",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-6",
+    "name": "Mannargudi",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-7",
+    "name": "Needamangalam",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-8",
+    "name": "Kottur",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-9",
+    "name": "Thiruthuraipoondi",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "15-10",
+    "name": "Muthupettai",
+    "district": "Tiruvarur",
+    "historical_district": "Tiruvarur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-1",
+    "name": "Andanallur",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-2",
+    "name": "Manikandam",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-3",
+    "name": "Thiruverambur",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-4",
+    "name": "Manapparai",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-5",
+    "name": "Marungapuri",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-6",
+    "name": "Vaiyampatty",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-7",
+    "name": "Lalgudi",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-8",
+    "name": "Manachanallur",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-9",
+    "name": "Pullampady",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-10",
+    "name": "Musiri",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-11",
+    "name": "Thottiam",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-12",
+    "name": "T.Pet",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-13",
+    "name": "Thuraiyur",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "16-14",
+    "name": "Uppiliyapuram",
+    "district": "Tiruchirappalli",
+    "historical_district": "Tiruchirappalli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-1",
+    "name": "Karur",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-2",
+    "name": "Thanthoni",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-3",
+    "name": "Aravakurichi",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-4",
+    "name": "K.Paramathi",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-5",
+    "name": "Kulithalai",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-6",
+    "name": "Krishnarayapuram",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-7",
+    "name": "Kadavur",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "17-8",
+    "name": "Thogamalai",
+    "district": "Karur",
+    "historical_district": "Karur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "18-1",
+    "name": "Perambalur",
+    "district": "Perambalur",
+    "historical_district": "Perambalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "18-2",
+    "name": "Veppanthattai",
+    "district": "Perambalur",
+    "historical_district": "Perambalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "18-5",
+    "name": "Alathur",
+    "district": "Perambalur",
+    "historical_district": "Perambalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "18-6",
+    "name": "Veppur",
+    "district": "Perambalur",
+    "historical_district": "Perambalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-1",
+    "name": "Annavasal",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-2",
+    "name": "Arimalam",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-3",
+    "name": "Kunnandarkoil",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-4",
+    "name": "Ponnamaravathi",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-5",
+    "name": "Pudukkottai",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-6",
+    "name": "Thirumayam",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-7",
+    "name": "Viralimalai",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-8",
+    "name": "Arantangi",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-9",
+    "name": "Avudayarkoil",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-10",
+    "name": "Gandarvakottai",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-11",
+    "name": "Karambakkudi",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-12",
+    "name": "Manamelkudi",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "19-13",
+    "name": "Thiruvarankulam",
+    "district": "Pudukkottai",
+    "historical_district": "Pudukkottai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-1",
+    "name": "Madurai East",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-2",
+    "name": "Madurai West",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-3",
+    "name": "Thirupparankundram",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-4",
+    "name": "Melur",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-5",
+    "name": "Kottampatti",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-6",
+    "name": "Vadipatti",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-7",
+    "name": "Alanganallur",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-8",
+    "name": "Usilampatti",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-9",
+    "name": "Chellampatti",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-10",
+    "name": "Sedapatti",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-11",
+    "name": "Thirumangalam",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-12",
+    "name": "T.Kallupatty",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "20-13",
+    "name": "Kallikudi",
+    "district": "Madurai",
+    "historical_district": "Madurai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-1",
+    "name": "Andipatti",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-2",
+    "name": "K Myladumparai",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-3",
+    "name": "Periyakulam",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-4",
+    "name": "Theni",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-5",
+    "name": "Bodinaickanur",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-6",
+    "name": "Chinnamanur",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-7",
+    "name": "Uthamapalayam",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "21-8",
+    "name": "Cumbum",
+    "district": "Theni",
+    "historical_district": "Theni",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-1",
+    "name": "Dindigul",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-2",
+    "name": "Athoor",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-3",
+    "name": "Reddiarchatram",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-4",
+    "name": "Shanarpatti",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-5",
+    "name": "Natham",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-6",
+    "name": "Nilakottai",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-7",
+    "name": "Batlagundu",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-8",
+    "name": "Palani",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-9",
+    "name": "Oddanchatram",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-10",
+    "name": "Thoppampatti",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-11",
+    "name": "Vedasandur",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-12",
+    "name": "Vadamadurai",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-13",
+    "name": "Guziliamparai",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "22-14",
+    "name": "Kodaikanal",
+    "district": "Dindigul",
+    "historical_district": "Dindigul",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-1",
+    "name": "Mandapam",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-2",
+    "name": "Ramanathapuram",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-3",
+    "name": "R.S. Mangalam",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-4",
+    "name": "Thiruppullani",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-5",
+    "name": "Thiruvadanai",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-6",
+    "name": "Bogalur",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-7",
+    "name": "Kadaladi",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-8",
+    "name": "Kamuthi",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-9",
+    "name": "Mudukulathur",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-10",
+    "name": "Nainarkoil",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "23-11",
+    "name": "Paramakudi",
+    "district": "Ramanathapuram",
+    "historical_district": "Ramanathapuram",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-1",
+    "name": "Arupukottai",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-2",
+    "name": "Virudhunagar",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-3",
+    "name": "Kariapatti",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-4",
+    "name": "Tiruchuli",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-5",
+    "name": "Narikudi",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-6",
+    "name": "Rajapalayam",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-7",
+    "name": "Srivilliputhur",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-8",
+    "name": "Watrap",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-9",
+    "name": "Sivakasi",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-10",
+    "name": "Vembakottai",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "24-11",
+    "name": "Sattur",
+    "district": "Virudhunagar",
+    "historical_district": "Virudhunagar",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-1",
+    "name": "Sivaganga",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-2",
+    "name": "Kalaiyarkoil",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-3",
+    "name": "Manamadurai",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-4",
+    "name": "Thiruppuvanam",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-5",
+    "name": "Ilayangudi",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-6",
+    "name": "Thiruppathur",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-7",
+    "name": "Singampunari",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-8",
+    "name": "Sakkottai",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-9",
+    "name": "Kallal",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-10",
+    "name": "Devakottai",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-11",
+    "name": "Kannangudi",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "25-12",
+    "name": "S.Pudur",
+    "district": "Sivagangai",
+    "historical_district": "Sivagangai",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-1",
+    "name": "Palayamkottai",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-2",
+    "name": "Manur",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-3",
+    "name": "Melaneelithanallur",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-4",
+    "name": "Kuruvikulam",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-5",
+    "name": "Sankarankoil",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-6",
+    "name": "Ambasamudram",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-7",
+    "name": "Cheranmahadevi",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-8",
+    "name": "Pappakudi",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-9",
+    "name": "Kadayam",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-10",
+    "name": "Nanguneri",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-11",
+    "name": "Kalakadu",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-12",
+    "name": "Valliyoor",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-13",
+    "name": "Radhapuram",
+    "district": "Tirunelveli",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-14",
+    "name": "Alankulam",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-15",
+    "name": "Keelapavoor",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-16",
+    "name": "Kadayanallur",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-17",
+    "name": "Shencottai",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-18",
+    "name": "Tenkasi",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "26-19",
+    "name": "Vasudevanallur",
+    "district": "Tenkasi",
+    "historical_district": "Tirunelveli",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-1",
+    "name": "Thoothukudi",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-2",
+    "name": "Karungulam",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-3",
+    "name": "Srivaikundam",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-4",
+    "name": "Alwarthirunagari",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-5",
+    "name": "Tiruchendur",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-6",
+    "name": "Udangudi",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-7",
+    "name": "Sattankulam",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-8",
+    "name": "Kovilpatti",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-9",
+    "name": "Kayathar",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-10",
+    "name": "Ottapidaram",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-11",
+    "name": "Vilathikulam",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "27-12",
+    "name": "Pudur",
+    "district": "Thoothukudi",
+    "historical_district": "Thoothukkudi",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-1",
+    "name": "Agastheeswaram",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-2",
+    "name": "Thovalai",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-3",
+    "name": "Rajakkamangalam",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-4",
+    "name": "Thuckalay",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-5",
+    "name": "Kurunthancode",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-6",
+    "name": "Thiruvattar",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-7",
+    "name": "Killiyoor",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-8",
+    "name": "Munchirai",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "28-9",
+    "name": "Melpuram",
+    "district": "Kanniyakumari",
+    "historical_district": "Kanniyakumari",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-1",
+    "name": "Krishnagiri",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-2",
+    "name": "Kaveripattanam",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-3",
+    "name": "Veppanapalli",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-4",
+    "name": "Bargur",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-5",
+    "name": "Mathur",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-6",
+    "name": "Uthangarai",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-7",
+    "name": "Hosur",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-8",
+    "name": "Shoolagiri",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-9",
+    "name": "Kelamangalam",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "30-10",
+    "name": "Thally",
+    "district": "Krishnagiri",
+    "historical_district": "Krishnagiri",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-3",
+    "name": "Ariyalur",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-4",
+    "name": "Thirumanur",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-7",
+    "name": "Jayamkondam",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-8",
+    "name": "Andimadam",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-9",
+    "name": "T.Palur",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "31-10",
+    "name": "Sendurai",
+    "district": "Ariyalur",
+    "historical_district": "Ariyalur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-6",
+    "name": "Uthukuli",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-7",
+    "name": "Gudimangalam",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-8",
+    "name": "Vellakoil",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-9",
+    "name": "Madathukulam",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-10",
+    "name": "Kundadam",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-11",
+    "name": "Mulanur",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-12",
+    "name": "Udumalpet",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-14",
+    "name": "Avinashi",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-15",
+    "name": "Palladam",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-16",
+    "name": "Pongalur",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-19",
+    "name": "Tiruppur",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-20",
+    "name": "Kangayam",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  },
+  {
+    "id": "32-21",
+    "name": "Dharapuram",
+    "district": "Tiruppur",
+    "historical_district": "Tiruppur",
+    "source": "tnrd-blocks",
+    "boundary_status": "historical-with-curated-crosswalk"
+  }
+]

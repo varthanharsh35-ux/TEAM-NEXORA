@@ -1,0 +1,437 @@
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+1 Kanchipuram 1 Kanchipuram 
+2 Walajabad 
+3 Uthiramerur 
+4 Sriperumbudur 
+5 Kundrathur 
+6 Thiruporur 
+7 Kattankolathur 
+8 Thirukalukundram 
+9 Thomas Malai 
+10 Acharapakkam 
+11 Madurantakam 
+12 Lathur 
+13 Chithamur 
+2
+Tiruvallur 1 Villivakkam 
+2 Puzhal 
+3 Minjur 
+4 Sholavaram 
+5 Gummidipoondi 
+6 Tiruvalangadu 
+7 Tiruttani 
+8 Pallipet 
+9 R.K.Pet 
+10 Tiruvallur 
+11 Poondi 
+12 Kadambathur 
+13 Ellapuram 
+14 Poonamallee 
+3
+Cuddalore 1 Cuddalore 
+2 Annagramam 
+3 Panruti 
+4 Kurinjipadi 
+5 Kattumannar Koil 
+6 Kumaratchi 
+7 Keerapalayam 
+8 Melbhuvanagiri 
+9 Parangipettai 
+10 Vridhachalam 
+11 Kammapuram 
+12 Nallur 
+13 Mangalur 
+4
+Villupuram 1 Tirukoilur 
+2 Mugaiyur 
+3 T.V. Nallur 
+4 Tirunavalur 
+5 Ulundurpet 
+6 Kanai 
+7 Koliyanur 
+8 Kandamangalam 
+9 Vikkiravandi 
+10 Olakkur 
+11 Mailam 
+12 Merkanam 
+Page 1 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+13 Vanur 
+14 Gingee 
+15 Vallam 
+16 Melmalayanur 
+17 Kallakurichi 
+18 Chinnasalem 
+19 Rishivandiyam 
+20 Sankarapuram 
+21 Thiyagadurgam 
+22 Kalrayan Hills 
+5
+Vellore 1 Vellore 
+2 Kaniyambadi 
+3 Anaicut 
+4 Madhanur 
+5 Katpadi 
+6 K.V. Kuppam 
+7 Gudiyatham 
+8 Pernambet 
+9 Walajah 
+10 Sholinghur 
+11 Arakonam 
+12 Nemili 
+13 Kaveripakkam 
+14 Arcot 
+15 Thimiri 
+16 Thirupathur 
+17 Jolarpet 
+18 Kandhili 
+19 Natrampalli 
+20 Alangayam 
+6
+Tiruvannamalai 1 Tiruvannamalai 
+2 Kilpennathur 
+3 Thurinjapuram 
+4 Polur 
+5 Kalasapakkam 
+6 Chetpet 
+7 Chengam 
+8 Pudupalayam 
+9 Thandrampet 
+10 Jawadumalai 
+11 Cheyyar 
+12 Anakkavoor 
+13 Vembakkam 
+14 Vandavasi 
+15 Thellar 
+16 Peranamallur 
+17 Arni 
+18 West Arni 
+7
+Salem 1 Salem 
+2 Veerapandy 
+3 Panamarathupatti 
+4 Ayothiyapattinam 
+Page 2 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+5 Valapady 
+6 Yercaud 
+7 P.N.Palayam 
+8 Attur 
+9 Gangavalli 
+10 Thalaivasal 
+11 Kolathur 
+12 Nangavalli 
+13 Mecheri 
+14 Omalur 
+15 Tharamangalam 
+16 Kadayampatti 
+17 Sankari 
+18 Idappady 
+19 Konganapuram 
+20 Mac. Choultry 
+8
+Namakkal 1 Elacipalayam 
+2 Erumapatty 
+3 Kabilarmalai 
+4 Kollihills 
+5 Mallasamudram 
+6 Mohanur 
+7 Namakkal 
+8 Namagiripet 
+9 Puduchatram 
+10 Paramathy 
+11 Pallipalayam 
+12 Rasipuram 
+13 Sendamangalam 
+14 Tiruchengode 
+15 Vennandur 
+9
+Dharmapuri 1 Dharmapuri 
+2 Nallampalli 
+3 Pennagaram 
+4 Harur 
+5 Morappur 
+6 Pappireddipatti 
+7 Karimangalam 
+8 Palacode 
+10 
+Erode 1 Erode 
+2 Modakkuruchi 
+3 Kodumudi 
+4 Perundurai 
+5 Chennimalai 
+12 Ammapet 
+13 Anthiyur 
+14 Bhavani 
+15 Gobi 
+16 Nambiyur 
+17 T.N. Palayam 
+18 Sathy 
+19 Bhavanisagar 
+Page 3 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+20 Talavadi 
+11 Coimbatore 1 Karamadai 
+2 Madukkarai 
+3 P.N.Palayam 
+4 S.S.Kulam 
+5 Thondamuthur 
+6 Anaimalai 
+8 Kinathukadavu 
+10 Pollachi(N) 
+11 Pollachi(S) 
+13 Annur 
+17 Sulur 
+18 Sultanpet 
+12 
+The Nilgiris 1 Udhagai 
+2 Coonoor 
+3 Kotagiri 
+4 Gudalur 
+13 
+Thanjavur 1 Thanjavur 
+2 Budalur 
+3 Thiruvaiyaru 
+4 Orathanadu 
+5 Thiruvonam 
+6 Kumbakonam 
+7 Thiruvidaimarudur 
+8 Tiruppanandal 
+9 Papanasam 
+10 Ammapet 
+11 Pattukkottai 
+12 Madukkur 
+13 Peravurani 
+14 Sethubavachatram 
+14 
+Nagapattinam 1 Nagapattinam 
+2 Keelaiyur 
+3 Kilvelur 
+4 Thirumarugal 
+5 Thalainayar 
+6 Vedaranyam 
+7 Mayiladuthurai 
+8 Kuthalam 
+9 Sembanarkoil 
+10 Sirkali 
+11 Kollidam 
+15 
+Tiruvarur 1  Valangaiman 
+2  Nannilam 
+3  Kodavasal 
+4  Thiruvarur 
+5  Koradacheri 
+6  Mannargudi 
+7  Needamangalam 
+8  Kottur 
+Page 4 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+9  Thiruthuraipoondi 
+10  Muthupettai 
+16 Tiruchirappalli 1 Andanallur 
+2 Manikandam 
+3 Thiruverambur 
+4 Manapparai 
+5 Marungapuri 
+6 Vaiyampatty 
+7 Lalgudi 
+8 Manachanallur 
+9 Pullampady 
+10 Musiri 
+11 Thottiam 
+12 T.Pet 
+13 Thuraiyur 
+14 Uppiliyapuram 
+17 
+Karur 1 Karur 
+2 Thanthoni 
+3 Aravakurichi 
+4 K.Paramathi 
+5 Kulithalai 
+6 Krishnarayapuram 
+7 Kadavur 
+8 Thogamalai 
+18 
+Perambalur 1 Perambalur 
+2 Veppanthattai 
+5 Alathur 
+6 Veppur 
+19 
+Pudukkottai 1 Annavasal 
+2 Arimalam 
+3 Kunnandarkoil 
+4 Ponnamaravathi 
+5 Pudukkottai 
+6 Thirumayam 
+7 Viralimalai 
+8 Arantangi 
+9 Avudayarkoil 
+10 Gandarvakottai 
+11 Karambakkudi 
+12 Manamelkudi 
+13 Thiruvarankulam 
+20 
+Madurai 1 Madurai East 
+2 Madurai West 
+3 Thirupparankundram 
+4 Melur 
+5 Kottampatti 
+6 Vadipatti 
+7 Alanganallur 
+8 Usilampatti 
+9 Chellampatti 
+Page 5 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+10 Sedapatti 
+11 Thirumangalam 
+12 T.Kallupatty 
+13 Kallikudi 
+21 
+Theni 1 Andipatti 
+2 K Myladumparai 
+3 Periyakulam 
+4 Theni 
+5 Bodinaickanur 
+6 Chinnamanur 
+7 Uthamapalayam 
+8 Cumbum 
+22 
+Dindigul 1 Dindigul 
+2 Athoor 
+3 Reddiarchatram 
+4 Shanarpatti 
+5 Natham 
+6 Nilakottai 
+7 Batlagundu 
+8 Palani 
+9 Oddanchatram 
+10 Thoppampatti 
+11 Vedasandur 
+12 Vadamadurai 
+13 Guziliamparai 
+14 Kodaikanal 
+23 
+Ramanathapuram 1 Mandapam 
+2 Ramanathapuram 
+3 R.S. Mangalam 
+4 Thiruppullani 
+5 Thiruvadanai 
+6 Bogalur 
+7 Kadaladi 
+8 Kamuthi 
+9 Mudukulathur 
+10 Nainarkoil 
+11 Paramakudi 
+24 
+Virudhunagar 1 Arupukottai 
+2 Virudhunagar 
+3 Kariapatti 
+4 Tiruchuli 
+5 Narikudi 
+6 Rajapalayam 
+7 Srivilliputhur 
+8 Watrap 
+9 Sivakasi 
+10 Vembakottai 
+11 Sattur 
+25 
+Sivagangai 1 Sivaganga 
+2 Kalaiyarkoil 
+Page 6 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+3 Manamadurai 
+4 Thiruppuvanam 
+5 Ilayangudi 
+6 Thiruppathur 
+7 Singampunari 
+8 Sakkottai 
+9 Kallal 
+10 Devakottai 
+11 Kannangudi 
+12 S.Pudur 
+26 
+Tirunelveli 1 Palayamkottai 
+2 Manur 
+3 Melaneelithanallur 
+4 Kuruvikulam 
+5 Sankarankoil 
+6 Ambasamudram 
+7 Cheranmahadevi 
+8 Pappakudi 
+9 Kadayam 
+10 Nanguneri 
+11 Kalakadu 
+12 Valliyoor 
+13 Radhapuram 
+14 Alankulam 
+15 Keelapavoor 
+16 Kadayanallur 
+17 Shencottai 
+18 Tenkasi 
+19 Vasudevanallur 
+27 
+Thoothukkudi 1 Thoothukudi 
+2 Karungulam 
+3 Srivaikundam 
+4 Alwarthirunagari 
+5 Tiruchendur 
+6 Udangudi 
+7 Sattankulam 
+8 Kovilpatti 
+9 Kayathar 
+10 Ottapidaram 
+11 Vilathikulam 
+12 Pudur 
+28 
+Kanniyakumari 1 Agastheeswaram 
+2 Thovalai 
+3 Rajakkamangalam 
+4 Thuckalay 
+5 Kurunthancode 
+6 Thiruvattar 
+7 Killiyoor 
+8 Munchirai 
+9 Melpuram 
+30 
+Krishnagiri 1 Krishnagiri 
+Page 7 of 8 
+List of Blocks of Tamil Nadu 
+District Code District Name Block Code Block Name 
+2 Kaveripattanam 
+3 Veppanapalli 
+4 Bargur 
+5 Mathur 
+6 Uthangarai 
+7 Hosur 
+8 Shoolagiri 
+9 Kelamangalam 
+10 Thally 
+31 
+Ariyalur 3 Ariyalur 
+4 Thirumanur 
+7 Jayamkondam 
+8 Andimadam 
+9 T.Palur 
+10 Sendurai 
+32 
+Tiruppur 6 Uthukuli 
+7 Gudimangalam 
+8 Vellakoil 
+9 Madathukulam 
+10 Kundadam 
+11 Mulanur 
+12 Udumalpet 
+14 Avinashi 
+15 Palladam 
+16 Pongalur 
+19 Tiruppur 
+20 Kangayam 
+21 Dharapuram 
+Page 8 of 8 

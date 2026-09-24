@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "pageErrors": [],
+  "checks": [
+    "local registration",
+    "recovery code delivery",
+    "guest separation",
+    "save and logout",
+    "login restores profile and ledger",
+    "multilingual account mobile layout"
+  ]
+}

@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+models/qwen3-0.6b/.cache/
+models/qwen3-0.6b/*.safetensors
+data/reports.sqlite3
+data/reports.sqlite3-*
+audit/browser/
+
+data/accounts.sqlite3
+data/accounts.sqlite3-*
+
+data/maps.sqlite3*

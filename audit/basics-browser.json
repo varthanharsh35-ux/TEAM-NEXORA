@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": [
+    "registration demographics",
+    "precise map search",
+    "fixed report inputs",
+    "report history",
+    "inventory",
+    "planned repayment",
+    "cash ledger",
+    "actual loan zero interest",
+    "payment records",
+    "account separation and restore",
+    "3-language mobile and PDF",
+    "offline saved report"
+  ]
+}

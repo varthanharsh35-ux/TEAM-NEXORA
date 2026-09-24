@@ -1,0 +1,25 @@
+```json
+{
+  "market": "Dairy milk production in Madurai district with seasonal demand and single-buyer dependency",
+  "opportunity": "Encouraging farmers to adopt modern dairy practices and promote value-added products like cheese and yogurt",
+  "strengths": "Supportive government initiatives and existing infrastructure for dairy development",
+  "weaknesses": "Limited access to modern machinery and potential supply disruptions",
+  "threats": "Supply disruptions due to seasonal demand and single-buyer dependency, as well as competition from other dairy producers",
+  "competition": "Other dairy producers in the region may offer similar products or services",
+  "pricing": "Pricing will be determined based on market conditions and production levels",
+  "steps": [
+    "Conduct training programs for farmers on best practices in dairy farming",
+    "Promote the cultivation of perennial fodder grasses and silage-making technology",
+    "Set up mini dairy units with hydroponic farming and market tie-ups"
+  ]
+}
+```
+
+STDERR
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:00<00:40,  7.61it/s]
+Loading weights:   1%|          | 2/311 [00:00<00:50,  6.14it/s]
+Loading weights:  62%|██████▏   | 193/311 [00:00<00:00, 645.61it/s]
+Loading weights:  89%|████████▉ | 278/311 [00:00<00:00, 590.03it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 437.56it/s]

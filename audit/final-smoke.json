@@ -1,0 +1,17 @@
+{
+  "startup_script": "passed",
+  "health": {
+    "status": "ok",
+    "version": "2.0"
+  },
+  "loan": 900000.0,
+  "ai": {
+    "state": "done",
+    "provider": "local",
+    "failures": [
+      "cached"
+    ],
+    "seconds": 0.0
+  },
+  "report_id": "5affd3cfdcec483185f1c403291a5b15"
+}

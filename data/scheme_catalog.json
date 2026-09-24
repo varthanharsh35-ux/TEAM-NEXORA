@@ -1,0 +1,50 @@
+{
+  "checked": "2026-09-24",
+  "schemes": [
+    {
+      "id": "micro",
+      "community": "sc",
+      "income_limit": 500000,
+      "share": 0.9,
+      "minimum_project": 0,
+      "maximum_project": 140000,
+      "loan_cap": 125000,
+      "rate": 6.5,
+      "tenure": 36,
+      "moratorium": 3,
+      "source": "https://nsfdc.nic.in/faqs",
+      "apply": "https://pmsuraj.dosje.gov.in/",
+      "gender": "any"
+    },
+    {
+      "id": "term",
+      "community": "sc",
+      "income_limit": 500000,
+      "share": 0.9,
+      "minimum_project": 140000,
+      "maximum_project": 5000000,
+      "loan_cap": 4500000,
+      "rate": 8,
+      "tenure": 84,
+      "moratorium": 6,
+      "source": "https://nsfdc.nic.in/faqs",
+      "apply": "https://pmsuraj.dosje.gov.in/",
+      "gender": "any"
+    },
+    {
+      "id": "nbcfdc",
+      "community": "obc",
+      "income_limit": 300000,
+      "share": 0.85,
+      "minimum_project": 0,
+      "maximum_project": null,
+      "loan_cap": 1500000,
+      "rate": null,
+      "tenure": null,
+      "moratorium": 3,
+      "source": "https://nbcfdc.gov.in/nbcfdc/web/sites/default/files/2025-12/Annual%20report%202024-25_0.pdf",
+      "apply": "https://nbcfdc.gov.in/nbcfdc/web/howapply",
+      "gender": "any"
+    }
+  ]
+}

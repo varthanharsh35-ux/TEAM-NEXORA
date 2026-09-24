@@ -1,0 +1,690 @@
+text,category,split
+milk dairy farm,dairy,train
+I want to start milk dairy farm,dairy,train
+rural business milk dairy farm,dairy,train
+small milk dairy farm,dairy,train
+milk dairy farm,dairy,train
+milk dairy arm,dairy,train
+cow milk selling,dairy,train
+I want to start cow milk selling,dairy,train
+rural business cow milk selling,dairy,train
+small cow milk selling,dairy,train
+cow milk selling,dairy,train
+cow milk sellig,dairy,train
+buffalo milk delivery,dairy,train
+I want to start buffalo milk delivery,dairy,train
+rural business buffalo milk delivery,dairy,train
+small buffalo milk delivery,dairy,train
+buffalo milk delivery,dairy,train
+bufflo milk delivery,dairy,train
+curd paneer butter,dairy,train
+I want to start curd paneer butter,dairy,train
+rural business curd paneer butter,dairy,train
+small curd paneer butter,dairy,train
+curd paneer butter,dairy,train
+curd aneer butter,dairy,train
+cattle rearing dairy,dairy,train
+I want to start cattle rearing dairy,dairy,train
+rural business cattle rearing dairy,dairy,train
+small cattle rearing dairy,dairy,train
+cattle rearing dairy,dairy,train
+cattle rearng dairy,dairy,train
+milk collection centre,dairy,train
+I want to start milk collection centre,dairy,train
+rural business milk collection centre,dairy,train
+small milk collection centre,dairy,train
+milk collection centre,dairy,train
+milk collectioncentre,dairy,train
+fresh milk shop,dairy,train
+I want to start fresh milk shop,dairy,train
+rural business fresh milk shop,dairy,train
+small fresh milk shop,dairy,train
+fresh milk shop,dairy,train
+fresh milk hop,dairy,train
+paal pannai,dairy,train
+I want to start paal pannai,dairy,train
+rural business paal pannai,dairy,train
+small paal pannai,dairy,train
+paal pannai,dairy,train
+paal panai,dairy,train
+பால் பண்ணை,dairy,train
+மாடு வளர்ப்பு பால் விற்பனை,dairy,train
+தயிர் வெண்ணெய் விற்பனை,dairy,train
+பால் விநியோகம்,dairy,train
+दूध डेयरी,dairy,train
+गाय भैंस पालन,dairy,train
+दही पनीर बेचना,dairy,train
+दूध वितरण,dairy,train
+grocery kirana shop,retail,train
+I want to start grocery kirana shop,retail,train
+rural business grocery kirana shop,retail,train
+small grocery kirana shop,retail,train
+grocery kirana shop,retail,train
+gocery kirana shop,retail,train
+general store essentials,retail,train
+I want to start general store essentials,retail,train
+rural business general store essentials,retail,train
+small general store essentials,retail,train
+general store essentials,retail,train
+general store esentials,retail,train
+provision shop rice oil,retail,train
+I want to start provision shop rice oil,retail,train
+rural business provision shop rice oil,retail,train
+small provision shop rice oil,retail,train
+provision shop rice oil,retail,train
+prvision shop rice oil,retail,train
+small supermarket,retail,train
+I want to start small supermarket,retail,train
+rural business small supermarket,retail,train
+small small supermarket,retail,train
+small supermarket,retail,train
+smal supermarket,retail,train
+vegetable retail stall,retail,train
+I want to start vegetable retail stall,retail,train
+rural business vegetable retail stall,retail,train
+small vegetable retail stall,retail,train
+vegetable retail stall,retail,train
+vegetableretail stall,retail,train
+daily household goods,retail,train
+I want to start daily household goods,retail,train
+rural business daily household goods,retail,train
+small daily household goods,retail,train
+daily household goods,retail,train
+daiy household goods,retail,train
+petty shop,retail,train
+I want to start petty shop,retail,train
+rural business petty shop,retail,train
+small petty shop,retail,train
+petty shop,retail,train
+ptty shop,retail,train
+maligai kadai,retail,train
+I want to start maligai kadai,retail,train
+rural business maligai kadai,retail,train
+small maligai kadai,retail,train
+maligai kadai,retail,train
+maliga kadai,retail,train
+மளிகை கடை,retail,train
+பலசரக்கு விற்பனை,retail,train
+காய்கறி கடை,retail,train
+அரிசி மளிகை விற்பனை,retail,train
+किराना दुकान,retail,train
+राशन की दुकान,retail,train
+सब्जी बेचना,retail,train
+घरेलू सामान बिक्री,retail,train
+idli dosa breakfast stall,food,train
+I want to start idli dosa breakfast stall,food,train
+rural business idli dosa breakfast stall,food,train
+small idli dosa breakfast stall,food,train
+idli dosa breakfast stall,food,train
+idli dosa reakfast stall,food,train
+tea snacks shop,food,train
+I want to start tea snacks shop,food,train
+rural business tea snacks shop,food,train
+small tea snacks shop,food,train
+tea snacks shop,food,train
+ta snacks shop,food,train
+bakery cakes bread,food,train
+I want to start bakery cakes bread,food,train
+rural business bakery cakes bread,food,train
+small bakery cakes bread,food,train
+bakery cakes bread,food,train
+bakery caes bread,food,train
+home catering meals,food,train
+I want to start home catering meals,food,train
+rural business home catering meals,food,train
+small home catering meals,food,train
+home catering meals,food,train
+hme catering meals,food,train
+tiffin centre restaurant,food,train
+I want to start tiffin centre restaurant,food,train
+rural business tiffin centre restaurant,food,train
+small tiffin centre restaurant,food,train
+tiffin centre restaurant,food,train
+tiffincentre restaurant,food,train
+juice stall,food,train
+I want to start juice stall,food,train
+rural business juice stall,food,train
+small juice stall,food,train
+juice stall,food,train
+juce stall,food,train
+pickle snacks production,food,train
+I want to start pickle snacks production,food,train
+rural business pickle snacks production,food,train
+small pickle snacks production,food,train
+pickle snacks production,food,train
+picle snacks production,food,train
+unavagam,food,train
+I want to start unavagam,food,train
+rural business unavagam,food,train
+small unavagam,food,train
+unavagam,food,train
+உணவகம்,food,train
+இட்லி தோசை கடை,food,train
+தேநீர் சிற்றுண்டி,food,train
+வீட்டு சமையல் விற்பனை,food,train
+चाय नाश्ता दुकान,food,train
+इडली डोसा खाना,food,train
+टिफिन भोजन सेवा,food,train
+बेकरी मिठाई,food,train
+tailoring sewing garments,tailoring,train
+I want to start tailoring sewing garments,tailoring,train
+rural business tailoring sewing garments,tailoring,train
+small tailoring sewing garments,tailoring,train
+tailoring sewing garments,tailoring,train
+tailoring sewng garments,tailoring,train
+blouse stitching,tailoring,train
+I want to start blouse stitching,tailoring,train
+rural business blouse stitching,tailoring,train
+small blouse stitching,tailoring,train
+blouse stitching,tailoring,train
+blouse stitcing,tailoring,train
+school uniform sewing,tailoring,train
+I want to start school uniform sewing,tailoring,train
+rural business school uniform sewing,tailoring,train
+small school uniform sewing,tailoring,train
+school uniform sewing,tailoring,train
+schol uniform sewing,tailoring,train
+clothing alterations,tailoring,train
+I want to start clothing alterations,tailoring,train
+rural business clothing alterations,tailoring,train
+small clothing alterations,tailoring,train
+clothing alterations,tailoring,train
+clothig alterations,tailoring,train
+saree embroidery,tailoring,train
+I want to start saree embroidery,tailoring,train
+rural business saree embroidery,tailoring,train
+small saree embroidery,tailoring,train
+saree embroidery,tailoring,train
+saree emboidery,tailoring,train
+dress making,tailoring,train
+I want to start dress making,tailoring,train
+rural business dress making,tailoring,train
+small dress making,tailoring,train
+dress making,tailoring,train
+dress mking,tailoring,train
+readymade textile shop,tailoring,train
+I want to start readymade textile shop,tailoring,train
+rural business readymade textile shop,tailoring,train
+small readymade textile shop,tailoring,train
+readymade textile shop,tailoring,train
+reaymade textile shop,tailoring,train
+thaiyal kadai,tailoring,train
+I want to start thaiyal kadai,tailoring,train
+rural business thaiyal kadai,tailoring,train
+small thaiyal kadai,tailoring,train
+thaiyal kadai,tailoring,train
+thaial kadai,tailoring,train
+தையல் கடை,tailoring,train
+ரவிக்கை தைத்தல்,tailoring,train
+பள்ளி சீருடை தையல்,tailoring,train
+ஆடை தயாரிப்பு,tailoring,train
+सिलाई दुकान,tailoring,train
+कपड़े सिलना,tailoring,train
+स्कूल वर्दी बनाना,tailoring,train
+साड़ी कढ़ाई,tailoring,train
+organic vegetables farming,agriculture,train
+I want to start organic vegetables farming,agriculture,train
+rural business organic vegetables farming,agriculture,train
+small organic vegetables farming,agriculture,train
+organic vegetables farming,agriculture,train
+organic vegetabes farming,agriculture,train
+paddy cultivation,agriculture,train
+I want to start paddy cultivation,agriculture,train
+rural business paddy cultivation,agriculture,train
+small paddy cultivation,agriculture,train
+paddy cultivation,agriculture,train
+paddy cultivatin,agriculture,train
+rice flour milling,agriculture,train
+I want to start rice flour milling,agriculture,train
+rural business rice flour milling,agriculture,train
+small rice flour milling,agriculture,train
+rice flour milling,agriculture,train
+rice flour miling,agriculture,train
+millet processing,agriculture,train
+I want to start millet processing,agriculture,train
+rural business millet processing,agriculture,train
+small millet processing,agriculture,train
+millet processing,agriculture,train
+millet procesing,agriculture,train
+coconut oil pressing,agriculture,train
+I want to start coconut oil pressing,agriculture,train
+rural business coconut oil pressing,agriculture,train
+small coconut oil pressing,agriculture,train
+coconut oil pressing,agriculture,train
+cocnut oil pressing,agriculture,train
+seed fertilizer shop,agriculture,train
+I want to start seed fertilizer shop,agriculture,train
+rural business seed fertilizer shop,agriculture,train
+small seed fertilizer shop,agriculture,train
+seed fertilizer shop,agriculture,train
+seed fertilizr shop,agriculture,train
+farm produce trading,agriculture,train
+I want to start farm produce trading,agriculture,train
+rural business farm produce trading,agriculture,train
+small farm produce trading,agriculture,train
+farm produce trading,agriculture,train
+farmproduce trading,agriculture,train
+vivasayam,agriculture,train
+I want to start vivasayam,agriculture,train
+rural business vivasayam,agriculture,train
+small vivasayam,agriculture,train
+vivasayam,agriculture,train
+vivaayam,agriculture,train
+விவசாயம்,agriculture,train
+காய்கறி சாகுபடி,agriculture,train
+அரிசி ஆலை,agriculture,train
+விதை உர விற்பனை,agriculture,train
+खेती कृषि,agriculture,train
+धान की खेती,agriculture,train
+बीज खाद दुकान,agriculture,train
+अनाज प्रसंस्करण,agriculture,train
+poultry chicken farm,poultry,train
+I want to start poultry chicken farm,poultry,train
+rural business poultry chicken farm,poultry,train
+small poultry chicken farm,poultry,train
+poultry chicken farm,poultry,train
+poultry hicken farm,poultry,train
+egg production,poultry,train
+I want to start egg production,poultry,train
+rural business egg production,poultry,train
+small egg production,poultry,train
+egg production,poultry,train
+egg poduction,poultry,train
+broiler birds,poultry,train
+I want to start broiler birds,poultry,train
+rural business broiler birds,poultry,train
+small broiler birds,poultry,train
+broiler birds,poultry,train
+broiler irds,poultry,train
+layer hen rearing,poultry,train
+I want to start layer hen rearing,poultry,train
+rural business layer hen rearing,poultry,train
+small layer hen rearing,poultry,train
+layer hen rearing,poultry,train
+layer hen reaing,poultry,train
+country chicken breeding,poultry,train
+I want to start country chicken breeding,poultry,train
+rural business country chicken breeding,poultry,train
+small country chicken breeding,poultry,train
+country chicken breeding,poultry,train
+counry chicken breeding,poultry,train
+quail farm,poultry,train
+I want to start quail farm,poultry,train
+rural business quail farm,poultry,train
+small quail farm,poultry,train
+quail farm,poultry,train
+quail arm,poultry,train
+egg wholesale,poultry,train
+I want to start egg wholesale,poultry,train
+rural business egg wholesale,poultry,train
+small egg wholesale,poultry,train
+egg wholesale,poultry,train
+egg wholesae,poultry,train
+kozhi pannai,poultry,train
+I want to start kozhi pannai,poultry,train
+rural business kozhi pannai,poultry,train
+small kozhi pannai,poultry,train
+kozhi pannai,poultry,train
+kozhi panai,poultry,train
+கோழி பண்ணை,poultry,train
+முட்டை விற்பனை,poultry,train
+நாட்டுக்கோழி வளர்ப்பு,poultry,train
+காடை வளர்ப்பு,poultry,train
+मुर्गी पालन,poultry,train
+अंडे बेचना,poultry,train
+ब्रायलर फार्म,poultry,train
+देसी मुर्गी,poultry,train
+fish selling stall,fish,train
+I want to start fish selling stall,fish,train
+rural business fish selling stall,fish,train
+small fish selling stall,fish,train
+fish selling stall,fish,train
+fih selling stall,fish,train
+fish farming pond,fish,train
+I want to start fish farming pond,fish,train
+rural business fish farming pond,fish,train
+small fish farming pond,fish,train
+fish farming pond,fish,train
+fishfarming pond,fish,train
+seafood retail,fish,train
+I want to start seafood retail,fish,train
+rural business seafood retail,fish,train
+small seafood retail,fish,train
+seafood retail,fish,train
+seafood rtail,fish,train
+prawn shrimp farming,fish,train
+I want to start prawn shrimp farming,fish,train
+rural business prawn shrimp farming,fish,train
+small prawn shrimp farming,fish,train
+prawn shrimp farming,fish,train
+prawn shimp farming,fish,train
+dry fish processing,fish,train
+I want to start dry fish processing,fish,train
+rural business dry fish processing,fish,train
+small dry fish processing,fish,train
+dry fish processing,fish,train
+dryfish processing,fish,train
+fresh fish shop,fish,train
+I want to start fresh fish shop,fish,train
+rural business fresh fish shop,fish,train
+small fresh fish shop,fish,train
+fresh fish shop,fish,train
+fresh fish shp,fish,train
+aquaculture business,fish,train
+I want to start aquaculture business,fish,train
+rural business aquaculture business,fish,train
+small aquaculture business,fish,train
+aquaculture business,fish,train
+aquaculture busiess,fish,train
+meen kadai,fish,train
+I want to start meen kadai,fish,train
+rural business meen kadai,fish,train
+small meen kadai,fish,train
+meen kadai,fish,train
+meen kaai,fish,train
+மீன் கடை,fish,train
+மீன் வளர்ப்பு,fish,train
+இறால் பண்ணை,fish,train
+கருவாடு விற்பனை,fish,train
+मछली पालन,fish,train
+मछली की दुकान,fish,train
+झींगा पालन,fish,train
+सूखी मछली,fish,train
+mobile phone repair,repair,train
+I want to start mobile phone repair,repair,train
+rural business mobile phone repair,repair,train
+small mobile phone repair,repair,train
+mobile phone repair,repair,train
+mobile phone repar,repair,train
+bicycle repair workshop,repair,train
+I want to start bicycle repair workshop,repair,train
+rural business bicycle repair workshop,repair,train
+small bicycle repair workshop,repair,train
+bicycle repair workshop,repair,train
+biccle repair workshop,repair,train
+motorcycle mechanic,repair,train
+I want to start motorcycle mechanic,repair,train
+rural business motorcycle mechanic,repair,train
+small motorcycle mechanic,repair,train
+motorcycle mechanic,repair,train
+motorcycle mechaic,repair,train
+electrical appliance servicing,repair,train
+I want to start electrical appliance servicing,repair,train
+rural business electrical appliance servicing,repair,train
+small electrical appliance servicing,repair,train
+electrical appliance servicing,repair,train
+electrcal appliance servicing,repair,train
+pump motor repair,repair,train
+I want to start pump motor repair,repair,train
+rural business pump motor repair,repair,train
+small pump motor repair,repair,train
+pump motor repair,repair,train
+pump otor repair,repair,train
+computer laptop repair,repair,train
+I want to start computer laptop repair,repair,train
+rural business computer laptop repair,repair,train
+small computer laptop repair,repair,train
+computer laptop repair,repair,train
+compute laptop repair,repair,train
+welding repair shop,repair,train
+I want to start welding repair shop,repair,train
+rural business welding repair shop,repair,train
+small welding repair shop,repair,train
+welding repair shop,repair,train
+welding epair shop,repair,train
+பழுது பார்க்கும் கடை,repair,train
+மொபைல் பழுது நீக்கம்,repair,train
+மின்சாதன பழுது,repair,train
+இருசக்கர வாகன பழுது,repair,train
+मोबाइल मरम्मत,repair,train
+बाइक मैकेनिक,repair,train
+बिजली उपकरण सुधार,repair,train
+कंप्यूटर रिपेयर,repair,train
+pottery clay pots,craft,train
+I want to start pottery clay pots,craft,train
+rural business pottery clay pots,craft,train
+small pottery clay pots,craft,train
+pottery clay pots,craft,train
+pottery cly pots,craft,train
+handmade basket weaving,craft,train
+I want to start handmade basket weaving,craft,train
+rural business handmade basket weaving,craft,train
+small handmade basket weaving,craft,train
+handmade basket weaving,craft,train
+handmade basket waving,craft,train
+palm leaf handicrafts,craft,train
+I want to start palm leaf handicrafts,craft,train
+rural business palm leaf handicrafts,craft,train
+small palm leaf handicrafts,craft,train
+palm leaf handicrafts,craft,train
+palm laf handicrafts,craft,train
+wood carving artisan,craft,train
+I want to start wood carving artisan,craft,train
+rural business wood carving artisan,craft,train
+small wood carving artisan,craft,train
+wood carving artisan,craft,train
+wod carving artisan,craft,train
+handloom crafts,craft,train
+I want to start handloom crafts,craft,train
+rural business handloom crafts,craft,train
+small handloom crafts,craft,train
+handloom crafts,craft,train
+handlom crafts,craft,train
+bamboo products,craft,train
+I want to start bamboo products,craft,train
+rural business bamboo products,craft,train
+small bamboo products,craft,train
+bamboo products,craft,train
+baboo products,craft,train
+terracotta toys,craft,train
+I want to start terracotta toys,craft,train
+rural business terracotta toys,craft,train
+small terracotta toys,craft,train
+terracotta toys,craft,train
+terraotta toys,craft,train
+கைவினை பொருட்கள்,craft,train
+மண்பாண்டம் தயாரிப்பு,craft,train
+பனை ஓலை கூடை,craft,train
+மூங்கில் பொருட்கள்,craft,train
+हस्तशिल्प,craft,train
+मिट्टी के बर्तन,craft,train
+बांस की टोकरी,craft,train
+लकड़ी की नक्काशी,craft,train
+paper plate manufacturing,manufacturing,train
+I want to start paper plate manufacturing,manufacturing,train
+rural business paper plate manufacturing,manufacturing,train
+small paper plate manufacturing,manufacturing,train
+paper plate manufacturing,manufacturing,train
+papr plate manufacturing,manufacturing,train
+soap making unit,manufacturing,train
+I want to start soap making unit,manufacturing,train
+rural business soap making unit,manufacturing,train
+small soap making unit,manufacturing,train
+soap making unit,manufacturing,train
+soap mking unit,manufacturing,train
+candle production,manufacturing,train
+I want to start candle production,manufacturing,train
+rural business candle production,manufacturing,train
+small candle production,manufacturing,train
+candle production,manufacturing,train
+candle prouction,manufacturing,train
+incense agarbatti factory,manufacturing,train
+I want to start incense agarbatti factory,manufacturing,train
+rural business incense agarbatti factory,manufacturing,train
+small incense agarbatti factory,manufacturing,train
+incense agarbatti factory,manufacturing,train
+incense agabatti factory,manufacturing,train
+coir rope unit,manufacturing,train
+I want to start coir rope unit,manufacturing,train
+rural business coir rope unit,manufacturing,train
+small coir rope unit,manufacturing,train
+coir rope unit,manufacturing,train
+coirrope unit,manufacturing,train
+brick making,manufacturing,train
+I want to start brick making,manufacturing,train
+rural business brick making,manufacturing,train
+small brick making,manufacturing,train
+brick making,manufacturing,train
+brik making,manufacturing,train
+packaging boxes production,manufacturing,train
+I want to start packaging boxes production,manufacturing,train
+rural business packaging boxes production,manufacturing,train
+small packaging boxes production,manufacturing,train
+packaging boxes production,manufacturing,train
+packaging boxs production,manufacturing,train
+உற்பத்தி தொழில்,manufacturing,train
+காகித தட்டு தயாரிப்பு,manufacturing,train
+சோப்பு தயாரித்தல்,manufacturing,train
+கயிறு உற்பத்தி,manufacturing,train
+कागज प्लेट बनाना,manufacturing,train
+साबुन उत्पादन,manufacturing,train
+मोमबत्ती बनाना,manufacturing,train
+अगरबत्ती कारखाना,manufacturing,train
+auto rickshaw service,transport,train
+I want to start auto rickshaw service,transport,train
+rural business auto rickshaw service,transport,train
+small auto rickshaw service,transport,train
+auto rickshaw service,transport,train
+auto ickshaw service,transport,train
+mini truck delivery,transport,train
+I want to start mini truck delivery,transport,train
+rural business mini truck delivery,transport,train
+small mini truck delivery,transport,train
+mini truck delivery,transport,train
+mini trck delivery,transport,train
+goods transport van,transport,train
+I want to start goods transport van,transport,train
+rural business goods transport van,transport,train
+small goods transport van,transport,train
+goods transport van,transport,train
+goods tansport van,transport,train
+passenger taxi,transport,train
+I want to start passenger taxi,transport,train
+rural business passenger taxi,transport,train
+small passenger taxi,transport,train
+passenger taxi,transport,train
+pssenger taxi,transport,train
+last mile logistics,transport,train
+I want to start last mile logistics,transport,train
+rural business last mile logistics,transport,train
+small last mile logistics,transport,train
+last mile logistics,transport,train
+last mil logistics,transport,train
+parcel courier delivery,transport,train
+I want to start parcel courier delivery,transport,train
+rural business parcel courier delivery,transport,train
+small parcel courier delivery,transport,train
+parcel courier delivery,transport,train
+parcel courier delivry,transport,train
+school van business,transport,train
+I want to start school van business,transport,train
+rural business school van business,transport,train
+small school van business,transport,train
+school van business,transport,train
+schol van business,transport,train
+வாகன போக்குவரத்து,transport,train
+ஆட்டோ ஓட்டுதல்,transport,train
+சரக்கு வண்டி சேவை,transport,train
+பார்சல் விநியோகம்,transport,train
+ऑटो रिक्शा,transport,train
+माल ढुलाई,transport,train
+टैक्सी सेवा,transport,train
+पार्सल डिलीवरी,transport,train
+digital seva centre,services,train
+I want to start digital seva centre,services,train
+rural business digital seva centre,services,train
+small digital seva centre,services,train
+digital seva centre,services,train
+digita seva centre,services,train
+xerox printing shop,services,train
+I want to start xerox printing shop,services,train
+rural business xerox printing shop,services,train
+small xerox printing shop,services,train
+xerox printing shop,services,train
+xerox printng shop,services,train
+beauty parlour salon,services,train
+I want to start beauty parlour salon,services,train
+rural business beauty parlour salon,services,train
+small beauty parlour salon,services,train
+beauty parlour salon,services,train
+beauty parlour slon,services,train
+barber hair cutting,services,train
+I want to start barber hair cutting,services,train
+rural business barber hair cutting,services,train
+small barber hair cutting,services,train
+barber hair cutting,services,train
+brber hair cutting,services,train
+laundry ironing service,services,train
+I want to start laundry ironing service,services,train
+rural business laundry ironing service,services,train
+small laundry ironing service,services,train
+laundry ironing service,services,train
+laundry ironing srvice,services,train
+tuition training centre,services,train
+I want to start tuition training centre,services,train
+rural business tuition training centre,services,train
+small tuition training centre,services,train
+tuition training centre,services,train
+tuition training cetre,services,train
+internet browsing centre,services,train
+I want to start internet browsing centre,services,train
+rural business internet browsing centre,services,train
+small internet browsing centre,services,train
+internet browsing centre,services,train
+internt browsing centre,services,train
+சேவை மையம்,services,train
+இ சேவை ஜெராக்ஸ்,services,train
+அழகு நிலையம்,services,train
+சலவை கடை,services,train
+सेवा केंद्र,services,train
+फोटोकॉपी प्रिंटिंग,services,train
+ब्यूटी पार्लर,services,train
+कपड़े धुलाई,services,train
+da iry milk business,dairy,test
+deliver fresh cow milk to houses,dairy,test
+பால் விற்பனை செய்ய விரும்புகிறேன்,dairy,test
+दूध का कारोबार शुरू करना है,dairy,test
+grocry store in my village,retail,test
+selling provisions and vegetables,retail,test
+என் ஊரில் மளிகைக்கடை,retail,test
+गांव में किराने का कारोबार,retail,test
+tea and idly stall near bus stop,food,test
+homemade lunch catering,food,test
+காலை இட்லி விற்க வேண்டும்,food,test
+चाय और नाश्ते का ठेला,food,test
+stiching blouses at home,tailoring,test
+sew uniforms for children,tailoring,test
+வீட்டில் தையல் வேலை,tailoring,test
+घर पर कपड़ों की सिलाई,tailoring,test
+growing organic farm vegetables,agriculture,test
+small rice milling business,agriculture,test
+நெல் அரிசி வியாபாரம்,agriculture,test
+जैविक सब्जियों की खेती,agriculture,test
+start egg layer poultry,poultry,test
+raising country hens,poultry,test
+கோழி வளர்த்து முட்டை விற்க,poultry,test
+अंडे देने वाली मुर्गियां पालना,poultry,test
+village fresh seafood seller,fish,test
+small fish pond enterprise,fish,test
+மீன் விற்பனை தொடங்க,fish,test
+तालाब में मछलियां पालना,fish,test
+fix broken mobile phones,repair,test
+bike repair shed,repair,test
+மொபைல் போன் பழுது பார்க்க,repair,test
+खराब मोबाइल ठीक करना,repair,test
+making clay pots for sale,craft,test
+palm baskets handmade,craft,test
+பனை கூடை செய்ய,craft,test
+मिट्टी के घड़े बनाना,craft,test
+manufacture paper plates,manufacturing,test
+small soap production workshop,manufacturing,test
+காகிதத்தட்டுகள் செய்ய,manufacturing,test
+साबुन बनाने का छोटा व्यवसाय,manufacturing,test
+deliver goods in a mini lorry,transport,test
+village passenger auto,transport,test
+சரக்கு கொண்டு செல்ல வண்டி,transport,test
+गांव में ऑटो चलाना,transport,test
+photocopy and digital documents centre,services,test
+rural beauty salon,services,test
+ஜெராக்ஸ் சேவை தொடங்க,services,test
+गांव में ब्यूटी पार्लर खोलना,services,test

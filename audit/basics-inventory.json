@@ -1,0 +1,407 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 247,
+    "sha256": "3e8d1408d18465d74a89cb36c473f70bb6e114498eca47d20a90141e8faed2b9"
+  },
+  {
+    "file": "PROJECT_STATUS.md",
+    "bytes": 721,
+    "sha256": "554782d4545e71728c7aa6a100783e23704c9104d017e2d8aa1ba578f4e85dc4"
+  },
+  {
+    "file": "README.md",
+    "bytes": 15831,
+    "sha256": "bc2030999d276ab8fdcef657049d057a0c3b1f9f3ef9c26e3e651dbbfe627c68"
+  },
+  {
+    "file": "start.ps1",
+    "bytes": 972,
+    "sha256": "3525a2d6271156787a3675c7097b79a3cf29a98045183eaec8e970550601027c"
+  },
+  {
+    "file": "backend\\accounts.py",
+    "bytes": 5516,
+    "sha256": "1b1a2f74998228074fd8590a194168bf19faaac39b8d72cfafdd4ac21cf21b79"
+  },
+  {
+    "file": "backend\\advisory.py",
+    "bytes": 5086,
+    "sha256": "08916b95e0b75bcaf78b02312a9f7f5bacb1455c64d9b8b963adca429ed5dc35"
+  },
+  {
+    "file": "backend\\config.py",
+    "bytes": 571,
+    "sha256": "76359a186e20e07b413429ac29e413bb48864bef931c17b34fcb1a69c8eff3e8"
+  },
+  {
+    "file": "backend\\finance.py",
+    "bytes": 3931,
+    "sha256": "d6cf8f874bda6ec5d76f526b404e25f9ea8ca0f0216021119e155c6a21f8189f"
+  },
+  {
+    "file": "backend\\intelligence.py",
+    "bytes": 5164,
+    "sha256": "9857f887958e30cd3d53404384e31d3e007bb5b8738be7c4c0c8e51447157358"
+  },
+  {
+    "file": "backend\\llm.py",
+    "bytes": 6224,
+    "sha256": "b40e13d267cad835b7b52f3492f02dbd62d0a0823f1bfe5f3cd222352bcb421c"
+  },
+  {
+    "file": "backend\\llm_worker.py",
+    "bytes": 870,
+    "sha256": "cd9e23ce65a9aa6da17b5dfb4e7e42f30d6dcd9a572d159cb97cbfee9aa37ef6"
+  },
+  {
+    "file": "backend\\main.py",
+    "bytes": 5171,
+    "sha256": "79f9774f7e5ae3f08ea14c344a5a3c0cfaea85afd5519398677de23b6f8bde4f"
+  },
+  {
+    "file": "backend\\requirements-local-llm.txt",
+    "bytes": 80,
+    "sha256": "7db9e842ffbf5a5c9e71bd0311665003da066ee243a729455b5033e3a2739715"
+  },
+  {
+    "file": "backend\\requirements.txt",
+    "bytes": 103,
+    "sha256": "c23796b3d53383d23ee75e1d0d59fc3b7958d7a17d45c484efdd6ce1a3e46ab7"
+  },
+  {
+    "file": "backend\\schemes.py",
+    "bytes": 1002,
+    "sha256": "ea802d5bad052ed6ff40c60ec955e5aa92d3f4226deb9deee5a86912f97c5d5b"
+  },
+  {
+    "file": "backend\\test_accounts.py",
+    "bytes": 2782,
+    "sha256": "e85c2aeea3436f9bcc34a962feb2ed4ea25be9647356f62000330b7f76ebb034"
+  },
+  {
+    "file": "backend\\test_api_core.py",
+    "bytes": 2131,
+    "sha256": "ad6d98171963c359b433115bd2b2c5ef5e6d7fcfb58f94ee3e38ec24354f11f4"
+  },
+  {
+    "file": "backend\\test_finance.py",
+    "bytes": 1811,
+    "sha256": "5723990ca77bbcaa56ae4fd22b1c26ad352ea5c5d7c57800243f798eb6e6cdba"
+  },
+  {
+    "file": "backend\\test_intelligence.py",
+    "bytes": 2251,
+    "sha256": "bd91fed191b21c4fcecbdec30de9112931fd9dda7df8def6408c0573fe2eed31"
+  },
+  {
+    "file": "backend\\test_llm.py",
+    "bytes": 2382,
+    "sha256": "5b6ceba0cbdd9a6013b74471794c7a6accf129901b630729f2df3465d451b9ab"
+  },
+  {
+    "file": "backend\\test_restoration.py",
+    "bytes": 2190,
+    "sha256": "7a9f0d4772c65f471817a9d0c68d027139879565639f0254250000819caa2144"
+  },
+  {
+    "file": "data\\blocks.json",
+    "bytes": 84371,
+    "sha256": "364c7b032e3f020e5e5cfa30f9a8d8f95560b7220f6f36ccfa53921d3806750c"
+  },
+  {
+    "file": "data\\business_holdout.tsv",
+    "bytes": 2270,
+    "sha256": "7812395667f746165233a08d5a22ef5006293fefa2e8e4e12a99da611b4872e4"
+  },
+  {
+    "file": "data\\business_seed.tsv",
+    "bytes": 5647,
+    "sha256": "34805d38a617abd9327f6aad78db99229e0dd217d247266cf574f4ffc0b8c5c2"
+  },
+  {
+    "file": "data\\business_training.csv",
+    "bytes": 30247,
+    "sha256": "e380761f203eaea6cc59824b8a04e3436645ee8532f56cfa375d7d009cf3b6ae"
+  },
+  {
+    "file": "data\\coverage.json",
+    "bytes": 189,
+    "sha256": "5b5e9c29b87e3915cc0be8bfeafd18fe6a836ebded2adbbc26a8618a6a08b11a"
+  },
+  {
+    "file": "data\\DATA_SOURCES.md",
+    "bytes": 6555,
+    "sha256": "5fd4b5d2d50132606b515042048d4615279a5978908317184caffafcf6232573"
+  },
+  {
+    "file": "data\\districts.json",
+    "bytes": 14012,
+    "sha256": "7a742541da39d35d14a4f90cd0b9eabe1df9750d63df032ca254018c7bcf8874"
+  },
+  {
+    "file": "data\\knowledge.json",
+    "bytes": 732854,
+    "sha256": "b0dd67e8f209fc8a8c5b750bc2b48ec861b719f90037dafdf8ab70dc8b17e00b"
+  },
+  {
+    "file": "data\\scheme_catalog.json",
+    "bytes": 1304,
+    "sha256": "0ed9dc2ad86c8f4c20ca8bdb05b81ca7900348fbb478afd8b5ed0c88c70e6e16"
+  },
+  {
+    "file": "data\\sectors.json",
+    "bytes": 3744,
+    "sha256": "6f7006eadda600e227d952e5a41e2bf2d9108c54186c7bb4727fdf946d6d1cdb"
+  },
+  {
+    "file": "data\\villages.json",
+    "bytes": 1905709,
+    "sha256": "8f1a7f3f19d3ead4b62fd54672b995d6a9d22ea3d8c27e313a6b0451897a6690"
+  },
+  {
+    "file": "frontend\\.gitignore",
+    "bytes": 253,
+    "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+  },
+  {
+    "file": "frontend\\index.html",
+    "bytes": 376,
+    "sha256": "0ff0bb589a3832a4e9c448a98c24cd427a193736e3e05f6b636a2da0684eba40"
+  },
+  {
+    "file": "frontend\\package-lock.json",
+    "bytes": 31632,
+    "sha256": "5f5fe24f677737c4051040b06f20197e62c212f49ae31c64c38ff710a260466b"
+  },
+  {
+    "file": "frontend\\package.json",
+    "bytes": 563,
+    "sha256": "88c0228b5cf31eeb29e6c7eb62225002c1182bd8c85d7c24e1aa34edf7a1b446"
+  },
+  {
+    "file": "frontend\\tsconfig.json",
+    "bytes": 560,
+    "sha256": "132c62cab1e0f7b7cdd6ab4c4ffe9e96dc959f41b7197607d18253a8a9402bd1"
+  },
+  {
+    "file": "frontend\\vite.config.js",
+    "bytes": 264,
+    "sha256": "83e22f081ff9f1aafd79553c768794629cbe22a4aeceb9860250f5ad825413c6"
+  },
+  {
+    "file": "ml\\train.py",
+    "bytes": 2601,
+    "sha256": "9d1290abc7f95433b0bdb7b488a6a71fe4c28ea3e3e68356965ffd8da1d23f6a"
+  },
+  {
+    "file": "models\\local_llm_test.json",
+    "bytes": 1078,
+    "sha256": "225c163e1a05e5849c7f4559558ff1f05ddad4db6d66c7c75f32874e14e7199e"
+  },
+  {
+    "file": "models\\metrics.json",
+    "bytes": 2161,
+    "sha256": "fde5dcfce0c15c5712ce45d6af69a84e8de37aaa53643626c0dd0018c8d3d99c"
+  },
+  {
+    "file": "scripts\\build_knowledge.py",
+    "bytes": 1652,
+    "sha256": "419c5572c748ab6b41e4e0635b960fdf59d2123a0c422be22b55b4c8bc975a4e"
+  },
+  {
+    "file": "scripts\\download_model.py",
+    "bytes": 394,
+    "sha256": "0709e5342cf45b9f6f9350631fdd120e85f60d87fde9c4203b4b4e1c97b87c69"
+  },
+  {
+    "file": "scripts\\prepare_data.py",
+    "bytes": 7883,
+    "sha256": "9553237272c4991f0328bca890fcf4ce87c43fa78960defb32a80f0778e186fd"
+  },
+  {
+    "file": "scripts\\write_locales.py",
+    "bytes": 104272,
+    "sha256": "9b402118302e5f1e90a6ffc2c26a5f47c4881cdae91cede429783c3ff95b07b1"
+  },
+  {
+    "file": "frontend\\public\\favicon.svg",
+    "bytes": 9522,
+    "sha256": "61bc9a161de58248288e6905425d7180f0624c2865007b97d763fdac12043a66"
+  },
+  {
+    "file": "frontend\\public\\icons.svg",
+    "bytes": 5031,
+    "sha256": "b45fa506195cfcdef406ba9f0c77b36ddc1a7c224040926ec70abc2fdea7b93a"
+  },
+  {
+    "file": "frontend\\scripts\\browser-test.cjs",
+    "bytes": 4569,
+    "sha256": "bdefc29d742e63a8aaf2cbc910264249360f487cd76cae582aa7f85f51be41aa"
+  },
+  {
+    "file": "frontend\\scripts\\build-sw.mjs",
+    "bytes": 1436,
+    "sha256": "efc82bdbc2e1c6857ed96032138a256a108f3a0733b13fbbdf370bc13a1ceece"
+  },
+  {
+    "file": "frontend\\scripts\\check-i18n.mjs",
+    "bytes": 1510,
+    "sha256": "f4203e44dc84d6052c585e4a5763ad7ac164c10b687f1eed1c1843c6c1827dd9"
+  },
+  {
+    "file": "frontend\\scripts\\map-test.cjs",
+    "bytes": 1382,
+    "sha256": "b93a11b81933e2f8973d0e57a28f0e48758c7e608193b49f4ca9125402642493"
+  },
+  {
+    "file": "frontend\\scripts\\restoration-account-test.cjs",
+    "bytes": 3062,
+    "sha256": "e73e1005e410fcbf9be62c2fc9c4061d7d2b4e145b0508077286929b245e21e6"
+  },
+  {
+    "file": "frontend\\scripts\\restoration-phase2-test.cjs",
+    "bytes": 3259,
+    "sha256": "5e311e81a827536bc447265b7de6928e8a72cd99ea419896b9fb6f0fbf4fddce"
+  },
+  {
+    "file": "frontend\\scripts\\restoration-test.cjs",
+    "bytes": 2420,
+    "sha256": "177891e7400bebac410610b8e6229a74063831484eab266bd88950c5847c07bd"
+  },
+  {
+    "file": "frontend\\src\\Account.jsx",
+    "bytes": 3548,
+    "sha256": "23d78d2998479beb47246e222b15fed196d6f0ffefcafca6152f44daae4bb317"
+  },
+  {
+    "file": "frontend\\src\\api.js",
+    "bytes": 1059,
+    "sha256": "a770b67a5b574c42b963f419dd95833cafd75809514fa0031d6b5da3b9d11a60"
+  },
+  {
+    "file": "frontend\\src\\App.jsx",
+    "bytes": 27203,
+    "sha256": "77b7d78433608352e0f799d4fe205e5ad575eb3fc04f281a78c0c822ba4c85b3"
+  },
+  {
+    "file": "frontend\\src\\i18n.js",
+    "bytes": 732,
+    "sha256": "046668883ded048a30433cac49db07f0ed7291845a513f223784b664c299ef94"
+  },
+  {
+    "file": "frontend\\src\\index.css",
+    "bytes": 25865,
+    "sha256": "ef2fa5c757dfe2183fed4a8f3b7b55ec64be39d39e28ba5c8df1b7e912e3357d"
+  },
+  {
+    "file": "frontend\\src\\LocationMap.jsx",
+    "bytes": 2278,
+    "sha256": "22d0d591ef51a62a342bad0387fb0a8c25c2c87777245c6e22e6cd0dccbe229c"
+  },
+  {
+    "file": "frontend\\src\\main.jsx",
+    "bytes": 682,
+    "sha256": "df4b0f41a2dd4752f1b3e896afd84c7767f52bb0c12e8c56757323dccb12b2fa"
+  },
+  {
+    "file": "frontend\\src\\NavHelper.jsx",
+    "bytes": 2786,
+    "sha256": "b328230e2b9e7e1db5c6bde36fe989d2d569807514ebadd655f3b0e94ff335d2"
+  },
+  {
+    "file": "frontend\\src\\Profile.jsx",
+    "bytes": 2015,
+    "sha256": "0be4a5f33fd1a5021d9512cd1ffd37c1c4bc7f0e358d1c4687cb7fb3a506a156"
+  },
+  {
+    "file": "frontend\\src\\Schemes.jsx",
+    "bytes": 2719,
+    "sha256": "9e31fd3e0077f96ab39279419a0d373c027b272939ad0525fcc6e39fcf0db7b6"
+  },
+  {
+    "file": "frontend\\src\\Tracker.jsx",
+    "bytes": 3993,
+    "sha256": "4ac3461b2c0c9ffdc1276747765fb6a73c9c7e8a297ad3f16b696d3d9679f657"
+  },
+  {
+    "file": "frontend\\src\\locales\\en.json",
+    "bytes": 23797,
+    "sha256": "a16b75c15350751abb1650385266f091bee2fd77b20956a93597eab7bf26f0e9"
+  },
+  {
+    "file": "frontend\\src\\locales\\hi.json",
+    "bytes": 44132,
+    "sha256": "ab0afbe7b915e52e6acf97ce5840010cc6955ae3d22d33d577bf89990d5303db"
+  },
+  {
+    "file": "frontend\\src\\locales\\ta.json",
+    "bytes": 54387,
+    "sha256": "e1680ffe871625ef9ddcda795b07e4cddc9ddab61ba1ea00e0f6c311306427fb"
+  },
+  {
+    "file": "frontend\\public\\fonts\\devanagari.ttf",
+    "bytes": 641944,
+    "sha256": "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e"
+  },
+  {
+    "file": "frontend\\public\\fonts\\OFL-devanagari.txt",
+    "bytes": 4386,
+    "sha256": "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
+  },
+  {
+    "file": "frontend\\public\\fonts\\OFL-tamil.txt",
+    "bytes": 4381,
+    "sha256": "f8ff8ce7d0a81bf8d5e121c635ef027250c531f2fd37d5988b8dd6e45f19d7f1"
+  },
+  {
+    "file": "frontend\\public\\fonts\\tamil.ttf",
+    "bytes": 340668,
+    "sha256": "aa3a9b321f4b0bb2c40203ffbde9af89713227866e0e13f76e5b9eeea727cf88"
+  },
+  {
+    "file": "data\\raw\\Blocks.txt",
+    "bytes": 7124,
+    "sha256": "30f44e14adda92ad100c6cbcff7dde27a9b50924ffe3306a61c9b504bec9903a"
+  },
+  {
+    "file": "data\\raw\\districts.html",
+    "bytes": 101429,
+    "sha256": "3e24f813d5c571acb2020c06d8c0b9fc59f068a408d22004f9852e0657fc3930"
+  },
+  {
+    "file": "data\\raw\\local_bodies.txt",
+    "bytes": 5218,
+    "sha256": "96a954f6cd6f123ac8eb3a7a78c2a604d0260c1c770a59fb629824523cc26871"
+  },
+  {
+    "file": "data\\raw\\nabard_pages.json",
+    "bytes": 585042,
+    "sha256": "7acf498999b7d1c6d664feb73d191b99a304cb7b06bf0090d0def3cd4e8e507b"
+  },
+  {
+    "file": "data\\raw\\nsfdc.html",
+    "bytes": 189296,
+    "sha256": "a105baae64e24ab19ff386daa90042c5d5983da7d8445572ebd5fa8bf28ac6e7"
+  },
+  {
+    "file": "data\\raw\\udyam_catalog.html",
+    "bytes": 1031764,
+    "sha256": "1d34cf6e957e46ba9df4cc04396f6eeedce8091bf56143b74e5dc317e4938ca4"
+  },
+  {
+    "file": "data\\raw\\udyam_download_error.html",
+    "bytes": 385,
+    "sha256": "501a5aca7c6b2a1750742680d2769d4f30b6185a084db9d8d23cf5a2a093b783"
+  },
+  {
+    "file": "data\\raw\\udyam_units.html",
+    "bytes": 1016686,
+    "sha256": "89934a1e9ed7e7fd3eba1e0daa9d60b148fd28d0ee64e62ab4b6274d6f236ffb"
+  },
+  {
+    "file": "data\\raw\\Villages.txt",
+    "bytes": 264239,
+    "sha256": "40b23c5cb7bbc8350e2f80d045c2fd69ca0279ba2f47640fc50d833f6620c336"
+  }
+]
