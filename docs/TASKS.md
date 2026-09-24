@@ -15,9 +15,10 @@ Legend: **[BLOCKER]** must land before the review. **[CORE]** is the differentia
 
 ---
 
-## Phase 0 — make the codebase workable (do these first, they are fast)
+## Phase 0 — make the codebase workable — DONE (commits 721c601, 6ad8c10, 57d0cbc)
 
-### Task 0.1 — De-minify the frontend [BLOCKER]
+### Task 0.1 — De-minify the frontend [BLOCKER] — DONE
+**Result:** Prettier config added, `src/` reformatted, `npm run format` available. Account.jsx 7 lines to 225. Build verified, behaviour unchanged. 9 lines still over 120 chars (unbreakable regex literals and nested JSX template strings).
 **Files:** `frontend/src/*.jsx`, `frontend/src/*.js`
 **Problem:** `Account.jsx` is 7 lines with a 2,902-character line. `Schemes.jsx`, `Tracker.jsx`,
 `Profile.jsx`, `History.jsx`, `Loans.jsx`, `NavHelper.jsx`, `Nearby.jsx` are the same. Nobody,
@@ -27,7 +28,8 @@ chars, Prettier defaults. Add `.prettierrc` and a `format` npm script. **Change 
 **Done when:** `npm run build` succeeds, the app renders identically, no file has a line over
 120 characters.
 
-### Task 0.2 — Recover deleted modules [BLOCKER]
+### Task 0.2 — Recover deleted modules [BLOCKER] — DONE
+**Result:** 64 files extracted to `attic/original/` with a README. Orphaned `backend/routers/__pycache__` and `backend/data/__pycache__` removed.
 **Problem:** `backend/routers/` and `backend/data/` contain only `__pycache__` —
 `ai.pyc`, `assessment.pyc`, `financial.pyc`, `schemes.pyc`, `schemes_data.pyc`. The sources
 were deleted. The originals are in `audit/original-project.zip`.
@@ -35,7 +37,8 @@ were deleted. The originals are in `audit/original-project.zip`.
 reference for what existed. Delete the orphaned `__pycache__` directories.
 **Done when:** `attic/original/` contains the full old tree and is committed.
 
-### Task 0.3 — Remove the rigged demo path [BLOCKER]
+### Task 0.3 — Remove the rigged demo path [BLOCKER] — DONE
+**Result:** Branch deleted, fixtures moved to `tests/fixtures/`. `test_cached_locality` replaced with a stubbed-geocoder test of the real path, plus `test_no_hardcoded_place_names` guarding rule 3. 27 backend tests pass.
 **File:** `backend/geography.py`
 **Problem:** `search()` contains
 `if any(x in norm(q) for x in ['sarvanampatti','saravanampatti', ...]): return canned_json`.
