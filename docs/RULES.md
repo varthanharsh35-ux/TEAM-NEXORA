@@ -30,8 +30,14 @@ Read this file before every task. These rules exist because they were broken bef
    It never returns "outside Tamil Nadu", never returns empty-as-success, and never
    implies absence of data means absence of the thing.
 
-7. **Tests before done.** Every task adds tests. `pytest backend/` must pass. A task with
-   failing tests is not finished, and must be reported as unfinished.
+7. **Tests before done.** Every task adds tests. Run them with
+   `cd backend && python -m unittest discover -p "test_*.py"` (pytest is not installed).
+   A task with failing tests is not finished, and must be reported as unfinished.
+
+   **A task's file list never needs to mention test files.** Adding or editing
+   `backend/test_*.py` and `tests/fixtures/*` is always permitted and never counts as
+   going out of scope. Do not ask. Prefer a committed test file over an in-memory check:
+   a regression guard that disappears at the end of the session guards nothing.
 
 8. **Stay in your lane.** Backend agents do not touch `frontend/src`. UI agents do not
    touch `backend/`. Both sides code against `docs/DATA_CONTRACT.md`.

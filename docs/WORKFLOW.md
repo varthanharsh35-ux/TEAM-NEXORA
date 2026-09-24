@@ -32,7 +32,7 @@ UI agree only on `DATA_CONTRACT.md`; neither needs to read the other's code.
 ```
 1. Pick ONE numbered task from TASKS.md
 2. Paste the preamble + that task block, verbatim, into Astra
-3. Astra works, runs pytest, reports what passed and what it did not finish
+3. Astra works, runs the tests, reports what passed and what it did not finish
 4. Paste the diff to Sonnet for review (checklist below)
 5. Fix what review finds, or re-run the task
 6. Commit. Tick the task. Next.
@@ -43,11 +43,12 @@ Never two tasks in one session. Never a paragraph of complaints instead of a tas
 ### The preamble — use this exact text every time
 
 > Read `docs/RULES.md` and `docs/DATA_CONTRACT.md` first. Then do Task N below, and only
-> Task N. Do not modify anything outside the files listed in the task. Do not delete or
-> minify any file. Do not add a branch that tests for a specific place name or business.
-> When you are done, run `pytest backend/` and report what passed, what failed, and what you
-> did not finish. If you disagree with the task, say so before writing code — do not silently
-> do something else.
+> Task N. Do not modify anything outside the files listed in the task — except test files,
+> which you may always add. Do not delete or minify any file. Do not add a branch that tests
+> for a specific place name or business. When you are done, run
+> `cd backend && python -m unittest discover -p "test_*.py"` and report what passed, what
+> failed, and what you did not finish. If you disagree with the task, say so before writing
+> code — do not silently do something else.
 
 ### Review checklist — run against every diff before committing
 

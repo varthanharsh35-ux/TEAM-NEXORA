@@ -4,8 +4,10 @@
 preceded by:
 
 > Read `docs/RULES.md` and `docs/DATA_CONTRACT.md` first. Then do Task N below, and only
-> Task N. Do not modify anything outside the listed files. When you are done, run
-> `pytest backend/` and report what passed, what failed, and what you did not finish.
+> Task N. Do not modify anything outside the listed files, except test files — adding
+> `backend/test_*.py` is always allowed. When you are done, run
+> `cd backend && python -m unittest discover -p "test_*.py"` and report what passed, what
+> failed, and what you did not finish.
 
 Do not paste grievances, transcripts, or several tasks at once. That is what produced the
 last rewrite.
@@ -78,7 +80,8 @@ no special-casing; Lakkapuram in Erode resolves; unresolved places return
 `location_unresolved`, never `outside_coverage`.
 
 ### Task 1.2 — Fix the Overpass query and split the map layers [BLOCKER]
-**File:** `backend/geography.py`
+**Files:** `backend/geography.py`, the `/api/map/nearby` route in `backend/main.py`,
+`backend/test_geography_layers.py` (new)
 **Problem:** the query is
 `nwr["amenity"~"bank|post_office"](around:15000,lat,lon)`. The regex is **unanchored**, so
 `bank` matches `blood_bank`. In the project's own cached file for Saravanampatti:
