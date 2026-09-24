@@ -189,6 +189,81 @@ def advice(report_id:str,language:Literal['en','ta','hi']):
     if result is None:raise HTTPException(404,detail='report_missing')
     return result
 
+
+# --- Task 2.9: statement upload routes ---
+
+from fastapi import UploadFile, File
+
+@app.post('/api/statements/upload')
+async def upload_statement(file: UploadFile = File(...), owner: str = 'anonymous'):
+    from statements import create_batch
+    content = await file.read()
+    if not content:
+        raise HTTPException(422, detail='file_empty')
+    batch = create_batch(owner, file.filename, content, file.content_type)
+    return batch
+
+@app.get('/api/statements/batches')
+def list_statement_batches(owner: str = 'anonymous'):
+    from statements import list_batches
+    return {'batches': list_batches(owner)}
+
+@app.get('/api/statements/batches/{batch_id}')
+def get_statement_batch(batch_id: str, owner: str = 'anonymous'):
+    from statements import get_batch
+    batch = get_batch(owner, batch_id)
+    if batch is None:
+        raise HTTPException(404, detail='batch_not_found')
+    return batch
+
+class DraftUpdate(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    included: bool | None = None
+    direction: Literal['in', 'out'] | None = None
+    category: str | None = None
+    amount: float | None = None
+    entry_date: str | None = None
+
+@app.patch('/api/statements/drafts/{draft_id}')
+def patch_draft(draft_id: str, data: DraftUpdate, owner: str = 'anonymous'):
+    from statements import update_draft
+    try:
+        result = update_draft(
+            owner, draft_id,
+            included=data.included,
+            direction=data.direction,
+            category=data.category,
+            amount=data.amount,
+            entry_date=data.entry_date,
+        )
+    except ValueError as e:
+        raise HTTPException(422, detail=str(e))
+    if result is None:
+        raise HTTPException(404, detail='draft_not_found')
+    return result
+
+@app.post('/api/statements/batches/{batch_id}/confirm')
+def confirm_statement_batch(batch_id: str, owner: str = 'anonymous'):
+    from statements import confirm_batch
+    try:
+        result = confirm_batch(owner, batch_id)
+    except ValueError as e:
+        raise HTTPException(422, detail=str(e))
+    if result is None:
+        raise HTTPException(404, detail='batch_not_found')
+    return result
+
+@app.post('/api/statements/batches/{batch_id}/discard')
+def discard_statement_batch(batch_id: str, owner: str = 'anonymous'):
+    from statements import discard_batch
+    try:
+        result = discard_batch(owner, batch_id)
+    except ValueError as e:
+        raise HTTPException(422, detail=str(e))
+    if not result:
+        raise HTTPException(404, detail='batch_not_found')
+    return {'status': 'discarded', 'batch_id': batch_id}
+
 from accounts import router as account_router
 app.include_router(account_router)
 
