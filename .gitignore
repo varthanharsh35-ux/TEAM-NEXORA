@@ -14,3 +14,5 @@ data/accounts.sqlite3
 data/accounts.sqlite3-*
 
 data/maps.sqlite3*
+
+data/ledger.sqlite3

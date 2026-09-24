@@ -17,6 +17,23 @@ def add_months(day, months):
     y, m = day.year + m // 12, m % 12 + 1
     return date(y, m, min(day.day, calendar.monthrange(y, m)[1]))
 
+def monthly_emi(principal, rate, tenure_months):
+    """Level monthly instalment on a reducing balance.
+
+    The debt page and the funding plan must never show different repayment
+    figures for the same loan, so both call this rather than each doing the
+    arithmetic themselves.
+    """
+    principal = money(principal)
+    rate = D(str(rate))
+    if principal <= 0 or tenure_months < 1:
+        raise ValueError('invalid_input')
+    if rate <= 0:
+        return money(principal / D(tenure_months))
+    monthly = rate / 12
+    return money(principal * monthly / (1 - (1 + monthly) ** (-tenure_months)))
+
+
 def calculate(margin, start_date=None, scheme_id="auto", project_cost=None):
     try:
         raw = D(str(margin))
