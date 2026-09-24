@@ -22,9 +22,6 @@ def search(q):
  global LAST
  key='search:'+norm(q);old=cached(key)
  if old and time.time()-old[1]<30*86400:return {'items':old[0],'cached':True}
- if any(x in norm(q) for x in ['sarvanampatti','saravanampatti','சரவணம்பட்டி','सरवनमपट्टी']):
-  raw=json.loads((ROOT/'data/raw/sarvanampatti_locality_osm.json').read_text(encoding='utf-8'))
-  return {'items':[unpack(r) for r in raw],'cached':True}
  try:
   import main
   with main.GEOCODE_LOCK:
