@@ -147,7 +147,7 @@ for alias, activity in {
     TAGS[alias] = TAGS[activity]
 
 
-def nearby(lat, lon, category, radius_km=15):
+def nearby(lat, lon, category, radius_km=15, cache_only=False):
     """Return contract map layers, rechecking both tags and radial distance.
 
     This task supplies competition and amenity observations. Drivers remain empty
@@ -202,6 +202,11 @@ def nearby(lat, lon, category, radius_km=15):
         old = None
     if old and time.time() - old[1] < 7 * 86400:
         return old[0]
+    # Report generation reads observations, it does not go and fetch them. A
+    # synchronous user-facing request must never block on Overpass, and tests
+    # must never reach the network.
+    if cache_only:
+        return None
 
     # This parser handles only the declarative tag selectors above, never user QL.
     pattern = re.compile(r'\["([^"\]]+)"(?:(~|!=|=)"([^"\]]*)")?\]')

@@ -20,6 +20,33 @@ def save_report(r):
 def read_report(id):
  with connection() as c:row=c.execute('SELECT body FROM reports WHERE id=?',(id,)).fetchone()
  return json.loads(row[0]) if row else None
+def observed_competitors(place, category, radius_km):
+ """The competitor count for a report is the mapped count, not a second estimate.
+
+ The report previously computed rivals = population * competitors_per_10000 / 10000
+ from a curated constant while the map showed unrelated OSM results, so the two
+ disagreed by construction (RULES.md rule 5). Where the location has coordinates
+ and an observation is already cached, that measured count is the single source
+ of truth. The map is loaded during onboarding before the report is generated,
+ so in the real flow the observation is present.
+ Where it does not, the estimate is returned but labelled as one -- never silently
+ substituted for a measurement.
+ """
+ lat,lon=place.get('lat'),place.get('lon')
+ if lat is None or lon is None:return None
+ try:
+  from geography import nearby
+  result=nearby(lat,lon,category,radius_km=radius_km,cache_only=True)
+ except Exception:return None
+ if result is None:return None
+ competitors=result.get('layers',{}).get('competitors')
+ if competitors is None or result.get('completeness')=='unknown':return None
+ return {'count':len(competitors),'items':competitors,
+         'completeness':result.get('completeness'),
+         'completeness_note_key':result.get('completeness_note_key'),
+         'observed':result.get('observed'),
+         'provenance':result.get('provenance')}
+
 def build_report(data):
  if not data['business'].strip() or not data['location'].strip():raise HTTPException(422,detail='invalid_input')
  loc=resolve_location(data['location'],data.get('district',''))
@@ -36,7 +63,13 @@ def build_report(data):
  p=f['project_cost'];index=d['purchasing_index_estimate']
  population=round(math.pi*data['radius']**2*d['density_estimate']*.35)
  households=round(population/3.8)
- rivals=round(population*s['competitors_per_10000']/10000)
+ radius=data['radius'] if data['radius'] in (5,10,15) else 15
+ measured=observed_competitors(loc.get('place') or {},cat,radius)
+ estimated_rivals=round(population*s['competitors_per_10000']/10000)
+ rivals=measured['count'] if measured else estimated_rivals
+ competitor_source=dict(measured or {'count':estimated_rivals,'items':[],
+   'completeness':'unknown','completeness_note_key':'notes.competitors_not_measured',
+   'provenance':{'method':'estimated','source':'curated-sector-priors'}})
  block_rivals=round(100000*s['competitors_per_10000']/10000)
  scale=max(.15,min(3,math.sqrt(p/s['starter_cost'])))
  price=round(s['price']*index,2);variable=round(s['variable_cost']*(.95+index*.05),2)
@@ -59,7 +92,7 @@ def build_report(data):
   payment=next((x['payment'] for x in f['schedule'] if x['month']==month),0)
   cash=round(rev-cost-payment,2);balance=round(balance+cash,2)
   projection.append(dict(month=month,revenue=rev,costs=cost,repayment=payment,cash=cash,balance=balance))
- metrics=dict(population=population,population_low=round(population*.65),population_high=round(population*1.35),households=households,competitors=rivals,block_competitors=block_rivals,price=price,price_low=round(price*.9,2),price_high=round(price*1.1,2),variable_unit=variable,fixed_cost=fixed,variable_cost=variable_total,monthly_cost=expenses,revenue=revenue,operating_profit=operating,net_after_debt=net,working_capital=wc,working_allocated=allocated,working_gap=max(0,round(wc-allocated,2)),break_even_units=break_units,units=units,capacity=capacity,starter_cost=round(s['starter_cost']*index),established_cost=round(s['starter_cost']*index*3),unit=s['unit'],downside_profit=round(revenue*.75-fixed-variable_total*.75-debt,2),price_index=index,density=d['density_estimate'],projection=projection)
+ metrics=dict(population=population,population_low=round(population*.65),population_high=round(population*1.35),households=households,competitors=rivals,competitor_source=competitor_source,block_competitors=block_rivals,price=price,price_low=round(price*.9,2),price_high=round(price*1.1,2),variable_unit=variable,fixed_cost=fixed,variable_cost=variable_total,monthly_cost=expenses,revenue=revenue,operating_profit=operating,net_after_debt=net,working_capital=wc,working_allocated=allocated,working_gap=max(0,round(wc-allocated,2)),break_even_units=break_units,units=units,capacity=capacity,starter_cost=round(s['starter_cost']*index),established_cost=round(s['starter_cost']*index*3),unit=s['unit'],downside_profit=round(revenue*.75-fixed-variable_total*.75-debt,2),price_index=index,density=d['density_estimate'],projection=projection)
  retrieved=retrieve(data['business'],d['id'],cat)
  result={'id':uuid.uuid4().hex,'created_at':datetime.now(timezone.utc).isoformat(),'input':data,'location':loc,'business':business,'finance':f,'metrics':metrics,'verdict':'pilot' if net>0 and wc<=allocated and f['funding_gap']==0 and p>=s['starter_cost']*index and not business['uncertain'] else 'caution','retrieval':retrieved,'advice':{},'ai_status':{},'version':2,'sources':['tnrd-villages','tnrd-blocks','district-list','nabard','nsfdc','curated-sector-priors','curated-district-profiles'],'estimated':True}
  required={'dairy':['space','water','power','cold'],'food':['space','water','power'],'manufacturing':['space','three_phase','water','storage'],'retail':['space','storage'],'fish':['water','cold','transport'],'agriculture':['water','storage'],'poultry':['space','water'],'repair':['space','power','equipment'],'tailoring':['space','power','equipment']}.get(cat,['space','power'])
