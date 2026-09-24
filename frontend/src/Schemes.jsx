@@ -1,7 +1,157 @@
-import {useEffect,useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {api} from './api';
-export default function Schemes({form,onUse,onProfile}){const {t,i18n}=useTranslation();const [items,setItems]=useState([]),[status,setStatus]=useState('all'),[community,setCommunity]=useState('all'),[gender,setGender]=useState('all'),[error,setError]=useState(false);const money=v=>new Intl.NumberFormat(`${i18n.language}-IN`,{style:'currency',currency:'INR',maximumFractionDigits:0}).format(v);
-useEffect(()=>{let stale=false;setError(false);api('/schemes',{...form,margin:Number(form.margin),location:form.location||'Tamil Nadu',business:form.business||'other'}).then(r=>{if(!stale)setItems(r.schemes)}).catch(()=>{if(!stale)setError(true)});return()=>{stale=true}},[form]);
-const candidates=items.filter(s=>s.status==='potential');const recommended=candidates.find(s=>s.id===(form.community==='obc'?'nbcfdc':items.find(x=>x.id==='micro')?.status==='potential'?'micro':'term'));
-const visible=items.filter(s=>(status==='all'||s.status===status)&&(community==='all'||s.community===community)&&(gender==='all'||s.gender==='any'||s.gender===gender));return <section className="scheme-page"><h1>{t('nav_schemes')}</h1><p>{t('scheme_intro')}</p><button onClick={onProfile}>{t('check_profile')}</button><div className="form-grid"><div><label htmlFor="scheme-status">{t('filter_status')}</label><select id="scheme-status" value={status} onChange={e=>setStatus(e.target.value)}>{['all','potential','need_details','not_eligible'].map(v=><option key={v} value={v}>{t(v==='all'?'all_schemes':v)}</option>)}</select></div><div><label htmlFor="scheme-community">{t('filter_community')}</label><select id="scheme-community" value={community} onChange={e=>setCommunity(e.target.value)}>{['all','sc','obc','st','general'].map(v=><option key={v} value={v}>{t(v==='all'?'all_communities':v)}</option>)}</select></div><div><label htmlFor="scheme-gender">{t('gender')}</label><select id="scheme-gender" value={gender} onChange={e=>setGender(e.target.value)}>{['all','female','male','other_gender'].map(k=><option key={k} value={k}>{t(k==='all'?'all_people':k)}</option>)}</select></div></div>{error&&<p role="alert">{t('invalid_input')}</p>}<div className="report-grid">{visible.map(s=><article className="panel scheme-card" key={s.id}><span className="badge">{t(s.status)}</span><h2>{t(s.id)}</h2>{recommended?.id===s.id&&<p className="notice">{t('scheme_suggested')}</p>}<dl className="cost-list"><div><dt>{t('community')}</dt><dd>{t(s.community)}</dd></div><div><dt>{t('income_limit')}</dt><dd>{money(s.income_limit)}</dd></div><div><dt>{t('loan_cap')}</dt><dd>{money(s.loan_cap)}</dd></div></dl>{form.gender==='female'&&s.community==='sc'&&<p>{t('women_allocation')}</p>}<details><summary>{t('requirements')}</summary><p>{t('scheme_documents')}</p><p>{t('lender_checks')}</p><p>{t('gender_rule')}</p><p>{t('activity_check')}</p><p>{t(s.id==='nbcfdc'?'agency_other':'agency_sc')}</p></details><ul>{s.reasons.map(k=><li key={k}>{t(k)}</li>)}{s.missing.map(k=><li key={k}>{t('need_details')}: {t(k)}</li>)}</ul><button className="primary" disabled={s.status!=='potential'||!form.business||!form.location} onClick={()=>onUse(s.id)}>{t('use_scheme')}</button><div className="source-links"><a href={s.source} target="_blank" rel="noreferrer">{t('official_details')}</a><a href={s.apply} target="_blank" rel="noreferrer">{t('apply_official')} ↗</a></div></article>)}</div>{!visible.length&&!error&&<p>{t('no_scheme_results')}</p>}<p className="fineprint">{t('scheme_catalog_note')}</p><p>{t('scheme_coverage_limit')}</p><p className="fineprint">{t('application_note')}</p></section>}
+import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { api } from './api';
+export default function Schemes({ form, onUse, onProfile }) {
+  const { t, i18n } = useTranslation();
+  const [items, setItems] = useState([]),
+    [status, setStatus] = useState('all'),
+    [community, setCommunity] = useState('all'),
+    [gender, setGender] = useState('all'),
+    [error, setError] = useState(false);
+  const money = (v) =>
+    new Intl.NumberFormat(`${i18n.language}-IN`, {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 0,
+    }).format(v);
+  useEffect(() => {
+    let stale = false;
+    setError(false);
+    api('/schemes', {
+      ...form,
+      margin: Number(form.margin),
+      location: form.location || 'Tamil Nadu',
+      business: form.business || 'other',
+    })
+      .then((r) => {
+        if (!stale) setItems(r.schemes);
+      })
+      .catch(() => {
+        if (!stale) setError(true);
+      });
+    return () => {
+      stale = true;
+    };
+  }, [form]);
+  const candidates = items.filter((s) => s.status === 'potential');
+  const recommended = candidates.find(
+    (s) =>
+      s.id ===
+      (form.community === 'obc'
+        ? 'nbcfdc'
+        : items.find((x) => x.id === 'micro')?.status === 'potential'
+          ? 'micro'
+          : 'term')
+  );
+  const visible = items.filter(
+    (s) =>
+      (status === 'all' || s.status === status) &&
+      (community === 'all' || s.community === community) &&
+      (gender === 'all' || s.gender === 'any' || s.gender === gender)
+  );
+  return (
+    <section className="scheme-page">
+      <h1>{t('nav_schemes')}</h1>
+      <p>{t('scheme_intro')}</p>
+      <button onClick={onProfile}>{t('check_profile')}</button>
+      <div className="form-grid">
+        <div>
+          <label htmlFor="scheme-status">{t('filter_status')}</label>
+          <select id="scheme-status" value={status} onChange={(e) => setStatus(e.target.value)}>
+            {['all', 'potential', 'need_details', 'not_eligible'].map((v) => (
+              <option key={v} value={v}>
+                {t(v === 'all' ? 'all_schemes' : v)}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="scheme-community">{t('filter_community')}</label>
+          <select
+            id="scheme-community"
+            value={community}
+            onChange={(e) => setCommunity(e.target.value)}
+          >
+            {['all', 'sc', 'obc', 'st', 'general'].map((v) => (
+              <option key={v} value={v}>
+                {t(v === 'all' ? 'all_communities' : v)}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label htmlFor="scheme-gender">{t('gender')}</label>
+          <select id="scheme-gender" value={gender} onChange={(e) => setGender(e.target.value)}>
+            {['all', 'female', 'male', 'other_gender'].map((k) => (
+              <option key={k} value={k}>
+                {t(k === 'all' ? 'all_people' : k)}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
+      {error && <p role="alert">{t('invalid_input')}</p>}
+      <div className="report-grid">
+        {visible.map((s) => (
+          <article className="panel scheme-card" key={s.id}>
+            <span className="badge">{t(s.status)}</span>
+            <h2>{t(s.id)}</h2>
+            {recommended?.id === s.id && <p className="notice">{t('scheme_suggested')}</p>}
+            <dl className="cost-list">
+              <div>
+                <dt>{t('community')}</dt>
+                <dd>{t(s.community)}</dd>
+              </div>
+              <div>
+                <dt>{t('income_limit')}</dt>
+                <dd>{money(s.income_limit)}</dd>
+              </div>
+              <div>
+                <dt>{t('loan_cap')}</dt>
+                <dd>{money(s.loan_cap)}</dd>
+              </div>
+            </dl>
+            {form.gender === 'female' && s.community === 'sc' && <p>{t('women_allocation')}</p>}
+            <details>
+              <summary>{t('requirements')}</summary>
+              <p>{t('scheme_documents')}</p>
+              <p>{t('lender_checks')}</p>
+              <p>{t('gender_rule')}</p>
+              <p>{t('activity_check')}</p>
+              <p>{t(s.id === 'nbcfdc' ? 'agency_other' : 'agency_sc')}</p>
+            </details>
+            <ul>
+              {s.reasons.map((k) => (
+                <li key={k}>{t(k)}</li>
+              ))}
+              {s.missing.map((k) => (
+                <li key={k}>
+                  {t('need_details')}: {t(k)}
+                </li>
+              ))}
+            </ul>
+            <button
+              className="primary"
+              disabled={s.status !== 'potential' || !form.business || !form.location}
+              onClick={() => onUse(s.id)}
+            >
+              {t('use_scheme')}
+            </button>
+            <div className="source-links">
+              <a href={s.source} target="_blank" rel="noreferrer">
+                {t('official_details')}
+              </a>
+              <a href={s.apply} target="_blank" rel="noreferrer">
+                {t('apply_official')} ↗
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+      {!visible.length && !error && <p>{t('no_scheme_results')}</p>}
+      <p className="fineprint">{t('scheme_catalog_note')}</p>
+      <p>{t('scheme_coverage_limit')}</p>
+      <p className="fineprint">{t('application_note')}</p>
+    </section>
+  );
+}

@@ -1,7 +1,225 @@
-import {useState,useEffect} from 'react';
-import {useTranslation} from 'react-i18next';
-import {api,restore,persist} from './api';
-export default function Account({snapshot,onLoad,onContinue}){const {t}=useTranslation();const [gender,setGender]=useState('unspecified'),[community,setCommunity]=useState('unspecified'),[user,setUser]=useState(null),[mode,setMode]=useState('login'),[email,setEmail]=useState(''),[password,setPassword]=useState(''),[code,setCode]=useState(''),[recovery,setRecovery]=useState(''),[message,setMessage]=useState(''),[busy,setBusy]=useState(false);useEffect(()=>{api('/account/session').then(setUser).catch(()=>setMessage('server_error'))},[]);
-async function action(fn){setBusy(true);setMessage('');try{await fn()}catch(e){setMessage(['account_invalid','account_exists','account_wait','account_login_needed','account_denied','account_too_large'].includes(e.message)?e.message:e.message==='invalid_input'?'invalid_input':'server_error')}finally{setBusy(false)}}
-function login(e){e.preventDefault();action(async()=>{if(mode!=='reset'&&!persist('gs-guest-workspace',snapshot()))throw Error('storage_error');const result=await api(`/account/${mode}`,{email,password,...(mode==='register'?{gender,community}:{}),...(mode==='reset'?{recovery:code}:{})});setPassword('');setCode('');if(result.recovery)setRecovery(result.recovery);if(mode==='reset'){setMode('login');return}setUser(result);onLoad(await api('/account/workspace'));})}
-return <section className="panel account-page"><h1>{t('nav_account')}</h1><p>{t('account_intro')}</p>{message&&<p role="status">{t(message)}</p>}{recovery&&<div className="notice warning"><div><p>{t('account_recovery_notice')}</p><code className="recovery-code">{recovery}</code><button onClick={()=>setRecovery('')}>{t('account_recovery_saved')}</button></div></div>}{user?.email?<><p>{user.email}</p>{onContinue&&<button className="primary" onClick={onContinue}>{t('continue_details')}</button>}<p>{t('account_unsaved_note')}</p><div className="account-actions"><button disabled={busy} onClick={()=>action(async()=>{await api('/account/workspace',snapshot());setMessage('account_saved')})}>{t('account_save')}</button><button disabled={busy} onClick={()=>{if(window.confirm(t('account_confirm_load')))action(async()=>{onLoad(await api('/account/workspace'));setMessage('account_loaded')})}}>{t('account_load')}</button><button disabled={busy} onClick={()=>action(async()=>{await api('/account/workspace',snapshot());await api('/account/logout',{});setUser(null);setRecovery('');onLoad(restore('gs-guest-workspace',{}));})}>{t('account_logout')}</button></div></>:<><div className="account-modes">{['login','register','reset'].map(k=><button key={k} aria-pressed={mode===k} onClick={()=>{setMode(k);setMessage('')}}>{t(`account_${k}`)}</button>)}</div><p>{t('account_switch_note')}</p><form onSubmit={login}><label htmlFor="account-email">{t('account_email')}</label><input id="account-email" type="email" autoComplete="username" maxLength={254} required value={email} onChange={e=>setEmail(e.target.value)}/><label htmlFor="account-password">{t('account_password')}</label><input id="account-password" type="password" autoComplete={mode==='login'?'current-password':'new-password'} minLength={10} maxLength={128} required value={password} onChange={e=>setPassword(e.target.value)}/>{mode==='reset'&&<><label htmlFor="account-code">{t('account_recovery')}</label><input id="account-code" autoComplete="off" required value={code} onChange={e=>setCode(e.target.value)}/></>}{mode==='register'&&<div className="form-grid"><div><label htmlFor="register-gender">{t('gender')}</label><select id="register-gender" value={gender} onChange={e=>setGender(e.target.value)}>{['unspecified','female','male','other_gender'].map(k=><option key={k} value={k}>{t(k)}</option>)}</select></div><div><label htmlFor="register-community">{t('community')}</label><select id="register-community" value={community} onChange={e=>setCommunity(e.target.value)}>{['unspecified','sc','st','obc','general'].map(k=><option key={k} value={k}>{t(k)}</option>)}</select></div></div>}<button className="primary" type="submit" disabled={busy}>{t(busy?'loading':`account_${mode}`)}</button></form><button disabled title={t('account_social_pending')}>{t('account_social')}</button><small>{t('account_social_pending')}</small></>}</section>}
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { api, restore, persist } from './api';
+export default function Account({ snapshot, onLoad, onContinue }) {
+  const { t } = useTranslation();
+  const [gender, setGender] = useState('unspecified'),
+    [community, setCommunity] = useState('unspecified'),
+    [user, setUser] = useState(null),
+    [mode, setMode] = useState('login'),
+    [email, setEmail] = useState(''),
+    [password, setPassword] = useState(''),
+    [code, setCode] = useState(''),
+    [recovery, setRecovery] = useState(''),
+    [message, setMessage] = useState(''),
+    [busy, setBusy] = useState(false);
+  useEffect(() => {
+    api('/account/session')
+      .then(setUser)
+      .catch(() => setMessage('server_error'));
+  }, []);
+  async function action(fn) {
+    setBusy(true);
+    setMessage('');
+    try {
+      await fn();
+    } catch (e) {
+      setMessage(
+        [
+          'account_invalid',
+          'account_exists',
+          'account_wait',
+          'account_login_needed',
+          'account_denied',
+          'account_too_large',
+        ].includes(e.message)
+          ? e.message
+          : e.message === 'invalid_input'
+            ? 'invalid_input'
+            : 'server_error'
+      );
+    } finally {
+      setBusy(false);
+    }
+  }
+  function login(e) {
+    e.preventDefault();
+    action(async () => {
+      if (mode !== 'reset' && !persist('gs-guest-workspace', snapshot()))
+        throw Error('storage_error');
+      const result = await api(`/account/${mode}`, {
+        email,
+        password,
+        ...(mode === 'register' ? { gender, community } : {}),
+        ...(mode === 'reset' ? { recovery: code } : {}),
+      });
+      setPassword('');
+      setCode('');
+      if (result.recovery) setRecovery(result.recovery);
+      if (mode === 'reset') {
+        setMode('login');
+        return;
+      }
+      setUser(result);
+      onLoad(await api('/account/workspace'));
+    });
+  }
+  return (
+    <section className="panel account-page">
+      <h1>{t('nav_account')}</h1>
+      <p>{t('account_intro')}</p>
+      {message && <p role="status">{t(message)}</p>}
+      {recovery && (
+        <div className="notice warning">
+          <div>
+            <p>{t('account_recovery_notice')}</p>
+            <code className="recovery-code">{recovery}</code>
+            <button onClick={() => setRecovery('')}>{t('account_recovery_saved')}</button>
+          </div>
+        </div>
+      )}
+      {user?.email ? (
+        <>
+          <p>{user.email}</p>
+          {onContinue && (
+            <button className="primary" onClick={onContinue}>
+              {t('continue_details')}
+            </button>
+          )}
+          <p>{t('account_unsaved_note')}</p>
+          <div className="account-actions">
+            <button
+              disabled={busy}
+              onClick={() =>
+                action(async () => {
+                  await api('/account/workspace', snapshot());
+                  setMessage('account_saved');
+                })
+              }
+            >
+              {t('account_save')}
+            </button>
+            <button
+              disabled={busy}
+              onClick={() => {
+                if (window.confirm(t('account_confirm_load')))
+                  action(async () => {
+                    onLoad(await api('/account/workspace'));
+                    setMessage('account_loaded');
+                  });
+              }}
+            >
+              {t('account_load')}
+            </button>
+            <button
+              disabled={busy}
+              onClick={() =>
+                action(async () => {
+                  await api('/account/workspace', snapshot());
+                  await api('/account/logout', {});
+                  setUser(null);
+                  setRecovery('');
+                  onLoad(restore('gs-guest-workspace', {}));
+                })
+              }
+            >
+              {t('account_logout')}
+            </button>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="account-modes">
+            {['login', 'register', 'reset'].map((k) => (
+              <button
+                key={k}
+                aria-pressed={mode === k}
+                onClick={() => {
+                  setMode(k);
+                  setMessage('');
+                }}
+              >
+                {t(`account_${k}`)}
+              </button>
+            ))}
+          </div>
+          <p>{t('account_switch_note')}</p>
+          <form onSubmit={login}>
+            <label htmlFor="account-email">{t('account_email')}</label>
+            <input
+              id="account-email"
+              type="email"
+              autoComplete="username"
+              maxLength={254}
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <label htmlFor="account-password">{t('account_password')}</label>
+            <input
+              id="account-password"
+              type="password"
+              autoComplete={mode === 'login' ? 'current-password' : 'new-password'}
+              minLength={10}
+              maxLength={128}
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            {mode === 'reset' && (
+              <>
+                <label htmlFor="account-code">{t('account_recovery')}</label>
+                <input
+                  id="account-code"
+                  autoComplete="off"
+                  required
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                />
+              </>
+            )}
+            {mode === 'register' && (
+              <div className="form-grid">
+                <div>
+                  <label htmlFor="register-gender">{t('gender')}</label>
+                  <select
+                    id="register-gender"
+                    value={gender}
+                    onChange={(e) => setGender(e.target.value)}
+                  >
+                    {['unspecified', 'female', 'male', 'other_gender'].map((k) => (
+                      <option key={k} value={k}>
+                        {t(k)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="register-community">{t('community')}</label>
+                  <select
+                    id="register-community"
+                    value={community}
+                    onChange={(e) => setCommunity(e.target.value)}
+                  >
+                    {['unspecified', 'sc', 'st', 'obc', 'general'].map((k) => (
+                      <option key={k} value={k}>
+                        {t(k)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            )}
+            <button className="primary" type="submit" disabled={busy}>
+              {t(busy ? 'loading' : `account_${mode}`)}
+            </button>
+          </form>
+          <button disabled title={t('account_social_pending')}>
+            {t('account_social')}
+          </button>
+          <small>{t('account_social_pending')}</small>
+        </>
+      )}
+    </section>
+  );
+}

@@ -1,10 +1,175 @@
-import {useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {api,persist,restore} from './api';
-export default function Loans(){const {t,i18n}=useTranslation(),[loans,setLoans]=useState(()=>restore('gs-loans',[])),[error,setError]=useState(''),[busy,setBusy]=useState(false),[form,setForm]=useState({name:'',principal:'',rate:'',tenure:'36',grace:'3',start_date:new Date().toLocaleDateString('en-CA')});
- const money=v=>new Intl.NumberFormat(`${i18n.language}-IN`,{style:'currency',currency:'INR'}).format(v),date=v=>new Intl.DateTimeFormat(`${i18n.language}-IN`,{dateStyle:'medium'}).format(new Date(v+'T12:00:00'));
- function save(next){if(!persist('gs-loans',next)){setError('storage_error');return}setLoans(next);setError('')}
- async function add(e){e.preventDefault();if(!form.name.trim()||loans.length>=30){setError('invalid_input');return}setBusy(true);try{const schedule=await api('/loans/schedule',{principal:Number(form.principal),rate:Number(form.rate),tenure:Number(form.tenure),grace:Number(form.grace),start_date:form.start_date});save([{...form,...schedule,id:crypto.randomUUID(),payments:{}},...loans]);setForm(f=>({...f,name:'',principal:'',rate:''}))}catch{setError('invalid_input')}finally{setBusy(false)}}
- function paid(loan,row){if(!window.confirm(t('confirm_payment')))return;save(loans.map(l=>l.id===loan.id?{...l,payments:{...l.payments,[row.month]:{amount:row.payment,date:new Date().toLocaleDateString('en-CA')}}}:l))}
- return <section className="panel loans-page"><h2>{t('actual_loans')}</h2><p>{t('actual_loan_note')}</p><form className="form-grid" onSubmit={add}>{['name','principal','rate','tenure','grace','start_date'].map(k=><div key={k}><label htmlFor={`loan-${k}`}>{t(`loan_field_${k}`)}</label><input id={`loan-${k}`} required type={k==='name'?'text':k==='start_date'?'date':'number'} min={['rate','grace'].includes(k)?0:k==='tenure'?3:.01} max={k==='rate'?50:k==='tenure'?360:k==='grace'?36:k==='principal'?100000000:undefined} step={['tenure','grace'].includes(k)?3:'any'} maxLength={100} value={form[k]} onChange={e=>setForm(f=>({...f,[k]:e.target.value}))}/></div>)}<button className="primary" disabled={busy}>{t(busy?'loading':'save_loan')}</button></form>{error&&<p role="alert">{t(error)}</p>}<p>{t('interest_assumption')}</p>{loans.map(l=><details className="panel" key={l.id}><summary>{l.name} · {money(Number(l.principal))}</summary><p>{t('moratorium')}: {l.grace} {t('months')} · {t('quarterly_payment')}: {money(l.quarterly_payment)}</p><p>{t('recorded_paid')}: {money(Object.values(l.payments).reduce((sum,p)=>sum+p.amount,0))}</p><div className="table-wrap"><table><thead><tr>{['due_date','payment','payment_status','payment_action'].map(k=><th key={k}>{t(k)}</th>)}</tr></thead><tbody>{l.schedule.map(r=><tr key={r.month}><td>{date(r.due_date)}</td><td>{money(r.payment)}</td><td>{t(r.moratorium?'grace':l.payments[r.month]?'payment_paid':'payment_due')}</td><td>{!r.moratorium&&(l.payments[r.month]?<button onClick={()=>save(loans.map(x=>{if(x.id!==l.id)return x;const payments={...x.payments};delete payments[r.month];return {...x,payments}}))}>{t('undo_payment')}</button>:<button onClick={()=>paid(l,r)}>{t('mark_paid')}</button>)}</td></tr>)}</tbody></table></div></details>)}</section>
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { api, persist, restore } from './api';
+export default function Loans() {
+  const { t, i18n } = useTranslation(),
+    [loans, setLoans] = useState(() => restore('gs-loans', [])),
+    [error, setError] = useState(''),
+    [busy, setBusy] = useState(false),
+    [form, setForm] = useState({
+      name: '',
+      principal: '',
+      rate: '',
+      tenure: '36',
+      grace: '3',
+      start_date: new Date().toLocaleDateString('en-CA'),
+    });
+  const money = (v) =>
+      new Intl.NumberFormat(`${i18n.language}-IN`, { style: 'currency', currency: 'INR' }).format(
+        v
+      ),
+    date = (v) =>
+      new Intl.DateTimeFormat(`${i18n.language}-IN`, { dateStyle: 'medium' }).format(
+        new Date(v + 'T12:00:00')
+      );
+  function save(next) {
+    if (!persist('gs-loans', next)) {
+      setError('storage_error');
+      return;
+    }
+    setLoans(next);
+    setError('');
+  }
+  async function add(e) {
+    e.preventDefault();
+    if (!form.name.trim() || loans.length >= 30) {
+      setError('invalid_input');
+      return;
+    }
+    setBusy(true);
+    try {
+      const schedule = await api('/loans/schedule', {
+        principal: Number(form.principal),
+        rate: Number(form.rate),
+        tenure: Number(form.tenure),
+        grace: Number(form.grace),
+        start_date: form.start_date,
+      });
+      save([{ ...form, ...schedule, id: crypto.randomUUID(), payments: {} }, ...loans]);
+      setForm((f) => ({ ...f, name: '', principal: '', rate: '' }));
+    } catch {
+      setError('invalid_input');
+    } finally {
+      setBusy(false);
+    }
+  }
+  function paid(loan, row) {
+    if (!window.confirm(t('confirm_payment'))) return;
+    save(
+      loans.map((l) =>
+        l.id === loan.id
+          ? {
+              ...l,
+              payments: {
+                ...l.payments,
+                [row.month]: { amount: row.payment, date: new Date().toLocaleDateString('en-CA') },
+              },
+            }
+          : l
+      )
+    );
+  }
+  return (
+    <section className="panel loans-page">
+      <h2>{t('actual_loans')}</h2>
+      <p>{t('actual_loan_note')}</p>
+      <form className="form-grid" onSubmit={add}>
+        {['name', 'principal', 'rate', 'tenure', 'grace', 'start_date'].map((k) => (
+          <div key={k}>
+            <label htmlFor={`loan-${k}`}>{t(`loan_field_${k}`)}</label>
+            <input
+              id={`loan-${k}`}
+              required
+              type={k === 'name' ? 'text' : k === 'start_date' ? 'date' : 'number'}
+              min={['rate', 'grace'].includes(k) ? 0 : k === 'tenure' ? 3 : 0.01}
+              max={
+                k === 'rate'
+                  ? 50
+                  : k === 'tenure'
+                    ? 360
+                    : k === 'grace'
+                      ? 36
+                      : k === 'principal'
+                        ? 100000000
+                        : undefined
+              }
+              step={['tenure', 'grace'].includes(k) ? 3 : 'any'}
+              maxLength={100}
+              value={form[k]}
+              onChange={(e) => setForm((f) => ({ ...f, [k]: e.target.value }))}
+            />
+          </div>
+        ))}
+        <button className="primary" disabled={busy}>
+          {t(busy ? 'loading' : 'save_loan')}
+        </button>
+      </form>
+      {error && <p role="alert">{t(error)}</p>}
+      <p>{t('interest_assumption')}</p>
+      {loans.map((l) => (
+        <details className="panel" key={l.id}>
+          <summary>
+            {l.name} · {money(Number(l.principal))}
+          </summary>
+          <p>
+            {t('moratorium')}: {l.grace} {t('months')} · {t('quarterly_payment')}:{' '}
+            {money(l.quarterly_payment)}
+          </p>
+          <p>
+            {t('recorded_paid')}:{' '}
+            {money(Object.values(l.payments).reduce((sum, p) => sum + p.amount, 0))}
+          </p>
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  {['due_date', 'payment', 'payment_status', 'payment_action'].map((k) => (
+                    <th key={k}>{t(k)}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {l.schedule.map((r) => (
+                  <tr key={r.month}>
+                    <td>{date(r.due_date)}</td>
+                    <td>{money(r.payment)}</td>
+                    <td>
+                      {t(
+                        r.moratorium
+                          ? 'grace'
+                          : l.payments[r.month]
+                            ? 'payment_paid'
+                            : 'payment_due'
+                      )}
+                    </td>
+                    <td>
+                      {!r.moratorium &&
+                        (l.payments[r.month] ? (
+                          <button
+                            onClick={() =>
+                              save(
+                                loans.map((x) => {
+                                  if (x.id !== l.id) return x;
+                                  const payments = { ...x.payments };
+                                  delete payments[r.month];
+                                  return { ...x, payments };
+                                })
+                              )
+                            }
+                          >
+                            {t('undo_payment')}
+                          </button>
+                        ) : (
+                          <button onClick={() => paid(l, r)}>{t('mark_paid')}</button>
+                        ))}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      ))}
+    </section>
+  );
 }
