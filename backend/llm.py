@@ -1,5 +1,6 @@
 """Validated structured advice; code-calculated figures cannot be overridden by LLMs."""
 import os,json,re,sys,subprocess,threading,time,hashlib,sqlite3
+from storage import database_path
 from pathlib import Path
 from contextlib import closing
 from concurrent.futures import ThreadPoolExecutor
@@ -149,11 +150,11 @@ def generate(report,lang):
  payload={'messages':messages(report,lang,facts)};failures=[]
  cache_key=hashlib.sha256(json.dumps({'payload':payload,'base':os.getenv('LLM_BASE_URL',''),'model':os.getenv('LLM_MODEL',''),'version':2},sort_keys=True,ensure_ascii=False).encode()).hexdigest()
  def cache(advice,provider):
-  with closing(sqlite3.connect(ROOT/'data/reports.sqlite3',timeout=15)) as c, c:
+  with closing(sqlite3.connect(database_path('reports.sqlite3', ROOT),timeout=15)) as c, c:
    c.execute('CREATE TABLE IF NOT EXISTS advice_cache(key TEXT PRIMARY KEY, advice TEXT, provider TEXT)')
    c.execute('INSERT OR REPLACE INTO advice_cache VALUES (?,?,?)',(cache_key,json.dumps(advice,ensure_ascii=False),provider))
   return advice,provider,failures
- with closing(sqlite3.connect(ROOT/'data/reports.sqlite3',timeout=15)) as c, c:
+ with closing(sqlite3.connect(database_path('reports.sqlite3', ROOT),timeout=15)) as c, c:
   c.execute('CREATE TABLE IF NOT EXISTS advice_cache(key TEXT PRIMARY KEY, advice TEXT, provider TEXT)')
   cached=c.execute('SELECT advice,provider FROM advice_cache WHERE key=?',(cache_key,)).fetchone()
  if cached:

@@ -7,7 +7,8 @@ import uuid
 from contextlib import closing
 from pathlib import Path
 
-DB_PATH = Path(__file__).resolve().parents[1] / "data" / "tracker.sqlite3"
+from storage import database_path
+DB_PATH = database_path('tracker.sqlite3')
 
 
 def _get_connection():

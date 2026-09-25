@@ -16,3 +16,5 @@ data/accounts.sqlite3-*
 data/maps.sqlite3*
 
 data/ledger.sqlite3
+data/*.sqlite3-*
+.vercel/

@@ -3,14 +3,32 @@ import threading,time
 GEOCODE_LOCK=threading.Lock();GEOCODE_CACHE={};GEOCODE_LAST=0.0
 from typing import Literal
 from datetime import date
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request, Depends
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 from finance import calculate
 import config
+import os
+
+def record_owner(request: Request, owner: str = 'anonymous', user_id: str | None = None):
+    if os.getenv('APP_ENV') == 'production':
+        from accounts import user, origin_check
+        if request.method not in {'GET', 'HEAD'}:origin_check(request)
+        return user(request)['id']
+    return user_id or owner
 
 app=FastAPI(title='GramSahayak',version='2.0')
+@app.middleware('http')
+async def response_cache_policy(request, call_next):
+    response = await call_next(request)
+    if request.url.path.startswith('/api/'):
+        response.headers['Cache-Control'] = 'no-store'
+    elif request.url.path in {'/', '/index.html', '/sw.js'}:
+        response.headers['Cache-Control'] = 'no-cache'
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    return response
+
 class FinanceInput(BaseModel):
     model_config=ConfigDict(allow_inf_nan=False,extra='forbid')
     margin: float=Field(ge=0.01,le=100000000)
@@ -67,9 +85,14 @@ def actual_loan(data:ActualLoan):
     from finance import schedule_loan
     return schedule_loan(data.principal,data.rate/100,data.tenure,data.grace,data.start_date)
 @app.post('/api/reports')
-def report(data:ReportInput):
+def report(data:ReportInput, request:Request):
     from advisory import build_report
-    return build_report(data.model_dump(mode='json'))
+    owner = record_owner(request) if os.getenv('APP_ENV') == 'production' else None
+    result = build_report(data.model_dump(mode='json'))
+    if owner:
+        from advisory import connection
+        with connection() as c:c.execute('INSERT OR REPLACE INTO report_owners VALUES (?,?)', (result['id'], owner))
+    return result
 @app.post('/api/schemes')
 def scheme_screen(data:ReportInput):
     from schemes import screen
@@ -197,14 +220,16 @@ def geocode(lat:float,lon:float):
     except HTTPException:raise
     except Exception:raise HTTPException(503,detail='map_failed')
 @app.get('/api/reports/{report_id}')
-def saved_report(report_id:str):
+def saved_report(report_id:str, request:Request):
+    check_report_owner(request, report_id)
     from advisory import read_report
     result=read_report(report_id)
     if result is None:raise HTTPException(404,detail='report_missing')
     return result
 
 @app.post('/api/reports/{report_id}/advice/{language}')
-def advice(report_id:str,language:Literal['en','ta','hi']):
+def advice(report_id:str,language:Literal['en','ta','hi'],request:Request):
+    check_report_owner(request, report_id)
     from llm import queue
     result=queue(report_id,language)
     if result is None:raise HTTPException(404,detail='report_missing')
@@ -213,24 +238,42 @@ def advice(report_id:str,language:Literal['en','ta','hi']):
 
 # --- Task 2.9: statement upload routes ---
 
+def check_report_owner(request, report_id):
+    if os.getenv('APP_ENV') != 'production':return
+    owner = record_owner(request)
+    from advisory import connection
+    with connection() as c:
+        row = c.execute('SELECT user_id FROM report_owners WHERE report_id=?', (report_id,)).fetchone()
+    if row and row[0] == owner:return
+    # Permit pre-deployment reports only when already saved in this user's workspace.
+    if row is None:
+        import json
+        from accounts import user
+        state = json.loads(user(request)['state'])
+        saved = [state.get('report') or {}, *state.get('history', [])]
+        if any(item.get('id') == report_id for item in saved):return
+    raise HTTPException(404, detail='report_missing')
+
 from fastapi import UploadFile, File
 
 @app.post('/api/statements/upload')
-async def upload_statement(file: UploadFile = File(...), owner: str = 'anonymous'):
+async def upload_statement(file: UploadFile = File(...), owner: str = Depends(record_owner)):
     from statements import create_batch
-    content = await file.read()
+    content = await file.read(10 * 1024 * 1024 + 1)
+    if len(content) > 10 * 1024 * 1024:
+        raise HTTPException(413, detail='file_too_large')
     if not content:
         raise HTTPException(422, detail='file_empty')
     batch = create_batch(owner, file.filename, content, file.content_type)
     return batch
 
 @app.get('/api/statements/batches')
-def list_statement_batches(owner: str = 'anonymous'):
+def list_statement_batches(owner: str = Depends(record_owner)):
     from statements import list_batches
     return {'batches': list_batches(owner)}
 
 @app.get('/api/statements/batches/{batch_id}')
-def get_statement_batch(batch_id: str, owner: str = 'anonymous'):
+def get_statement_batch(batch_id: str, owner: str = Depends(record_owner)):
     from statements import get_batch
     batch = get_batch(owner, batch_id)
     if batch is None:
@@ -246,7 +289,7 @@ class DraftUpdate(BaseModel):
     entry_date: str | None = None
 
 @app.patch('/api/statements/drafts/{draft_id}')
-def patch_draft(draft_id: str, data: DraftUpdate, owner: str = 'anonymous'):
+def patch_draft(draft_id: str, data: DraftUpdate, owner: str = Depends(record_owner)):
     from statements import update_draft
     try:
         result = update_draft(
@@ -264,7 +307,7 @@ def patch_draft(draft_id: str, data: DraftUpdate, owner: str = 'anonymous'):
     return result
 
 @app.post('/api/statements/batches/{batch_id}/confirm')
-def confirm_statement_batch(batch_id: str, owner: str = 'anonymous'):
+def confirm_statement_batch(batch_id: str, owner: str = Depends(record_owner)):
     from statements import confirm_batch
     try:
         result = confirm_batch(owner, batch_id)
@@ -275,7 +318,7 @@ def confirm_statement_batch(batch_id: str, owner: str = 'anonymous'):
     return result
 
 @app.post('/api/statements/batches/{batch_id}/discard')
-def discard_statement_batch(batch_id: str, owner: str = 'anonymous'):
+def discard_statement_batch(batch_id: str, owner: str = Depends(record_owner)):
     from statements import discard_batch
     try:
         result = discard_batch(owner, batch_id)
@@ -472,7 +515,7 @@ class TrackerEntryInput(BaseModel):
     note: str = ""
 
 @app.post('/api/tracker/entries')
-def post_tracker_entry(data: TrackerEntryInput, user_id: str = 'anonymous'):
+def post_tracker_entry(data: TrackerEntryInput, user_id: str = Depends(record_owner)):
     from tracker import add_entry
     try:
         return add_entry(user_id, data.date, data.kind, data.category, data.amount, data.note)
@@ -480,7 +523,7 @@ def post_tracker_entry(data: TrackerEntryInput, user_id: str = 'anonymous'):
         raise HTTPException(422, detail=str(e))
 
 @app.delete('/api/tracker/entries/{entry_id}')
-def delete_tracker_entry(entry_id: str, user_id: str = 'anonymous'):
+def delete_tracker_entry(entry_id: str, user_id: str = Depends(record_owner)):
     from tracker import delete_entry
     deleted = delete_entry(user_id, entry_id)
     if not deleted:
@@ -488,7 +531,7 @@ def delete_tracker_entry(entry_id: str, user_id: str = 'anonymous'):
     return {"status": "deleted", "entry_id": entry_id}
 
 @app.get('/api/tracker/summary')
-def get_tracker_summary(user_id: str = 'anonymous', from_date: str | None = None, to_date: str | None = None):
+def get_tracker_summary(user_id: str = Depends(record_owner), from_date: str | None = None, to_date: str | None = None):
     from tracker import summary
     try:
         return summary(user_id, from_date, to_date)
@@ -503,7 +546,7 @@ class LoanPlanInput(BaseModel):
     disbursement_date: str
 
 @app.post('/api/tracker/loan_plan')
-def post_loan_plan(data: LoanPlanInput, user_id: str = 'anonymous'):
+def post_loan_plan(data: LoanPlanInput, user_id: str = Depends(record_owner)):
     from tracker import save_loan_plan
     try:
         return save_loan_plan(user_id, data.scheme_id, data.sanctioned, data.schedule, data.disbursement_date)
@@ -511,7 +554,7 @@ def post_loan_plan(data: LoanPlanInput, user_id: str = 'anonymous'):
         raise HTTPException(422, detail=str(e))
 
 @app.get('/api/tracker/loan_status')
-def get_tracker_loan_status(user_id: str = 'anonymous'):
+def get_tracker_loan_status(user_id: str = Depends(record_owner)):
     from tracker import get_loan_status
     status = get_loan_status(user_id)
     return status or {}
@@ -531,7 +574,7 @@ class DebtLoanInput(BaseModel):
     grace_months: int = Field(default=0, ge=0)
 
 @app.post('/api/debt/loans')
-def post_debt_loan(data: DebtLoanInput, user_id: str = 'anonymous'):
+def post_debt_loan(data: DebtLoanInput, user_id: str = Depends(record_owner)):
     from debt import add_loan
     try:
         return add_loan(
@@ -543,12 +586,12 @@ def post_debt_loan(data: DebtLoanInput, user_id: str = 'anonymous'):
         raise HTTPException(422, detail=str(e))
 
 @app.get('/api/debt/loans')
-def get_debt_loans(user_id: str = 'anonymous'):
+def get_debt_loans(user_id: str = Depends(record_owner)):
     from debt import list_loans
     return list_loans(user_id)
 
 @app.post('/api/debt/loans/{loan_id}/close')
-def post_close_debt_loan(loan_id: str, user_id: str = 'anonymous'):
+def post_close_debt_loan(loan_id: str, user_id: str = Depends(record_owner)):
     from debt import close_loan
     closed = close_loan(user_id, loan_id)
     if not closed:
