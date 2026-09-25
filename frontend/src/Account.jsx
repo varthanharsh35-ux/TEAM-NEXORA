@@ -61,8 +61,9 @@ export default function Account({ snapshot, onLoad, onContinue }) {
         return;
       }
       setUser(result);
-      onLoad(await api('/account/workspace'));
-      if (onContinue) onContinue();
+      const workspace = await api('/account/workspace');
+      onLoad(workspace);
+      if (onContinue && !result.recovery) onContinue(workspace);
     });
   }
   return (
@@ -83,7 +84,11 @@ export default function Account({ snapshot, onLoad, onContinue }) {
         <>
           <p>{user.email}</p>
           {onContinue && (
-            <button className="primary" onClick={onContinue}>
+            <button className="primary" disabled={busy || Boolean(recovery)} onClick={() => action(async () => {
+              const workspace = await api('/account/workspace');
+              onLoad(workspace);
+              onContinue(workspace);
+            })}>
               {t('continue_details')}
             </button>
           )}

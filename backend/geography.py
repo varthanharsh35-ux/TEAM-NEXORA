@@ -6,7 +6,8 @@ import httpx
 from fastapi import HTTPException
 from intelligence import district_of,norm
 ROOT=Path(__file__).resolve().parents[1]
-DB=ROOT/'data/maps.sqlite3'
+from storage import database_path
+DB=database_path('maps.sqlite3')
 LOCK=threading.Lock();LAST=0
 def cached(key,value=None):
  with closing(sqlite3.connect(DB)) as c:

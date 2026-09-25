@@ -24,6 +24,9 @@ import {
   TrendingUp,
   GitCompare,
   Database,
+  MessageCircle,
+  Volume2,
+  Square,
 } from 'lucide-react';
 import Account from './Account';
 import Nearby from './Nearby';
@@ -200,6 +203,7 @@ export default function App() {
     [storageError, setStorageError] = useState(false);
   const [history, setHistory] = useState(() => restore('gs-history', []));
   const [showMap, setShowMap] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
   const [stage, setStage] = useState('welcome');
   const [wizardStep, setWizardStep] = useState(1);
   const seq = useRef(0),
@@ -449,6 +453,55 @@ export default function App() {
     document.querySelectorAll('details.print-open').forEach((d) => (d.open = true));
     window.print();
   };
+  const handleWhatsAppShare = () => {
+    if (!report) return;
+    const message = [
+      `${t('business_name')}: ${report.input.business_name || t('business_plan')}`,
+      `${t('location')}: ${report.input.location}`,
+      `${t('selected_scheme')}: ${t(report.finance.scheme, { defaultValue: report.finance.scheme_name || report.finance.scheme })}`,
+      `${t('loan')}: ${money(report.finance.loan)}`,
+      `${t('monthly_operating_surplus')}: ${money(report.metrics.operating_profit)}`,
+    ].join('\n');
+    window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+  };
+  const handleVoiceSummary = () => {
+    const synthesis = window.speechSynthesis;
+    if (!synthesis) return;
+    if (isSpeaking || synthesis.speaking) {
+      synthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+    if (!report || !window.SpeechSynthesisUtterance) return;
+    const language = i18n.language?.split('-')[0];
+    const summaryLanguage = ['ta', 'hi'].includes(language) ? language : 'en';
+    const locale = { ta: 'ta-IN', hi: 'hi-IN', en: 'en-US' }[summaryLanguage];
+    const translate = i18n.getFixedT(summaryLanguage);
+    const currency = new Intl.NumberFormat(locale, {
+      style: 'currency',
+      currency: 'INR',
+      currencyDisplay: 'name',
+      maximumFractionDigits: 2,
+    });
+    const summary = [
+      `${translate('business_name')}: ${report.input.business_name || translate('business_plan')}`,
+      `${translate('location')}: ${report.input.location}`,
+      `${translate('selected_scheme')}: ${translate(report.finance.scheme, { defaultValue: report.finance.scheme_name || report.finance.scheme })}`,
+      `${translate('loan')}: ${currency.format(report.finance.loan)}`,
+      `${translate('monthly_operating_surplus')}: ${currency.format(report.metrics.operating_profit)}`,
+    ].join('. ');
+    const utterance = new SpeechSynthesisUtterance(summary);
+    utterance.lang = locale;
+    utterance.rate = 0.95;
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+    setIsSpeaking(true);
+    try {
+      synthesis.speak(utterance);
+    } catch {
+      setIsSpeaking(false);
+    }
+  };
   const download = () => {
     const fields = ['month', 'due_date', 'opening', 'interest', 'principal', 'payment', 'balance'];
     const lines = [
@@ -633,7 +686,7 @@ export default function App() {
         {stage === 'welcome' && (
           <section className="panel welcome">
             <div className="eyebrow">{t('brand')}</div>
-            <h1>GramSahayak</h1>
+            <h1>{t('brand')}</h1>
             <p className="welcome-tagline" style={{ fontSize: '1.05rem', color: '#165f49', fontWeight: '600', marginBottom: '0.75rem' }}>
               {t('tagline') || 'Local insight, financial planning, and government scheme navigator for rural & semi-urban enterprises.'}
             </p>
@@ -673,9 +726,10 @@ export default function App() {
             <Account
               snapshot={snapshot}
               onLoad={loadWorkspace}
-              onContinue={() => {
-                setStage('wizard');
-                setWizardStep(1);
+                onContinue={(workspace) => {
+                  setStage(workspace?.report?.version === 2 ? 'app' : 'wizard');
+                  setTab('plan');
+                  setWizardStep(1);
               }}
             />
             <div style={{ textAlign: 'center', marginTop: '1rem' }}>
@@ -1091,6 +1145,8 @@ export default function App() {
                         setForm({ ...report.input, margin: String(report.input.margin) });
                         setEditing(true);
                         setTab('plan');
+                        setStage('wizard');
+                        setWizardStep(1);
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
                     >
@@ -1104,6 +1160,14 @@ export default function App() {
                     <button onClick={clear}>
                       <Icon as={RefreshCw} />
                       {t('reset')}
+                    </button>
+                    <button onClick={handleWhatsAppShare}>
+                      <Icon as={MessageCircle} />
+                      {t('whatsapp_share')}
+                    </button>
+                    <button onClick={handleVoiceSummary}>
+                      <Icon as={isSpeaking ? Square : Volume2} />
+                      {t(isSpeaking ? 'stop_voice' : 'listen_summary')}
                     </button>
                   </div>
                 </div>
@@ -1475,7 +1539,7 @@ export default function App() {
                             <span>💡</span> Small Capital Gap ({money(f.loan)}) — Quick 3–6 Month Operating Clearance Viable
                           </div>
                           <p style={{ margin: 0, fontSize: '0.88rem', color: '#14532d', lineHeight: 1.5 }}>
-                            Your net funding shortfall is only <strong>{money(f.loan)}</strong>. While government scheme guidelines specify standard 36-month institutional terms (~{money(f.quarterly_payment)}/quarter), you are not locked into a 3-year term loan. You can comfortably clear this small gap within <strong>3 to 6 months</strong> (~{money(f.loan / 3)}/mo) directly from enterprise operating surplus without multi-year bank debt overhead.
+                            {t('small_gap_guidance', { amount: money(f.loan), payment: money(f.loan / 3) })}
                           </p>
                         </div>
                       )}
@@ -1542,7 +1606,7 @@ export default function App() {
                         </table>
                       </div>
                       {(f.schedule || []).length > 12 && (
-                        <small style={{ color: '#64748b' }}>Showing initial 12 months. Export CSV to view full tenure schedule.</small>
+                        <small style={{ color: '#64748b' }}>{t('schedule_preview_note')}</small>
                       )}
                     </Section>
                   )}

@@ -6,13 +6,15 @@ from fastapi import HTTPException
 from intelligence import resolve_location,classify,retrieve,SECTORS,DATA
 from finance import calculate
 
-DB=DATA/'reports.sqlite3'
+from storage import database_path
+DB=database_path('reports.sqlite3')
 @contextmanager
 def connection():
  c=sqlite3.connect(DB,timeout=15)
  try:
   with c:
    c.execute('CREATE TABLE IF NOT EXISTS reports(id TEXT PRIMARY KEY, body TEXT NOT NULL)')
+   c.execute('CREATE TABLE IF NOT EXISTS report_owners(report_id TEXT PRIMARY KEY, user_id TEXT NOT NULL)')
    yield c
  finally:c.close()
 def save_report(r):

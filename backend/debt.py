@@ -8,7 +8,8 @@ from pathlib import Path
 
 from finance import monthly_emi, add_months
 
-DB_PATH = Path(__file__).resolve().parents[1] / "data" / "tracker.sqlite3"
+from storage import database_path
+DB_PATH = database_path('tracker.sqlite3')
 
 FACILITY_TYPES = {"term_loan", "mudra", "overdraft", "cc", "informal"}
 STATUSES = {"active", "closed", "npa"}

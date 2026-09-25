@@ -671,5 +671,10 @@
   "reasons.project_above_max": "Project cost exceeds maximum scheme loan limit",
   "reasons.project_below_min": "Project cost below minimum scheme threshold",
   "reasons.gender_mismatch": "Scheme specifically reserved for a different gender group",
-  "reasons.community_mismatch": "Scheme specific to a designated community reservation"
+  "reasons.community_mismatch": "Scheme specific to a designated community reservation",
+  "whatsapp_share": "Share on WhatsApp",
+  "listen_summary": "Listen",
+  "stop_voice": "Stop",
+  "small_gap_guidance": "Your funding shortfall is {{amount}}. Repaying it over three months would require about {{payment}} per month. Check your actual surplus and the lender’s early repayment terms before choosing this option.",
+  "schedule_preview_note": "Showing the first 12 months. Export CSV to view the full repayment schedule."
 }

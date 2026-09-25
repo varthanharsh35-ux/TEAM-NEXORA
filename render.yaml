@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: gramsahayak
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    disk:
+      name: gramsahayak-data
+      mountPath: /var/lib/gramsahayak
+      sizeGB: 1
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: LOCAL_LLM
+        value: "0"
+      - key: DATA_DIR
+        value: /var/lib/gramsahayak
+      - key: ALLOWED_ORIGINS
+        sync: false

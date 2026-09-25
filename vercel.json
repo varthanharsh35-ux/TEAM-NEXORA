@@ -1,10 +1,7 @@
 {
-  "services": {
-    "frontend": { "root": "frontend", "framework": "vite" },
-    "backend": { "root": "backend", "entrypoint": "main.py" }
-  },
-  "rewrites": [
-    { "source": "/api(/.*)?", "destination": { "type": "service", "service": "backend" } },
-    { "source": "/(.*)", "destination": { "type": "service", "service": "frontend" } }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "framework": null,
+  "installCommand": "npm --prefix frontend ci",
+  "buildCommand": "npm --prefix frontend run check:i18n && npm --prefix frontend run build && node scripts/build-vercel.mjs"
 }

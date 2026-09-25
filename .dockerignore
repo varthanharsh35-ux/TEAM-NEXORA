@@ -1,0 +1,14 @@
+.git
+.env
+**/.env
+**/.venv
+**/__pycache__
+**/*.pyc
+**/node_modules
+frontend/dist
+.vercel
+attic
+audit
+models/qwen3-0.6b
+**/*.sqlite3*
+**/*.db

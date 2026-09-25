@@ -5,7 +5,9 @@ from pathlib import Path
 from fastapi import APIRouter,HTTPException,Request,Response
 from pydantic import BaseModel,Field,ConfigDict,field_validator
 from typing import Literal
-DB=Path(__file__).resolve().parents[1]/'data/accounts.sqlite3'
+import os
+from storage import database_path
+DB=database_path('accounts.sqlite3')
 router=APIRouter(prefix='/api/account');LOCK=threading.Lock();ATTEMPTS={}
 @contextmanager
 def db():
@@ -20,7 +22,10 @@ def digest(s):return hashlib.sha256(s.encode()).hexdigest()
 def password_hash(password,salt):return hashlib.pbkdf2_hmac('sha256',password.encode(),bytes.fromhex(salt),310000).hex()
 def origin_check(request):
  origin=request.headers.get('origin')
- if origin and origin not in [str(request.base_url).rstrip('/'),'http://localhost:5173','http://127.0.0.1:5173']:raise HTTPException(403,detail='account_denied')
+ allowed={str(request.base_url).rstrip('/')}
+ allowed.update(value.strip().rstrip('/') for value in os.getenv('ALLOWED_ORIGINS','').split(',') if value.strip())
+ if os.getenv('APP_ENV') != 'production':allowed.update({'http://localhost:5173','http://127.0.0.1:5173'})
+ if origin and origin not in allowed:raise HTTPException(403,detail='account_denied')
 def throttle(request):
  origin_check(request);key=request.client.host if request.client else 'local';now=time.monotonic()
  with LOCK:
@@ -38,7 +43,7 @@ def session(response,uid):
  token=secrets.token_urlsafe(32)
  with db() as c:
   c.execute('DELETE FROM sessions WHERE expires<?',(time.time(),));c.execute('INSERT INTO sessions VALUES (?,?,?)',(digest(token),uid,time.time()+604800))
- response.set_cookie('gs_session',token,max_age=604800,httponly=True,samesite='strict',path='/')
+ response.set_cookie('gs_session',token,max_age=604800,httponly=True,samesite='strict',secure=os.getenv('APP_ENV')=='production',path='/')
 class Credentials(BaseModel):
  model_config=ConfigDict(extra='forbid')
  email:str=Field(min_length=5,max_length=254)

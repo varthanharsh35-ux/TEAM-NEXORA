@@ -7,7 +7,7 @@ let language = 'en';
 try {
   const saved = localStorage.getItem('gs-language');
   if (['en', 'ta', 'hi'].includes(saved)) language = saved;
-} catch {}
+} catch { }
 i18n.use(initReactI18next).init({
   resources: { en: { translation: en }, ta: { translation: ta }, hi: { translation: hi } },
   lng: language,
@@ -20,7 +20,7 @@ i18n.on('languageChanged', (lang) => {
   document.title = i18n.t('brand');
   try {
     localStorage.setItem('gs-language', lang);
-  } catch {}
+  } catch { }
 });
 document.documentElement.lang = language;
 export default i18n;

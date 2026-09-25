@@ -25,7 +25,8 @@ from pathlib import Path
 
 from finance import money
 
-DB = Path(__file__).resolve().parents[1] / "data" / "ledger.sqlite3"
+from storage import database_path
+DB = database_path('ledger.sqlite3')
 
 # Supported MIME prefixes
 SUPPORTED_TYPES = {
