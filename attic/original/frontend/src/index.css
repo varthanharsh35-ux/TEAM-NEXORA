@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+/* ============================================
+   GRAMSAHAYAK DESIGN SYSTEM
+   Premium rural-tech aesthetic
+   ============================================ */
+
+@theme {
+  /* Primary - Deep Navy to Sapphire gradient */
+  --color-primary-50: #eef2ff;
+  --color-primary-100: #dbe4ff;
+  --color-primary-200: #bfcfff;
+  --color-primary-300: #93acff;
+  --color-primary-400: #6080ff;
+  --color-primary-500: #3b5bdb;
+  --color-primary-600: #1e3c72;
+  --color-primary-700: #1a347f;
+  --color-primary-800: #162d6b;
+  --color-primary-900: #0f1f4d;
+  --color-primary-950: #0a1533;
+
+  /* Accent - Warm Saffron/Orange */
+  --color-accent-50: #fff7ed;
+  --color-accent-100: #ffedd5;
+  --color-accent-200: #fed7aa;
+  --color-accent-300: #fdba74;
+  --color-accent-400: #fb923c;
+  --color-accent-500: #f97316;
+  --color-accent-600: #ea580c;
+  --color-accent-700: #c2410c;
+  --color-accent-800: #9a3412;
+  --color-accent-900: #7c2d12;
+
+  /* Success - Verdant Green */
+  --color-success-50: #ecfdf5;
+  --color-success-100: #d1fae5;
+  --color-success-200: #a7f3d0;
+  --color-success-300: #6ee7b7;
+  --color-success-400: #34d399;
+  --color-success-500: #10b981;
+  --color-success-600: #059669;
+  --color-success-700: #047857;
+  --color-success-800: #065f46;
+  --color-success-900: #064e3b;
+
+  /* Warning - Amber */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  --color-warning-800: #92400e;
+  --color-warning-900: #78350f;
+
+  /* Danger - Ruby Red */
+  --color-danger-50: #fef2f2;
+  --color-danger-100: #fee2e2;
+  --color-danger-200: #fecaca;
+  --color-danger-300: #fca5a5;
+  --color-danger-400: #f87171;
+  --color-danger-500: #ef4444;
+  --color-danger-600: #dc2626;
+  --color-danger-700: #b91c1c;
+  --color-danger-800: #991b1b;
+  --color-danger-900: #7f1d1d;
+
+  /* Surface colors - Dark mode first */
+  --color-surface-900: #0a0e1a;
+  --color-surface-800: #111827;
+  --color-surface-700: #1a2035;
+  --color-surface-600: #1f2a42;
+  --color-surface-500: #263354;
+  --color-surface-400: #334566;
+  --color-surface-300: #475a7d;
+  --color-surface-200: #6b7fa8;
+  --color-surface-100: #94a3c4;
+  --color-surface-50: #c4cee0;
+
+  /* Glass */
+  --color-glass: rgba(255, 255, 255, 0.06);
+  --color-glass-strong: rgba(255, 255, 255, 0.12);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--color-surface-900);
+  color: #e2e8f0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-800);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-500);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-surface-400);
+}
+
+/* ============================================
+   GLASS CARD SYSTEM
+   ============================================ */
+
+.glass-card {
+  background: var(--color-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-glass-border);
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: var(--color-glass-strong);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.glass-card-static {
+  background: var(--color-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-glass-border);
+  border-radius: 16px;
+}
+
+/* ============================================
+   GRADIENT BACKGROUNDS
+   ============================================ */
+
+.gradient-primary {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #3b5bdb 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fbbf24 100%);
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #0a1533 0%, #1e3c72 40%, #2a5298 70%, #162d6b 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #93acff, #fb923c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================
+   BUTTON SYSTEM
+   ============================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  box-shadow: 0 4px 15px rgba(30, 60, 114, 0.4);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2a5298, #3b5bdb);
+  box-shadow: 0 6px 20px rgba(30, 60, 114, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-accent {
+  background: linear-gradient(135deg, #f97316, #fb923c);
+  color: white;
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+}
+
+.btn-accent:hover {
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.6);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #93acff;
+  border: 1.5px solid rgba(147, 172, 255, 0.3);
+}
+
+.btn-outline:hover {
+  background: rgba(147, 172, 255, 0.1);
+  border-color: rgba(147, 172, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.btn-glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(10px);
+  color: white;
+  border: 1px solid var(--color-glass-border);
+}
+
+.btn-glass:hover {
+  background: var(--color-glass-strong);
+  transform: translateY(-2px);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.btn-lg {
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 14px;
+}
+
+.btn-icon {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* ============================================
+   INPUT SYSTEM
+   ============================================ */
+
+.input-field {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #e2e8f0;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: rgba(226, 232, 240, 0.4);
+}
+
+.input-field:focus {
+  border-color: #3b5bdb;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(59, 91, 219, 0.2);
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #94a3c4;
+}
+
+textarea.input-field {
+  resize: vertical;
+  min-height: 100px;
+}
+
+select.input-field {
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3c4'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 40px;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(59, 91, 219, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(59, 91, 219, 0.6); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 5s ease infinite;
+}
+
+/* ============================================
+   GAUGE / SCORE CIRCLE
+   ============================================ */
+
+.score-circle {
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+
+.score-circle svg {
+  transform: rotate(-90deg);
+}
+
+.score-circle .score-value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+}
+
+.score-circle .score-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #94a3c4;
+  margin-top: 2px;
+}
+
+/* ============================================
+   LEAFLET MAP OVERRIDES
+   ============================================ */
+
+.leaflet-container {
+  border-radius: 12px;
+  border: 1px solid var(--color-glass-border);
+}
+
+/* ============================================
+   CHAT WIDGET
+   ============================================ */
+
+.chat-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+}
+
+.chat-bubble {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1e3c72, #f97316);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(30, 60, 114, 0.5);
+  transition: all 0.3s ease;
+}
+
+.chat-bubble:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 30px rgba(30, 60, 114, 0.7);
+}
+
+/* ============================================
+   RESPONSIVE UTILITIES
+   ============================================ */
+
+@media (max-width: 768px) {
+  .btn-lg {
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+
+  .score-circle {
+    width: 140px;
+    height: 140px;
+  }
+
+  .score-circle .score-value {
+    font-size: 2.25rem;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .glass-card, .glass-card-static {
+    background: white !important;
+    border: 1px solid #e2e8f0 !important;
+    backdrop-filter: none !important;
+  }
+
+  .btn, .chat-widget, nav {
+    display: none !important;
+  }
+}

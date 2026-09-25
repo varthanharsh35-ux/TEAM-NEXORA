@@ -1,0 +1,61 @@
+{
+  "version": "1.0",
+  "source": "authored priors, documented in docs/PERSONALIZATION.md sections 3 and 4",
+  "method": "estimated",
+  "note": "Weights are authored, not fitted to outcome data. They are tuned here rather than in code so they can be revised without a deploy. Every driver emitted must carry named evidence.",
+
+  "caps": { "boost": 0.6, "suppress": -0.55 },
+
+  "half_life_m": {
+    "walk_in": 600,
+    "vehicle": 2000,
+    "competitor": 800,
+    "anchor": 8000,
+    "logistics": 3000,
+    "supply": 5000
+  },
+
+  "kinds": {
+    "college":             { "emoji": "🎓", "class": "walk_in",    "selectors": ["[\"amenity\"~\"^college$|^university$\"]"] },
+    "school":              { "emoji": "🏫", "class": "walk_in",    "selectors": ["[\"amenity\"~\"^school$\"]"] },
+    "it_park":             { "emoji": "💻", "class": "vehicle",    "selectors": ["[\"office\"~\"^it$|^company$\"]"] },
+    "hospital":            { "emoji": "🏥", "class": "vehicle",    "selectors": ["[\"amenity\"~\"^hospital$|^clinic$\"]"] },
+    "hostel":              { "emoji": "🛏", "class": "walk_in",    "selectors": ["[\"tourism\"~\"^hostel$\"]", "[\"building\"~\"^dormitory$\"]"] },
+    "bus_stand":           { "emoji": "🚌", "class": "walk_in",    "selectors": ["[\"amenity\"~\"^bus_station$\"]", "[\"highway\"~\"^bus_stop$\"]"] },
+    "railway":             { "emoji": "🚉", "class": "logistics",  "selectors": ["[\"railway\"~\"^station$|^halt$\"]"] },
+    "market":              { "emoji": "🧺", "class": "supply",     "selectors": ["[\"amenity\"~\"^marketplace$\"]", "[\"shop\"~\"^wholesale$\"]"] },
+    "place_of_worship":    { "emoji": "🛕", "class": "walk_in",    "selectors": ["[\"amenity\"~\"^place_of_worship$\"]"] },
+    "highway_access":      { "emoji": "🛣", "class": "logistics",  "selectors": ["[\"highway\"~\"^trunk$|^primary$|^motorway$\"][\"name\"]"] },
+    "industrial_estate":   { "emoji": "🏭", "class": "logistics",  "selectors": ["[\"landuse\"~\"^industrial$\"][\"name\"]"] },
+    "cold_chain":          { "emoji": "❄", "class": "logistics",  "selectors": ["[\"building\"~\"^warehouse$\"][\"cold_storage\"~\"^yes$\"]"] },
+    "anchor_logistics":    { "emoji": "📦", "class": "anchor",     "selectors": ["[\"building\"~\"^warehouse$\"][\"name\"~\"^.*Amazon.*$|^.*Flipkart.*$|^.*Delhivery.*$|^.*Ekart.*$\",i]"] },
+    "big_retail":          { "emoji": "🏬", "class": "competitor", "selectors": ["[\"shop\"~\"^department_store$|^mall$\"]"] },
+    "dairy_anchor":        { "emoji": "🥛", "class": "anchor",     "selectors": ["[\"man_made\"~\"^milk_chilling$\"]", "[\"name\"~\"^.*Aavin.*$\",i][\"amenity\"]"] },
+    "feed_supplier":       { "emoji": "🌾", "class": "supply",     "selectors": ["[\"shop\"~\"^agrarian$|^farm$\"]"] },
+    "tourism":             { "emoji": "🧳", "class": "vehicle",    "selectors": ["[\"tourism\"~\"^hotel$|^attraction$\"]"] },
+    "water_body":          { "emoji": "💧", "class": "supply",     "selectors": ["[\"natural\"~\"^water$\"][\"name\"]"] }
+  },
+
+  "weights": {
+    "food":          { "college": 0.34, "school": 0.12, "it_park": 0.30, "hospital": 0.16, "hostel": 0.26, "bus_stand": 0.20, "railway": 0.10, "market": 0.14, "place_of_worship": 0.06, "highway_access": 0.08, "industrial_estate": 0.14, "cold_chain": 0.06, "big_retail": -0.10, "tourism": 0.22 },
+    "poultry":       { "college": 0.06, "hostel": 0.14, "market": 0.22, "place_of_worship": -0.14, "highway_access": 0.10, "cold_chain": 0.12, "big_retail": -0.06, "feed_supplier": 0.18 },
+    "dairy":         { "college": 0.08, "school": 0.10, "it_park": 0.06, "hospital": 0.08, "hostel": 0.16, "bus_stand": 0.06, "market": 0.18, "place_of_worship": 0.08, "highway_access": 0.08, "cold_chain": 0.20, "big_retail": -0.12, "dairy_anchor": -0.30, "feed_supplier": 0.12 },
+    "tailoring":     { "college": 0.12, "school": 0.08, "it_park": 0.10, "hostel": 0.06, "bus_stand": 0.08, "market": 0.14, "industrial_estate": 0.08, "big_retail": -0.08, "tourism": 0.06 },
+    "retail":        { "college": 0.18, "school": 0.10, "it_park": 0.14, "hospital": 0.10, "hostel": 0.12, "bus_stand": 0.18, "railway": 0.08, "market": 0.16, "highway_access": 0.06, "industrial_estate": 0.08, "anchor_logistics": -0.08, "big_retail": -0.34, "tourism": 0.12 },
+    "warehousing":   { "it_park": 0.08, "railway": 0.14, "highway_access": 0.30, "industrial_estate": 0.22, "cold_chain": 0.10, "anchor_logistics": -0.40 },
+    "repair":        { "college": 0.05, "it_park": 0.06, "bus_stand": 0.08, "market": 0.10, "highway_access": 0.12, "industrial_estate": 0.24 },
+    "fish":          { "college": 0.04, "hostel": 0.10, "bus_stand": 0.06, "railway": 0.08, "market": 0.26, "place_of_worship": -0.16, "highway_access": 0.10, "cold_chain": 0.22, "big_retail": -0.08, "tourism": 0.10, "water_body": 0.24 },
+    "agriculture":   { "market": 0.24, "highway_access": 0.10, "big_retail": -0.10, "feed_supplier": -0.12, "water_body": 0.08 },
+    "craft":         { "college": 0.08, "market": 0.16, "bus_stand": 0.10, "tourism": 0.26, "big_retail": -0.12, "industrial_estate": 0.06 },
+    "manufacturing": { "railway": 0.12, "highway_access": 0.26, "industrial_estate": 0.28, "market": 0.10, "it_park": 0.06 },
+    "transport":     { "bus_stand": 0.18, "railway": 0.20, "hospital": 0.10, "market": 0.14, "highway_access": 0.28, "industrial_estate": 0.16, "tourism": 0.16 },
+    "services":      { "college": 0.20, "school": 0.08, "it_park": 0.18, "hostel": 0.16, "bus_stand": 0.14, "market": 0.12, "big_retail": -0.14, "tourism": 0.10 }
+  },
+
+  "bands": [
+    { "id": "poor",   "min": 0,  "max": 34 },
+    { "id": "fair",   "min": 35, "max": 54 },
+    { "id": "good",   "min": 55, "max": 74 },
+    { "id": "strong", "min": 75, "max": 100 }
+  ]
+}

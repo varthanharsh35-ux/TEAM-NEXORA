@@ -1,0 +1,323 @@
+[
+ {
+  "type": "node",
+  "id": 245598131,
+  "lat": 11.7140679,
+  "lon": 79.1809613,
+  "tags": {
+   "name": "Elavanasur",
+   "name:ml": "ഇളവനസൂർ",
+   "name:ta": "இளவனாசூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245598247,
+  "lat": 11.7406259,
+  "lon": 78.9637131,
+  "tags": {
+   "name": "Kallakurichi",
+   "name:en": "Kallakuruchi",
+   "name:kn": "ಕಲ್ಲಕುರಿಚಿ",
+   "name:ml": "കള്ളക്കുറിച്ചി",
+   "name:ta": "கள்ளக்குறிச்சி",
+   "place": "town",
+   "population": "500000",
+   "postal_code": "606200",
+   "wikipedia": "en:Kallakurichi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245598263,
+  "lat": 11.7417773,
+  "lon": 79.0733496,
+  "tags": {
+   "name": "Thiyagadurgam",
+   "name:ml": "ത്യാഗദുർഗം",
+   "name:ta": "தியாகதுர்கம்",
+   "place": "town"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245598649,
+  "lat": 11.794203,
+  "lon": 79.4072467,
+  "tags": {
+   "name": "Madapattu",
+   "name:ml": "മടപ്പട്ട്",
+   "name:ta": "மடப்பட்டு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245599213,
+  "lat": 11.8500734,
+  "lon": 79.1406745,
+  "tags": {
+   "name": "Kattu Idaiyar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245599518,
+  "lat": 11.8873761,
+  "lon": 78.9166118,
+  "tags": {
+   "name": "Sankarapuram",
+   "name:ml": "ശങ്കരപുരം",
+   "name:ta": "சங்கராபுரம்",
+   "place": "town",
+   "wikidata": "Q2716295",
+   "wikipedia": "en:Sankarapuram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245600155,
+  "lat": 11.9358336,
+  "lon": 79.0800907,
+  "tags": {
+   "name": "Madampoondi",
+   "place": "hamlet",
+   "source": "AND"
+  }
+ },
+ {
+  "type": "node",
+  "id": 245601682,
+  "lat": 12.0079588,
+  "lon": 79.0876281,
+  "tags": {
+   "name": "Manalurpettai",
+   "name:ml": "മണലൂർപേട്ട",
+   "name:ta": "மணலுர்பேட்டை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 323006912,
+  "lat": 11.9799374,
+  "lon": 79.1810638,
+  "tags": {
+   "name": "Kuchipalayam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 353161957,
+  "lat": 11.9692867,
+  "lon": 79.205183,
+  "tags": {
+   "name": "Tirukkovilur",
+   "name:ml": "തിരുക്കോവിലൂർ",
+   "name:ta": "திருக்கோவிலூர்",
+   "place": "town",
+   "postal_code": "605700",
+   "wikidata": "Q1113675",
+   "wikipedia": "en:Tirukoilur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1072726058,
+  "lat": 11.6354866,
+  "lon": 78.8809891,
+  "tags": {
+   "name": "Chinnasalem",
+   "name:ml": "ചിന്നസേലം",
+   "name:ta": "சின்னசேலம்",
+   "place": "town",
+   "population": "25106",
+   "postal_code": "606201",
+   "wikidata": "Q130577"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1116611605,
+  "lat": 11.8956706,
+  "lon": 78.9280723,
+  "tags": {
+   "name": "Pandalam",
+   "name:ml": "പാണ്ടലം",
+   "name:ta": "பாண்டலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1119915766,
+  "lat": 11.774391,
+  "lon": 78.8651334,
+  "tags": {
+   "name": "Vadakkamandal",
+   "name:ml": "വടക്കനന്തൽ",
+   "name:ta": "வடக்கனந்தல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2473923262,
+  "lat": 11.6238534,
+  "lon": 79.1906867,
+  "tags": {
+   "name": "Asanur",
+   "name:ml": "ആസനൂർ",
+   "name:ta": "ஆசனூர்",
+   "place": "village",
+   "postal_code": "606305"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3498446487,
+  "lat": 11.7851453,
+  "lon": 79.3670626,
+  "tags": {
+   "name": "Parikkal",
+   "name:ml": "പരിക്കൽ",
+   "name:ta": "பரிக்கல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4592194579,
+  "lat": 11.6907707,
+  "lon": 79.2886863,
+  "tags": {
+   "name": "Ulundurpettai",
+   "name:ml": "ഉളുന്തൂർപേട്ട",
+   "name:ta": "உளுந்தூர்பேட்டை",
+   "place": "town",
+   "population": "20000",
+   "postal_code": "606107",
+   "wikidata": "Q17075549",
+   "wikipedia": "en:Ulundurpet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9269558643,
+  "lat": 11.817279,
+  "lon": 79.2082789,
+  "tags": {
+   "name": "Periyakurukkai village",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9706227494,
+  "lat": 11.6747472,
+  "lon": 79.3577664,
+  "tags": {
+   "name": "Iluppaiyur",
+   "name:en": "Iluppaiyur",
+   "name:ta": "இலுப்பையூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9706227495,
+  "lat": 11.6751903,
+  "lon": 79.3444594,
+  "tags": {
+   "name": "Madiyanur",
+   "name:en": "Madiyanur",
+   "name:ta": "மதியனூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9706227496,
+  "lat": 11.694804,
+  "lon": 79.3349947,
+  "tags": {
+   "name": "Nainakuppam",
+   "name:en": "Nainakuppam",
+   "name:ta": "நைனாகுப்பம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756650652,
+  "lat": 11.7159163,
+  "lon": 79.0114959,
+  "tags": {
+   "name": "Niraimathi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756652536,
+  "lat": 11.6874912,
+  "lon": 79.0477254,
+  "tags": {
+   "name": "Virugavoor",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756676857,
+  "lat": 11.6543627,
+  "lon": 79.0998917,
+  "tags": {
+   "name": "Vadapoondi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756682645,
+  "lat": 11.722072,
+  "lon": 79.0029444,
+  "tags": {
+   "name": "Neelamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756683603,
+  "lat": 11.7042057,
+  "lon": 79.0295925,
+  "tags": {
+   "name": "Kurur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12756684919,
+  "lat": 11.6999435,
+  "lon": 79.0359976,
+  "tags": {
+   "name": "Mudiyanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13345266764,
+  "lat": 11.8546882,
+  "lon": 79.0007088,
+  "tags": {
+   "name": "Thondanandal",
+   "place": "village"
+  }
+ }
+]

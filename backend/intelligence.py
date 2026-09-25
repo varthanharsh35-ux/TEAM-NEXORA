@@ -9,6 +9,28 @@ ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'data'
 def read(name):return json.loads((DATA/name).read_text(encoding='utf8'))
 DISTRICTS=read('districts.json');BLOCKS=read('blocks.json');VILLAGES=read('villages.json');SECTORS=read('sectors.json')
 MODEL=joblib.load(ROOT/'models/business_classifier.joblib')
+
+# data/taxonomy.json (13 sectors, dropdown-driven business selection) has five sector ids
+# with no curated cost/price priors of their own in sectors.json. Rather than fabricate
+# new economics for them, each is grouped under the nearest existing curated sector so
+# pricing/advisory stays honest about what data backs it. Activity ids from the taxonomy
+# (e.g. "food.cafe") carry the sector as the prefix before the dot.
+SECTOR_ALIASES={'fisheries':'fish','handicrafts':'craft','allied_agriculture':'agriculture',
+                 'beauty':'services','education':'services'}
+def sector_prefix(raw):
+    """Strip a dotted taxonomy activity id (e.g. "food.cafe") down to its sector id
+    ("food"). Returns the input unchanged if it is not a string."""
+    if not raw or not isinstance(raw,str):return raw
+    return raw.split('.',1)[0].strip().lower()
+
+def canonical_sector(raw):
+    """Map a taxonomy sector id or dotted activity id (e.g. "food.cafe") onto a
+    SECTORS key, for pricing/advisory purposes only. NOT for scheme eligibility --
+    schemes.py needs allied_agriculture kept distinct from agriculture, so it uses
+    sector_prefix() instead. Returns the input unchanged if it is not recognisable."""
+    base=sector_prefix(raw)
+    if base is None:return raw
+    return SECTOR_ALIASES.get(base,base)
 def norm(s):
  text=unicodedata.normalize('NFKC',s).casefold()
  return ' '.join(''.join(c if c.isspace() or unicodedata.category(c)[0] in 'LMN' else ' ' for c in text).split())
@@ -63,6 +85,7 @@ def resolve_location(text,chosen=''):
  return {'status':'clarify','candidates':[]}
 
 def classify(text,override='auto'):
+ if override!='auto':override=canonical_sector(override)
  if override in SECTORS:return {'category':override,'confidence':None,'method':'user','uncertain':override=='other'}
  x=MODEL.named_steps['tfidf'].transform([text]);probs=MODEL.predict_proba([text])[0];i=int(probs.argmax());p=float(probs[i]);cat=str(MODEL.classes_[i])
  uncertain=x.nnz<3 or p<.30

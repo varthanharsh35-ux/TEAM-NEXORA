@@ -1,0 +1,711 @@
+{
+  "version": "1.0",
+  "sectors": [
+    {
+      "id": "food",
+      "names": { "en": "Food and Beverage", "ta": "உணவு மற்றும் பானம்", "hi": "खाद्य और पेय" },
+      "emoji": "🍽️",
+      "activities": [
+        {
+          "id": "food.cafe",
+          "names": { "en": "Cafe", "ta": "கேஃபே", "hi": "कैफे" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "seat",
+          "questions": [
+            { "id": "has_commercial_space", "type": "boolean", "label_key": "q.food.cafe.has_space", "min": null, "max": null, "required": true, "options": null },
+            { "id": "seating_capacity", "type": "number", "label_key": "q.food.cafe.seats", "min": 5, "max": 200, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "food.restaurant",
+          "names": { "en": "Restaurant", "ta": "உணவகம்", "hi": "रेस्तरां" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "seat",
+          "questions": [
+            { "id": "has_commercial_space", "type": "boolean", "label_key": "q.food.restaurant.has_space", "min": null, "max": null, "required": true, "options": null },
+            { "id": "seating_capacity", "type": "number", "label_key": "q.food.restaurant.seats", "min": 10, "max": 500, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai", "panchayat_noc"]
+        },
+        {
+          "id": "food.fast_food",
+          "names": { "en": "Fast Food", "ta": "விரைவு உணவு", "hi": "फास्ट फूड" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "seat",
+          "questions": [
+            { "id": "has_commercial_space", "type": "boolean", "label_key": "q.food.fast_food.has_space", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "food.tiffin_centre",
+          "names": { "en": "Tiffin Centre", "ta": "டிஃபின் மையம்", "hi": "टिफिन सेंटर" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "meal/day",
+          "questions": [
+            { "id": "has_commercial_space", "type": "boolean", "label_key": "q.food.tiffin_centre.has_space", "min": null, "max": null, "required": true, "options": null },
+            { "id": "daily_capacity", "type": "number", "label_key": "q.food.tiffin_centre.capacity", "min": 20, "max": 1000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "food.catering",
+          "names": { "en": "Catering", "ta": "கேட்டரிங்", "hi": "कैटरिंग" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "plate/event",
+          "questions": [
+            { "id": "has_commercial_kitchen", "type": "boolean", "label_key": "q.food.catering.has_kitchen", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "food.cloud_kitchen",
+          "names": { "en": "Cloud Kitchen", "ta": "கிளவுட் கிச்சன்", "hi": "क्लाउड किचन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "order/day",
+          "questions": [
+            { "id": "has_commercial_kitchen", "type": "boolean", "label_key": "q.food.cloud_kitchen.has_kitchen", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power", "internet"],
+          "licences": ["fssai"]
+        }
+      ]
+    },
+    {
+      "id": "dairy",
+      "names": { "en": "Dairy", "ta": "பால் பண்ணை", "hi": "डेयरी" },
+      "emoji": "🥛",
+      "activities": [
+        {
+          "id": "dairy.milk_collection",
+          "names": { "en": "Milk Collection", "ta": "பால் சேகரிப்பு", "hi": "दूध संग्रह" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "litre/day",
+          "questions": [
+            { "id": "daily_collection_litres", "type": "number", "label_key": "q.dairy.milk_collection.litres", "min": 10, "max": 10000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power", "cold_storage"],
+          "licences": []
+        },
+        {
+          "id": "dairy.curd_ghee",
+          "names": { "en": "Curd and Ghee", "ta": "தயிர் மற்றும் நெய்", "hi": "दही और घी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "kg/day",
+          "questions": [
+            { "id": "has_processing_unit", "type": "boolean", "label_key": "q.dairy.curd_ghee.has_unit", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "dairy.ice_cream",
+          "names": { "en": "Ice Cream", "ta": "ஐஸ்கிரீம்", "hi": "आइसक्रीम" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "litre/day",
+          "questions": [
+            { "id": "has_cold_storage", "type": "boolean", "label_key": "q.dairy.ice_cream.has_cold", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power", "cold_storage"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "dairy.paneer",
+          "names": { "en": "Paneer", "ta": "பனீர்", "hi": "पनीर" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "kg/day",
+          "questions": [
+            { "id": "has_processing_unit", "type": "boolean", "label_key": "q.dairy.paneer.has_unit", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power", "cold_storage"],
+          "licences": ["fssai"]
+        }
+      ]
+    },
+    {
+      "id": "poultry",
+      "names": { "en": "Poultry", "ta": "கோழி பண்ணை", "hi": "मुर्गी पालन" },
+      "emoji": "🐔",
+      "activities": [
+        {
+          "id": "poultry.broiler",
+          "names": { "en": "Broiler Chicken Farm", "ta": "இறைச்சி கோழி பண்ணை", "hi": "ब्रॉयलर मुर्गी पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "bird",
+          "questions": [
+            { "id": "bird_capacity", "type": "number", "label_key": "q.poultry.broiler.birds", "min": 100, "max": 50000, "required": true, "options": null },
+            { "id": "shed_owned", "type": "boolean", "label_key": "q.poultry.broiler.shed_owned", "min": null, "max": null, "required": false, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["panchayat_noc", "pollution_board_consent"]
+        },
+        {
+          "id": "poultry.layer_eggs",
+          "names": { "en": "Layer Egg Farm", "ta": "முட்டை கோழி பண்ணை", "hi": "अंडा उत्पादन फार्म" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "bird",
+          "questions": [
+            { "id": "bird_capacity", "type": "number", "label_key": "q.poultry.layer_eggs.birds", "min": 100, "max": 50000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["panchayat_noc", "pollution_board_consent"]
+        },
+        {
+          "id": "poultry.duck",
+          "names": { "en": "Duck Farming", "ta": "வாத்து வளர்ப்பு", "hi": "बतख पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "bird",
+          "questions": [
+            { "id": "bird_capacity", "type": "number", "label_key": "q.poultry.duck.birds", "min": 50, "max": 10000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": ["panchayat_noc"]
+        },
+        {
+          "id": "poultry.turkey",
+          "names": { "en": "Turkey Farming", "ta": "வான் கோழி வளர்ப்பு", "hi": "टर्की पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "bird",
+          "questions": [
+            { "id": "bird_capacity", "type": "number", "label_key": "q.poultry.turkey.birds", "min": 20, "max": 5000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": ["panchayat_noc"]
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "names": { "en": "Agriculture", "ta": "விவசாயம்", "hi": "कृषि" },
+      "emoji": "🌾",
+      "activities": [
+        {
+          "id": "agriculture.paddy",
+          "names": { "en": "Paddy Cultivation", "ta": "நெல் சாகுபடி", "hi": "धान की खेती" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "land_area_acres", "type": "number", "label_key": "q.agriculture.paddy.acres", "min": 0.5, "max": 1000, "required": true, "options": null },
+            { "id": "irrigation_type", "type": "select", "label_key": "q.agriculture.paddy.irrigation", "min": null, "max": null, "required": true, "options": ["rainfed", "well", "canal", "borewell"] }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        },
+        {
+          "id": "agriculture.vegetables",
+          "names": { "en": "Vegetable Farming", "ta": "காய்கறி சாகுபடி", "hi": "सब्जी की खेती" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "land_area_acres", "type": "number", "label_key": "q.agriculture.vegetables.acres", "min": 0.25, "max": 1000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        },
+        {
+          "id": "agriculture.flowers",
+          "names": { "en": "Flower Farming", "ta": "மலர் சாகுபடி", "hi": "फूलों की खेती" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "land_area_acres", "type": "number", "label_key": "q.agriculture.flowers.acres", "min": 0.25, "max": 100, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        },
+        {
+          "id": "agriculture.organic_farming",
+          "names": { "en": "Organic Farming", "ta": "இயற்கை விவசாயம்", "hi": "जैविक खेती" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "land_area_acres", "type": "number", "label_key": "q.agriculture.organic.acres", "min": 0.5, "max": 500, "required": true, "options": null },
+            { "id": "has_organic_certification", "type": "boolean", "label_key": "q.agriculture.organic.certified", "min": null, "max": null, "required": false, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        },
+        {
+          "id": "agriculture.medicinal_herbs",
+          "names": { "en": "Medicinal Herbs", "ta": "மூலிகை சாகுபடி", "hi": "औषधीय जड़ी बूटी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "land_area_acres", "type": "number", "label_key": "q.agriculture.herbs.acres", "min": 0.25, "max": 100, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "retail",
+      "names": { "en": "Retail", "ta": "சில்லறை வணிகம்", "hi": "खुदरा व्यापार" },
+      "emoji": "🛒",
+      "activities": [
+        {
+          "id": "retail.grocery",
+          "names": { "en": "Grocery Shop", "ta": "மளிகை கடை", "hi": "किराना दुकान" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "sqft",
+          "questions": [
+            { "id": "shop_area_sqft", "type": "number", "label_key": "q.retail.grocery.area", "min": 50, "max": 5000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "retail.mobile_accessories",
+          "names": { "en": "Mobile Accessories", "ta": "மொபைல் உதிரிபாகங்கள்", "hi": "मोबाइल सहायक उपकरण" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "sqft",
+          "questions": [
+            { "id": "shop_area_sqft", "type": "number", "label_key": "q.retail.mobile.area", "min": 30, "max": 1000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "retail.stationery",
+          "names": { "en": "Stationery Shop", "ta": "எழுதுபொருள் கடை", "hi": "स्टेशनरी की दुकान" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "sqft",
+          "questions": [
+            { "id": "shop_area_sqft", "type": "number", "label_key": "q.retail.stationery.area", "min": 50, "max": 2000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "retail.hardware",
+          "names": { "en": "Hardware Shop", "ta": "இரும்பு சாமான் கடை", "hi": "हार्डवेयर की दुकान" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "sqft",
+          "questions": [
+            { "id": "shop_area_sqft", "type": "number", "label_key": "q.retail.hardware.area", "min": 100, "max": 5000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "retail.pharmacy",
+          "names": { "en": "Pharmacy", "ta": "மருந்தகம்", "hi": "फार्मेसी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "sqft",
+          "questions": [
+            { "id": "has_pharmacist_license", "type": "boolean", "label_key": "q.retail.pharmacy.licensed", "min": null, "max": null, "required": true, "options": null },
+            { "id": "shop_area_sqft", "type": "number", "label_key": "q.retail.pharmacy.area", "min": 100, "max": 2000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power", "cold_storage"],
+          "licences": ["drug_license"]
+        }
+      ]
+    },
+    {
+      "id": "tailoring",
+      "names": { "en": "Tailoring", "ta": "தையல்", "hi": "सिलाई" },
+      "emoji": "🧵",
+      "activities": [
+        {
+          "id": "tailoring.stitching",
+          "names": { "en": "Stitching", "ta": "தையல் வேலை", "hi": "सिलाई" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "machine",
+          "questions": [
+            { "id": "machines_count", "type": "number", "label_key": "q.tailoring.stitching.machines", "min": 1, "max": 50, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "tailoring.embroidery",
+          "names": { "en": "Embroidery", "ta": "பூவேலைப்பாடு", "hi": "कढ़ाई" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "machine",
+          "questions": [
+            { "id": "has_embroidery_machine", "type": "boolean", "label_key": "q.tailoring.embroidery.machine", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "tailoring.school_uniforms",
+          "names": { "en": "School Uniforms", "ta": "பள்ளி சீருடை", "hi": "स्कूल वर्दी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "piece/month",
+          "questions": [
+            { "id": "annual_capacity", "type": "number", "label_key": "q.tailoring.school_uniforms.capacity", "min": 100, "max": 100000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "tailoring.alterations",
+          "names": { "en": "Alterations", "ta": "திருத்தங்கள்", "hi": "कपड़े की सिलाई-कटाई" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "piece/day",
+          "questions": [
+            { "id": "has_stitching_machine", "type": "boolean", "label_key": "q.tailoring.alterations.machine", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "beauty",
+      "names": { "en": "Beauty and Wellness", "ta": "அழகு மற்றும் நல்வாழ்வு", "hi": "सौंदर्य और कल्याण" },
+      "emoji": "💇",
+      "activities": [
+        {
+          "id": "beauty.saloon_men",
+          "names": { "en": "Men's Salon", "ta": "ஆண்கள் சலூன்", "hi": "पुरुष सैलून" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "chair",
+          "questions": [
+            { "id": "chairs_count", "type": "number", "label_key": "q.beauty.saloon_men.chairs", "min": 1, "max": 20, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": []
+        },
+        {
+          "id": "beauty.beauty_parlour_women",
+          "names": { "en": "Women's Beauty Parlour", "ta": "பெண்கள் அழகுக்கூடம்", "hi": "महिला ब्यूटी पार्लर" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "chair",
+          "questions": [
+            { "id": "has_beautician_certification", "type": "boolean", "label_key": "q.beauty.parlour.certified", "min": null, "max": null, "required": false, "options": null },
+            { "id": "chairs_count", "type": "number", "label_key": "q.beauty.parlour.chairs", "min": 1, "max": 15, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": []
+        },
+        {
+          "id": "beauty.spa",
+          "names": { "en": "Spa", "ta": "ஸ்பா", "hi": "स्पा" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "room",
+          "questions": [
+            { "id": "treatment_rooms_count", "type": "number", "label_key": "q.beauty.spa.rooms", "min": 1, "max": 20, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "repair",
+      "names": { "en": "Repair Services", "ta": "சீரமைப்பு சேவைகள்", "hi": "मरम्मत सेवाएं" },
+      "emoji": "🔧",
+      "activities": [
+        {
+          "id": "repair.mobile_repair",
+          "names": { "en": "Mobile Repair", "ta": "மொபைல் பழுதுநீக்கம்", "hi": "मोबाइल मरम्मत" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "device/day",
+          "questions": [
+            { "id": "has_soldering_station", "type": "boolean", "label_key": "q.repair.mobile.soldering", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "repair.two_wheeler_repair",
+          "names": { "en": "Two Wheeler Repair", "ta": "இரு சக்கர வாகன பழுதுநீக்கம்", "hi": "दोपहिया वाहन मरम्मत" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "vehicle/day",
+          "questions": [
+            { "id": "service_bays_count", "type": "number", "label_key": "q.repair.two_wheeler.bays", "min": 1, "max": 10, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "repair.electronics",
+          "names": { "en": "Electronics Repair", "ta": "மின்னணு சாதன பழுதுநீக்கம்", "hi": "इलेक्ट्रॉनिक्स मरम्मत" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "device/day",
+          "questions": [
+            { "id": "has_testing_equipment", "type": "boolean", "label_key": "q.repair.electronics.testing", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "repair.welding_fabrication",
+          "names": { "en": "Welding and Fabrication", "ta": "வெல்டிங் மற்றும் உருவாக்கம்", "hi": "वेल्डिंग और निर्माण" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "job/day",
+          "questions": [
+            { "id": "has_welding_machine", "type": "boolean", "label_key": "q.repair.welding.machine", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": ["pollution_board_consent"]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "names": { "en": "Transport", "ta": "போக்குவரத்து", "hi": "परिवहन" },
+      "emoji": "🚗",
+      "activities": [
+        {
+          "id": "transport.auto_rental",
+          "names": { "en": "Auto Rickshaw", "ta": "ஆட்டோ ரிக்ஷா", "hi": "ऑटो रिक्शा" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "vehicle",
+          "questions": [
+            { "id": "vehicles_count", "type": "number", "label_key": "q.transport.auto.count", "min": 1, "max": 20, "required": true, "options": null },
+            { "id": "has_valid_permit", "type": "boolean", "label_key": "q.transport.auto.permit", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": [],
+          "licences": ["rto_permit"]
+        },
+        {
+          "id": "transport.goods_tempo",
+          "names": { "en": "Goods Tempo", "ta": "சரக்கு டெம்போ", "hi": "माल टेम्पो" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "vehicle",
+          "questions": [
+            { "id": "vehicles_count", "type": "number", "label_key": "q.transport.goods.count", "min": 1, "max": 10, "required": true, "options": null },
+            { "id": "has_valid_permit", "type": "boolean", "label_key": "q.transport.goods.permit", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": [],
+          "licences": ["rto_permit"]
+        },
+        {
+          "id": "transport.school_van",
+          "names": { "en": "School Van", "ta": "பள்ளி வேன்", "hi": "स्कूल वैन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "vehicle",
+          "questions": [
+            { "id": "seating_capacity", "type": "number", "label_key": "q.transport.school_van.seats", "min": 6, "max": 30, "required": true, "options": null }
+          ],
+          "required_facilities": [],
+          "licences": ["rto_permit"]
+        },
+        {
+          "id": "transport.e_rickshaw",
+          "names": { "en": "E-Rickshaw", "ta": "மின் ரிக்ஷா", "hi": "ई-रिक्शा" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "vehicle",
+          "questions": [
+            { "id": "has_driving_license", "type": "boolean", "label_key": "q.transport.e_rickshaw.license", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["power"],
+          "licences": ["rto_permit"]
+        }
+      ]
+    },
+    {
+      "id": "fisheries",
+      "names": { "en": "Fisheries", "ta": "மீன்வளம்", "hi": "मत्स्य पालन" },
+      "emoji": "🐟",
+      "activities": [
+        {
+          "id": "fisheries.fresh_fish_retail",
+          "names": { "en": "Fresh Fish Retail", "ta": "புதிய மீன் சில்லறை", "hi": "ताजा मछली खुदरा" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "kg/day",
+          "questions": [
+            { "id": "has_cold_storage", "type": "boolean", "label_key": "q.fisheries.retail.cold", "min": null, "max": null, "required": false, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": ["fssai"]
+        },
+        {
+          "id": "fisheries.fish_processing",
+          "names": { "en": "Fish Processing", "ta": "மீன் பதப்படுத்துதல்", "hi": "मछली प्रसंस्करण" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "kg/day",
+          "questions": [
+            { "id": "daily_capacity_kg", "type": "number", "label_key": "q.fisheries.processing.capacity", "min": 10, "max": 10000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power", "cold_storage"],
+          "licences": ["fssai", "pollution_board_consent"]
+        },
+        {
+          "id": "fisheries.prawn_farming",
+          "names": { "en": "Prawn Farming", "ta": "இறால் வளர்ப்பு", "hi": "झींगा पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "acre",
+          "questions": [
+            { "id": "pond_area_acres", "type": "number", "label_key": "q.fisheries.prawn.acres", "min": 0.5, "max": 100, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": ["pollution_board_consent"]
+        },
+        {
+          "id": "fisheries.ornamental_fish",
+          "names": { "en": "Ornamental Fish", "ta": "அலங்கார மீன்", "hi": "सजावटी मछली" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "tank",
+          "questions": [
+            { "id": "has_aquarium_setup", "type": "boolean", "label_key": "q.fisheries.ornamental.setup", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "handicrafts",
+      "names": { "en": "Handicrafts", "ta": "கைவினைப்பொருட்கள்", "hi": "हस्तशिल्प" },
+      "emoji": "🏺",
+      "activities": [
+        {
+          "id": "handicrafts.pottery",
+          "names": { "en": "Pottery", "ta": "மட்பாண்டம்", "hi": "मिट्टी के बर्तन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "piece/month",
+          "questions": [
+            { "id": "has_kiln", "type": "boolean", "label_key": "q.handicrafts.pottery.kiln", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water", "power"],
+          "licences": []
+        },
+        {
+          "id": "handicrafts.weaving",
+          "names": { "en": "Weaving", "ta": "நெசவு", "hi": "बुनाई" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "loom",
+          "questions": [
+            { "id": "looms_count", "type": "number", "label_key": "q.handicrafts.weaving.looms", "min": 1, "max": 50, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "handicrafts.cane_bamboo",
+          "names": { "en": "Cane and Bamboo", "ta": "மூங்கில் மற்றும் நாணல்", "hi": "बेंत और बांस" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "piece/month",
+          "questions": [
+            { "id": "has_workshop_space", "type": "boolean", "label_key": "q.handicrafts.cane.workshop", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space"],
+          "licences": []
+        },
+        {
+          "id": "handicrafts.stone_carving",
+          "names": { "en": "Stone Carving", "ta": "கல் சிற்பம்", "hi": "पत्थर की नक्काशी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "piece/month",
+          "questions": [
+            { "id": "has_carving_tools", "type": "boolean", "label_key": "q.handicrafts.stone.tools", "min": null, "max": null, "required": true, "options": null }
+          ],
+          "required_facilities": ["space"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "names": { "en": "Education and Training", "ta": "கல்வி மற்றும் பயிற்சி", "hi": "शिक्षा और प्रशिक्षण" },
+      "emoji": "📚",
+      "activities": [
+        {
+          "id": "education.tuition_centre",
+          "names": { "en": "Tuition Centre", "ta": "தனியார் பயிற்சி மையம்", "hi": "ट्यूशन सेंटर" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "student",
+          "questions": [
+            { "id": "students_capacity", "type": "number", "label_key": "q.education.tuition.capacity", "min": 5, "max": 500, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "education.computer_training",
+          "names": { "en": "Computer Training", "ta": "கணினி பயிற்சி", "hi": "कंप्यूटर प्रशिक्षण" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "seat",
+          "questions": [
+            { "id": "computers_count", "type": "number", "label_key": "q.education.computer.count", "min": 3, "max": 100, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power", "internet"],
+          "licences": []
+        },
+        {
+          "id": "education.spoken_english",
+          "names": { "en": "Spoken English", "ta": "பேச்சு ஆங்கிலம்", "hi": "बोलचाल की अंग्रेजी" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "student",
+          "questions": [
+            { "id": "has_certified_trainer", "type": "boolean", "label_key": "q.education.english.certified", "min": null, "max": null, "required": false, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        },
+        {
+          "id": "education.coaching",
+          "names": { "en": "Coaching Centre", "ta": "பயிற்சி வகுப்பு", "hi": "कोचिंग सेंटर" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "student",
+          "questions": [
+            { "id": "batches_count", "type": "number", "label_key": "q.education.coaching.batches", "min": 1, "max": 20, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "power"],
+          "licences": []
+        }
+      ]
+    },
+    {
+      "id": "allied_agriculture",
+      "names": { "en": "Allied Agriculture", "ta": "துணை விவசாயம்", "hi": "सहयोगी कृषि" },
+      "emoji": "🐐",
+      "activities": [
+        {
+          "id": "allied_agriculture.goat_rearing",
+          "names": { "en": "Goat Rearing", "ta": "ஆடு வளர்ப்பு", "hi": "बकरी पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "animal",
+          "questions": [
+            { "id": "herd_size", "type": "number", "label_key": "q.allied.goat.herd", "min": 5, "max": 1000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": ["panchayat_noc"]
+        },
+        {
+          "id": "allied_agriculture.sheep_rearing",
+          "names": { "en": "Sheep Rearing", "ta": "செம்மறியாடு வளர்ப்பு", "hi": "भेड़ पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "animal",
+          "questions": [
+            { "id": "flock_size", "type": "number", "label_key": "q.allied.sheep.flock", "min": 5, "max": 1000, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": ["panchayat_noc"]
+        },
+        {
+          "id": "allied_agriculture.beekeeping",
+          "names": { "en": "Beekeeping", "ta": "தேனீ வளர்ப்பு", "hi": "मधुमक्खी पालन" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "hive",
+          "questions": [
+            { "id": "hives_count", "type": "number", "label_key": "q.allied.beekeeping.hives", "min": 2, "max": 500, "required": true, "options": null }
+          ],
+          "required_facilities": ["space"],
+          "licences": []
+        },
+        {
+          "id": "allied_agriculture.vermicompost",
+          "names": { "en": "Vermicompost", "ta": "மண்புழு உரம்", "hi": "वर्मीकम्पोस्ट" },
+          "typical_project_cost": { "min": null, "max": null },
+          "unit": "ton/month",
+          "questions": [
+            { "id": "production_capacity_tons", "type": "number", "label_key": "q.allied.vermicompost.tons", "min": 0.5, "max": 500, "required": true, "options": null }
+          ],
+          "required_facilities": ["space", "water"],
+          "licences": []
+        }
+      ]
+    }
+  ]
+}

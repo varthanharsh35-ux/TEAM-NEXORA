@@ -1,50 +1,700 @@
 {
   "checked": "2026-09-24",
+  "next_check": "2026-12-24",
   "schemes": [
     {
-      "id": "micro",
-      "community": "sc",
-      "income_limit": 500000,
-      "share": 0.9,
-      "minimum_project": 0,
-      "maximum_project": 140000,
-      "loan_cap": 125000,
-      "rate": 6.5,
-      "tenure": 36,
-      "moratorium": 3,
-      "source": "https://nsfdc.nic.in/faqs",
-      "apply": "https://pmsuraj.dosje.gov.in/",
-      "gender": "any"
+      "id": "nsfdc.micro",
+      "name": { "en": "NSFDC Micro Finance" },
+      "agency": "NSFDC via TAHDCO",
+      "eligibility": {
+        "community": ["sc"],
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": null,
+        "project_max": 140000,
+        "loan_cap": 125000,
+        "interest_rate": 6.5,
+        "tenure_months": 36,
+        "moratorium_months": 3,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "caste_certificate", "label_key": "docs.caste_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://pmsuraj.dosje.gov.in/",
+      "source_url": "https://nsfdc.nic.in/en/schemes",
+      "provenance": { "source_url": "https://nsfdc.nic.in/en/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": null,
+      "unverified": ["eligibility.income_limit_rural", "eligibility.income_limit_urban"],
+      "reasons": [],
+      "missing": []
     },
     {
-      "id": "term",
-      "community": "sc",
-      "income_limit": 500000,
-      "share": 0.9,
-      "minimum_project": 140000,
-      "maximum_project": 5000000,
-      "loan_cap": 4500000,
-      "rate": 8,
-      "tenure": 84,
-      "moratorium": 6,
-      "source": "https://nsfdc.nic.in/faqs",
-      "apply": "https://pmsuraj.dosje.gov.in/",
-      "gender": "any"
+      "id": "nsfdc.term",
+      "name": { "en": "NSFDC Term Loan" },
+      "agency": "NSFDC via TAHDCO",
+      "availability_confirmed": null,
+      "eligibility": {
+        "community": ["sc"],
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": 500000,
+        "income_limit_urban": 500000,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.10,
+        "agency_share": 0.90,
+        "project_min": 140001,
+        "project_max": 5000000,
+        "loan_cap": 4500000,
+        "interest_rate": 8.0,
+        "tenure_months": 84,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "term_options": [
+        {
+          "when": { "field": "extended_gestation", "op": "eq", "value": true },
+          "terms": { "moratorium_months": 12 }
+        },
+        {
+          "when": { "field": "extended_gestation", "op": "eq", "value": false },
+          "terms": { "moratorium_months": 6 }
+        }
+      ],
+      "documents": [
+        { "id": "caste_certificate", "label_key": "docs.caste_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true }
+      ],
+      "apply_url": "https://pmsuraj.dosje.gov.in/",
+      "source_url": "https://nsfdc.nic.in/en/schemes",
+      "provenance": { "source_url": "https://nsfdc.nic.in/en/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Moratorium 6 months standard; 12 months for extended gestation projects. Agency confirmation required before treating screening as approval.",
+      "unverified": ["availability_confirmed", "terms.moratorium_months"],
+      "reasons": [],
+      "missing": []
     },
     {
-      "id": "nbcfdc",
-      "community": "obc",
-      "income_limit": 300000,
-      "share": 0.85,
-      "minimum_project": 0,
-      "maximum_project": null,
-      "loan_cap": 1500000,
-      "rate": null,
-      "tenure": null,
-      "moratorium": 3,
-      "source": "https://nbcfdc.gov.in/nbcfdc/web/sites/default/files/2025-12/Annual%20report%202024-25_0.pdf",
-      "apply": "https://nbcfdc.gov.in/nbcfdc/web/howapply",
-      "gender": "any"
+      "id": "nsfdc.mahila_samriddhi",
+      "name": { "en": "NSFDC Mahila Samriddhi Yojana" },
+      "agency": "NSFDC via TAHDCO",
+      "eligibility": {
+        "community": ["sc"],
+        "gender": "female",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": null,
+        "project_max": 140000,
+        "loan_cap": 125000,
+        "interest_rate": 5.0,
+        "tenure_months": 36,
+        "moratorium_months": 3,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "caste_certificate", "label_key": "docs.caste_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://pmsuraj.dosje.gov.in/",
+      "source_url": "https://nsfdc.nic.in/en/schemes",
+      "provenance": { "source_url": "https://nsfdc.nic.in/en/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "For SC women only. Rate 5% concessional. Income ceiling requires agency confirmation.",
+      "unverified": ["eligibility.income_limit_rural", "eligibility.income_limit_urban"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "nbcfdc.micro",
+      "name": { "en": "NBCFDC Micro Credit Scheme" },
+      "agency": "NBCFDC via TAHDCO / BCDCs",
+      "availability_confirmed": null,
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any",
+        "requirements": [
+          { "any": [
+            { "field": "community", "op": "in", "value": ["obc"] },
+            { "all": [
+              { "field": "shg_member", "op": "eq", "value": true },
+              { "field": "weaker_section", "op": "eq", "value": true },
+              { "field": "shg_obc_percentage", "op": "gte", "value": 60 }
+            ]}
+          ]}
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.15,
+        "agency_share": 0.85,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": 6.0,
+        "tenure_months": 36,
+        "moratorium_months": 3,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "obc_certificate", "label_key": "docs.obc_certificate", "mandatory": false },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://nbcfdc.gov.in/",
+      "source_url": "https://nbcfdc.gov.in/schemes",
+      "provenance": { "source_url": "https://nbcfdc.gov.in/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "OBC-targeted. SHG exception: SHG with >=60% OBC membership may include SC/ST weaker-section members. Loan ceiling and income ceiling require agency confirmation.",
+      "unverified": ["availability_confirmed", "eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.project_max", "terms.loan_cap"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "nbcfdc.term",
+      "name": { "en": "NBCFDC Term Loan" },
+      "agency": "NBCFDC via TAHDCO / BCDCs",
+      "eligibility": {
+        "community": ["obc"],
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.15,
+        "agency_share": 0.85,
+        "project_min": 100001,
+        "project_max": 1500000,
+        "loan_cap": 1500000,
+        "interest_rate": null,
+        "tenure_months": 84,
+        "moratorium_months": 6,
+        "subsidy": null
+      },
+      "term_options": [
+        {
+          "when": { "field": "loan_amount", "op": "lte", "value": 125000 },
+          "terms": { "interest_rate": 7 }
+        },
+        {
+          "when": { "field": "loan_amount", "op": "gt", "value": 125000 },
+          "terms": { "interest_rate": 8 }
+        }
+      ],
+      "documents": [
+        { "id": "obc_certificate", "label_key": "docs.obc_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true }
+      ],
+      "apply_url": "https://nbcfdc.gov.in/",
+      "source_url": "https://nbcfdc.gov.in/schemes",
+      "provenance": { "source_url": "https://nbcfdc.gov.in/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Rate 7% for loan <=1.25L; 8% for loan >1.25L. Income ceiling unverified.",
+      "unverified": ["eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.interest_rate"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "nskfdc.term",
+      "name": { "en": "NSKFDC Self Employment Scheme" },
+      "agency": "NSKFDC via State Channelising Agencies",
+      "availability_confirmed": null,
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any",
+        "requirements": [
+          { "field": "sanitation_worker_or_dependant", "op": "eq", "value": true }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "sanitation_worker_certificate", "label_key": "docs.sanitation_worker_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://nskfdc.nic.in/",
+      "source_url": "https://nskfdc.nic.in/schemes",
+      "provenance": { "source_url": "https://nskfdc.nic.in/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "For sanitation workers and their dependants only. Terms require agency confirmation.",
+      "unverified": ["availability_confirmed", "eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.interest_rate", "terms.tenure_months", "terms.moratorium_months", "terms.project_max", "terms.loan_cap"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "nhfdc.swavalamban",
+      "name": { "en": "NHFDC Swavalamban — Self Employment for PwD" },
+      "agency": "NHFDC via State Channelising Agencies",
+      "availability_confirmed": null,
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any",
+        "requirements": [
+          { "field": "person_with_disability", "op": "eq", "value": true }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "disability_certificate", "label_key": "docs.disability_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://nhfdc.nic.in/",
+      "source_url": "https://nhfdc.nic.in/schemes",
+      "provenance": { "source_url": "https://nhfdc.nic.in/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "For persons with disabilities only (40%+ certified disability required). Terms require agency confirmation.",
+      "unverified": ["availability_confirmed", "eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.project_max", "terms.loan_cap", "terms.interest_rate", "terms.tenure_months", "terms.moratorium_months"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "nmdfc.term_cl1",
+      "name": { "en": "NMDFC Term Loan — Minority Communities" },
+      "agency": "NMDFC via Tamil Nadu Minorities Development Corporation",
+      "availability_confirmed": null,
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any",
+        "requirements": [
+          { "field": "religion", "op": "in", "value": ["muslim", "christian", "sikh", "buddhist", "zoroastrian", "jain"] }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.10,
+        "agency_share": 0.90,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "minority_community_certificate", "label_key": "docs.minority_community_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://nmdfc.org/",
+      "source_url": "https://nmdfc.org/schemes",
+      "provenance": { "source_url": "https://nmdfc.org/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "For notified minority communities only (Muslim, Christian, Sikh, Buddhist, Zoroastrian, Jain). Religion is independent of caste/community. Terms require agency confirmation.",
+      "unverified": ["availability_confirmed", "eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.project_max", "terms.loan_cap", "terms.interest_rate", "terms.tenure_months", "terms.moratorium_months"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "tahdco.cm_arise",
+      "name": { "en": "TAHDCO CM-ARISE Self Employment Scheme" },
+      "agency": "TAHDCO (Tamil Nadu)",
+      "eligibility": {
+        "community": ["sc", "st"],
+        "gender": "any",
+        "age": { "min": 18, "max": 55 },
+        "income_limit_rural": 300000,
+        "income_limit_urban": 300000,
+        "income_boundary_uncertain": true,
+        "sectors": "any",
+        "stage": ["new"],
+        "state": "tamil_nadu",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "caste_certificate", "label_key": "docs.caste_certificate", "mandatory": true },
+        { "id": "income_certificate", "label_key": "docs.income_certificate", "mandatory": true },
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true }
+      ],
+      "apply_url": "https://tahdco.org/",
+      "source_url": "https://tahdco.org/schemes",
+      "provenance": { "source_url": "https://tahdco.org/schemes" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Income limit 3L cited in scheme documents; confirmation required when applicant income equals boundary. Loan cap and rate set by channelising bank — confirm with TAHDCO office.",
+      "unverified": ["terms.interest_rate", "terms.tenure_months", "terms.moratorium_months", "terms.project_max", "terms.loan_cap", "terms.subsidy"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "pmegp.new",
+      "name": { "en": "PMEGP — Prime Minister's Employment Generation Programme" },
+      "agency": "KVIC / KVIB / District Industries Centre",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": null },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": { "excluded": ["agriculture"] },
+        "stage": ["new"],
+        "state": "any",
+        "education": {
+          "minimum": null,
+          "rules": [
+            {
+              "when": {
+                "any": [
+                  { "all": [
+                    { "field": "sector", "op": "in", "value": ["services", "trading"] },
+                    { "field": "project_cost", "op": "gt", "value": 500000 }
+                  ]},
+                  { "all": [
+                    { "field": "sector", "op": "eq", "value": "manufacturing" },
+                    { "field": "project_cost", "op": "gt", "value": 1000000 }
+                  ]}
+                ]
+              },
+              "minimum": "class_8"
+            }
+          ]
+        }
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": 100000,
+        "project_max": 5000000,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": 84,
+        "moratorium_months": 6,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "education_certificate", "label_key": "docs.education_certificate", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true }
+      ],
+      "apply_url": "https://kviconline.gov.in/pmegpeportal/",
+      "source_url": "https://kviconline.gov.in/pmegpeportal/",
+      "provenance": { "source_url": "https://kviconline.gov.in/pmegpeportal/" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Subsidy 15-35% based on area/category — not a single number. Bank provides balance as loan at bank base rate + spread. Education bar: class 8 for service projects >5L or manufacturing >10L.",
+      "unverified": ["eligibility.age.max", "terms.subsidy", "terms.interest_rate", "terms.loan_cap"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "mudra.shishu",
+      "name": { "en": "MUDRA Shishu" },
+      "agency": "Scheduled Commercial Banks / MFIs / NBFCs",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": null },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "loan_min": null,
+        "sectors": { "excluded": ["agriculture"] },
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 50000,
+        "interest_rate": null,
+        "tenure_months": 60,
+        "moratorium_months": 0,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "business_proof", "label_key": "docs.business_proof", "mandatory": false }
+      ],
+      "apply_url": "https://www.mudra.org.in/",
+      "source_url": "https://www.mudra.org.in/ShishuKishoreTarun",
+      "provenance": { "source_url": "https://www.mudra.org.in/ShishuKishoreTarun" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan up to 50,000. Rate set by lending institution; not capped. Margin money at bank discretion.",
+      "unverified": ["eligibility.age.max", "terms.interest_rate", "terms.beneficiary_share", "terms.agency_share"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "mudra.kishore",
+      "name": { "en": "MUDRA Kishore" },
+      "agency": "Scheduled Commercial Banks / MFIs / NBFCs",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": null },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "loan_min": 50001,
+        "loan_min_exclusive": false,
+        "sectors": { "excluded": ["agriculture"] },
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 500000,
+        "interest_rate": null,
+        "tenure_months": 60,
+        "moratorium_months": 0,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "business_proof", "label_key": "docs.business_proof", "mandatory": true }
+      ],
+      "apply_url": "https://www.mudra.org.in/",
+      "source_url": "https://www.mudra.org.in/ShishuKishoreTarun",
+      "provenance": { "source_url": "https://www.mudra.org.in/ShishuKishoreTarun" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan band 50,001-5,00,000. Rate at lending institution's discretion.",
+      "unverified": ["eligibility.age.max", "terms.interest_rate", "terms.beneficiary_share", "terms.agency_share"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "mudra.tarun",
+      "name": { "en": "MUDRA Tarun" },
+      "agency": "Scheduled Commercial Banks / MFIs / NBFCs",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": null },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "loan_min": 500001,
+        "loan_min_exclusive": false,
+        "sectors": { "excluded": ["agriculture"] },
+        "stage": ["new", "expansion"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": null,
+        "agency_share": null,
+        "project_min": null,
+        "project_max": null,
+        "loan_cap": 1000000,
+        "interest_rate": null,
+        "tenure_months": 84,
+        "moratorium_months": 0,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "business_proof", "label_key": "docs.business_proof", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true }
+      ],
+      "apply_url": "https://www.mudra.org.in/",
+      "source_url": "https://www.mudra.org.in/ShishuKishoreTarun",
+      "provenance": { "source_url": "https://www.mudra.org.in/ShishuKishoreTarun" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Loan band 5,00,001-10,00,000. Rate at lending institution's discretion.",
+      "unverified": ["eligibility.age.max", "terms.interest_rate", "terms.beneficiary_share", "terms.agency_share"],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "stand_up_india",
+      "name": { "en": "Stand-Up India" },
+      "agency": "Scheduled Commercial Banks (SIDBI facilitated)",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 18, "max": null },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": "any",
+        "stage": ["new"],
+        "state": "any",
+        "education": "any"
+      },
+      "terms": {
+        "beneficiary_share": 0.10,
+        "agency_share": 0.90,
+        "project_min": 1000000,
+        "project_max": 100000000,
+        "loan_cap": 100000000,
+        "interest_rate": null,
+        "tenure_months": 84,
+        "moratorium_months": 18,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true }
+      ],
+      "apply_url": "https://www.standupmitra.in/",
+      "source_url": "https://www.standupmitra.in/Home/SuiSchemes",
+      "provenance": { "source_url": "https://www.standupmitra.in/Home/SuiSchemes" },
+      "verified_on": "2025-03-31",
+      "withdrawn_on": "2025-03-31",
+      "change_note": "Scheme subsumed into broader MSME credit guarantee framework effective 2025-03-31. Source: PIB press release 2025-03-28. Two crawls of standupmitra.in confirmed scheme portal closed.",
+      "unverified": [],
+      "reasons": [],
+      "missing": []
+    },
+    {
+      "id": "tn.needs",
+      "name": { "en": "Tamil Nadu NEEDS — New Entrepreneur-cum-Enterprise Development Scheme" },
+      "agency": "Tamil Nadu District Industries Centres (DICs)",
+      "eligibility": {
+        "community": "any",
+        "gender": "any",
+        "age": { "min": 21, "max": 45 },
+        "income_limit_rural": null,
+        "income_limit_urban": null,
+        "sectors": { "excluded": ["trading"] },
+        "stage": ["new"],
+        "state": "tamil_nadu",
+        "education": { "minimum": "class_12" },
+        "requirements": [
+          { "field": "first_generation", "op": "eq", "value": true }
+        ],
+        "age_options": [
+          {
+            "when": { "any": [
+              { "field": "gender", "op": "eq", "value": "female" },
+              { "field": "community", "op": "in", "value": ["sc", "st"] }
+            ]},
+            "max": 55
+          }
+        ]
+      },
+      "terms": {
+        "beneficiary_share": 0.05,
+        "agency_share": 0.95,
+        "project_min": 500000,
+        "project_max": 50000000,
+        "loan_cap": null,
+        "interest_rate": null,
+        "tenure_months": null,
+        "moratorium_months": null,
+        "subsidy": null
+      },
+      "documents": [
+        { "id": "aadhaar", "label_key": "docs.aadhaar", "mandatory": true },
+        { "id": "education_certificate", "label_key": "docs.education_certificate", "mandatory": true },
+        { "id": "project_report", "label_key": "docs.project_report", "mandatory": true },
+        { "id": "first_generation_declaration", "label_key": "docs.first_generation_declaration", "mandatory": true }
+      ],
+      "apply_url": "https://www.tn.gov.in/scheme/data_view/5191",
+      "source_url": "https://www.tn.gov.in/scheme/data_view/5191",
+      "provenance": { "source_url": "https://www.tn.gov.in/scheme/data_view/5191" },
+      "verified_on": "2026-09-24",
+      "withdrawn_on": null,
+      "change_note": "Age limit 45 for general male; 55 for women and SC/ST. Education minimum Class 12. Trading sector excluded. Loan cap and interest rate set by participating banks — confirm with DIC.",
+      "unverified": ["eligibility.income_limit_rural", "eligibility.income_limit_urban", "terms.loan_cap", "terms.interest_rate", "terms.tenure_months", "terms.moratorium_months", "terms.subsidy"],
+      "reasons": [],
+      "missing": []
     }
   ]
 }

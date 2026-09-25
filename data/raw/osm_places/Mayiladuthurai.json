@@ -1,0 +1,6852 @@
+[
+ {
+  "type": "node",
+  "id": 245589919,
+  "lat": 11.2038428,
+  "lon": 79.6173398,
+  "tags": {
+   "name": "Tiruvalaputtur",
+   "name:ml": "തിരുവാലപുത്തൂർ",
+   "name:ta": "திருவாளப்புத்தூர்",
+   "place": "village",
+   "source": "AND"
+  }
+ },
+ {
+  "type": "node",
+  "id": 891394180,
+  "lat": 11.2417391,
+  "lon": 79.8428846,
+  "tags": {
+   "name": "Tirumullaivasal",
+   "place": "village",
+   "postal_code": "609113"
+  }
+ },
+ {
+  "type": "node",
+  "id": 891394184,
+  "lat": 11.2377794,
+  "lon": 79.7395752,
+  "tags": {
+   "name": "Sirkazhi",
+   "name:ml": "സീർകാഴി",
+   "name:ta": "சீர்காழி",
+   "place": "town",
+   "population": "10000",
+   "postal_code": "609100",
+   "wikidata": "Q1278427",
+   "wikipedia": "en:Sirkazhi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 891394190,
+  "lat": 11.1974001,
+  "lon": 79.7089888,
+  "tags": {
+   "name": "Vaitheeshwaran Koil",
+   "name:ml": "വൈത്തീശ്വരൻകോവിൽ",
+   "name:ta": "வைத்தீசுவரன்கோவில்",
+   "place": "village",
+   "postal_code": "609117"
+  }
+ },
+ {
+  "type": "node",
+  "id": 891394192,
+  "lat": 11.029929,
+  "lon": 79.852196,
+  "tags": {
+   "name": "Tharangambadi",
+   "name:ml": "തരംഗംബാടി",
+   "name:ta": "தரங்கம்பாடி",
+   "place": "town",
+   "population": "23191",
+   "source": "http://www.censusindia.gov.in/pca/SearchDetails.aspx?Id=693549",
+   "wikidata": "Q732594",
+   "wikipedia": "en:Tharangambadi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 987448106,
+  "lat": 11.3636482,
+  "lon": 79.7932821,
+  "tags": {
+   "name": "Mahendrapalli",
+   "name:ta": "மகேந்திரபள்ளி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1192534177,
+  "lat": 11.1975301,
+  "lon": 79.5968025,
+  "tags": {
+   "name": "Manalmedu",
+   "name:ml": "മണൽമേട്",
+   "name:ta": "மணல்மேடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2269428416,
+  "lat": 11.0739714,
+  "lon": 79.8049936,
+  "tags": {
+   "name": "Thirukadaiyur",
+   "name:ml": "തിരുക്കടയൂർ",
+   "name:ta": "திருக்கடையூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2269467601,
+  "lat": 11.1741177,
+  "lon": 79.8097498,
+  "tags": {
+   "name": "Thiruvengadu",
+   "name:ta": "திருவெங்காடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2269472507,
+  "lat": 11.1771212,
+  "lon": 79.7799658,
+  "tags": {
+   "name": "Nangur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2271276672,
+  "lat": 11.0422411,
+  "lon": 79.81268,
+  "tags": {
+   "name": "Thillaiyadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2271287181,
+  "lat": 11.0773361,
+  "lon": 79.8166604,
+  "tags": {
+   "name": "Thirumeiganam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2271360789,
+  "lat": 11.1018614,
+  "lon": 79.6503162,
+  "tags": {
+   "alt_name": "மாயவரம்",
+   "alt_name:en": "Mayavaram",
+   "name": "Mayiladuthurai",
+   "name:en": "Mayiladuthurai",
+   "name:kn": "ಮಯಿಲಾಡುತುರೈ",
+   "name:ml": "മയിലാടുതുറ",
+   "name:ta": "மயிலாடுதுறை",
+   "old_name": "மயூரம்",
+   "old_name:en": "Mayuram",
+   "place": "town",
+   "postal_code": "609129",
+   "wikidata": "Q339986",
+   "wikipedia": "en:Mayiladuthurai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2273317890,
+  "lat": 11.0728144,
+  "lon": 79.5595541,
+  "tags": {
+   "alt_name:en": "kutralam",
+   "name": "Kuthalam",
+   "name:ml": "കുത്താലം",
+   "name:ta": "குத்தாலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2350860661,
+  "lat": 11.1070183,
+  "lon": 79.5712252,
+  "tags": {
+   "name": "Thirumanancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3650420655,
+  "lat": 11.0338426,
+  "lon": 79.6509601,
+  "tags": {
+   "name": "Mettuppakkam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3759909004,
+  "lat": 11.225946,
+  "lon": 79.8004713,
+  "tags": {
+   "name": "Thirunagari",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3780080258,
+  "lat": 11.1452914,
+  "lon": 79.8537308,
+  "tags": {
+   "alt_name": "Cauveripattinam",
+   "name": "Poompuhar",
+   "name:ml": "പൂമ്പുഹാർ",
+   "name:ta": "பூம்புகார்",
+   "old_name": "Kaveripatnam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666722,
+  "lat": 11.1056274,
+  "lon": 79.6744339,
+  "tags": {
+   "name": "Acchutharayapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666723,
+  "lat": 11.0789274,
+  "lon": 79.7015412,
+  "tags": {
+   "name": "Arangakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666724,
+  "lat": 11.0914516,
+  "lon": 79.6985212,
+  "tags": {
+   "name": "Kulichchar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666725,
+  "lat": 11.0926336,
+  "lon": 79.6795424,
+  "tags": {
+   "name": "Mulappakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666726,
+  "lat": 11.0709988,
+  "lon": 79.6834545,
+  "tags": {
+   "name": "Nedumarudur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666727,
+  "lat": 11.0806325,
+  "lon": 79.6802598,
+  "tags": {
+   "name": "Serudiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3799666728,
+  "lat": 11.0737277,
+  "lon": 79.7012798,
+  "tags": {
+   "name": "Vadakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800217835,
+  "lat": 11.0359,
+  "lon": 79.6605234,
+  "tags": {
+   "name": "Peruncheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800217836,
+  "lat": 11.0297826,
+  "lon": 79.656282,
+  "tags": {
+   "name": "Tittangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800314842,
+  "lat": 11.0396858,
+  "lon": 79.6767069,
+  "tags": {
+   "name": "Agaravallam",
+   "name:ml": "അകരവല്ലം",
+   "name:ta": "அகரவல்லம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800314843,
+  "lat": 11.0420339,
+  "lon": 79.682079,
+  "tags": {
+   "name": "Kiliyanur",
+   "name:ml": "കിളിയനൂർ",
+   "name:ta": "கிளியனூர்",
+   "place": "village",
+   "population": "10000"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800315459,
+  "lat": 11.0448874,
+  "lon": 79.6390393,
+  "tags": {
+   "name": "Valuvur",
+   "name:ml": "വാഴുവൂർ",
+   "name:ta": "வழுவூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800315946,
+  "lat": 11.0638506,
+  "lon": 79.6224563,
+  "tags": {
+   "name": "Kovangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800316144,
+  "lat": 11.069091,
+  "lon": 79.6241619,
+  "tags": {
+   "name": "Maraiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800316303,
+  "lat": 11.0758351,
+  "lon": 79.6227025,
+  "tags": {
+   "name": "Ayavallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800391505,
+  "lat": 11.0381536,
+  "lon": 79.6993872,
+  "tags": {
+   "name": "Eralacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800391787,
+  "lat": 11.044494,
+  "lon": 79.696987,
+  "tags": {
+   "name": "Palavalangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800392092,
+  "lat": 11.0473939,
+  "lon": 79.7048733,
+  "tags": {
+   "name": "Vaduvachur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3800392144,
+  "lat": 11.0487373,
+  "lon": 79.6355202,
+  "tags": {
+   "name": "Tirunalkondacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801738497,
+  "lat": 11.0560475,
+  "lon": 79.6482018,
+  "tags": {
+   "name": "Elandankudi",
+   "name:ml": "എലന്തങ്കുടി",
+   "name:ta": "எலந்தங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801738498,
+  "lat": 11.0578657,
+  "lon": 79.6567834,
+  "tags": {
+   "name": "Arivalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801738720,
+  "lat": 11.0695931,
+  "lon": 79.6615392,
+  "tags": {
+   "name": "Muttam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801739015,
+  "lat": 11.0785163,
+  "lon": 79.7154286,
+  "tags": {
+   "name": "Ilaiyalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801739300,
+  "lat": 11.0894256,
+  "lon": 79.7252004,
+  "tags": {
+   "name": "Parasallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801739576,
+  "lat": 11.0946235,
+  "lon": 79.7147827,
+  "tags": {
+   "name": "Mel Parasallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801741997,
+  "lat": 11.0861689,
+  "lon": 79.7032898,
+  "tags": {
+   "name": "Koyiladi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801741998,
+  "lat": 11.09542,
+  "lon": 79.7250653,
+  "tags": {
+   "name": "Melakattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743328,
+  "lat": 11.0324712,
+  "lon": 79.7124827,
+  "tags": {
+   "name": "Vathishtacheri",
+   "name:ta": "வதீஸ்ட்டாச்சேரி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743329,
+  "lat": 11.0335519,
+  "lon": 79.6965986,
+  "tags": {
+   "name": "Perambur",
+   "name:ml": "പെരമ്പൂർ",
+   "name:ta": "பெரம்பூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743333,
+  "lat": 11.0365551,
+  "lon": 79.7193471,
+  "tags": {
+   "name": "Kodavilagam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743334,
+  "lat": 11.0413509,
+  "lon": 79.7145075,
+  "tags": {
+   "name": "Kovancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743336,
+  "lat": 11.0501304,
+  "lon": 79.7101743,
+  "tags": {
+   "name": "Muttur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743337,
+  "lat": 11.0535265,
+  "lon": 79.701135,
+  "tags": {
+   "name": "Agara Adanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743339,
+  "lat": 11.0539701,
+  "lon": 79.6942953,
+  "tags": {
+   "name": "Kadakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743341,
+  "lat": 11.0571841,
+  "lon": 79.7104236,
+  "tags": {
+   "name": "Kilamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743342,
+  "lat": 11.0626047,
+  "lon": 79.6744823,
+  "tags": {
+   "name": "Cholampettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743345,
+  "lat": 11.0703555,
+  "lon": 79.7087974,
+  "tags": {
+   "name": "Annavaa",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3801743347,
+  "lat": 11.0778374,
+  "lon": 79.6757573,
+  "tags": {
+   "name": "Elumichampatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3805482335,
+  "lat": 11.0651153,
+  "lon": 79.7664944,
+  "tags": {
+   "name": "Kalakattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3805483023,
+  "lat": 11.0771317,
+  "lon": 79.764899,
+  "tags": {
+   "name": "Paduvai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3805483569,
+  "lat": 11.0965017,
+  "lon": 79.7591442,
+  "tags": {
+   "name": "Madappuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3805483729,
+  "lat": 11.1011012,
+  "lon": 79.7556461,
+  "tags": {
+   "name": "Palaiyatiruchampalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3806768225,
+  "lat": 11.0910671,
+  "lon": 79.7603407,
+  "tags": {
+   "name": "Mukkarumbur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3806768639,
+  "lat": 11.1172237,
+  "lon": 79.7552526,
+  "tags": {
+   "name": "Mudikondanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3806768920,
+  "lat": 11.1270852,
+  "lon": 79.7581746,
+  "tags": {
+   "name": "Punjai",
+   "name:ml": "പുഞ്ചൈ",
+   "name:ta": "புஞ்சை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3808645421,
+  "lat": 11.0377285,
+  "lon": 79.7688921,
+  "tags": {
+   "name": "Konkarayanmandapam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3808646101,
+  "lat": 11.0441218,
+  "lon": 79.7635948,
+  "tags": {
+   "name": "Neduvasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3808646520,
+  "lat": 11.0529954,
+  "lon": 79.7664388,
+  "tags": {
+   "name": "Nellicheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3808646714,
+  "lat": 11.0537693,
+  "lon": 79.7601338,
+  "tags": {
+   "name": "Gudalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3808647598,
+  "lat": 11.0631524,
+  "lon": 79.7554722,
+  "tags": {
+   "name": "Ottangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710072,
+  "lat": 11.0308901,
+  "lon": 79.6272041,
+  "tags": {
+   "name": "Kappur",
+   "name:ml": "കപ്പൂർ",
+   "name:ta": "கப்பூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710095,
+  "lat": 11.0316423,
+  "lon": 79.6054824,
+  "tags": {
+   "name": "Kolaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710174,
+  "lat": 11.0427851,
+  "lon": 79.6166764,
+  "tags": {
+   "name": "Puvanai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710201,
+  "lat": 11.0440647,
+  "lon": 79.6099177,
+  "tags": {
+   "name": "Sengudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710268,
+  "lat": 11.0490801,
+  "lon": 79.6162785,
+  "tags": {
+   "name": "Murugantottam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810710352,
+  "lat": 11.060899,
+  "lon": 79.6086327,
+  "tags": {
+   "name": "Asikkadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810849815,
+  "lat": 11.0837018,
+  "lon": 79.6102454,
+  "tags": {
+   "name": "Muvalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3810917580,
+  "lat": 11.1160279,
+  "lon": 79.7216807,
+  "tags": {
+   "name": "Karuvazhakkarai",
+   "name:ml": "കരുവാഴക്കര",
+   "name:ta": "கருவாழக்கரை",
+   "place": "village",
+   "wikidata": "Q23735712"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3812751943,
+  "lat": 11.1768861,
+  "lon": 79.761724,
+  "tags": {
+   "name": "Anchamalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3812883559,
+  "lat": 11.1594016,
+  "lon": 79.7691639,
+  "tags": {
+   "name": "Allivilakam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3812885028,
+  "lat": 11.1736766,
+  "lon": 79.7591696,
+  "tags": {
+   "name": "Kattiyaniruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3813736610,
+  "lat": 11.1588139,
+  "lon": 79.7580315,
+  "tags": {
+   "name": "Sembadaniruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3819041168,
+  "lat": 11.1689731,
+  "lon": 79.8445447,
+  "tags": {
+   "name": "Neidavasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3819041363,
+  "lat": 11.1713993,
+  "lon": 79.8471743,
+  "tags": {
+   "name": "Pudukuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3819080795,
+  "lat": 11.1844468,
+  "lon": 79.8495777,
+  "tags": {
+   "name": "Kadaikkadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3819080827,
+  "lat": 11.1899458,
+  "lon": 79.8485825,
+  "tags": {
+   "name": "Nayakkankuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820762674,
+  "lat": 11.1297584,
+  "lon": 79.8544058,
+  "tags": {
+   "name": "Kaverippattinam",
+   "name:ml": "കാവേരിപട്ടണം",
+   "name:ta": "காவேரிப்பட்டினம்",
+   "place": "town",
+   "source": "Bing, ISRO"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820762675,
+  "lat": 11.133531,
+  "lon": 79.8393096,
+  "tags": {
+   "name": "Vanagiri",
+   "place": "village",
+   "source": "Bing, ISRO"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820891084,
+  "lat": 11.0938206,
+  "lon": 79.8543136,
+  "tags": {
+   "name": "Chinnankudi",
+   "place": "village",
+   "source": "bing, ISRO"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820893549,
+  "lat": 11.1077133,
+  "lon": 79.8428687,
+  "tags": {
+   "name": "Kumarakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820893692,
+  "lat": 11.110092,
+  "lon": 79.8373058,
+  "tags": {
+   "name": "Marudampallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820893780,
+  "lat": 11.1137003,
+  "lon": 79.8376137,
+  "tags": {
+   "name": "Chidambarapakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3820949330,
+  "lat": 11.0672426,
+  "lon": 79.853228,
+  "tags": {
+   "name": "Puduppettai",
+   "place": "village",
+   "source": "bing, ISRO"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3821039983,
+  "lat": 11.1047782,
+  "lon": 79.8562134,
+  "tags": {
+   "name": "Chinnamedu",
+   "place": "village",
+   "source": "bing, ISRO"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3821039984,
+  "lat": 11.0829196,
+  "lon": 79.8452457,
+  "tags": {
+   "name": "Veppanjeri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3821043230,
+  "lat": 11.1060657,
+  "lon": 79.8519556,
+  "tags": {
+   "name": "Kumarakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3822955913,
+  "lat": 11.0593248,
+  "lon": 79.8500621,
+  "tags": {
+   "name": "Manikkappangu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3822955929,
+  "lat": 11.0593292,
+  "lon": 79.8544474,
+  "tags": {
+   "name": "Perumalpettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3822992642,
+  "lat": 11.0680474,
+  "lon": 79.8370982,
+  "tags": {
+   "name": "Asaikkovil",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3822992943,
+  "lat": 11.0765186,
+  "lon": 79.8367812,
+  "tags": {
+   "name": "Pillaiperumalnallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3823091502,
+  "lat": 11.0742547,
+  "lon": 79.8242582,
+  "tags": {
+   "name": "Chettimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3823126583,
+  "lat": 11.0873456,
+  "lon": 79.8182271,
+  "tags": {
+   "name": "Vadakattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3823126600,
+  "lat": 11.0918878,
+  "lon": 79.829121,
+  "tags": {
+   "name": "Kalamanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3823130100,
+  "lat": 11.0944583,
+  "lon": 79.8232191,
+  "tags": {
+   "name": "Sanganti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3824121320,
+  "lat": 11.1714711,
+  "lon": 79.7686802,
+  "tags": {
+   "name": "Mel Nangur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3824121325,
+  "lat": 11.1715641,
+  "lon": 79.7824922,
+  "tags": {
+   "name": "Kuchippalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3827901939,
+  "lat": 11.0656728,
+  "lon": 79.835661,
+  "tags": {
+   "name": "Kil Singanodai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3827908858,
+  "lat": 11.0494277,
+  "lon": 79.8306695,
+  "tags": {
+   "name": "Anandamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3827908859,
+  "lat": 11.0443321,
+  "lon": 79.8523231,
+  "tags": {
+   "name": "Kuttiyandavar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3827979128,
+  "lat": 11.0529249,
+  "lon": 79.8498264,
+  "tags": {
+   "name": "Vellaikkovil",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4089498396,
+  "lat": 11.1733466,
+  "lon": 79.6062418,
+  "tags": {
+   "name": "kovalamedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5658248485,
+  "lat": 11.1896924,
+  "lon": 79.8037323,
+  "tags": {
+   "name": "Mangaiamadam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5658255832,
+  "lat": 11.1976809,
+  "lon": 79.7885246,
+  "tags": {
+   "name": "Narayanapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437832,
+  "lat": 11.1738263,
+  "lon": 79.5770458,
+  "tags": {
+   "name": "Attur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437835,
+  "lat": 11.1686163,
+  "lon": 79.6100629,
+  "tags": {
+   "name": "Varakadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437838,
+  "lat": 11.1547773,
+  "lon": 79.6096278,
+  "tags": {
+   "name": "Korukkai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437846,
+  "lat": 11.1717598,
+  "lon": 79.6304572,
+  "tags": {
+   "name": "Villiyanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045437849,
+  "lat": 11.1665785,
+  "lon": 79.5623649,
+  "tags": {
+   "name": "Boothangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802745,
+  "lat": 11.0971855,
+  "lon": 79.5492847,
+  "tags": {
+   "name": "Senrappu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802748,
+  "lat": 11.1800643,
+  "lon": 79.6231027,
+  "tags": {
+   "name": "Naranamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802752,
+  "lat": 11.1905141,
+  "lon": 79.6073648,
+  "tags": {
+   "name": "Kilay",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802757,
+  "lat": 11.1840763,
+  "lon": 79.5765415,
+  "tags": {
+   "name": "Uttirangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802762,
+  "lat": 11.1775803,
+  "lon": 79.5602368,
+  "tags": {
+   "name": "Kadalangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802764,
+  "lat": 11.0285592,
+  "lon": 79.5381049,
+  "tags": {
+   "name": "Mallarpettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6045802770,
+  "lat": 11.1945185,
+  "lon": 79.6436051,
+  "tags": {
+   "name": "Natarajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088094,
+  "lat": 11.1186131,
+  "lon": 79.7896862,
+  "tags": {
+   "name": "Appurajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088104,
+  "lat": 11.0419029,
+  "lon": 79.787399,
+  "tags": {
+   "name": "Tiruvidakkali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088105,
+  "lat": 11.1110114,
+  "lon": 79.8136803,
+  "tags": {
+   "name": "Mamakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088107,
+  "lat": 11.139569,
+  "lon": 79.7910299,
+  "tags": {
+   "name": "Talaiyudaiyavarkovilpattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088116,
+  "lat": 11.0354318,
+  "lon": 79.7803671,
+  "tags": {
+   "name": "Sendamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088117,
+  "lat": 11.1024957,
+  "lon": 79.785508,
+  "tags": {
+   "name": "Akkur",
+   "name:ml": "ആക്കൂർ",
+   "name:ta": "ஆக்கூர்",
+   "place": "town"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6046088119,
+  "lat": 11.1307919,
+  "lon": 79.7923459,
+  "tags": {
+   "name": "Talaichankadu",
+   "name:ml": "തലച്ചങ്കാട്",
+   "name:ta": "தலைச்சங்காடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6077101706,
+  "lat": 11.2721565,
+  "lon": 79.8360962,
+  "tags": {
+   "name": "Toduvaipattanacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6080345917,
+  "lat": 11.0177316,
+  "lon": 79.546142,
+  "tags": {
+   "name": "Peravur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 6089922672,
+  "lat": 11.1043049,
+  "lon": 79.7352532,
+  "tags": {
+   "name": "Sembanarkoil",
+   "name:ml": "ചെമ്പനാർകോയിൽ",
+   "name:ta": "செம்பனார்கோயில்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203266,
+  "lat": 11.1726919,
+  "lon": 79.6011346,
+  "tags": {
+   "name": "Pakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203267,
+  "lat": 11.1901163,
+  "lon": 79.6161818,
+  "tags": {
+   "name": "Mallaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203268,
+  "lat": 11.1904426,
+  "lon": 79.5934581,
+  "tags": {
+   "name": "Puttamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203269,
+  "lat": 11.2098077,
+  "lon": 79.5917844,
+  "tags": {
+   "name": "Pappakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203270,
+  "lat": 11.2049297,
+  "lon": 79.5956254,
+  "tags": {
+   "name": "Iluppapattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203271,
+  "lat": 11.1843802,
+  "lon": 79.5844084,
+  "tags": {
+   "name": "Pottaveli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203272,
+  "lat": 11.1933737,
+  "lon": 79.5854062,
+  "tags": {
+   "name": "Radhanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203273,
+  "lat": 11.1981677,
+  "lon": 79.5893597,
+  "tags": {
+   "name": "Agaramanamedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203274,
+  "lat": 11.1974836,
+  "lon": 79.5804548,
+  "tags": {
+   "name": "Vakkaramari",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203275,
+  "lat": 11.2043561,
+  "lon": 79.5705199,
+  "tags": {
+   "name": "Mudikondanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203276,
+  "lat": 11.1991675,
+  "lon": 79.5672262,
+  "tags": {
+   "name": "Porasangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203277,
+  "lat": 11.1800438,
+  "lon": 79.5733309,
+  "tags": {
+   "name": "Lakshmivilasapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203278,
+  "lat": 11.1754548,
+  "lon": 79.5828151,
+  "tags": {
+   "name": "Kesingan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203279,
+  "lat": 11.1558348,
+  "lon": 79.5835233,
+  "tags": {
+   "name": "Vadakali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203280,
+  "lat": 11.1621925,
+  "lon": 79.5838022,
+  "tags": {
+   "name": "Kalyanasolapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203281,
+  "lat": 11.1577505,
+  "lon": 79.5805836,
+  "tags": {
+   "name": "Atimanapurushan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203282,
+  "lat": 11.1554559,
+  "lon": 79.5795697,
+  "tags": {
+   "name": "Namasivayapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203283,
+  "lat": 11.1528138,
+  "lon": 79.5746773,
+  "tags": {
+   "name": "Sembangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203284,
+  "lat": 11.1876219,
+  "lon": 79.5506823,
+  "tags": {
+   "name": "Odakari",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203285,
+  "lat": 11.1924212,
+  "lon": 79.5574307,
+  "tags": {
+   "name": "Sippuliyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203286,
+  "lat": 11.1942788,
+  "lon": 79.5512241,
+  "tags": {
+   "name": "Tyagavalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203287,
+  "lat": 11.1650345,
+  "lon": 79.5417666,
+  "tags": {
+   "name": "Tiruchitrambalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9221203288,
+  "lat": 11.1844118,
+  "lon": 79.5440948,
+  "tags": {
+   "name": "Kumaramangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580722,
+  "lat": 11.0621584,
+  "lon": 79.5414019,
+  "tags": {
+   "name": "Madirimangalam",
+   "name:ml": "മാതിരിമംഗലം",
+   "name:ta": "மாதிரிமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580723,
+  "lat": 11.0678337,
+  "lon": 79.5512938,
+  "tags": {
+   "name": "Rajagopalapuram",
+   "name:ml": "രാജഗോപാലപുരം",
+   "name:ta": "ராஜகோபாலபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580724,
+  "lat": 11.057736,
+  "lon": 79.5595658,
+  "tags": {
+   "name": "Kilavali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580725,
+  "lat": 11.0596734,
+  "lon": 79.5679557,
+  "tags": {
+   "name": "Avara Senniyanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580726,
+  "lat": 11.074425,
+  "lon": 79.5913875,
+  "tags": {
+   "name": "Anaimelagaram",
+   "name:ta": "ஆணைமேலகரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580727,
+  "lat": 11.0884809,
+  "lon": 79.6140575,
+  "tags": {
+   "name": "Sitharkadu",
+   "name:ml": "സിദ്ധർകാട്",
+   "name:ta": "சித்தர்காடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580728,
+  "lat": 11.0770024,
+  "lon": 79.5808583,
+  "tags": {
+   "name": "Arayapuram",
+   "name:ml": "അരയപുരം",
+   "name:ta": "அரையபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580729,
+  "lat": 11.0763097,
+  "lon": 79.5784807,
+  "tags": {
+   "name": "Kshetrapuram",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580730,
+  "lat": 11.0650645,
+  "lon": 79.5799613,
+  "tags": {
+   "name": "Toludalangudi",
+   "name:ml": "തൊഴുതാലങ്കുടി",
+   "name:ta": "தொழுதாலங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580731,
+  "lat": 11.0814583,
+  "lon": 79.5964837,
+  "tags": {
+   "name": "Malliyam",
+   "name:ml": "മല്ലിയം",
+   "name:ta": "மல்லியம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580732,
+  "lat": 11.0724771,
+  "lon": 79.6345281,
+  "tags": {
+   "name": "Urukudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580809,
+  "lat": 11.1961891,
+  "lon": 79.6791279,
+  "tags": {
+   "name": "Virumandeswar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580810,
+  "lat": 11.1911267,
+  "lon": 79.6700299,
+  "tags": {
+   "name": "Manantiruvasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580811,
+  "lat": 11.1888007,
+  "lon": 79.6775079,
+  "tags": {
+   "name": "Tiruppangur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580812,
+  "lat": 11.1795176,
+  "lon": 79.6809196,
+  "tags": {
+   "name": "Kanniyakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580813,
+  "lat": 11.1884481,
+  "lon": 79.6936548,
+  "tags": {
+   "name": "Karkovil",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580814,
+  "lat": 11.1463822,
+  "lon": 79.6991908,
+  "tags": {
+   "name": "Tirunanriyur",
+   "name:ml": "തിരുനൻറിയൂർ",
+   "name:ta": "திருநன்றியூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580815,
+  "lat": 11.1350345,
+  "lon": 79.6983861,
+  "tags": {
+   "name": "Nattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323580816,
+  "lat": 11.0675494,
+  "lon": 79.6974742,
+  "tags": {
+   "name": "Kalanivasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612317,
+  "lat": 11.0762676,
+  "lon": 79.6981287,
+  "tags": {
+   "name": "Vadakarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612318,
+  "lat": 11.0640116,
+  "lon": 79.6904254,
+  "tags": {
+   "name": "Mangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612319,
+  "lat": 11.068218,
+  "lon": 79.6808499,
+  "tags": {
+   "name": "Kodangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612320,
+  "lat": 11.0551141,
+  "lon": 79.6709955,
+  "tags": {
+   "name": "Velur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612321,
+  "lat": 11.0634061,
+  "lon": 79.6494091,
+  "tags": {
+   "name": "Agarkirankudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612322,
+  "lat": 11.0867121,
+  "lon": 79.6420115,
+  "tags": {
+   "name": "Akkalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612323,
+  "lat": 11.0806687,
+  "lon": 79.6466839,
+  "tags": {
+   "name": "Peychavadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612324,
+  "lat": 11.0957306,
+  "lon": 79.6390838,
+  "tags": {
+   "name": "Koranadu",
+   "name:ml": "കോരനാട്",
+   "name:ta": "கோரநாடு",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612325,
+  "lat": 11.0865016,
+  "lon": 79.6536147,
+  "tags": {
+   "name": "Pattamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612326,
+  "lat": 11.087407,
+  "lon": 79.6649766,
+  "tags": {
+   "name": "Nallattukkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612327,
+  "lat": 11.0940715,
+  "lon": 79.6724009,
+  "tags": {
+   "name": "Adiyamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612328,
+  "lat": 11.0969458,
+  "lon": 79.6711564,
+  "tags": {
+   "name": "Nanjinadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612329,
+  "lat": 11.1012939,
+  "lon": 79.6842456,
+  "tags": {
+   "name": "Mungittottam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612330,
+  "lat": 11.1072633,
+  "lon": 79.6903825,
+  "tags": {
+   "name": "Mannampandal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612331,
+  "lat": 11.115138,
+  "lon": 79.6830869,
+  "tags": {
+   "name": "Manakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612332,
+  "lat": 11.120865,
+  "lon": 79.6701264,
+  "tags": {
+   "name": "Vellalar Agaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612333,
+  "lat": 11.1285182,
+  "lon": 79.6856725,
+  "tags": {
+   "name": "Panampalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612334,
+  "lat": 11.1317711,
+  "lon": 79.6856189,
+  "tags": {
+   "name": "Solachakranallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612335,
+  "lat": 11.1279919,
+  "lon": 79.6772826,
+  "tags": {
+   "name": "Chavadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612336,
+  "lat": 11.1325922,
+  "lon": 79.6731305,
+  "tags": {
+   "name": "Nagangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612337,
+  "lat": 11.1354292,
+  "lon": 79.681617,
+  "tags": {
+   "name": "Uluttukuppai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612338,
+  "lat": 11.1424032,
+  "lon": 79.683001,
+  "tags": {
+   "alt_name:en": "Molaiyur",
+   "name": "Mozhaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612339,
+  "lat": 11.1639977,
+  "lon": 79.6927482,
+  "tags": {
+   "name": "Attukkalmadappuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612340,
+  "lat": 11.1685079,
+  "lon": 79.6929574,
+  "tags": {
+   "name": "Ammaiyappan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612341,
+  "lat": 11.1644687,
+  "lon": 79.6869814,
+  "tags": {
+   "name": "Dharmadanapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612342,
+  "lat": 11.1590189,
+  "lon": 79.6773094,
+  "tags": {
+   "name": "Radhanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612343,
+  "lat": 11.1427821,
+  "lon": 79.6613931,
+  "tags": {
+   "name": "Anandatandavapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612344,
+  "lat": 11.1187805,
+  "lon": 79.651984,
+  "tags": {
+   "name": "Tiruvendalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612345,
+  "lat": 11.1936105,
+  "lon": 79.6232521,
+  "tags": {
+   "name": "Varadambattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612346,
+  "lat": 11.1955681,
+  "lon": 79.6608031,
+  "tags": {
+   "name": "Mannipallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612347,
+  "lat": 11.1604241,
+  "lon": 79.6527564,
+  "tags": {
+   "name": "Kil Marudandanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612348,
+  "lat": 11.1639608,
+  "lon": 79.6546984,
+  "tags": {
+   "name": "Mel Marudandanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612349,
+  "lat": 11.1703815,
+  "lon": 79.6601379,
+  "tags": {
+   "name": "Ponmadanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612350,
+  "lat": 11.1845486,
+  "lon": 79.6630454,
+  "tags": {
+   "name": "Settur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612351,
+  "lat": 11.1792439,
+  "lon": 79.6503854,
+  "tags": {
+   "name": "Mel Nallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612352,
+  "lat": 11.1756021,
+  "lon": 79.6262777,
+  "tags": {
+   "name": "Uchitamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612353,
+  "lat": 11.147119,
+  "lon": 79.6421027,
+  "tags": {
+   "name": "Aruvappadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612355,
+  "lat": 11.1331186,
+  "lon": 79.6425962,
+  "tags": {
+   "name": "Nidur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612356,
+  "lat": 11.117054,
+  "lon": 79.6440446,
+  "tags": {
+   "name": "Pallavarayampettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612357,
+  "lat": 11.1231599,
+  "lon": 79.6383583,
+  "tags": {
+   "name": "Alangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612358,
+  "lat": 11.1441506,
+  "lon": 79.6275115,
+  "tags": {
+   "name": "Kankanamputtur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612359,
+  "lat": 11.1388241,
+  "lon": 79.6272647,
+  "tags": {
+   "name": "Ukkadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612360,
+  "lat": 11.1308552,
+  "lon": 79.629668,
+  "tags": {
+   "name": "Enadimangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612361,
+  "lat": 11.12416,
+  "lon": 79.6215248,
+  "tags": {
+   "name": "Arulmolittevan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612362,
+  "lat": 11.1114954,
+  "lon": 79.614315,
+  "tags": {
+   "name": "Andakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612363,
+  "lat": 11.1139379,
+  "lon": 79.6096372,
+  "tags": {
+   "name": "Maharajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612364,
+  "lat": 11.1179594,
+  "lon": 79.6124911,
+  "tags": {
+   "name": "Manalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612365,
+  "lat": 11.1063789,
+  "lon": 79.6281767,
+  "tags": {
+   "name": "Mappadugai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612366,
+  "lat": 11.1059368,
+  "lon": 79.6175766,
+  "tags": {
+   "name": "Pandaravadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612367,
+  "lat": 11.1017677,
+  "lon": 79.6069121,
+  "tags": {
+   "name": "Cholanpettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612368,
+  "lat": 11.0994094,
+  "lon": 79.6016335,
+  "tags": {
+   "name": "Kolikutti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612369,
+  "lat": 11.0942295,
+  "lon": 79.5916986,
+  "tags": {
+   "name": "Vanadirajapuram",
+   "name:ml": "വനാദിരാജപുരം",
+   "name:ta": "வனாதிராஜபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612370,
+  "lat": 11.0899549,
+  "lon": 79.5809054,
+  "tags": {
+   "name": "Kadalangudi",
+   "name:ml": "കടലങ്കുടി",
+   "name:ta": "கடலங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612371,
+  "lat": 11.0863952,
+  "lon": 79.5689519,
+  "tags": {
+   "name": "Tiruvilakkudi",
+   "name:ml": "തിരുവേൾവിക്കുടി",
+   "name:ta": "திருவேள்விக்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612372,
+  "lat": 11.0903866,
+  "lon": 79.5664912,
+  "tags": {
+   "name": "Anjaruvarttalai",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612373,
+  "lat": 11.1126219,
+  "lon": 79.578824,
+  "tags": {
+   "name": "Chempakacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612374,
+  "lat": 11.1191385,
+  "lon": 79.5919561,
+  "tags": {
+   "name": "Kattalaicheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612375,
+  "lat": 11.1214018,
+  "lon": 79.6064293,
+  "tags": {
+   "name": "Ponnur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612376,
+  "lat": 11.1324869,
+  "lon": 79.6073413,
+  "tags": {
+   "name": "Pandur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612377,
+  "lat": 11.1441927,
+  "lon": 79.5967948,
+  "tags": {
+   "name": "Sottamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612378,
+  "lat": 11.1418558,
+  "lon": 79.6085644,
+  "tags": {
+   "name": "Puttagaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612379,
+  "lat": 11.1621714,
+  "lon": 79.6089506,
+  "tags": {
+   "name": "Talancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612380,
+  "lat": 11.1604663,
+  "lon": 79.6175336,
+  "tags": {
+   "name": "Kallikkadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612381,
+  "lat": 11.1548243,
+  "lon": 79.5967841,
+  "tags": {
+   "name": "Aivanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612382,
+  "lat": 11.1545506,
+  "lon": 79.5913982,
+  "tags": {
+   "name": "Kiramedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612383,
+  "lat": 11.0930398,
+  "lon": 79.5643294,
+  "tags": {
+   "name": "Kandur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612384,
+  "lat": 11.0849178,
+  "lon": 79.5556022,
+  "tags": {
+   "name": "Villiyanallur",
+   "name:ml": "വില്ലിയനല്ലൂർ",
+   "name:ta": "வில்லியநல்லூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612385,
+  "lat": 11.1019045,
+  "lon": 79.5593619,
+  "tags": {
+   "name": "Nagamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612386,
+  "lat": 11.1084424,
+  "lon": 79.5495772,
+  "tags": {
+   "name": "Alangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612387,
+  "lat": 11.1156644,
+  "lon": 79.5549631,
+  "tags": {
+   "name": "Murugamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612388,
+  "lat": 11.1192858,
+  "lon": 79.5746827,
+  "tags": {
+   "name": "Mangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612389,
+  "lat": 11.1230125,
+  "lon": 79.5806587,
+  "tags": {
+   "name": "Tirumangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612390,
+  "lat": 11.129192,
+  "lon": 79.5720863,
+  "tags": {
+   "name": "Poyyakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612391,
+  "lat": 11.1329922,
+  "lon": 79.5683741,
+  "tags": {
+   "name": "Kidattalaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612392,
+  "lat": 11.1392241,
+  "lon": 79.5912266,
+  "tags": {
+   "name": "Panaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612393,
+  "lat": 11.1350239,
+  "lon": 79.5827079,
+  "tags": {
+   "name": "Senchi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612394,
+  "lat": 11.1384451,
+  "lon": 79.5802188,
+  "tags": {
+   "name": "Kali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612395,
+  "lat": 11.1478769,
+  "lon": 79.5841241,
+  "tags": {
+   "name": "Nattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9323612396,
+  "lat": 11.1486769,
+  "lon": 79.5776868,
+  "tags": {
+   "name": "Kanniyanattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537244,
+  "lat": 11.0020183,
+  "lon": 79.7220647,
+  "tags": {
+   "name": "Kargudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537246,
+  "lat": 11.0125603,
+  "lon": 79.7449064,
+  "tags": {
+   "name": "Nalladai",
+   "name:ml": "നല്ലാട",
+   "name:ta": "நல்லாடை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537247,
+  "lat": 11.018542,
+  "lon": 79.7441768,
+  "tags": {
+   "name": "Panangudi",
+   "name:ml": "പനങ്കുടി",
+   "name:ta": "பனங்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537248,
+  "lat": 11.0195109,
+  "lon": 79.7390055,
+  "tags": {
+   "name": "Kottangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537249,
+  "lat": 11.0292414,
+  "lon": 79.7276437,
+  "tags": {
+   "name": "Nilaveli",
+   "name:ml": "നീലവെളി",
+   "name:ta": "நீலவெளி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537250,
+  "lat": 11.0249553,
+  "lon": 79.7230518,
+  "tags": {
+   "name": "Neivasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537251,
+  "lat": 11.025345,
+  "lon": 79.7160566,
+  "tags": {
+   "name": "Arasur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537252,
+  "lat": 11.0274617,
+  "lon": 79.7544228,
+  "tags": {
+   "name": "Iravancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537253,
+  "lat": 11.0336221,
+  "lon": 79.736216,
+  "tags": {
+   "name": "Tiruvilaiyattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537254,
+  "lat": 11.0145928,
+  "lon": 79.7018409,
+  "tags": {
+   "name": "Settur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537256,
+  "lat": 11.0189843,
+  "lon": 79.6844494,
+  "tags": {
+   "name": "Palaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537257,
+  "lat": 11.0302839,
+  "lon": 79.6791172,
+  "tags": {
+   "name": "Idaikkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537259,
+  "lat": 11.0183314,
+  "lon": 79.6525955,
+  "tags": {
+   "name": "Kalanivasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537260,
+  "lat": 11.0300628,
+  "lon": 79.6634531,
+  "tags": {
+   "name": "Melakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537261,
+  "lat": 11.016499,
+  "lon": 79.6367383,
+  "tags": {
+   "name": "Velangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537262,
+  "lat": 11.0326954,
+  "lon": 79.6337557,
+  "tags": {
+   "name": "Valavarayankuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537263,
+  "lat": 11.0412566,
+  "lon": 79.6381867,
+  "tags": {
+   "name": "Pandavadai",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537265,
+  "lat": 11.0252397,
+  "lon": 79.6220398,
+  "tags": {
+   "name": "Anantanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537266,
+  "lat": 11.0075895,
+  "lon": 79.6121907,
+  "tags": {
+   "name": "Sittayur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537267,
+  "lat": 11.007737,
+  "lon": 79.6023845,
+  "tags": {
+   "name": "Sembiyan Komal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537268,
+  "lat": 11.0013338,
+  "lon": 79.5949817,
+  "tags": {
+   "name": "Padakacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537269,
+  "lat": 11.0077159,
+  "lon": 79.5890593,
+  "tags": {
+   "name": "Kottangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537270,
+  "lat": 11.0203849,
+  "lon": 79.5857656,
+  "tags": {
+   "name": "Kallikkadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537271,
+  "lat": 11.0225438,
+  "lon": 79.6035433,
+  "tags": {
+   "name": "Kandamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537272,
+  "lat": 11.0198268,
+  "lon": 79.5934796,
+  "tags": {
+   "name": "Komal",
+   "name:ml": "കോമൽ",
+   "name:ta": "கோமல்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537273,
+  "lat": 11.0389926,
+  "lon": 79.5964622,
+  "tags": {
+   "name": "Mattankarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537274,
+  "lat": 11.0289886,
+  "lon": 79.5832014,
+  "tags": {
+   "name": "Maruttur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537275,
+  "lat": 11.0337485,
+  "lon": 79.5766568,
+  "tags": {
+   "name": "Kottur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537276,
+  "lat": 11.0317477,
+  "lon": 79.5563364,
+  "tags": {
+   "name": "Palaiyagudalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537277,
+  "lat": 11.0289465,
+  "lon": 79.5657778,
+  "tags": {
+   "name": "Kokkur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537278,
+  "lat": 11.0181418,
+  "lon": 79.5717215,
+  "tags": {
+   "name": "Nachiyarkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537279,
+  "lat": 11.0106226,
+  "lon": 79.5726442,
+  "tags": {
+   "name": "Palaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537280,
+  "lat": 11.0081161,
+  "lon": 79.5826006,
+  "tags": {
+   "name": "Edakkiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537281,
+  "lat": 10.9943828,
+  "lon": 79.5613146,
+  "tags": {
+   "name": "Kadamangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537282,
+  "lat": 11.0115072,
+  "lon": 79.554491,
+  "tags": {
+   "name": "Kanjivay",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537283,
+  "lat": 11.0151405,
+  "lon": 79.55109,
+  "tags": {
+   "name": "Idivelli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537284,
+  "lat": 11.0143928,
+  "lon": 79.5411443,
+  "tags": {
+   "name": "Karuppur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537285,
+  "lat": 11.0105804,
+  "lon": 79.5431024,
+  "tags": {
+   "name": "Nandalar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537286,
+  "lat": 11.0144138,
+  "lon": 79.5336771,
+  "tags": {
+   "name": "Ariyankundal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537287,
+  "lat": 11.0118863,
+  "lon": 79.5286345,
+  "tags": {
+   "name": "Tirukkulambiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537288,
+  "lat": 11.048196,
+  "lon": 79.5339882,
+  "tags": {
+   "name": "Ilavatadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537289,
+  "lat": 11.0451001,
+  "lon": 79.5227122,
+  "tags": {
+   "name": "Tiruvalangadu",
+   "name:ml": "തിരുവാലങ്കാട്",
+   "name:ta": "திருவாலங்காடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537290,
+  "lat": 11.0422359,
+  "lon": 79.5290208,
+  "tags": {
+   "name": "Pandaravadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537291,
+  "lat": 11.0380028,
+  "lon": 79.5219397,
+  "tags": {
+   "name": "Tiruvavaduturai",
+   "name:ml": "തിരുവാവടുതുറ",
+   "name:ta": "திருவாவடுதுறை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537292,
+  "lat": 11.043847,
+  "lon": 79.5757878,
+  "tags": {
+   "name": "Kambar Medu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537293,
+  "lat": 11.0440787,
+  "lon": 79.56375,
+  "tags": {
+   "name": "Raghupatikkattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537294,
+  "lat": 11.0427203,
+  "lon": 79.5540833,
+  "tags": {
+   "name": "Alangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537295,
+  "lat": 11.0422465,
+  "lon": 79.5456397,
+  "tags": {
+   "name": "Mekkirimangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537296,
+  "lat": 11.0451317,
+  "lon": 79.5502102,
+  "tags": {
+   "name": "Kuruchipalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537297,
+  "lat": 11.0463006,
+  "lon": 79.5577955,
+  "tags": {
+   "name": "Ilangarangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537298,
+  "lat": 11.04927,
+  "lon": 79.5640182,
+  "tags": {
+   "name": "Senniyanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537299,
+  "lat": 11.0469955,
+  "lon": 79.5703804,
+  "tags": {
+   "name": "Melaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537300,
+  "lat": 11.0509759,
+  "lon": 79.5901215,
+  "tags": {
+   "name": "Kilayur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537301,
+  "lat": 11.0417831,
+  "lon": 79.5854866,
+  "tags": {
+   "name": "Perumalkovil",
+   "name:ml": "പെരുമാൾകോവിൽ",
+   "name:ta": "பெருமாள்கோயில்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537302,
+  "lat": 11.0471219,
+  "lon": 79.581356,
+  "tags": {
+   "name": "Therazhundur",
+   "name:ml": "തേരഴുന്തൂർ",
+   "name:ta": "தேரழுந்தூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537303,
+  "lat": 11.0443209,
+  "lon": 79.6484971,
+  "tags": {
+   "name": "Neikuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537304,
+  "lat": 11.0464901,
+  "lon": 79.719919,
+  "tags": {
+   "name": "Tenkiruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537305,
+  "lat": 11.0555353,
+  "lon": 79.7217536,
+  "tags": {
+   "name": "Narasinganattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537306,
+  "lat": 11.0425202,
+  "lon": 79.74172,
+  "tags": {
+   "name": "Kumaramangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537307,
+  "lat": 11.0531555,
+  "lon": 79.7430074,
+  "tags": {
+   "name": "Pillavadantai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537308,
+  "lat": 11.0527449,
+  "lon": 79.7370744,
+  "tags": {
+   "name": "Ichangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537309,
+  "lat": 11.0555037,
+  "lon": 79.7368383,
+  "tags": {
+   "name": "Kadali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537310,
+  "lat": 11.0623479,
+  "lon": 79.7375464,
+  "tags": {
+   "name": "Kasantattai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537311,
+  "lat": 11.0704345,
+  "lon": 79.7510218,
+  "tags": {
+   "name": "Kilmattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537312,
+  "lat": 11.0702028,
+  "lon": 79.7329759,
+  "tags": {
+   "name": "Memattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537313,
+  "lat": 11.1034732,
+  "lon": 79.6999848,
+  "tags": {
+   "name": "Vilanagar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537314,
+  "lat": 11.080795,
+  "lon": 79.7407651,
+  "tags": {
+   "name": "Valluvarpalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537315,
+  "lat": 11.0797632,
+  "lon": 79.7299075,
+  "tags": {
+   "name": "Sattanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332537316,
+  "lat": 11.0898075,
+  "lon": 79.7483396,
+  "tags": {
+   "name": "Vallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551517,
+  "lat": 11.0988198,
+  "lon": 79.7351002,
+  "tags": {
+   "name": "Kadichambadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551518,
+  "lat": 11.1157275,
+  "lon": 79.7054243,
+  "tags": {
+   "name": "Kanjanaragaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551519,
+  "lat": 11.1148011,
+  "lon": 79.7178376,
+  "tags": {
+   "name": "Melaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551520,
+  "lat": 11.1066737,
+  "lon": 79.7109604,
+  "tags": {
+   "name": "Arupadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551521,
+  "lat": 11.0951033,
+  "lon": 79.7358513,
+  "tags": {
+   "name": "Tiruchampalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551522,
+  "lat": 11.1125271,
+  "lon": 79.7351968,
+  "tags": {
+   "name": "Melappadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551523,
+  "lat": 11.1167171,
+  "lon": 79.7341776,
+  "tags": {
+   "name": "Lakshminarayanapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551524,
+  "lat": 11.1310553,
+  "lon": 79.7471809,
+  "tags": {
+   "name": "Keezhaiyur",
+   "name:ml": "കീഴയൂർ",
+   "name:ta": "கீழையூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551525,
+  "lat": 11.1557822,
+  "lon": 79.7373748,
+  "tags": {
+   "name": "Vangal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551526,
+  "lat": 11.154498,
+  "lon": 79.7210777,
+  "tags": {
+   "name": "Semangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551527,
+  "lat": 11.147919,
+  "lon": 79.714458,
+  "tags": {
+   "name": "Alaveli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551528,
+  "lat": 11.1426558,
+  "lon": 79.706583,
+  "tags": {
+   "name": "Ilaiyangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551529,
+  "lat": 11.1444664,
+  "lon": 79.6445596,
+  "tags": {
+   "name": "Kaduvangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551530,
+  "lat": 11.1741707,
+  "lon": 79.7270751,
+  "tags": {
+   "name": "Kondattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551531,
+  "lat": 11.1840644,
+  "lon": 79.7457003,
+  "tags": {
+   "name": "Pagasalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551532,
+  "lat": 11.1912951,
+  "lon": 79.7229659,
+  "tags": {
+   "name": "Karaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551533,
+  "lat": 11.1766968,
+  "lon": 79.7073126,
+  "tags": {
+   "name": "Kadiramangalam",
+   "name:ml": "കതിരമംഗലം",
+   "name:ta": "கதிராமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551534,
+  "lat": 11.2272035,
+  "lon": 79.663893,
+  "tags": {
+   "name": "Mel Tenur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551574,
+  "lat": 11.2027564,
+  "lon": 79.6765959,
+  "tags": {
+   "name": "Perumangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551575,
+  "lat": 11.2219838,
+  "lon": 79.6745253,
+  "tags": {
+   "name": "Adamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551576,
+  "lat": 11.2329283,
+  "lon": 79.6706307,
+  "tags": {
+   "name": "Tenur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551577,
+  "lat": 11.2303606,
+  "lon": 79.6773684,
+  "tags": {
+   "name": "Kalumalaiar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551578,
+  "lat": 11.2320075,
+  "lon": 79.6790099,
+  "tags": {
+   "name": "kottaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551579,
+  "lat": 11.2331914,
+  "lon": 79.6899104,
+  "tags": {
+   "name": "Arur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551580,
+  "lat": 11.2290873,
+  "lon": 79.6894598,
+  "tags": {
+   "name": "Alancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551581,
+  "lat": 11.2160274,
+  "lon": 79.690361,
+  "tags": {
+   "name": "kadakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551582,
+  "lat": 11.2089026,
+  "lon": 79.6990728,
+  "tags": {
+   "name": "Punganur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551583,
+  "lat": 11.2004094,
+  "lon": 79.6965516,
+  "tags": {
+   "name": "Vadakkuveli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551584,
+  "lat": 11.218732,
+  "lon": 79.7043943,
+  "tags": {
+   "name": "kumananattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551585,
+  "lat": 11.2241833,
+  "lon": 79.6990406,
+  "tags": {
+   "name": "Marudangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551586,
+  "lat": 11.2334544,
+  "lon": 79.7016048,
+  "tags": {
+   "name": "Avattippattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551587,
+  "lat": 11.2211525,
+  "lon": 79.7133422,
+  "tags": {
+   "name": "Turaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551588,
+  "lat": 11.2070845,
+  "lon": 79.7125027,
+  "tags": {
+   "name": "Maruvattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551589,
+  "lat": 11.2056506,
+  "lon": 79.7279656,
+  "tags": {
+   "name": "Idaikudi Vadapadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551590,
+  "lat": 11.1968942,
+  "lon": 79.724291,
+  "tags": {
+   "name": "Neikuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551591,
+  "lat": 11.1933527,
+  "lon": 79.7317207,
+  "tags": {
+   "name": "Vadapadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551592,
+  "lat": 11.1978309,
+  "lon": 79.744724,
+  "tags": {
+   "name": "Terkiruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551593,
+  "lat": 11.20042,
+  "lon": 79.736216,
+  "tags": {
+   "name": "Kalikovilpuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551594,
+  "lat": 11.2190372,
+  "lon": 79.7209918,
+  "tags": {
+   "name": "Panamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551595,
+  "lat": 11.2093446,
+  "lon": 79.7354543,
+  "tags": {
+   "name": "Kilaveli",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551596,
+  "lat": 11.2153328,
+  "lon": 79.7375464,
+  "tags": {
+   "name": "Sengamedu",
+   "name:ml": "ചെങ്കമേട്",
+   "name:ta": "செங்கமேடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551597,
+  "lat": 11.2274877,
+  "lon": 79.7397566,
+  "tags": {
+   "name": "Sattanathapuram",
+   "name:ml": "സട്ടനാഥപുരം",
+   "name:ta": "சட்டநாதபுரம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551599,
+  "lat": 11.2315392,
+  "lon": 79.7402501,
+  "tags": {
+   "name": "Tenpadi",
+   "name:ml": "തെൻപാതി",
+   "name:ta": "தென்பாதி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551600,
+  "lat": 11.2371692,
+  "lon": 79.7195864,
+  "tags": {
+   "name": "Kovilpattu",
+   "name:ml": "കോവിൽപത്ത്",
+   "name:ta": "கோவில்பத்து",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551601,
+  "lat": 11.2432146,
+  "lon": 79.7138786,
+  "tags": {
+   "name": "Agani",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551602,
+  "lat": 11.2349593,
+  "lon": 79.7049951,
+  "tags": {
+   "name": "Nemelli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551603,
+  "lat": 11.2392948,
+  "lon": 79.7090721,
+  "tags": {
+   "name": "Nandiyanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551604,
+  "lat": 11.2426096,
+  "lon": 79.7007251,
+  "tags": {
+   "name": "Pallacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551605,
+  "lat": 11.245798,
+  "lon": 79.6986061,
+  "tags": {
+   "name": "Enakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551606,
+  "lat": 11.2386003,
+  "lon": 79.683237,
+  "tags": {
+   "name": "Valluvakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551607,
+  "lat": 11.2381162,
+  "lon": 79.6758127,
+  "tags": {
+   "name": "Kondal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551608,
+  "lat": 11.2484077,
+  "lon": 79.6536898,
+  "tags": {
+   "name": "Sottariyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551609,
+  "lat": 11.2441985,
+  "lon": 79.6543443,
+  "tags": {
+   "name": "Panangattangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551610,
+  "lat": 11.1676448,
+  "lon": 79.7087931,
+  "tags": {
+   "name": "Attukkudi",
+   "name:ml": "ആത്തുക്കുടി",
+   "name:ta": "ஆத்துக்குடி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551611,
+  "lat": 11.2033247,
+  "lon": 79.6532392,
+  "tags": {
+   "name": "Talainayar Matakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551612,
+  "lat": 11.2062926,
+  "lon": 79.6421885,
+  "tags": {
+   "alt_name:en": "Elanthoppu",
+   "name": "Ilantoppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551613,
+  "lat": 11.210818,
+  "lon": 79.6421671,
+  "tags": {
+   "name": "Pattavartti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551614,
+  "lat": 11.2231941,
+  "lon": 79.6382832,
+  "tags": {
+   "name": "Kaduvangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551615,
+  "lat": 11.2116599,
+  "lon": 79.6561145,
+  "tags": {
+   "name": "Talainayar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551616,
+  "lat": 11.2192371,
+  "lon": 79.6569729,
+  "tags": {
+   "name": "Tirukkurakkaval",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551617,
+  "lat": 11.2340753,
+  "lon": 79.6542907,
+  "tags": {
+   "name": "Vettayambadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551618,
+  "lat": 11.2359695,
+  "lon": 79.6307838,
+  "tags": {
+   "name": "Kurichi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551619,
+  "lat": 11.2399473,
+  "lon": 79.6216106,
+  "tags": {
+   "name": "Siddamalli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551620,
+  "lat": 11.2293188,
+  "lon": 79.6301508,
+  "tags": {
+   "name": "Pulavanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551621,
+  "lat": 11.2231309,
+  "lon": 79.6329617,
+  "tags": {
+   "name": "Viralur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551622,
+  "lat": 11.2243517,
+  "lon": 79.6287346,
+  "tags": {
+   "name": "Panaiyakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551623,
+  "lat": 11.212544,
+  "lon": 79.6288204,
+  "tags": {
+   "name": "Puttagaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551624,
+  "lat": 11.2092183,
+  "lon": 79.6256447,
+  "tags": {
+   "name": "Vaithiyampettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551625,
+  "lat": 11.2192793,
+  "lon": 79.6225547,
+  "tags": {
+   "name": "Reddipalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551626,
+  "lat": 11.2104601,
+  "lon": 79.6147227,
+  "tags": {
+   "name": "Kadakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551627,
+  "lat": 11.2049876,
+  "lon": 79.6104955,
+  "tags": {
+   "name": "Nadutittu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9332551628,
+  "lat": 11.2097235,
+  "lon": 79.6022987,
+  "tags": {
+   "name": "Rayasuriyampettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333580,
+  "lat": 11.3007851,
+  "lon": 79.7018623,
+  "tags": {
+   "name": "Sodiyakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333581,
+  "lat": 11.3143777,
+  "lon": 79.6991372,
+  "tags": {
+   "name": "Sarasvativilagam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333582,
+  "lat": 11.3087913,
+  "lon": 79.6931612,
+  "tags": {
+   "name": "Konnakkattu Padugai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333583,
+  "lat": 11.2876338,
+  "lon": 79.7043085,
+  "tags": {
+   "name": "Kadukkamaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333584,
+  "lat": 11.2746765,
+  "lon": 79.692083,
+  "tags": {
+   "name": "Uppamakadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333585,
+  "lat": 11.299954,
+  "lon": 79.6872067,
+  "tags": {
+   "name": "Kirangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333586,
+  "lat": 11.2854033,
+  "lon": 79.6687531,
+  "tags": {
+   "name": "Pungudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333587,
+  "lat": 11.2985337,
+  "lon": 79.6700191,
+  "tags": {
+   "name": "Madirvelur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333588,
+  "lat": 11.2957982,
+  "lon": 79.6566939,
+  "tags": {
+   "name": "Paluran Padugai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333589,
+  "lat": 11.288991,
+  "lon": 79.6497738,
+  "tags": {
+   "name": "Pattamadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333590,
+  "lat": 11.2545108,
+  "lon": 79.6552241,
+  "tags": {
+   "name": "Elatur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333591,
+  "lat": 11.259509,
+  "lon": 79.6577024,
+  "tags": {
+   "name": "Agara Elatur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333592,
+  "lat": 11.2669166,
+  "lon": 79.6616077,
+  "tags": {
+   "name": "Muthukrishnapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333593,
+  "lat": 11.2653698,
+  "lon": 79.6540975,
+  "tags": {
+   "name": "Vadarangam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333594,
+  "lat": 11.2808369,
+  "lon": 79.6495914,
+  "tags": {
+   "name": "Vadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333595,
+  "lat": 11.2816997,
+  "lon": 79.6626591,
+  "tags": {
+   "name": "Sennaiyanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333596,
+  "lat": 11.2766283,
+  "lon": 79.6691179,
+  "tags": {
+   "name": "Perambur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333597,
+  "lat": 11.2813209,
+  "lon": 79.6808767,
+  "tags": {
+   "name": "Kunnam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333598,
+  "lat": 11.2509226,
+  "lon": 79.6772611,
+  "tags": {
+   "name": "Kumarakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333599,
+  "lat": 11.2668008,
+  "lon": 79.6773577,
+  "tags": {
+   "name": "Mel Mattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333600,
+  "lat": 11.2645912,
+  "lon": 79.6866488,
+  "tags": {
+   "name": "Kil Mattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333601,
+  "lat": 11.2680424,
+  "lon": 79.6974635,
+  "tags": {
+   "name": "Olaiyamputtur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333602,
+  "lat": 11.2519433,
+  "lon": 79.706862,
+  "tags": {
+   "name": "Paracheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333603,
+  "lat": 11.2621921,
+  "lon": 79.7004461,
+  "tags": {
+   "name": "Pattavilagam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333604,
+  "lat": 11.2568783,
+  "lon": 79.6975386,
+  "tags": {
+   "name": "Attiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333605,
+  "lat": 11.3447167,
+  "lon": 79.7470951,
+  "tags": {
+   "name": "Nanalpadugai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333606,
+  "lat": 11.3394781,
+  "lon": 79.7415805,
+  "tags": {
+   "name": "Kalayantittu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333607,
+  "lat": 11.3351861,
+  "lon": 79.736495,
+  "tags": {
+   "name": "Kasittittu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333608,
+  "lat": 11.3306417,
+  "lon": 79.7265172,
+  "tags": {
+   "name": "Manganambattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333609,
+  "lat": 11.3363012,
+  "lon": 79.7231054,
+  "tags": {
+   "name": "Tittuppadugai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333610,
+  "lat": 11.3306206,
+  "lon": 79.7150802,
+  "tags": {
+   "alt_name": "Kollidam",
+   "name": "Anikkaranchattram",
+   "name:ml": "കൊള്ളിടം",
+   "name:ta": "கொள்ளிடம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333611,
+  "lat": 11.3220627,
+  "lon": 79.7139162,
+  "tags": {
+   "name": "Kuttavakkarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333612,
+  "lat": 11.3165659,
+  "lon": 79.713192,
+  "tags": {
+   "name": "Takkiritaikal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333613,
+  "lat": 11.3263706,
+  "lon": 79.7303581,
+  "tags": {
+   "name": "Tribhuvana Viramangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333614,
+  "lat": 11.3198693,
+  "lon": 79.7338986,
+  "tags": {
+   "name": "Kadaikkavinayakanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333615,
+  "lat": 11.3147143,
+  "lon": 79.7370529,
+  "tags": {
+   "name": "Nallavinayakapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404333616,
+  "lat": 11.3075604,
+  "lon": 79.7456574,
+  "tags": {
+   "name": "Karpallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348917,
+  "lat": 11.304257,
+  "lon": 79.736216,
+  "tags": {
+   "name": "Siyalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348918,
+  "lat": 11.3055405,
+  "lon": 79.7233844,
+  "tags": {
+   "name": "Kannankulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348919,
+  "lat": 11.3071817,
+  "lon": 79.7139752,
+  "tags": {
+   "name": "Ayangudipallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348920,
+  "lat": 11.3031838,
+  "lon": 79.7104025,
+  "tags": {
+   "name": "Kumilangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348921,
+  "lat": 11.2949776,
+  "lon": 79.6942878,
+  "tags": {
+   "name": "Madappuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348922,
+  "lat": 11.2943358,
+  "lon": 79.7041047,
+  "tags": {
+   "name": "Chidambaranathapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348923,
+  "lat": 11.2975131,
+  "lon": 79.716475,
+  "tags": {
+   "name": "Gopalasamudram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348924,
+  "lat": 11.2997962,
+  "lon": 79.7270322,
+  "tags": {
+   "name": "Tirumayiladi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348925,
+  "lat": 11.2915477,
+  "lon": 79.7155952,
+  "tags": {
+   "name": "Puthur",
+   "name:ml": "പുത്തൂർ",
+   "name:ta": "புத்தூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348927,
+  "lat": 11.2935362,
+  "lon": 79.7410118,
+  "tags": {
+   "name": "Kuttiyampettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348928,
+  "lat": 11.2903062,
+  "lon": 79.7390699,
+  "tags": {
+   "name": "Odavandangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348929,
+  "lat": 11.2818049,
+  "lon": 79.7317529,
+  "tags": {
+   "name": "Vairayiruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348930,
+  "lat": 11.2811841,
+  "lon": 79.7391343,
+  "tags": {
+   "name": "Kandirajanagudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348931,
+  "lat": 11.2766493,
+  "lon": 79.7305727,
+  "tags": {
+   "name": "Manalagram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348932,
+  "lat": 11.2723143,
+  "lon": 79.7328043,
+  "tags": {
+   "name": "Kappiyakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348933,
+  "lat": 11.2596457,
+  "lon": 79.7451532,
+  "tags": {
+   "name": "Puluchakkadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348934,
+  "lat": 11.2553526,
+  "lon": 79.7394562,
+  "tags": {
+   "name": "Erumeychangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348935,
+  "lat": 11.2669271,
+  "lon": 79.7394132,
+  "tags": {
+   "name": "Tillainattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348936,
+  "lat": 11.2570993,
+  "lon": 79.7346175,
+  "tags": {
+   "name": "Sandangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348937,
+  "lat": 11.2557524,
+  "lon": 79.7255087,
+  "tags": {
+   "name": "Padarikudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348938,
+  "lat": 11.2641913,
+  "lon": 79.7167539,
+  "tags": {
+   "name": "Kargudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348939,
+  "lat": 11.2673059,
+  "lon": 79.7240925,
+  "tags": {
+   "name": "Arasur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348940,
+  "lat": 11.2604034,
+  "lon": 79.8161029,
+  "tags": {
+   "name": "Valudalaikkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348941,
+  "lat": 11.2543003,
+  "lon": 79.80443,
+  "tags": {
+   "name": "Valutalakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348942,
+  "lat": 11.2591407,
+  "lon": 79.7970485,
+  "tags": {
+   "name": "Sanjeevirayan koil",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348943,
+  "lat": 11.2674848,
+  "lon": 79.8030031,
+  "tags": {
+   "name": "Vettangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348944,
+  "lat": 11.2898117,
+  "lon": 79.8271644,
+  "tags": {
+   "name": "Kolaiyar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348945,
+  "lat": 11.3238037,
+  "lon": 79.8331296,
+  "tags": {
+   "name": "Kotaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348946,
+  "lat": 11.3070555,
+  "lon": 79.8222613,
+  "tags": {
+   "name": "Tandavankulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348947,
+  "lat": 11.3418765,
+  "lon": 79.8003101,
+  "tags": {
+   "name": "Puliyandurai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348948,
+  "lat": 11.3342394,
+  "lon": 79.8086464,
+  "tags": {
+   "name": "Puduppattinam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348949,
+  "lat": 11.3332926,
+  "lon": 79.832797,
+  "tags": {
+   "name": "Mandavamedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348950,
+  "lat": 11.3506284,
+  "lon": 79.8140645,
+  "tags": {
+   "name": "Dharkastnattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348951,
+  "lat": 11.3544468,
+  "lon": 79.8046768,
+  "tags": {
+   "name": "Semmankadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348952,
+  "lat": 11.357634,
+  "lon": 79.8037755,
+  "tags": {
+   "name": "Kattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348953,
+  "lat": 11.3598324,
+  "lon": 79.8025095,
+  "tags": {
+   "name": "Subburayapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348954,
+  "lat": 11.3532792,
+  "lon": 79.8290205,
+  "tags": {
+   "name": "Palaiyar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348955,
+  "lat": 11.3729279,
+  "lon": 79.8062324,
+  "tags": {
+   "name": "Devikottai",
+   "name:ta": "தேவிக்கோட்டை",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348956,
+  "lat": 11.3831513,
+  "lon": 79.8147082,
+  "tags": {
+   "name": "Kodiyampalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348957,
+  "lat": 11.3503129,
+  "lon": 79.7859549,
+  "tags": {
+   "name": "Raghunadapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348958,
+  "lat": 11.3709084,
+  "lon": 79.7649049,
+  "tags": {
+   "name": "Manairuppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348959,
+  "lat": 11.3568977,
+  "lon": 79.7768354,
+  "tags": {
+   "name": "Pilapadugal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348960,
+  "lat": 11.3592749,
+  "lon": 79.7670507,
+  "tags": {
+   "name": "Alakkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348961,
+  "lat": 11.3497448,
+  "lon": 79.7677803,
+  "tags": {
+   "name": "Mudalaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348962,
+  "lat": 11.3483248,
+  "lon": 79.7793674,
+  "tags": {
+   "name": "Kodandapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348963,
+  "lat": 11.3026578,
+  "lon": 79.7929072,
+  "tags": {
+   "name": "Palaiyapalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348964,
+  "lat": 11.3175548,
+  "lon": 79.7824573,
+  "tags": {
+   "name": "Kodakkaranmulai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348965,
+  "lat": 11.3209213,
+  "lon": 79.7741103,
+  "tags": {
+   "name": "Narimudukku",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348966,
+  "lat": 11.3310624,
+  "lon": 79.7738743,
+  "tags": {
+   "name": "Nallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348967,
+  "lat": 11.3316305,
+  "lon": 79.7518372,
+  "tags": {
+   "name": "Achalpuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348968,
+  "lat": 11.3147775,
+  "lon": 79.7558927,
+  "tags": {
+   "name": "Manikkavasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348969,
+  "lat": 11.3061928,
+  "lon": 79.7501421,
+  "tags": {
+   "name": "Pannangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348970,
+  "lat": 11.3070765,
+  "lon": 79.7594762,
+  "tags": {
+   "name": "Alalasundaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348971,
+  "lat": 11.3000276,
+  "lon": 79.7543692,
+  "tags": {
+   "name": "Chinna Koppiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348972,
+  "lat": 11.2970449,
+  "lon": 79.761402,
+  "tags": {
+   "name": "Madanam Vadapadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348973,
+  "lat": 11.2945146,
+  "lon": 79.7522449,
+  "tags": {
+   "name": "Periya Koppiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348974,
+  "lat": 11.3028472,
+  "lon": 79.7830152,
+  "tags": {
+   "name": "Pannikottagam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348975,
+  "lat": 11.2995857,
+  "lon": 79.7833049,
+  "tags": {
+   "name": "Tillaividangam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348976,
+  "lat": 11.2957982,
+  "lon": 79.7695398,
+  "tags": {
+   "name": "Madanam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348977,
+  "lat": 11.2900747,
+  "lon": 79.7869849,
+  "tags": {
+   "name": "Agaravattaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348978,
+  "lat": 11.281847,
+  "lon": 79.784646,
+  "tags": {
+   "name": "Ekoji Maharajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348979,
+  "lat": 11.2859819,
+  "lon": 79.7743678,
+  "tags": {
+   "name": "Maharajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348980,
+  "lat": 11.2891068,
+  "lon": 79.7669005,
+  "tags": {
+   "name": "Tirunilakantom",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348981,
+  "lat": 11.2855295,
+  "lon": 79.7444772,
+  "tags": {
+   "name": "Panjaramadaiyan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348982,
+  "lat": 11.2809843,
+  "lon": 79.7511291,
+  "tags": {
+   "name": "Aricharamangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348983,
+  "lat": 11.2755445,
+  "lon": 79.7503674,
+  "tags": {
+   "name": "Maddalamudaiyan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348984,
+  "lat": 11.2770702,
+  "lon": 79.7638106,
+  "tags": {
+   "name": "Pachaiperumalnallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348985,
+  "lat": 11.2633075,
+  "lon": 79.7821355,
+  "tags": {
+   "name": "Kodangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348986,
+  "lat": 11.2756918,
+  "lon": 79.7872317,
+  "tags": {
+   "name": "Pankkarakottagam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348987,
+  "lat": 11.2709465,
+  "lon": 79.7884655,
+  "tags": {
+   "name": "Kodamurutti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348988,
+  "lat": 11.2739031,
+  "lon": 79.7744214,
+  "tags": {
+   "name": "Alangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348989,
+  "lat": 11.2702941,
+  "lon": 79.7682738,
+  "tags": {
+   "name": "Umaiyalpatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348990,
+  "lat": 11.2661906,
+  "lon": 79.7503996,
+  "tags": {
+   "name": "Tirunavukkarasanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348991,
+  "lat": 11.26094,
+  "lon": 79.7490477,
+  "tags": {
+   "name": "Arappakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348992,
+  "lat": 11.2589197,
+  "lon": 79.7647762,
+  "tags": {
+   "name": "Pinnakkollai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348993,
+  "lat": 11.2598772,
+  "lon": 79.7715139,
+  "tags": {
+   "name": "Kolattanganallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348994,
+  "lat": 11.2559839,
+  "lon": 79.7728014,
+  "tags": {
+   "name": "Kadavasal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348995,
+  "lat": 11.2528061,
+  "lon": 79.7786379,
+  "tags": {
+   "name": "Varisaippattuvadagal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348996,
+  "lat": 11.2447036,
+  "lon": 79.780848,
+  "tags": {
+   "name": "Tirukkarugavur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348997,
+  "lat": 11.233828,
+  "lon": 79.772737,
+  "tags": {
+   "name": "Vellappallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348998,
+  "lat": 11.2429884,
+  "lon": 79.7705161,
+  "tags": {
+   "name": "Kiranallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404348999,
+  "lat": 11.2448721,
+  "lon": 79.7564077,
+  "tags": {
+   "name": "Semmangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349000,
+  "lat": 11.2382741,
+  "lon": 79.7575235,
+  "tags": {
+   "name": "Semmangulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349001,
+  "lat": 11.2320128,
+  "lon": 79.7578561,
+  "tags": {
+   "name": "Tillaividangan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349002,
+  "lat": 11.227835,
+  "lon": 79.7538865,
+  "tags": {
+   "name": "Tittai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349003,
+  "lat": 11.2212682,
+  "lon": 79.7553778,
+  "tags": {
+   "name": "Tiruttonipuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349004,
+  "lat": 11.2224995,
+  "lon": 79.7797537,
+  "tags": {
+   "name": "Pudutturai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349005,
+  "lat": 11.2141436,
+  "lon": 79.7919416,
+  "tags": {
+   "name": "Vedarajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349006,
+  "lat": 11.2156169,
+  "lon": 79.7721576,
+  "tags": {
+   "name": "Mandapam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349007,
+  "lat": 11.2158906,
+  "lon": 79.7631454,
+  "tags": {
+   "name": "Manamedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349008,
+  "lat": 11.2061873,
+  "lon": 79.7619223,
+  "tags": {
+   "name": "Karaimedu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349009,
+  "lat": 11.2006936,
+  "lon": 79.757781,
+  "tags": {
+   "name": "Tennalakudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349010,
+  "lat": 11.2048823,
+  "lon": 79.7777366,
+  "tags": {
+   "name": "Tiruvali",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349011,
+  "lat": 11.1977257,
+  "lon": 79.774121,
+  "tags": {
+   "name": "Kil Salai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349012,
+  "lat": 11.1956892,
+  "lon": 79.7622228,
+  "tags": {
+   "name": "Mel Salai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349013,
+  "lat": 11.1915793,
+  "lon": 79.7568262,
+  "tags": {
+   "name": "Karukkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349014,
+  "lat": 11.1899268,
+  "lon": 79.7653878,
+  "tags": {
+   "name": "Annanperumalkovil",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349015,
+  "lat": 11.1648871,
+  "lon": 79.7706556,
+  "tags": {
+   "name": "Nainipuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349016,
+  "lat": 11.1547611,
+  "lon": 79.7842061,
+  "tags": {
+   "name": "Alangadu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349017,
+  "lat": 11.1456032,
+  "lon": 79.7790885,
+  "tags": {
+   "name": "Karuvi",
+   "name:ml": "കരുവി",
+   "name:ta": "கருவி",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349018,
+  "lat": 11.1421926,
+  "lon": 79.767437,
+  "tags": {
+   "name": "Karuvendinathapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349019,
+  "lat": 11.147098,
+  "lon": 79.7685957,
+  "tags": {
+   "name": "Natarajapillaichavadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349020,
+  "lat": 11.14314,
+  "lon": 79.7584462,
+  "tags": {
+   "name": "Kil Pallakkottai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349021,
+  "lat": 11.136424,
+  "lon": 79.7592401,
+  "tags": {
+   "name": "Kidarankondan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349022,
+  "lat": 11.1196438,
+  "lon": 79.7732734,
+  "tags": {
+   "name": "Nachikkattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349023,
+  "lat": 11.1150117,
+  "lon": 79.7893238,
+  "tags": {
+   "name": "Puttur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349024,
+  "lat": 11.1147643,
+  "lon": 79.7737938,
+  "tags": {
+   "name": "Umaiyapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349025,
+  "lat": 11.1120008,
+  "lon": 79.7741747,
+  "tags": {
+   "name": "Abhishekapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349026,
+  "lat": 11.1090319,
+  "lon": 79.7544336,
+  "tags": {
+   "name": "Kalahastinathapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349027,
+  "lat": 11.0880229,
+  "lon": 79.7880256,
+  "tags": {
+   "name": "Souriyarpuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349028,
+  "lat": 11.0909446,
+  "lon": 79.7822857,
+  "tags": {
+   "name": "Manmalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349029,
+  "lat": 11.0821427,
+  "lon": 79.7746038,
+  "tags": {
+   "name": "Kovilpattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349030,
+  "lat": 11.0818479,
+  "lon": 79.7697115,
+  "tags": {
+   "name": "Mattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349031,
+  "lat": 11.0752989,
+  "lon": 79.7549915,
+  "tags": {
+   "name": "Memattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349032,
+  "lat": 11.0751936,
+  "lon": 79.7834015,
+  "tags": {
+   "name": "Chintamani",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349033,
+  "lat": 11.0691499,
+  "lon": 79.7847319,
+  "tags": {
+   "name": "Naduvalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349034,
+  "lat": 11.0650224,
+  "lon": 79.7787237,
+  "tags": {
+   "name": "Kannangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349035,
+  "lat": 11.0676337,
+  "lon": 79.7729301,
+  "tags": {
+   "name": "Killiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349036,
+  "lat": 11.0599051,
+  "lon": 79.7600126,
+  "tags": {
+   "name": "Anaimuttam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349037,
+  "lat": 11.0525448,
+  "lon": 79.7771573,
+  "tags": {
+   "name": "Pudaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349116,
+  "lat": 11.0408354,
+  "lon": 79.7518372,
+  "tags": {
+   "name": "Tattanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349117,
+  "lat": 11.0287675,
+  "lon": 79.7733271,
+  "tags": {
+   "name": "Pattam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349118,
+  "lat": 11.0263349,
+  "lon": 79.7783804,
+  "tags": {
+   "name": "Visalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349119,
+  "lat": 11.0254082,
+  "lon": 79.7649264,
+  "tags": {
+   "name": "Uttirangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349120,
+  "lat": 11.0207957,
+  "lon": 79.7649264,
+  "tags": {
+   "name": "Sankarampandal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349121,
+  "lat": 11.0184683,
+  "lon": 79.7554582,
+  "tags": {
+   "name": "Iluppur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349122,
+  "lat": 11.0160461,
+  "lon": 79.7616112,
+  "tags": {
+   "name": "Munivarangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349123,
+  "lat": 11.0086953,
+  "lon": 79.7621691,
+  "tags": {
+   "name": "Puttagaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349124,
+  "lat": 11.0106436,
+  "lon": 79.7668791,
+  "tags": {
+   "name": "Arasalangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349125,
+  "lat": 11.0015444,
+  "lon": 79.769336,
+  "tags": {
+   "name": "Hariharakudal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349126,
+  "lat": 11.0046407,
+  "lon": 79.7679949,
+  "tags": {
+   "name": "Agarahariharangudal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349127,
+  "lat": 11.0042616,
+  "lon": 79.8226476,
+  "tags": {
+   "name": "Tevanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349128,
+  "lat": 11.0043142,
+  "lon": 79.7827792,
+  "tags": {
+   "name": "Mangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349129,
+  "lat": 11.0016708,
+  "lon": 79.78971,
+  "tags": {
+   "name": "Sattanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349130,
+  "lat": 11.0029556,
+  "lon": 79.7929287,
+  "tags": {
+   "name": "Eduttukkatti",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349131,
+  "lat": 11.0059045,
+  "lon": 79.7937226,
+  "tags": {
+   "name": "Kuttur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349132,
+  "lat": 11.0090744,
+  "lon": 79.790976,
+  "tags": {
+   "name": "Pudanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349133,
+  "lat": 11.0060519,
+  "lon": 79.7988939,
+  "tags": {
+   "name": "Tirukkalacheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349134,
+  "lat": 11.0071051,
+  "lon": 79.8061681,
+  "tags": {
+   "name": "Ayappadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349135,
+  "lat": 11.0125814,
+  "lon": 79.820888,
+  "tags": {
+   "name": "Karampallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349136,
+  "lat": 11.0189843,
+  "lon": 79.821639,
+  "tags": {
+   "name": "Kattucheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349137,
+  "lat": 11.0200585,
+  "lon": 79.7924995,
+  "tags": {
+   "name": "Attupakkam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349138,
+  "lat": 11.0292414,
+  "lon": 79.7980785,
+  "tags": {
+   "name": "Puchattanur",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349139,
+  "lat": 11.0286306,
+  "lon": 79.8157167,
+  "tags": {
+   "name": "Valliyammainagar",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349140,
+  "lat": 11.0232178,
+  "lon": 79.8337411,
+  "tags": {
+   "name": "Poraiyar",
+   "name:ml": "പൊറയാർ",
+   "name:ta": "பொறையார்",
+   "place": "town"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349141,
+  "lat": 11.0355176,
+  "lon": 79.829793,
+  "tags": {
+   "name": "Olugaimangalam",
+   "name:ml": "ഒഴുകമംഗലം",
+   "name:ta": "ஒழுகைமங்கலம்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349142,
+  "lat": 11.0343382,
+  "lon": 79.7908258,
+  "tags": {
+   "name": "Andur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349143,
+  "lat": 11.0457846,
+  "lon": 79.8263061,
+  "tags": {
+   "name": "Narayananaikanchavadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349144,
+  "lat": 11.047859,
+  "lon": 79.8081744,
+  "tags": {
+   "name": "Turadippettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349145,
+  "lat": 11.0538821,
+  "lon": 79.8103523,
+  "tags": {
+   "name": "Kaliyappanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349146,
+  "lat": 11.0575886,
+  "lon": 79.7889804,
+  "tags": {
+   "name": "Valaiyasolan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349147,
+  "lat": 11.0643591,
+  "lon": 79.7915339,
+  "tags": {
+   "name": "Nakshatramalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349148,
+  "lat": 11.0672967,
+  "lon": 79.8030245,
+  "tags": {
+   "name": "Manalmedu",
+   "name:ml": "മണൽമേട്",
+   "name:ta": "மணல்மேடு",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349149,
+  "lat": 11.0622216,
+  "lon": 79.8235059,
+  "tags": {
+   "name": "Singanodai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349150,
+  "lat": 11.0861278,
+  "lon": 79.8061037,
+  "tags": {
+   "name": "Pichakkattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349151,
+  "lat": 11.0939979,
+  "lon": 79.8101592,
+  "tags": {
+   "name": "Radhanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349152,
+  "lat": 11.0920711,
+  "lon": 79.8002028,
+  "tags": {
+   "name": "Annappanpettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349153,
+  "lat": 11.101894,
+  "lon": 79.7784018,
+  "tags": {
+   "name": "Manjolai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349154,
+  "lat": 11.0990304,
+  "lon": 79.7914696,
+  "tags": {
+   "name": "Pandaravadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349155,
+  "lat": 11.1061263,
+  "lon": 79.793508,
+  "tags": {
+   "name": "Udaiyavarkovilpattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349156,
+  "lat": 11.1021361,
+  "lon": 79.7911906,
+  "tags": {
+   "name": "Kamarajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349157,
+  "lat": 11.0996831,
+  "lon": 79.7991943,
+  "tags": {
+   "name": "Mukkuttu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349158,
+  "lat": 11.1006517,
+  "lon": 79.8199224,
+  "tags": {
+   "name": "Kidangal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349159,
+  "lat": 11.1053261,
+  "lon": 79.8030567,
+  "tags": {
+   "name": "Karuveli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349160,
+  "lat": 11.1131693,
+  "lon": 79.7999561,
+  "tags": {
+   "name": "Puntalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349161,
+  "lat": 11.1199807,
+  "lon": 79.7990227,
+  "tags": {
+   "name": "Vadakattalai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349162,
+  "lat": 11.153319,
+  "lon": 79.7997951,
+  "tags": {
+   "name": "Radhanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349163,
+  "lat": 11.1462453,
+  "lon": 79.8302972,
+  "tags": {
+   "name": "Sayavanam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349164,
+  "lat": 11.1497506,
+  "lon": 79.8187637,
+  "tags": {
+   "name": "Melaiyur",
+   "name:ml": "മേലയൂർ",
+   "name:ta": "மேலையூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349165,
+  "lat": 11.1577926,
+  "lon": 79.8141503,
+  "tags": {
+   "name": "Manigramam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349166,
+  "lat": 11.1651608,
+  "lon": 79.7951817,
+  "tags": {
+   "name": "Elayamdam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349167,
+  "lat": 11.1696868,
+  "lon": 79.7944307,
+  "tags": {
+   "name": "Ukkadai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349168,
+  "lat": 11.1808859,
+  "lon": 79.802413,
+  "tags": {
+   "name": "Sittangartiruppu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349169,
+  "lat": 11.1840855,
+  "lon": 79.7920703,
+  "tags": {
+   "name": "Kil Sattanathapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349170,
+  "lat": 11.1914109,
+  "lon": 79.7963404,
+  "tags": {
+   "name": "Kavalambadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349171,
+  "lat": 11.1928212,
+  "lon": 79.8137641,
+  "tags": {
+   "name": "Embavai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349172,
+  "lat": 11.2118012,
+  "lon": 79.8223944,
+  "tags": {
+   "name": "Annappanpettai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349173,
+  "lat": 11.2148803,
+  "lon": 79.8278832,
+  "tags": {
+   "name": "Tennampattinam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349174,
+  "lat": 11.2022302,
+  "lon": 79.7944736,
+  "tags": {
+   "name": "Nemmeli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349175,
+  "lat": 11.2044771,
+  "lon": 79.8011792,
+  "tags": {
+   "name": "Neyppattur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349176,
+  "lat": 11.2064189,
+  "lon": 79.8118543,
+  "tags": {
+   "name": "Kuruvalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349177,
+  "lat": 11.2194476,
+  "lon": 79.8177981,
+  "tags": {
+   "name": "Mulliyarampattinam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349178,
+  "lat": 11.2517013,
+  "lon": 79.7977567,
+  "tags": {
+   "name": "Idaimanal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349179,
+  "lat": 11.250749,
+  "lon": 79.8040008,
+  "tags": {
+   "name": "Varisaipattu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349180,
+  "lat": 11.2440723,
+  "lon": 79.8112321,
+  "tags": {
+   "name": "Radhanallur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349181,
+  "lat": 11.2492705,
+  "lon": 79.8243212,
+  "tags": {
+   "name": "Talantondi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349182,
+  "lat": 11.2215945,
+  "lon": 79.8342991,
+  "tags": {
+   "name": "Mattampattinam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349183,
+  "lat": 11.2162799,
+  "lon": 79.8393845,
+  "tags": {
+   "name": "Mel Muvarkkarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349184,
+  "lat": 11.2148697,
+  "lon": 79.8467553,
+  "tags": {
+   "name": "Kil Muvarkkarai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349185,
+  "lat": 11.2120809,
+  "lon": 79.8394704,
+  "tags": {
+   "name": "Konayampattanam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349186,
+  "lat": 11.2053875,
+  "lon": 79.838376,
+  "tags": {
+   "name": "Chavadikuppam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349187,
+  "lat": 11.1993149,
+  "lon": 79.8273682,
+  "tags": {
+   "name": "Peruntottam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349188,
+  "lat": 11.1920845,
+  "lon": 79.8298144,
+  "tags": {
+   "name": "Chinna Peruntottam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349189,
+  "lat": 11.1466769,
+  "lon": 79.8488474,
+  "tags": {
+   "name": "Dharmakulam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349190,
+  "lat": 11.1409716,
+  "lon": 79.8102235,
+  "tags": {
+   "name": "Mel Perumpallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349191,
+  "lat": 11.1365503,
+  "lon": 79.8234629,
+  "tags": {
+   "name": "Kil perumpallam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349196,
+  "lat": 11.0401088,
+  "lon": 79.8348999,
+  "tags": {
+   "name": "Erukkattancheri",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349198,
+  "lat": 11.0345382,
+  "lon": 79.8488581,
+  "tags": {
+   "name": "Kottupalaiyam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349199,
+  "lat": 11.0302418,
+  "lon": 79.8453927,
+  "tags": {
+   "name": "Sattangudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349200,
+  "lat": 11.0000068,
+  "lon": 79.8513794,
+  "tags": {
+   "name": "Chandirapadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349201,
+  "lat": 10.9857939,
+  "lon": 79.8528868,
+  "tags": {
+   "name": "Sinnurpet",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349202,
+  "lat": 10.9965945,
+  "lon": 79.7968554,
+  "tags": {
+   "name": "Palur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349203,
+  "lat": 10.9808279,
+  "lon": 79.6265566,
+  "tags": {
+   "name": "A Kiliyanur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349204,
+  "lat": 10.9764148,
+  "lon": 79.6164822,
+  "tags": {
+   "name": "Ennaikkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349205,
+  "lat": 10.9816389,
+  "lon": 79.6156239,
+  "tags": {
+   "name": "Pillarkalukkottai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349206,
+  "lat": 10.9939826,
+  "lon": 79.6285522,
+  "tags": {
+   "name": "Elumagalur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349207,
+  "lat": 10.9949515,
+  "lon": 79.6180915,
+  "tags": {
+   "name": "Kodangi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349208,
+  "lat": 10.9976792,
+  "lon": 79.6105921,
+  "tags": {
+   "name": "Gangadharapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349209,
+  "lat": 10.995457,
+  "lon": 79.6064186,
+  "tags": {
+   "name": "Nemmeli",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349210,
+  "lat": 10.9829449,
+  "lon": 79.6045089,
+  "tags": {
+   "name": "Tirumangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349211,
+  "lat": 10.9743925,
+  "lon": 79.5975244,
+  "tags": {
+   "name": "Karuppur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349212,
+  "lat": 10.9884427,
+  "lon": 79.5791888,
+  "tags": {
+   "name": "Srikandapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349213,
+  "lat": 10.9881689,
+  "lon": 79.5862591,
+  "tags": {
+   "name": "Nakkambadi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349214,
+  "lat": 10.9865048,
+  "lon": 79.5857548,
+  "tags": {
+   "name": "Mandai",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349215,
+  "lat": 10.9858939,
+  "lon": 79.5936298,
+  "tags": {
+   "name": "Aiyanarkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349218,
+  "lat": 10.9795956,
+  "lon": 79.5650053,
+  "tags": {
+   "name": "Kil Paruttikkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349219,
+  "lat": 10.9864206,
+  "lon": 79.5457577,
+  "tags": {
+   "name": "Mel Paruttikkudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349220,
+  "lat": 10.9914707,
+  "lon": 79.5695114,
+  "tags": {
+   "name": "Palaiyur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349221,
+  "lat": 10.9988851,
+  "lon": 79.5505321,
+  "tags": {
+   "name": "Nallavur",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349222,
+  "lat": 10.9937614,
+  "lon": 79.5383441,
+  "tags": {
+   "name": "Kil Akalangan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349223,
+  "lat": 10.9681466,
+  "lon": 79.5450282,
+  "tags": {
+   "name": "Pungudi",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349224,
+  "lat": 10.9747928,
+  "lon": 79.5385909,
+  "tags": {
+   "name": "Konerirajapuram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349225,
+  "lat": 10.9674936,
+  "lon": 79.5294177,
+  "tags": {
+   "name": "Kalappuragaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349226,
+  "lat": 10.9704217,
+  "lon": 79.5285916,
+  "tags": {
+   "name": "Sivanaragaram",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349227,
+  "lat": 10.9846406,
+  "lon": 79.5179272,
+  "tags": {
+   "name": "Vaikal",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349228,
+  "lat": 10.9962364,
+  "lon": 79.5282483,
+  "tags": {
+   "name": "Melkalagan",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 9404349229,
+  "lat": 10.9972896,
+  "lon": 79.5356726,
+  "tags": {
+   "name": "Kodimangalam",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11136787126,
+  "lat": 10.97624,
+  "lon": 79.61525,
+  "tags": {
+   "name": "Ennakkudi",
+   "place": "hamlet",
+   "population": "498",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11136787128,
+  "lat": 10.9727716,
+  "lon": 79.59898,
+  "tags": {
+   "name": "Vadakkuveli",
+   "place": "hamlet",
+   "population": "346",
+   "source:name": "pmgsy",
+   "source:population": "pmgsy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12003998984,
+  "lat": 11.2813112,
+  "lon": 79.7168852,
+  "tags": {
+   "name": "Erukkur",
+   "name:ml": "എരുക്കൂർ",
+   "name:ta": "எருக்கூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12003998986,
+  "lat": 11.029192,
+  "lon": 79.6507039,
+  "tags": {
+   "name": "Manganallur",
+   "name:ml": "മങ്കനല്ലൂർ",
+   "name:ta": "மங்கநல்லூர்",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12085666469,
+  "lat": 10.9862634,
+  "lon": 79.8519231,
+  "tags": {
+   "name": "Chinoorpet",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12085788711,
+  "lat": 11.0589999,
+  "lon": 79.8502792,
+  "tags": {
+   "name": "Manikkapangu",
+   "place": "village"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12085853585,
+  "lat": 11.3498706,
+  "lon": 79.8202141,
+  "tags": {
+   "name": "Balaji Nagar",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12085889123,
+  "lat": 11.3052115,
+  "lon": 79.8347985,
+  "tags": {
+   "name": "Chinnakottaimedu",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12085903101,
+  "lat": 11.3218457,
+  "lon": 79.8245421,
+  "tags": {
+   "name": "Tandavankulam",
+   "place": "hamlet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13793124262,
+  "lat": 11.0862365,
+  "lon": 79.5634809,
+  "tags": {
+   "name": "Thirumannacheri",
+   "name:ml": "തിരുമണഞ്ചേരി",
+   "name:ta": "திருமணஞ்சேரி",
+   "place": "village"
+  }
+ }
+]

@@ -1,0 +1,4918 @@
+[
+ {
+  "type": "node",
+  "id": 243053506,
+  "lat": 13.0338602,
+  "lon": 80.2545491,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Alwarpet",
+   "name:ml": "ആഴ്വാർപേട്ട",
+   "name:ta": "ஆழ்வார்பேட்டை",
+   "place": "suburb",
+   "postal_code": "600018",
+   "wikidata": "Q4738371",
+   "wikipedia": "en:Alwarpet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243059228,
+  "lat": 13.0443237,
+  "lon": 80.2498455,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Teynampet",
+   "name:ml": "തേനാംപേട്ട",
+   "name:ta": "தேனாம்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q7708590",
+   "wikipedia": "en:Teynampet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243059957,
+  "lat": 13.0497324,
+  "lon": 80.2582028,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Gopalapuram",
+   "name:ml": "ഗോപാലപുരം",
+   "name:ta": "கோபாலபுரம்",
+   "place": "suburb",
+   "postal_code": "600086",
+   "wikidata": "Q5584218",
+   "wikipedia": "en:Gopalapuram, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243060007,
+  "lat": 13.0286286,
+  "lon": 80.240256,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Nandanam",
+   "name:en": "Nandanam",
+   "name:ml": "നന്ദനം",
+   "name:ta": "நந்தனம்",
+   "place": "suburb",
+   "postal_code": "600035",
+   "wikidata": "Q15260933",
+   "wikipedia": "en:Nandanam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243060039,
+  "lat": 13.0244783,
+  "lon": 80.253937,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Raja Annamalai Puram",
+   "name:ml": "രാജാ അണ്ണാമലൈപുരം",
+   "name:ta": "இராஜா அண்ணாமலைபுரம்",
+   "place": "suburb",
+   "postal_code": "600028",
+   "wikidata": "Q24939845",
+   "wikipedia": "en:Raja Annamalaipuram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243060101,
+  "lat": 13.0310236,
+  "lon": 80.2582995,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Abhiramapuram",
+   "name:ml": "അഭിരാമപുരം",
+   "name:ta": "அபிராமபுரம்",
+   "place": "neighbourhood",
+   "postal_code": "600018"
+  }
+ },
+ {
+  "type": "node",
+  "id": 243060531,
+  "lat": 13.04131,
+  "lon": 80.2604719,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "CIT Colony",
+   "name:ta": "சி ஐ டி காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247677540,
+  "lat": 13.0316473,
+  "lon": 80.2700166,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Mylapore",
+   "name:en": "Mylapore",
+   "name:hi": "मयलापुर",
+   "name:ml": "മൈലാപ്പൂർ",
+   "name:ta": "மயிலாப்பூர்",
+   "place": "suburb",
+   "wikidata": "Q1646915",
+   "wikimedia_commons": "Category:Mylapore",
+   "wikipedia": "en:Mylapore"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247677647,
+  "lat": 13.0258445,
+  "lon": 80.2627877,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Mandaveli",
+   "name:ml": "മന്തവെളി",
+   "name:ta": "மந்தைவெளி",
+   "place": "suburb",
+   "postal_code": "600028",
+   "wikidata": "Q6747920",
+   "wikipedia": "en:Mandavelli"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247688953,
+  "lat": 13.0567826,
+  "lon": 80.2364037,
+  "tags": {
+   "is_in": "Nungambakkam",
+   "name": "Mahalingapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247688962,
+  "lat": 13.0620626,
+  "lon": 80.240487,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Nungambakkam",
+   "name:ml": "നുങ്കമ്പാക്കം",
+   "name:ta": "நுங்கம்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q4615048",
+   "wikimedia_commons": "Category:Nungambakkam",
+   "wikipedia": "en:Nungambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689032,
+  "lat": 13.049207,
+  "lon": 80.2242829,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Kodambakkam",
+   "name:hi": "कोडंबक्कम",
+   "name:ml": "കോടമ്പാക്കം",
+   "name:ta": "கோடம்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600024",
+   "wikidata": "Q3429215",
+   "wikimedia_commons": "Category:Kodambakkam",
+   "wikipedia": "en:Kodambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689098,
+  "lat": 13.0359275,
+  "lon": 80.2145697,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Ashok Nagar",
+   "name:ml": "അശോക് നഗർ",
+   "name:ta": "அஷோக் நகர்",
+   "place": "suburb",
+   "wikidata": "Q2992462",
+   "wikipedia": "en:Ashok Nagar, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689106,
+  "lat": 13.020817,
+  "lon": 80.2239536,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Saidapet",
+   "name:ml": "സൈദാപേട്ട",
+   "name:ta": "சைதாப்பேட்டை",
+   "place": "suburb",
+   "postal_code": "600015",
+   "wikidata": "Q3166683",
+   "wikipedia": "en:Saidapet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689703,
+  "lat": 13.0342682,
+  "lon": 80.2617914,
+  "tags": {
+   "is_in": "Abhiramapuram",
+   "name": "East Abhiramapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689726,
+  "lat": 13.0298372,
+  "lon": 80.275738,
+  "tags": {
+   "is_in": "Chennai",
+   "key": "600004",
+   "name": "Santhome",
+   "name:ml": "സാന്തോം",
+   "name:ta": "சாந்தோம்",
+   "place": "neighbourhood",
+   "wikidata": "Q3530204",
+   "wikipedia": "en:Santhome"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689739,
+  "lat": 13.0554718,
+  "lon": 80.2639706,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Royapettah",
+   "name:ml": "റോയപ്പേട്ട",
+   "name:ta": "ராயப்பேட்டை",
+   "place": "suburb",
+   "postal_code": "600014",
+   "wikidata": "Q7375146",
+   "wikimedia_commons": "Category:Royapettah",
+   "wikipedia": "en:Royapettah"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689792,
+  "lat": 13.0604285,
+  "lon": 80.2750704,
+  "tags": {
+   "alt_name": "Thiruvallikeni",
+   "is_in": "Chennai",
+   "name": "Triplicane",
+   "name:ml": "തിരുവല്ലിക്കേണി",
+   "name:ta": "திருவல்லிக்கேணி",
+   "place": "suburb",
+   "postal_code": "600005",
+   "wikidata": "Q2454031",
+   "wikimedia_commons": "Category:Triplicane",
+   "wikipedia": "en:Triplicane"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689799,
+  "lat": 13.0587829,
+  "lon": 80.2557114,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Thousand Lights",
+   "name:ml": "ആയിരം വിളക്ക്",
+   "name:ta": "ஆயிரம் விளக்கு",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689838,
+  "lat": 13.0712018,
+  "lon": 80.2669603,
+  "tags": {
+   "is_in": "Egmore",
+   "name": "Pudupet",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689846,
+  "lat": 13.0728321,
+  "lon": 80.2576906,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Egmore",
+   "name:en": "Egmore",
+   "name:hi": "एग्मोर",
+   "name:ml": "എഴുമ്പൂർ",
+   "name:ta": "எழும்பூர்",
+   "place": "suburb",
+   "wikidata": "Q2856467",
+   "wikimedia_commons": "Category:Egmore",
+   "wikipedia": "en:Egmore"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247689931,
+  "lat": 13.0742005,
+  "lon": 80.2793622,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Island Grounds",
+   "name:ml": "ദ്വീപ് മൈതാനം",
+   "name:ta": "தீவு மைதானம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247690296,
+  "lat": 13.0645131,
+  "lon": 80.2831179,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Chepauk",
+   "name:ml": "ചേപ്പാക്കം",
+   "name:ta": "சேப்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q1070155",
+   "wikimedia_commons": "Category:Chepauk",
+   "wikipedia": "en:Chepauk"
+  }
+ },
+ {
+  "type": "node",
+  "id": 247975048,
+  "lat": 13.0717448,
+  "lon": 80.2437973,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Chetpet",
+   "name:ml": "ചേത്തുപ്പട്ട്",
+   "name:ta": "சேத்துப்பட்டு",
+   "place": "suburb",
+   "wikidata": "Q5094191",
+   "wikimedia_commons": "Category:Chetput",
+   "wikipedia": "en:Chetpet (Chennai)"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248196797,
+  "lat": 13.0196693,
+  "lon": 80.2706525,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "MRC Nagar",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248420921,
+  "lat": 13.0569892,
+  "lon": 80.2037301,
+  "tags": {
+   "name": "Saligramam",
+   "name:ml": "സാലിഗ്രാമം",
+   "name:ta": "சாலிகிராமம்",
+   "place": "suburb",
+   "wikidata": "Q7404488",
+   "wikipedia": "en:Saligramam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248559479,
+  "lat": 13.0721399,
+  "lon": 80.2205453,
+  "tags": {
+   "name": "Aminjikarai",
+   "name:en": "Aminjikarai",
+   "name:hi": "अमिनजीकरै",
+   "name:ml": "അമൈന്ദക്കര",
+   "name:ta": "அமைந்தக்கரை",
+   "place": "suburb",
+   "wikidata": "Q4746424",
+   "wikipedia": "en:Aminjikarai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248559495,
+  "lat": 13.074371,
+  "lon": 80.2081312,
+  "tags": {
+   "name": "Arumbakkam",
+   "name:ml": "അരുമ്പാക്കം",
+   "name:ta": "அரும்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q3006626",
+   "wikipedia": "en:Arumbakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248559557,
+  "lat": 13.088249,
+  "lon": 80.2073398,
+  "tags": {
+   "name": "Anna Nagar",
+   "name:ml": "അണ്ണാനഗർ",
+   "name:ta": "அண்ணா நகர்",
+   "place": "suburb",
+   "wikidata": "Q565956",
+   "wikimedia_commons": "Category:Anna Nagar",
+   "wikipedia": "en:Anna Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248559761,
+  "lat": 13.104048,
+  "lon": 80.209044,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Villivakkam",
+   "name:ml": "വില്ലിവാക്കം",
+   "name:ta": "வில்லிவாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q5147067",
+   "wikimedia_commons": "Category:Villivakkam",
+   "wikipedia": "en:Villivakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248560756,
+  "lat": 13.0995307,
+  "lon": 80.2202379,
+  "tags": {
+   "name": "ICF Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248560758,
+  "lat": 13.1121242,
+  "lon": 80.245022,
+  "tags": {
+   "name": "Perambur",
+   "name:en": "Perambur",
+   "name:hi": "पेरंबूर",
+   "name:ml": "പെരമ്പൂർ",
+   "name:ta": "பெரம்பூர்",
+   "place": "suburb",
+   "wikidata": "Q3530475",
+   "wikimedia_commons": "Category:Perambur",
+   "wikipedia": "ta:பெரம்பூர்"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248560768,
+  "lat": 13.0884967,
+  "lon": 80.2783092,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Sowcarpet",
+   "name:ml": "സൗകാർപേട്ട",
+   "name:ta": "சௌகார்பேட்டை",
+   "place": "neighbourhood",
+   "wikidata": "Q7571852",
+   "wikipedia": "en:Sowcarpet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 248560791,
+  "lat": 13.1019255,
+  "lon": 80.2787773,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Vallalar Nagar",
+   "name:ml": "വെള്ളാളർ നഗർ",
+   "name:ta": "வள்ளலார் நகர்",
+   "place": "suburb",
+   "wikidata": "Q7911810",
+   "wikipedia": "en:Vallalar Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497704,
+  "lat": 13.0089932,
+  "lon": 80.2538632,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Gandhinagar",
+   "name:ml": "ഗാന്ധി നഗർ",
+   "name:ta": "காந்தி நகர்",
+   "place": "neighbourhood",
+   "wikidata": "Q5520711",
+   "wikipedia": "en:Gandhi Nagar, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497705,
+  "lat": 12.9996907,
+  "lon": 80.2682259,
+  "tags": {
+   "is_in": "Chennai",
+   "key": "600090",
+   "name": "Besant Nagar",
+   "name:ml": "ബസന്റ് നഗർ",
+   "name:ta": "பெசன்ட் நகர்",
+   "place": "suburb",
+   "wikidata": "Q3535050",
+   "wikimedia_commons": "Category:Besant Nagar",
+   "wikipedia": "en:Besant Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497711,
+  "lat": 13.00645,
+  "lon": 80.2577791,
+  "tags": {
+   "is_in": "Chennai;Tamilnadu;TN;India;IN",
+   "name": "Adyar",
+   "name:ml": "അടയാർ",
+   "name:ta": "அடையாறு",
+   "place": "suburb",
+   "postal_code": "600020",
+   "wikidata": "Q380144",
+   "wikimedia_commons": "Category:Adyar",
+   "wikipedia": "en:Adyar, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497723,
+  "lat": 13.0141864,
+  "lon": 80.2266882,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Little Mount",
+   "name:ml": "ചിന്നമല",
+   "name:ta": "சின்னமலை",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497729,
+  "lat": 13.0087095,
+  "lon": 80.2203646,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Guindy",
+   "name:en": "Guindy",
+   "name:hi": "गिंडी",
+   "name:ml": "ഗിണ്ടി",
+   "name:ta": "கிண்டி",
+   "place": "suburb",
+   "postal_code": "600032",
+   "wikidata": "Q5616433",
+   "wikipedia": "en:Guindy"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497808,
+  "lat": 12.9858948,
+  "lon": 80.2644215,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Thiruvanmiyur",
+   "name:ml": "തിരുവാൻമിയൂർ",
+   "name:ta": "திருவான்மியூர்",
+   "place": "suburb",
+   "postal_code": "600041",
+   "wikidata": "Q4739849",
+   "wikimedia_commons": "Category:Thiruvanmiyur",
+   "wikipedia": "en:Thiruvanmiyur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 249497870,
+  "lat": 13.0193703,
+  "lon": 80.2435512,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Kotturpuram",
+   "name:ml": "കോട്ടൂർപുരം",
+   "name:ta": "கோட்டூர்புரம்",
+   "place": "suburb",
+   "postal_code": "600085",
+   "wikidata": "Q6434366",
+   "wikimedia_commons": "Category:Kotturpuram",
+   "wikipedia": "en:Kotturpuram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 250319611,
+  "lat": 13.0323256,
+  "lon": 80.2280783,
+  "tags": {
+   "name": "Kannammapet",
+   "name:ml": "കണ്ണമ്മാപ്പേട്ട",
+   "name:ta": "கண்ணம்மாபேட்டை",
+   "place": "neighbourhood",
+   "wikidata": "Q6363958",
+   "wikipedia": "en:Kannammapet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 250319617,
+  "lat": 13.0293843,
+  "lon": 80.2342825,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "CIT Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 252299742,
+  "lat": 13.0777508,
+  "lon": 80.2167134,
+  "tags": {
+   "alt_name": "NSK Nagar",
+   "name": "Nagerkoyil Sudalaimuthu Krishnan Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 252299890,
+  "lat": 13.0786669,
+  "lon": 80.2272547,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Shenoy Nagar",
+   "name:ml": "ഷേണായി നഗർ",
+   "name:ta": "ஷெனாய் நகர்",
+   "place": "suburb",
+   "wikidata": "Q7494314",
+   "wikipedia": "en:Shenoy Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 252300596,
+  "lat": 13.0832149,
+  "lon": 80.2379864,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Kilpauk",
+   "name:ml": "കീഴ്പാക്കം",
+   "name:ta": "கீழ்ப்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q3133187",
+   "wikipedia": "en:Kilpauk"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254122040,
+  "lat": 13.0920917,
+  "lon": 80.2822426,
+  "tags": {
+   "historic": "yes",
+   "name": "George Town",
+   "name:ml": "ജോർജ്ജ് ടൗൺ",
+   "name:ta": "முத்தியால்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q3276293",
+   "wikimedia_commons": "Category:George Town, Chennai",
+   "wikipedia": "en:George Town, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254150702,
+  "lat": 13.0863491,
+  "lon": 80.2727321,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Park Town",
+   "name:ml": "പാർക്ക് ടൗൺ",
+   "name:ta": "பூங்கா நகர",
+   "place": "suburb",
+   "wikidata": "Q7138106",
+   "wikipedia": "en:Park Town, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254150705,
+  "lat": 13.1146195,
+  "lon": 80.2940279,
+  "tags": {
+   "name": "Royapuram",
+   "name:ml": "റോയപുരം",
+   "name:ta": "ராயபுரம்",
+   "place": "suburb",
+   "wikidata": "Q7375147",
+   "wikimedia_commons": "Category:Royapuram",
+   "wikipedia": "en:Royapuram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254151455,
+  "lat": 13.1130472,
+  "lon": 80.258722,
+  "tags": {
+   "name": "Vyasarpadi",
+   "name:ml": "വ്യാസർപാടി",
+   "name:ta": "வியாசர்பாடி",
+   "place": "suburb",
+   "wikidata": "Q16902794",
+   "wikimedia_commons": "Category:Vyasarpadi",
+   "wikipedia": "en:Vyasarpadi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254151476,
+  "lat": 13.1080471,
+  "lon": 80.2699078,
+  "tags": {
+   "name": "Basin Bridge",
+   "name:ml": "ബേസിൻ ബ്രിഡ്ജ്",
+   "name:ta": "பேசின் பிரிட்ஜ்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254151481,
+  "lat": 13.1136296,
+  "lon": 80.2814813,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Washermanpet",
+   "name:ml": "വണ്ണാരപ്പേട്ട",
+   "name:ta": "வண்ணாரப்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q5043782",
+   "wikimedia_commons": "Category:Washermanpet",
+   "wikipedia": "en:Vannarapettai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 254151775,
+  "lat": 13.0959441,
+  "lon": 80.2871013,
+  "tags": {
+   "name": "Mannady",
+   "name:ml": "മണ്ണടി",
+   "name:ta": "மண்ணடி",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256029400,
+  "lat": 13.01407,
+  "lon": 80.2091208,
+  "tags": {
+   "name": "Guindy Industrial Estate",
+   "name:ta": "கிண்டி தொழிற்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q12980235",
+   "wikipedia": "en:Guindy Thiru Vi Ka Estate"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256031797,
+  "lat": 13.0252576,
+  "lon": 80.2204237,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "West Saidapet",
+   "name:ml": "പശ്ചിമ സൈദാപേട്ട",
+   "name:ta": "மேற்கு சைதாப்பேட்டை",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256035567,
+  "lat": 13.0226153,
+  "lon": 80.2308086,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Todhunter Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256035579,
+  "lat": 13.0195105,
+  "lon": 80.2288972,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Jothiammal Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256197949,
+  "lat": 12.9202141,
+  "lon": 80.1872156,
+  "tags": {
+   "is_in": "Chennai",
+   "key": "601302",
+   "name": "Medavakkam",
+   "name:ml": "മേടവാക്കം",
+   "name:ta": "மேடவாக்கம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256197952,
+  "lat": 12.9050095,
+  "lon": 80.1968629,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Perumbakkam",
+   "name:ml": "പെരുമ്പാക്കം",
+   "name:ta": "பெரும்பாக்கம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256197956,
+  "lat": 12.8914228,
+  "lon": 80.1840304,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Sithalapakkam",
+   "name:ml": "സിത്താലപാക്കം",
+   "name:ta": "சித்தாலப்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q7531836",
+   "wikipedia": "en:Sithalapakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256197959,
+  "lat": 12.8935356,
+  "lon": 80.2320634,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Sholinganallur",
+   "name:ml": "സോളിങ്കനല്ലൂർ",
+   "name:ta": "சோழிங்கநல்லூர்",
+   "place": "suburb",
+   "postal_code": "600119",
+   "wikidata": "Q2279817",
+   "wikipedia": "en:Sholinganallur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 256202991,
+  "lat": 12.9822215,
+  "lon": 80.209121,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Adambakkam",
+   "name:ml": "ആദമ്പാക്കം",
+   "name:ta": "ஆதம்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600088",
+   "wikidata": "Q4661775",
+   "wikimedia_commons": "Category:Adambakkam",
+   "wikipedia": "en:Adambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257431352,
+  "lat": 13.0040436,
+  "lon": 80.2509384,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Kasturibai Nagar",
+   "name:ta": "கஸ்தூரிபாய் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257431353,
+  "lat": 12.9963154,
+  "lon": 80.2524199,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Indira Nagar",
+   "name:ta": "இந்திரா நகர்",
+   "place": "locality",
+   "wikidata": "Q6025044",
+   "wikipedia": "en:Indira Nagar, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257431354,
+  "lat": 12.9987729,
+  "lon": 80.2599116,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Shastri Nagar",
+   "name:ta": "சாஸ்திரி நகர்",
+   "place": "neighbourhood",
+   "wikidata": "Q7490606",
+   "wikipedia": "en:Shasthri Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257431355,
+  "lat": 12.9936352,
+  "lon": 80.266422,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Kalakshetra Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257439176,
+  "lat": 12.9491762,
+  "lon": 80.2406875,
+  "tags": {
+   "name": "Thoraipakkam",
+   "name:ml": "തുറപാക്കം",
+   "name:ta": "துறைப்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600096"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257439179,
+  "lat": 12.9710239,
+  "lon": 80.2418051,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Perungudi",
+   "name:ml": "പെരുങ്കുടി",
+   "name:ta": "பெருங்குடி",
+   "place": "suburb",
+   "postal_code": "600096",
+   "wikidata": "Q2072728",
+   "wikimedia_commons": "Category:Perungudi",
+   "wikipedia": "en:Perungudi"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257439186,
+  "lat": 12.9742161,
+  "lon": 80.2475423,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Nehru Nagar Industrial Estate",
+   "name:ta": "நேரு நகர் தொழிற்பேட்டை",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257898994,
+  "lat": 13.0401069,
+  "lon": 80.2549202,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Venus Colony",
+   "name:ta": "வீனஸ் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257899025,
+  "lat": 13.0359586,
+  "lon": 80.2534418,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "Seethammal Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257899442,
+  "lat": 13.0437065,
+  "lon": 80.253316,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "Poes Garden",
+   "name:ta": "போயஸ் கார்டன்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257937894,
+  "lat": 13.0852124,
+  "lon": 80.2258887,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Anna Nagar East",
+   "name:ta": "அண்ணா நகர் கிழக்கு",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 257937905,
+  "lat": 13.0946157,
+  "lon": 80.23541,
+  "tags": {
+   "name": "Ayanavaram",
+   "name:en": "Ayanavaram",
+   "name:hi": "अयनावरम",
+   "name:ml": "അയനാവരം",
+   "name:ta": "அயனாவரம்",
+   "place": "suburb",
+   "wikidata": "Q4830925",
+   "wikipedia": "en:Ayanavaram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 258891097,
+  "lat": 13.089344,
+  "lon": 80.2819705,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Flower Bazaar",
+   "name:ta": "பூக்கடை",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 258919089,
+  "lat": 13.1000404,
+  "lon": 80.2790836,
+  "tags": {
+   "name": "Kondithope",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 258919094,
+  "lat": 13.1005688,
+  "lon": 80.2821153,
+  "tags": {
+   "name": "Seven Wells",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 259006493,
+  "lat": 13.0665028,
+  "lon": 80.2815982,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Lock Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 259686670,
+  "lat": 13.0508508,
+  "lon": 80.2597323,
+  "tags": {
+   "is_in": "Gopalapuram",
+   "name": "Ganapathy Colony",
+   "name:ta": "கணபதி காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 264040697,
+  "lat": 13.0249209,
+  "lon": 80.2776875,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Foreshore Estate",
+   "name:ml": "പട്ടിനമ്പാക്കം",
+   "name:ta": "பட்டினம்பாக்கம்",
+   "old_name": "Foreshore Estate",
+   "place": "suburb",
+   "wikidata": "Q5468761",
+   "wikipedia": "en:Foreshore Estate"
+  }
+ },
+ {
+  "type": "node",
+  "id": 269767377,
+  "lat": 13.0134666,
+  "lon": 80.2302782,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Srinagar Colony",
+   "name:ta": "ஸ்ரீநகர் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 278512528,
+  "lat": 12.9801242,
+  "lon": 80.184902,
+  "tags": {
+   "is_in": "Alandur",
+   "name": "Nanganallur",
+   "name:ml": "നങ്കനല്ലൂർ",
+   "name:ta": "நங்கநல்லூர்",
+   "place": "suburb",
+   "postal_code": "600061",
+   "wikidata": "Q4800748",
+   "wikimedia_commons": "Category:Nanganallur",
+   "wikipedia": "en:Nanganallur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 278544356,
+  "lat": 12.9611348,
+  "lon": 80.2001292,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Madipakkam",
+   "name:ml": "മടിപ്പാക്കം",
+   "name:ta": "மடிப்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600091",
+   "wikidata": "Q2231394",
+   "wikipedia": "en:Madipakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 280510383,
+  "lat": 12.9699068,
+  "lon": 80.1893164,
+  "tags": {
+   "is_in": "Madipakkam",
+   "name": "கண்ணன் நகர்",
+   "name:en": "Kannan Nagar",
+   "name:ta": "கண்ணன் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 280510797,
+  "lat": 12.9721642,
+  "lon": 80.1905716,
+  "tags": {
+   "is_in": "Nanganallur",
+   "name": "Balaji Nagar",
+   "name:ta": "பாலாஜி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 280518793,
+  "lat": 12.9691428,
+  "lon": 80.2062626,
+  "tags": {
+   "name": "Puzhuthivakkam",
+   "name:ml": "പുഴുതിവാക്കം",
+   "name:ta": "புழுதிவாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q2716320",
+   "wikipedia": "en:Puzhuthivakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 280521191,
+  "lat": 12.9653558,
+  "lon": 80.2118131,
+  "tags": {
+   "name": "Ram Nagar",
+   "name:ta": "ராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 280521508,
+  "lat": 12.9651292,
+  "lon": 80.2028543,
+  "tags": {
+   "name": "Sadasiva Nagar",
+   "name:ta": "சதாசிவ நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 282001734,
+  "lat": 13.1277669,
+  "lon": 80.2895845,
+  "tags": {
+   "name": "Tondiarpet",
+   "name:en": "Tondiarpet",
+   "name:hi": "तोंदिअर्पेट",
+   "name:ml": "തണ്ടയാർപേട്ട",
+   "name:ta": "தண்டையார்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q7820801",
+   "wikipedia": "en:Tondiarpet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 282003246,
+  "lat": 13.1308188,
+  "lon": 80.2561816,
+  "tags": {
+   "name": "Kodungaiyur",
+   "name:ml": "കൊടുങ്കയൂർ",
+   "name:ta": "கொடுங்கையூர்",
+   "place": "suburb",
+   "wikidata": "Q6425464",
+   "wikipedia": "en:Kodungaiyur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289513621,
+  "lat": 13.1122762,
+  "lon": 80.2893812,
+  "tags": {
+   "name": "Old Washermanpet",
+   "name:ml": "പഴയ വാഷർമൻപേട്ട",
+   "name:ta": "பழைய வண்ணாரப்பேட்டை",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289687358,
+  "lat": 13.1429527,
+  "lon": 80.2955738,
+  "tags": {
+   "name": "Tollgate",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289741257,
+  "lat": 13.11809,
+  "lon": 80.2914726,
+  "tags": {
+   "name": "Grace Garden",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289741260,
+  "lat": 13.1215344,
+  "lon": 80.2837912,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Korukkupet",
+   "name:ml": "കൊരുക്കുപേട്ട",
+   "name:ta": "கோருக்குப்பெட்டை",
+   "place": "suburb",
+   "wikidata": "Q6432749",
+   "wikipedia": "en:Korukkupet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289741266,
+  "lat": 13.1338663,
+  "lon": 80.2903592,
+  "tags": {
+   "name": "New Washermanpet",
+   "name:ml": "പുതിയ വാഷർമൻപേട്ട",
+   "name:ta": "புதிய வண்ணாரப்பேட்டை",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289968697,
+  "lat": 13.1392974,
+  "lon": 80.2915889,
+  "tags": {
+   "name": "Jeeva Nagar",
+   "name:ml": "ജീവ നഗർ",
+   "name:ta": "ஜீவா நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 289968698,
+  "lat": 13.138415,
+  "lon": 80.2971562,
+  "tags": {
+   "name": "Cherian Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290019905,
+  "lat": 13.1297672,
+  "lon": 80.2619539,
+  "tags": {
+   "created_by": "Potlatch 0.10a",
+   "is_in": "Kodungaiyur",
+   "name": "Kannadasan Nagar",
+   "name:ta": "கண்ணதாசன் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290019906,
+  "lat": 13.1334717,
+  "lon": 80.2495711,
+  "tags": {
+   "created_by": "Potlatch 0.10a",
+   "name": "Muthamizh Nagar",
+   "name:ta": "முத்தமிழ் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290019982,
+  "lat": 13.1285591,
+  "lon": 80.2676492,
+  "tags": {
+   "is_in": "Kodungaiyur",
+   "name": "Rajarathinam Colony",
+   "name:ta": "ராஜரத்தினம் காலனி",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290347194,
+  "lat": 13.1225331,
+  "lon": 80.2631374,
+  "tags": {
+   "name": "MKB Nagar",
+   "place": "locality",
+   "wikidata": "Q15243267",
+   "wikipedia": "en:Mahakavi Bharathi Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290352311,
+  "lat": 13.1008425,
+  "lon": 80.2626247,
+  "tags": {
+   "name": "Pulianthope",
+   "name:ta": "புளியந்தோப்பு",
+   "place": "suburb",
+   "wikidata": "Q24943882",
+   "wikipedia": "en:Pulianthope"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290352312,
+  "lat": 13.0842952,
+  "lon": 80.2622738,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Vepery",
+   "name:ml": "വെപ്പേരി",
+   "name:ta": "வேப்பேரி",
+   "place": "suburb",
+   "wikidata": "Q16902610",
+   "wikipedia": "en:Vepery"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290352313,
+  "lat": 13.0893275,
+  "lon": 80.2550331,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Purasawalkam",
+   "name:ml": "പുരസവാക്കം",
+   "name:ta": "புரசைவாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q7260855",
+   "wikipedia": "en:Purasawalkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290645397,
+  "lat": 13.1220126,
+  "lon": 80.2412158,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "name": "Sembiyam",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290646778,
+  "lat": 13.1158479,
+  "lon": 80.2295822,
+  "tags": {
+   "name": "Agaram",
+   "name:ta": "அகரம்",
+   "place": "neighbourhood",
+   "wikidata": "Q28178682",
+   "wikipedia": "en:Agaram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290649330,
+  "lat": 13.1119148,
+  "lon": 80.2207023,
+  "tags": {
+   "name": "GKM Colony",
+   "place": "locality",
+   "wikidata": "Q5531993",
+   "wikipedia": "en:General Kumaramangalam Colony"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290657152,
+  "lat": 13.1075596,
+  "lon": 80.2009613,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "name": "SIDCO Nagar",
+   "name:ta": "சிட்கோ நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290728853,
+  "lat": 13.036329,
+  "lon": 80.2195477,
+  "tags": {
+   "name": "Postal Colony",
+   "name:ta": "தபால் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290734575,
+  "lat": 13.0511219,
+  "lon": 80.2247578,
+  "tags": {
+   "name": "United India Colony",
+   "name:ta": "யுனைடெட் இந்தியா காலனி",
+   "place": "neighbourhood",
+   "wikidata": "Q7887869",
+   "wikipedia": "en:United India Colony"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290741766,
+  "lat": 13.0341197,
+  "lon": 80.1990398,
+  "tags": {
+   "name": "Maruthur Gopalan Ramachandran Nagar",
+   "name:ta": "மருதூர் கோபாலன் ராமச்சந்திரன் நகர்",
+   "place": "neighbourhood",
+   "wikidata": "Q6715767",
+   "wikipedia": "en:MGR Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290741806,
+  "lat": 13.0299496,
+  "lon": 80.2054201,
+  "tags": {
+   "name": "Jafferkhanpet",
+   "name:ml": "ജാഫർഖാൻപേട്ട",
+   "name:ta": "ஜாஃபர்கான் பேட்டை",
+   "place": "neighbourhood",
+   "wikidata": "Q6121944",
+   "wikipedia": "en:Jafferkhanpet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290747272,
+  "lat": 13.0344902,
+  "lon": 80.1913012,
+  "tags": {
+   "name": "Nesapakkam",
+   "name:ml": "നെസപ്പാക്കം",
+   "name:ta": "நெசப்பாக்கம்",
+   "place": "neighbourhood",
+   "wikidata": "Q6997127",
+   "wikipedia": "en:Nesapakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 290752888,
+  "lat": 13.0537733,
+  "lon": 80.1989368,
+  "tags": {
+   "is_in": "Saligramam",
+   "name": "SBI Colony",
+   "name:ta": "எஸ்பிஐ காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 291008481,
+  "lat": 13.0693886,
+  "lon": 80.2142703,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "name": "MMDA Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293396984,
+  "lat": 13.0703783,
+  "lon": 80.2268067,
+  "tags": {
+   "is_in": "Aminjikarai",
+   "name": "Mehta Nagar",
+   "name:ta": "மேத்தா நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293397048,
+  "lat": 13.064553,
+  "lon": 80.2199644,
+  "tags": {
+   "name": "NGO Colony",
+   "name:ta": "என்.ஜி.ஓ. காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293704147,
+  "lat": 13.1291684,
+  "lon": 80.2416991,
+  "tags": {
+   "name": "Moolakadai",
+   "name:ta": "மூலக்கடை",
+   "place": "locality",
+   "wikidata": "Q6907355",
+   "wikipedia": "en:Moolakadai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293712141,
+  "lat": 13.093725,
+  "lon": 80.2527966,
+  "tags": {
+   "name": "Poompuhar Nagar",
+   "name:ta": "பூம்புகார் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293712223,
+  "lat": 13.1157422,
+  "lon": 80.2249267,
+  "tags": {
+   "name": "Periyar Nagar",
+   "name:ml": "പെരിയാർ നഗർ",
+   "name:ta": "பெரியார் நகர்",
+   "place": "neighbourhood",
+   "wikidata": "Q16898238",
+   "wikipedia": "en:Periyar Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 293713653,
+  "lat": 13.1216402,
+  "lon": 80.202656,
+  "tags": {
+   "name": "Senthil Nagar",
+   "name:ta": "செந்தில் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073575,
+  "lat": 13.0166484,
+  "lon": 80.1911885,
+  "tags": {
+   "is_in": "Chennai;Tamilnadu;TN;India;IN",
+   "name": "Nandambakkam",
+   "name:ml": "നന്ദമ്പാക്കം",
+   "name:ta": "நந்தம்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q2725612",
+   "wikipedia": "en:Nandambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073596,
+  "lat": 13.0147531,
+  "lon": 80.1744935,
+  "tags": {
+   "addr:postcode": "600116",
+   "name": "Manapakkam",
+   "name:ml": "മണപ്പാക്കം",
+   "name:ta": "மணப்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q2541763",
+   "wikipedia": "en:Manapakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073614,
+  "lat": 13.0205798,
+  "lon": 80.1685163,
+  "tags": {
+   "is_in": "Chennai;Tamilnadu;TN;India;IN",
+   "name": "Mugalivakkam",
+   "name:ml": "മുകലിവാക്കം",
+   "name:ta": "முகலிவாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q6932073",
+   "wikipedia": "en:Mugalivakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073618,
+  "lat": 13.0235157,
+  "lon": 80.1534231,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "name": "Madanandapuram",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073619,
+  "lat": 13.0222692,
+  "lon": 80.1413929,
+  "tags": {
+   "name": "Moulivakkam",
+   "name:ml": "മൗലിവാക്കം",
+   "name:ta": "மௌலிவாக்கம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073620,
+  "lat": 13.0097074,
+  "lon": 80.1528994,
+  "tags": {
+   "name": "Kolapakkam",
+   "name:ml": "കൊളപാക്കം",
+   "name:ta": "கொளப்பாக்கம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073621,
+  "lat": 13.001751,
+  "lon": 80.1375408,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "name": "Gerugambakkam",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073651,
+  "lat": 13.0197597,
+  "lon": 80.1198333,
+  "tags": {
+   "name": "Chinnapanicheri",
+   "name:ml": "ചിന്നപനിച്ചേരി",
+   "name:ta": "சின்னபனிச்சேரி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073653,
+  "lat": 13.0219605,
+  "lon": 80.1305905,
+  "tags": {
+   "name": "Paraniputhur",
+   "name:ml": "പരണിപുത്തൂർ",
+   "name:ta": "பரணிபுத்தூர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073674,
+  "lat": 13.0322681,
+  "lon": 80.1429588,
+  "tags": {
+   "name": "Thelliyaragaram",
+   "name:ml": "തെല്ലിയാകരം",
+   "name:ta": "தேல்லியாகரம்",
+   "place": "neighbourhood",
+   "wikidata": "Q140502343",
+   "wikipedia": "en:Thelliyar Agaram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073676,
+  "lat": 13.0322406,
+  "lon": 80.1307391,
+  "tags": {
+   "name": "Srinivasapuram",
+   "name:ta": "சீனிவாசபுரம்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 294073678,
+  "lat": 13.0357705,
+  "lon": 80.133653,
+  "tags": {
+   "name": "Iyappanthangal",
+   "name:ml": "അയ്യപ്പൻതാങ്കൽ",
+   "name:ta": "ஐயப்பன்தாங்கல்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 295539859,
+  "lat": 13.0862695,
+  "lon": 80.2370386,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Aspiran Garden",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 295539862,
+  "lat": 13.0845407,
+  "lon": 80.2311064,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Kilpauk Garden",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 298389659,
+  "lat": 13.0486971,
+  "lon": 80.2281137,
+  "tags": {
+   "name": "Aziz Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 298471030,
+  "lat": 13.0499741,
+  "lon": 80.2201288,
+  "tags": {
+   "name": "Kamarajar Colony",
+   "name:ta": "காமராஜர் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 300218898,
+  "lat": 13.052264,
+  "lon": 80.1916925,
+  "tags": {
+   "name": "Virugambakkam",
+   "name:ml": "വിരുഗമ്പാക്കം",
+   "name:ta": "விருகம்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q7935268",
+   "wikipedia": "en:Virugambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 300224864,
+  "lat": 13.0331309,
+  "lon": 80.2109268,
+  "tags": {
+   "created_by": "Potlatch 0.10c",
+   "name": "Indira Colony",
+   "name:ta": "இந்திரா காலனி",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 300397976,
+  "lat": 12.9968645,
+  "lon": 80.2616099,
+  "tags": {
+   "created_by": "Potlatch 0.10c",
+   "name": "Vannanthurai",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 300469486,
+  "lat": 12.9854291,
+  "lon": 80.212138,
+  "tags": {
+   "is_in": "Adambakkam",
+   "name": "Lakshmi Hayagriva Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301135484,
+  "lat": 12.9738279,
+  "lon": 80.1670775,
+  "tags": {
+   "name": "Tirusulam",
+   "name:ml": "തിരുശൂലം",
+   "name:ta": "திருசூலம்",
+   "place": "suburb",
+   "wikidata": "Q2229582",
+   "wikipedia": "en:Tirusulam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301136096,
+  "lat": 12.9778604,
+  "lon": 80.179105,
+  "tags": {
+   "is_in": "Nanganallur",
+   "name": "Bakhtavachalam Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301207899,
+  "lat": 13.0433092,
+  "lon": 80.2130163,
+  "tags": {
+   "name": "Ottagapalayam",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301435966,
+  "lat": 13.0527789,
+  "lon": 80.2070459,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Kumaran Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301699453,
+  "lat": 13.0497555,
+  "lon": 80.202848,
+  "tags": {
+   "name": "Velayudam Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301699475,
+  "lat": 13.0572099,
+  "lon": 80.2033582,
+  "tags": {
+   "name": "Devaraj Nagar",
+   "name:ta": "தேவராஜ் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301731218,
+  "lat": 12.9765868,
+  "lon": 80.1967196,
+  "tags": {
+   "comment": "changed to suburb from town",
+   "is_in": "Chennai",
+   "name": "Ullagaram",
+   "name:ml": "ഉള്ളകരം",
+   "name:ta": "உல்லகரம்",
+   "place": "suburb",
+   "wikidata": "Q2716320",
+   "wikipedia": "en:Puzhuthivakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301734430,
+  "lat": 12.9693665,
+  "lon": 80.1833591,
+  "tags": {
+   "name": "Moovarasampettai",
+   "name:ml": "മൂവരസംപേട്ട",
+   "name:ta": "மூவரசம்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q2541545",
+   "wikipedia": "en:Moovarasampettai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301758149,
+  "lat": 13.0521036,
+  "lon": 80.2500075,
+  "tags": {
+   "is_in": "Nungambakkam",
+   "name": "Gemini",
+   "name:ta": "ஜெமினி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 301947537,
+  "lat": 13.0469862,
+  "lon": 80.2519362,
+  "tags": {
+   "name": "Ellaiamman Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 303284338,
+  "lat": 13.0849322,
+  "lon": 80.2787202,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Evening Bazaar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 304275581,
+  "lat": 13.1229847,
+  "lon": 80.2533028,
+  "tags": {
+   "created_by": "Potlatch 0.10e",
+   "name": "Sharma Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 304287902,
+  "lat": 13.0079401,
+  "lon": 80.2263985,
+  "tags": {
+   "name": "Raj Bhavan",
+   "name:ta": "ராஜ் பவன்",
+   "place": "neighbourhood",
+   "postal_code": "600022",
+   "wikidata": "Q7285281",
+   "wikimedia_commons": "Category:Raj Bhavan (Tamil Nadu)",
+   "wikipedia": "en:Raj Bhavan (Chennai)"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306113450,
+  "lat": 12.9705053,
+  "lon": 80.2615033,
+  "tags": {
+   "name": "Kottivakkam",
+   "name:ml": "കൊട്ടിവാക്കം",
+   "name:ta": "கொட்டிவாக்கம்",
+   "place": "suburb",
+   "postal_code": "600041",
+   "wikidata": "Q2244079",
+   "wikipedia": "en:Kottivakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306113540,
+  "lat": 12.95999,
+  "lon": 80.2560268,
+  "tags": {
+   "local_ref": "IIT",
+   "name": "Palavakkam",
+   "name:ml": "പാലവാക്കം",
+   "name:ta": "பாலவாக்கம்",
+   "place": "suburb",
+   "postal_code": "600041",
+   "source": "GPS",
+   "wikidata": "Q2718134",
+   "wikimedia_commons": "Category:Palavakkam",
+   "wikipedia": "en:Palavakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306114285,
+  "lat": 12.9454955,
+  "lon": 80.2574692,
+  "tags": {
+   "name": "Neelankarai",
+   "name:ml": "നീലാങ്കര",
+   "name:ta": "நீலாங்கரை",
+   "place": "suburb",
+   "postal_code": "600041",
+   "wikidata": "Q12435937",
+   "wikimedia_commons": "Category:Neelankarai",
+   "wikipedia": "en:Neelankarai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306114498,
+  "lat": 12.9757425,
+  "lon": 80.2209882,
+  "tags": {
+   "name": "Vijaynagar",
+   "name:ta": "விஜயநகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115244,
+  "lat": 12.9427371,
+  "lon": 80.1966166,
+  "tags": {
+   "alt_name": "S Kolathur",
+   "is_in": "Chennai",
+   "name": "Sunnambu Kulathur",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115288,
+  "lat": 12.9417967,
+  "lon": 80.2083837,
+  "tags": {
+   "name": "Narayanapuram",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115540,
+  "lat": 12.9197533,
+  "lon": 80.2016924,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Jalladampet",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115629,
+  "lat": 12.9117073,
+  "lon": 80.2277203,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Karapakkam",
+   "name:ml": "കാരപ്പാക്കം",
+   "name:ta": "காரப்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600096",
+   "wikidata": "Q6368565",
+   "wikipedia": "en:Karapakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115800,
+  "lat": 12.9189367,
+  "lon": 80.251295,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Injambakkam",
+   "name:ml": "ഇഞ്ചമ്പാക്കം",
+   "name:ta": "ஈஞ்சம்பாக்கம்",
+   "place": "suburb",
+   "postal_code": "600041",
+   "wikidata": "Q1753737",
+   "wikimedia_commons": "Category:Injambakkam",
+   "wikipedia": "en:Injambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 306115841,
+  "lat": 12.8687677,
+  "lon": 80.247209,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Uthandi",
+   "name:ml": "ഉത്തണ്ടി",
+   "name:ta": "உத்தண்டி",
+   "place": "suburb",
+   "postal_code": "600119"
+  }
+ },
+ {
+  "type": "node",
+  "id": 308914614,
+  "lat": 12.9744987,
+  "lon": 80.1863675,
+  "tags": {
+   "is_in": "Nanganallur",
+   "name": "Voltas Colony",
+   "name:ta": "வோல்டாஸ் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 308915449,
+  "lat": 12.9739802,
+  "lon": 80.1931481,
+  "tags": {
+   "is_in": "Madipakkam",
+   "name": "Union Carbide Colony",
+   "name:ta": "யூனியன் கார்பைட் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 310363802,
+  "lat": 12.9159656,
+  "lon": 80.1739903,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Chennai",
+   "name": "Santoshapuram",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 310910972,
+  "lat": 12.9883524,
+  "lon": 80.1891324,
+  "tags": {
+   "is_in": "Alandur",
+   "name": "Pazhavanthangal",
+   "name:ml": "പഴവന്താങ്കൽ",
+   "name:ta": "பழவந்தாங்கல்",
+   "place": "suburb",
+   "postal_code": "600114",
+   "wikidata": "Q7126919",
+   "wikipedia": "en:Palavanthangal"
+  }
+ },
+ {
+  "type": "node",
+  "id": 310911805,
+  "lat": 12.989843,
+  "lon": 80.1936624,
+  "tags": {
+   "is_in": "Nanganallur",
+   "name": "Thillai Ganga Nagar",
+   "name:ta": "தில்லை கங்கா நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 311286870,
+  "lat": 13.0844145,
+  "lon": 80.2692766,
+  "tags": {
+   "addr:postcode": "600012",
+   "name": "Periamet",
+   "place": "neighbourhood",
+   "postal_code": "600012",
+   "wikidata": "Q15265970",
+   "wikipedia": "en:Periamet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 312024616,
+  "lat": 13.0035494,
+  "lon": 80.2443172,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Sriram Nagar",
+   "name:ta": "ஸ்ரீராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313139278,
+  "lat": 12.9804404,
+  "lon": 80.2645577,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Valmiki Nagar",
+   "name:ta": "வால்மீகி நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313443780,
+  "lat": 12.9866009,
+  "lon": 80.1726357,
+  "tags": {
+   "name": "Meenambakkam",
+   "name:ml": "മീനമ്പാക്കം",
+   "name:ta": "மீனம்பாக்கம்",
+   "place": "suburb",
+   "wikidata": "Q1916794",
+   "wikimedia_commons": "Category:Meenambakkam",
+   "wikipedia": "en:Meenambakkam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313774973,
+  "lat": 13.0087347,
+  "lon": 80.2608522,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Arunachalapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313775083,
+  "lat": 13.0045512,
+  "lon": 80.2587292,
+  "tags": {
+   "description": "GRE(Graduate Record Examination) is very important exam to get enrolled in top universities around the world. We at GREedge are here to help with all required coaching. Visit www.greedge.com to know more in details.",
+   "is_in": "Adyar",
+   "name": "Padmanabha Nagar",
+   "name:ta": "பத்மநாப நகர்",
+   "place": "neighbourhood",
+   "website": "https://www.greedge.com/"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313775085,
+  "lat": 13.0071776,
+  "lon": 80.2615446,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Karpagam Garden",
+   "name:ta": "கற்பகம் கார்டன்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313775328,
+  "lat": 13.002057,
+  "lon": 80.2606946,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Jeevarathinam Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313775329,
+  "lat": 13.0027868,
+  "lon": 80.2581254,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Parameswari Nagar",
+   "name:ta": "பரமேஸ்வரி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 313786571,
+  "lat": 12.994345,
+  "lon": 80.2586907,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Radhakrishnan Nagar",
+   "name:ta": "ராதாகிருஷ்ணன் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 314913063,
+  "lat": 13.0555649,
+  "lon": 80.2233364,
+  "tags": {
+   "is_in": "Kodambakkam",
+   "name": "Trustpuram",
+   "name:ta": "டிரஸ்ட் புரம்",
+   "place": "neighbourhood",
+   "wikidata": "Q7848228",
+   "wikipedia": "en:Trustpuram"
+  }
+ },
+ {
+  "type": "node",
+  "id": 319176353,
+  "lat": 13.0761258,
+  "lon": 80.270781,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Chintadripet",
+   "name:ml": "ചിന്താദ്രിപേട്ട",
+   "name:ta": "சிந்தாதிரிப்பேட்டை",
+   "place": "suburb",
+   "wikidata": "Q5101291",
+   "wikipedia": "en:Chintadripet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 321186195,
+  "lat": 13.1287209,
+  "lon": 80.2724837,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Kodungaiyur",
+   "name": "Ezhil Nagar",
+   "name:ta": "எழில் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 325198962,
+  "lat": 12.9849067,
+  "lon": 80.2404069,
+  "tags": {
+   "is_in": "Chennai;Tamilnadu;TN;India;IN",
+   "name": "Taramani",
+   "name:ml": "തരമണി",
+   "name:ta": "தரமணி",
+   "place": "suburb",
+   "wikidata": "Q4739739",
+   "wikipedia": "en:Tharamani"
+  }
+ },
+ {
+  "type": "node",
+  "id": 333218841,
+  "lat": 13.0873218,
+  "lon": 80.258079,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Doveton",
+   "place": "neighbourhood",
+   "wikidata": "Q27962016",
+   "wikipedia": "en:Doveton, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201327,
+  "lat": 12.9794114,
+  "lon": 80.2581619,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Thiruvanmiyur",
+   "name": "Ganesh Nagar",
+   "name:ta": "கணேஷ் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201335,
+  "lat": 12.9787571,
+  "lon": 80.25546,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Devendra Nagar",
+   "name:ta": "தேவேந்திர நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201359,
+  "lat": 12.9763834,
+  "lon": 80.2565187,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "PTC Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201370,
+  "lat": 12.9745922,
+  "lon": 80.2564334,
+  "tags": {
+   "is_in": "Kottivakkam",
+   "name": "AGS Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201383,
+  "lat": 12.9749674,
+  "lon": 80.2600077,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Thiruvanmiyur",
+   "name": "Srinivasa Nagar",
+   "name:ta": "சீனிவாச நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334201392,
+  "lat": 12.9770564,
+  "lon": 80.2625371,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Tiruvalluvar Nagar",
+   "name:ta": "திருவள்ளுவர் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334267235,
+  "lat": 12.9900052,
+  "lon": 80.2666669,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Nava Bharath Colony",
+   "name:ta": "நவ பரத் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334267244,
+  "lat": 12.9909416,
+  "lon": 80.2606111,
+  "tags": {
+   "created_by": "Potlatch 0.10b",
+   "is_in": "Thiruvanmiyur",
+   "name": "Sriram Nagar",
+   "name:ta": "ஸ்ரீராம் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 334596004,
+  "lat": 12.9833689,
+  "lon": 80.2661849,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Thiruvanmiyur",
+   "name": "Teachers Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 335480495,
+  "lat": 13.003406,
+  "lon": 80.2530941,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Bakthavatchalam Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 335535144,
+  "lat": 13.00328,
+  "lon": 80.2620566,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Venkateswara Nagar",
+   "name:ta": "வெங்கடேஸ்வரா நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 335535157,
+  "lat": 13.0018073,
+  "lon": 80.2629813,
+  "tags": {
+   "is_in": "Adyar",
+   "name": "Damodarapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 335755162,
+  "lat": 12.8573272,
+  "lon": 80.2005344,
+  "tags": {
+   "name": "Karanai",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 335755630,
+  "lat": 12.9062546,
+  "lon": 80.1890144,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Veerabadhra Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 338406849,
+  "lat": 12.9835252,
+  "lon": 80.2159236,
+  "tags": {
+   "is_in": "Velachery",
+   "name": "Gangai Nagar",
+   "name:ta": "கங்கை நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 339988118,
+  "lat": 13.05672,
+  "lon": 80.2797427,
+  "tags": {
+   "name": "Mattankuppam",
+   "name:ml": "മട്ടൻകുപ്പം",
+   "name:ta": "மட்டன்குப்பம்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 343406007,
+  "lat": 13.0549266,
+  "lon": 80.2054668,
+  "tags": {
+   "is_in": "Vadapalani",
+   "name": "Dhanalkshmi Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344413691,
+  "lat": 13.0906283,
+  "lon": 80.2621417,
+  "tags": {
+   "name": "Choolai",
+   "name:ml": "ചൂല",
+   "name:ta": "சூலை",
+   "place": "suburb",
+   "wikidata": "Q15209945",
+   "wikipedia": "en:Choolai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344422033,
+  "lat": 13.106081,
+  "lon": 80.2487069,
+  "tags": {
+   "name": "Jamalaya Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344422071,
+  "lat": 13.107125,
+  "lon": 80.2634419,
+  "tags": {
+   "is_in": "Vyasarpadi",
+   "name": "Kannigapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344423018,
+  "lat": 13.1075542,
+  "lon": 80.2540237,
+  "tags": {
+   "name": "Mettupalayam",
+   "name:ta": "மேட்டுப்பாளையம்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344425994,
+  "lat": 13.1043525,
+  "lon": 80.2443478,
+  "tags": {
+   "name": "Ekangipuram",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344458305,
+  "lat": 13.0939346,
+  "lon": 80.2547909,
+  "tags": {
+   "name": "Kosapet",
+   "place": "locality",
+   "wikidata": "Q6432988",
+   "wikimedia_commons": "Category:Kosapet",
+   "wikipedia": "en:Kosapet"
+  }
+ },
+ {
+  "type": "node",
+  "id": 344492756,
+  "lat": 13.0969576,
+  "lon": 80.2487215,
+  "tags": {
+   "name": "Otteri",
+   "name:ml": "ഓട്ടേരി",
+   "name:ta": "ஓட்டேரி",
+   "place": "suburb",
+   "wikidata": "Q15264673",
+   "wikipedia": "en:Otteri"
+  }
+ },
+ {
+  "type": "node",
+  "id": 347360785,
+  "lat": 13.0540558,
+  "lon": 80.1953376,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Saligramam",
+   "name": "Tharachand Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 355515108,
+  "lat": 13.031397,
+  "lon": 80.2500591,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "Sriram Nagar",
+   "name:ta": "ஸ்ரீராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 355982191,
+  "lat": 13.0829169,
+  "lon": 80.2615578,
+  "tags": {
+   "is_in": "Vepery",
+   "name": "Mahaveer Colony",
+   "name:ta": "மஹாவீர் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 357924664,
+  "lat": 13.0622141,
+  "lon": 80.1991841,
+  "tags": {
+   "name": "Chinmaya Nagar",
+   "name:ta": "சின்மயா நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 360894240,
+  "lat": 13.0041761,
+  "lon": 80.2732889,
+  "tags": {
+   "name": "Urur Kuppam",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 361000031,
+  "lat": 13.0537639,
+  "lon": 80.2012328,
+  "tags": {
+   "is_in": "Vadapalani",
+   "name": "Kaveri Rangan Colony",
+   "name:ta": "காவேரி ரங்கன் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 363652703,
+  "lat": 13.0344987,
+  "lon": 80.2474473,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "Seethammal Colony Extension",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364278256,
+  "lat": 13.0252622,
+  "lon": 80.2049078,
+  "tags": {
+   "name": "Kalaimagal Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364279139,
+  "lat": 13.0220072,
+  "lon": 80.1995027,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "is_in": "Chennai",
+   "name": "Defence Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364279392,
+  "lat": 13.016778,
+  "lon": 80.1987308,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Sundar Nagar",
+   "name:ta": "சுந்தர் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364280369,
+  "lat": 13.0242453,
+  "lon": 80.2065506,
+  "tags": {
+   "name": "Ekkattuthangal",
+   "name:ml": "ഈക്കാട്ടുത്താങ്കൽ",
+   "name:ta": "ஈக்காட்டுத்தாங்கல்",
+   "place": "suburb",
+   "wikidata": "Q5350460",
+   "wikipedia": "en:Ekkaduthangal"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364571579,
+  "lat": 13.0183525,
+  "lon": 80.2044501,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Ambal Nagar",
+   "name:ta": "அம்பாள் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 364873652,
+  "lat": 13.0230861,
+  "lon": 80.201086,
+  "tags": {
+   "name": "Navaratna Gardens",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 365784585,
+  "lat": 13.0282675,
+  "lon": 80.1962764,
+  "tags": {
+   "name": "Burma Colony",
+   "name:ta": "பர்மா காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 365784878,
+  "lat": 13.0202783,
+  "lon": 80.2010261,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Achutan Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 366456171,
+  "lat": 13.0282882,
+  "lon": 80.206826,
+  "tags": {
+   "name": "Vasudevan Nagar",
+   "name:ta": "வாசுதேவன் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 366460967,
+  "lat": 13.0300387,
+  "lon": 80.201651,
+  "tags": {
+   "name": "Sapthagiri Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 367789091,
+  "lat": 13.0229157,
+  "lon": 80.2048683,
+  "tags": {
+   "name": "Balaji Nagar",
+   "name:ta": "பாலாஜி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392408,
+  "lat": 13.0868775,
+  "lon": 80.2116651,
+  "tags": {
+   "name": "Y Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392409,
+  "lat": 13.0866698,
+  "lon": 80.2164999,
+  "tags": {
+   "name": "W Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392410,
+  "lat": 13.0875112,
+  "lon": 80.2140285,
+  "tags": {
+   "name": "X Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392411,
+  "lat": 13.0914061,
+  "lon": 80.216724,
+  "tags": {
+   "name": "Q Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392412,
+  "lat": 13.0914541,
+  "lon": 80.2141958,
+  "tags": {
+   "name": "R Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392413,
+  "lat": 13.0915341,
+  "lon": 80.2119077,
+  "tags": {
+   "name": "S Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392414,
+  "lat": 13.089614,
+  "lon": 80.2119237,
+  "tags": {
+   "name": "V Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392415,
+  "lat": 13.089518,
+  "lon": 80.2141798,
+  "tags": {
+   "name": "U Block",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392416,
+  "lat": 13.089406,
+  "lon": 80.2165159,
+  "tags": {
+   "name": "T Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392418,
+  "lat": 13.0869258,
+  "lon": 80.2194441,
+  "tags": {
+   "name": "E Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 368392420,
+  "lat": 13.0868298,
+  "lon": 80.2216363,
+  "tags": {
+   "name": "F Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 369149434,
+  "lat": 13.0154717,
+  "lon": 80.2094084,
+  "tags": {
+   "name": "Labour Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 369932290,
+  "lat": 13.033573,
+  "lon": 80.2044056,
+  "tags": {
+   "name": "Bharathidasan Colony",
+   "name:ta": "பாரதிதாசன் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 384508835,
+  "lat": 13.0828189,
+  "lon": 80.2433281,
+  "tags": {
+   "is_in": "Kilpauk",
+   "name": "Kellys",
+   "place": "neighbourhood",
+   "wikidata": "Q28178679",
+   "wikipedia": "en:Kellys"
+  }
+ },
+ {
+  "type": "node",
+  "id": 386002557,
+  "lat": 13.0296417,
+  "lon": 80.2403771,
+  "tags": {
+   "is_in": "Nandanam",
+   "name": "Lotus Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 386002558,
+  "lat": 13.0281859,
+  "lon": 80.2433142,
+  "tags": {
+   "is_in": "Nandanam",
+   "name": "Nandanam Extension",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389518725,
+  "lat": 13.0308533,
+  "lon": 80.2450086,
+  "tags": {
+   "is_in": "Alwarpet",
+   "name": "Ganesapuram",
+   "name:ta": "கணேசபுரம்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389787266,
+  "lat": 13.0428496,
+  "lon": 80.1949051,
+  "tags": {
+   "is_in:suburb": "K.K.Nagar",
+   "name": "Sector 10",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389787308,
+  "lat": 13.0428163,
+  "lon": 80.1958341,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 9 Santosh Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389787310,
+  "lat": 13.0419763,
+  "lon": 80.2005224,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 4",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389847165,
+  "lat": 13.0415271,
+  "lon": 80.2036866,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 3",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389847168,
+  "lat": 13.0393787,
+  "lon": 80.2029891,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 2",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389877057,
+  "lat": 13.0397174,
+  "lon": 80.2008875,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 5",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389877088,
+  "lat": 13.040186,
+  "lon": 80.1976881,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 8",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389877090,
+  "lat": 13.040635,
+  "lon": 80.1945064,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 11",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389903332,
+  "lat": 13.0374993,
+  "lon": 80.2026575,
+  "tags": {
+   "is_in:suburb": "K.K.Nagar",
+   "name": "Sector 1",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389903333,
+  "lat": 13.0377793,
+  "lon": 80.1998576,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 6",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389903335,
+  "lat": 13.0381441,
+  "lon": 80.1973292,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 7",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389903336,
+  "lat": 13.0385747,
+  "lon": 80.1942789,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 12",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389948937,
+  "lat": 13.0410036,
+  "lon": 80.2075603,
+  "tags": {
+   "is_in:suburb": "K.K.Nagar",
+   "name": "Sector 13",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 389948938,
+  "lat": 13.0440835,
+  "lon": 80.2064912,
+  "tags": {
+   "is_in": "KK Nagar",
+   "name": "Sector 14",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 391874314,
+  "lat": 13.0278946,
+  "lon": 80.2090761,
+  "tags": {
+   "name": "Paari Nagar",
+   "name:ta": "பாரி நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401654480,
+  "lat": 12.927645,
+  "lon": 80.2396671,
+  "tags": {
+   "name": "Kannagi Nagar",
+   "name:ta": "கண்ணகி நகர்",
+   "place": "neighbourhood",
+   "population": "400000"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401706040,
+  "lat": 12.9341073,
+  "lon": 80.2361523,
+  "tags": {
+   "name": "PTC Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401769766,
+  "lat": 12.9900554,
+  "lon": 80.2074843,
+  "tags": {
+   "name": "Dr Ambedkar Nagar",
+   "name:ta": "டாக்டர் அம்பேத்கர் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401769776,
+  "lat": 12.9948953,
+  "lon": 80.2077603,
+  "tags": {
+   "name": "NGO Colony",
+   "name:ta": "என்.ஜி.ஓ. காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401769780,
+  "lat": 13.0020222,
+  "lon": 80.2106556,
+  "tags": {
+   "name": "Maduvankarai",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 401786624,
+  "lat": 12.9789702,
+  "lon": 80.2097046,
+  "tags": {
+   "is_in": "Nanganallur",
+   "name": "AGS Officers Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402307325,
+  "lat": 13.1172166,
+  "lon": 80.203117,
+  "tags": {
+   "name": "Baba Nagar",
+   "name:ta": "பாபா நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402309652,
+  "lat": 13.1238943,
+  "lon": 80.2080409,
+  "tags": {
+   "name": "Rajan Nagar",
+   "name:ta": "ராஜன் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402309952,
+  "lat": 13.1204643,
+  "lon": 80.2107535,
+  "tags": {
+   "name": "Jayaram Nagar",
+   "name:ta": "ஜெயராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402310118,
+  "lat": 13.11241,
+  "lon": 80.2022416,
+  "tags": {
+   "name": "North Jagannatha Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402310414,
+  "lat": 13.1098186,
+  "lon": 80.2021128,
+  "tags": {
+   "name": "South Jagannatha Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402310840,
+  "lat": 13.1115156,
+  "lon": 80.2116057,
+  "tags": {
+   "name": "Rajaji Nagar",
+   "name:ta": "இராஜாஜி நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402342603,
+  "lat": 13.1236545,
+  "lon": 80.2128848,
+  "tags": {
+   "is_in": "Chennai",
+   "name": "Kolathur",
+   "name:ml": "കൊളത്തൂർ",
+   "name:ta": "கொளத்தூர்",
+   "place": "suburb",
+   "wikidata": "Q6427082",
+   "wikipedia": "en:Kolathur, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402343278,
+  "lat": 13.1268628,
+  "lon": 80.2112109,
+  "tags": {
+   "name": "Mahatma Gandhi Nagar",
+   "name:ta": "மகாத்மா காந்தி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402750049,
+  "lat": 13.1457558,
+  "lon": 80.249642,
+  "tags": {
+   "created_by": "Potlatch 0.10a",
+   "name": "Parvathi Nagar",
+   "name:ta": "பார்வதி நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402947915,
+  "lat": 12.9416614,
+  "lon": 80.2019673,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Chettinad Enclave",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402947917,
+  "lat": 12.9438732,
+  "lon": 80.1996349,
+  "tags": {
+   "created_by": "Potlatch 0.10f",
+   "name": "Maxworth Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 402979599,
+  "lat": 12.8842524,
+  "lon": 80.2018925,
+  "tags": {
+   "name": "Nookampalayam",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 410616097,
+  "lat": 13.027831,
+  "lon": 80.262238,
+  "tags": {
+   "is_in": "Mandaveli",
+   "name": "Jeth Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 410691069,
+  "lat": 13.0211245,
+  "lon": 80.2541184,
+  "tags": {
+   "name": "Kesavaperumalpuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 410699145,
+  "lat": 13.0206311,
+  "lon": 80.2441277,
+  "tags": {
+   "is_in": "Kotturpuram",
+   "name": "Kottur Gardens",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 410703648,
+  "lat": 13.0154212,
+  "lon": 80.2459988,
+  "tags": {
+   "is_in": "Kotturpuram",
+   "name": "Varadapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 410703669,
+  "lat": 13.0181474,
+  "lon": 80.2458186,
+  "tags": {
+   "is_in": "Kotturpuram",
+   "name": "Tiruvalluvar Nagar",
+   "name:ta": "திருவள்ளுவர் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415858178,
+  "lat": 12.9503003,
+  "lon": 80.2469674,
+  "tags": {
+   "name": "Srinivasa Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415858191,
+  "lat": 12.9476068,
+  "lon": 80.242015,
+  "tags": {
+   "name": "PVS Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415858209,
+  "lat": 12.9449719,
+  "lon": 80.2406331,
+  "tags": {
+   "name": "Shakti Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415858768,
+  "lat": 12.9382715,
+  "lon": 80.2440063,
+  "tags": {
+   "name": "Secretariat Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415858922,
+  "lat": 12.9365399,
+  "lon": 80.2374231,
+  "tags": {
+   "name": "Metukuppam",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 415867912,
+  "lat": 12.9000918,
+  "lon": 80.2542837,
+  "tags": {
+   "name": "Pebble Beach",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 452498360,
+  "lat": 13.0891354,
+  "lon": 80.2851877,
+  "tags": {
+   "name": "Esplanade",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 604232151,
+  "lat": 13.0490735,
+  "lon": 80.2715991,
+  "tags": {
+   "name": "Lloyds Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610828421,
+  "lat": 13.096959,
+  "lon": 80.2666324,
+  "tags": {
+   "name": "Sundarapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610888908,
+  "lat": 13.1054685,
+  "lon": 80.2621581,
+  "tags": {
+   "name": "VOC Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610889026,
+  "lat": 13.1085103,
+  "lon": 80.2640242,
+  "tags": {
+   "name": "Venkatesapuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610889081,
+  "lat": 13.0999034,
+  "lon": 80.2661754,
+  "tags": {
+   "name": "Gandhinagar",
+   "name:ta": "காந்தி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 610889131,
+  "lat": 13.1047765,
+  "lon": 80.2661886,
+  "tags": {
+   "name": "Narasimha Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 618619829,
+  "lat": 13.0934726,
+  "lon": 80.2386835,
+  "tags": {
+   "name": "Thiruvalluvar Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 618641984,
+  "lat": 13.1006814,
+  "lon": 80.2297082,
+  "tags": {
+   "name": "Officers Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 618743795,
+  "lat": 13.0894501,
+  "lon": 80.2428196,
+  "tags": {
+   "name": "Secretariat Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 687176683,
+  "lat": 13.0638722,
+  "lon": 80.1918646,
+  "tags": {
+   "name": "Avvai Thiru Nagar",
+   "name:ta": "அவ்வை திரு நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 692706123,
+  "lat": 13.013385,
+  "lon": 80.1801942,
+  "tags": {
+   "name": "IAS Officers Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 698282780,
+  "lat": 12.9839305,
+  "lon": 80.2572826,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Kamraj nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 777883462,
+  "lat": 13.0703159,
+  "lon": 80.2282954,
+  "tags": {
+   "is_in": "Mehta Nagar",
+   "name": "Officers Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 824088043,
+  "lat": 13.0582742,
+  "lon": 80.2078872,
+  "tags": {
+   "name": "Gandhi Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 964604382,
+  "lat": 12.9304748,
+  "lon": 80.2077692,
+  "tags": {
+   "name": "Pallikaranai",
+   "name:ml": "പള്ളികരണ",
+   "name:ta": "பள்ளிக்கரணை",
+   "place": "suburb",
+   "wikidata": "Q2716680",
+   "wikimedia_commons": "Category:Pallikaranai",
+   "wikipedia": "en:Pallikaranai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 978454328,
+  "lat": 12.9574931,
+  "lon": 80.2062346,
+  "tags": {
+   "name": "Kuberan Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1317142941,
+  "lat": 12.9650499,
+  "lon": 80.2020747,
+  "tags": {
+   "name": "Sheela Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1317143256,
+  "lat": 12.9675942,
+  "lon": 80.2058513,
+  "tags": {
+   "name": "Ramalinga Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1329325017,
+  "lat": 12.9216334,
+  "lon": 80.1987877,
+  "tags": {
+   "name": "Jayachandran Nagar",
+   "name:ml": "ജയചന്ദ്രൻ നഗർ",
+   "name:ta": "ஜெயச்சந்திரன் நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1329325707,
+  "lat": 12.9138218,
+  "lon": 80.2020278,
+  "tags": {
+   "name": "Isha Garden",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415364,
+  "lat": 12.9773778,
+  "lon": 80.2538832,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Avvai Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415374,
+  "lat": 12.9715538,
+  "lon": 80.2523792,
+  "tags": {
+   "is_in": "Kottivakkam",
+   "name": "Elango Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415376,
+  "lat": 12.9685697,
+  "lon": 80.2459158,
+  "tags": {
+   "name": "Govindaswamy Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415385,
+  "lat": 12.9673858,
+  "lon": 80.2558203,
+  "tags": {
+   "name": "Sangam Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415388,
+  "lat": 12.9626104,
+  "lon": 80.2474675,
+  "tags": {
+   "name": "Thiruvalluvar Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1446415390,
+  "lat": 12.9689832,
+  "lon": 80.2523969,
+  "tags": {
+   "name": "Venkateshpuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453431020,
+  "lat": 12.9713518,
+  "lon": 80.2543421,
+  "tags": {
+   "name": "Swaminathan Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453434168,
+  "lat": 12.9661782,
+  "lon": 80.2548185,
+  "tags": {
+   "name": "Kandaswamy Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453434169,
+  "lat": 12.9707301,
+  "lon": 80.2570084,
+  "tags": {
+   "name": "NATCO Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453466052,
+  "lat": 12.9755547,
+  "lon": 80.2569078,
+  "tags": {
+   "is_in": "Thiruvanmiyur",
+   "name": "Kannappa Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453466056,
+  "lat": 12.9736645,
+  "lon": 80.2596374,
+  "tags": {
+   "is_in": "Kottivakkam",
+   "name": "Karpagambal Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453467729,
+  "lat": 12.9730941,
+  "lon": 80.256686,
+  "tags": {
+   "is_in": "Kottivakkam",
+   "name": "Natesan Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453486863,
+  "lat": 12.9765316,
+  "lon": 80.2522271,
+  "tags": {
+   "name": "Ramalinga Nagar",
+   "name:ta": "ராமலிங்க நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453511772,
+  "lat": 12.9703044,
+  "lon": 80.2637555,
+  "tags": {
+   "name": "Kaveri Nagar",
+   "name:ta": "காவேரி நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453511775,
+  "lat": 12.9655039,
+  "lon": 80.2592729,
+  "tags": {
+   "name": "Palkalai Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453511777,
+  "lat": 12.9720506,
+  "lon": 80.2604868,
+  "tags": {
+   "name": "Srinivasapuram",
+   "name:ta": "சீனிவாசபுரம்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453511779,
+  "lat": 12.9673698,
+  "lon": 80.2606307,
+  "tags": {
+   "name": "Venkateshwara Nagar",
+   "name:ta": "வெங்கடேஸ்வரா நகர்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453559830,
+  "lat": 12.9716982,
+  "lon": 80.2616477,
+  "tags": {
+   "name": "Lakshmanaperumal Nagar",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453574554,
+  "lat": 12.9678914,
+  "lon": 80.2590113,
+  "tags": {
+   "name": "DGI Layout",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453574555,
+  "lat": 12.9693267,
+  "lon": 80.258413,
+  "tags": {
+   "name": "New Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453588714,
+  "lat": 12.9759601,
+  "lon": 80.2481745,
+  "tags": {
+   "name": "Judge's Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453588715,
+  "lat": 12.9795827,
+  "lon": 80.2494441,
+  "tags": {
+   "name": "MGR Nagar",
+   "name:ta": "எம்.ஜி.ஆர் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453588716,
+  "lat": 12.9769974,
+  "lon": 80.2446253,
+  "tags": {
+   "name": "Venkateshwara Nagar Colony",
+   "name:ta": "வெங்கடேஸ்வரா நகர் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453616378,
+  "lat": 12.9677025,
+  "lon": 80.2649455,
+  "tags": {
+   "name": "Meenava Kuppam",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453648372,
+  "lat": 12.9691293,
+  "lon": 80.2599281,
+  "tags": {
+   "is_in": "Kottivakkam",
+   "name": "AGS Colony",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1453679151,
+  "lat": 12.9718042,
+  "lon": 80.2455776,
+  "tags": {
+   "name": "Tirumalai Nagar",
+   "name:ta": "திருமலை நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1454648321,
+  "lat": 12.9698277,
+  "lon": 80.2482316,
+  "tags": {
+   "name": "Jayendra Colony",
+   "name:ta": "ஜெயேந்திர காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1457114963,
+  "lat": 12.9725424,
+  "lon": 80.2650658,
+  "tags": {
+   "name": "Sri Krishna Enclave",
+   "name:ta": "ஸ்ரீ கிருஷ்ணா என்கிளேவ்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1457526998,
+  "lat": 12.9809554,
+  "lon": 80.2508748,
+  "tags": {
+   "name": "Vikram Sarabhai Industrial Estate",
+   "name:ta": "விக்ரம் சாராபாய் தொழிற்பேட்டை",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1702257060,
+  "lat": 13.0389894,
+  "lon": 80.248111,
+  "tags": {
+   "name": "Vaniya Teynampet",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1730498127,
+  "lat": 13.0021964,
+  "lon": 80.2652826,
+  "tags": {
+   "addr:city": "Chennai",
+   "addr:postcode": "600090",
+   "addr:street": "2nd Cross Street",
+   "description": "This place belongs to Central Government (Ministry of Housing & Urban Affairs) General Pool Accommodation for Central Govt. Officers",
+   "name": "Central Government Officers Quarters, General Pool Accomodation",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 1780106324,
+  "lat": 12.9905297,
+  "lon": 80.1440498,
+  "tags": {
+   "name": "Pozhichalur",
+   "name:ml": "പൊഴിച്ചലൂർ",
+   "name:ta": "பொழிச்சலூர்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2210037955,
+  "lat": 12.8921028,
+  "lon": 80.1841392,
+  "tags": {
+   "name": "Skylab Avenue",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2210077654,
+  "lat": 12.8930443,
+  "lon": 80.1847733,
+  "tags": {
+   "name": "Skylab Avenue",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2218064760,
+  "lat": 13.0592958,
+  "lon": 80.2710216,
+  "tags": {
+   "name": "Zam Bazaar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2218345692,
+  "lat": 13.0219794,
+  "lon": 80.2678296,
+  "tags": {
+   "name": "Karpagam Avenue",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2241055790,
+  "lat": 13.04359,
+  "lon": 80.220809,
+  "tags": {
+   "name": "West Mambalam",
+   "name:ml": "പശ്ചിമ മാമ്പലം",
+   "name:ta": "மேற்கு மாம்பலம்",
+   "place": "suburb",
+   "wikidata": "Q2992455",
+   "wikipedia": "en:Mambalam"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2270504117,
+  "lat": 13.0542069,
+  "lon": 80.2217025,
+  "tags": {
+   "name": "Ganga Enclave",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 2587530813,
+  "lat": 13.024366,
+  "lon": 80.261062,
+  "tags": {
+   "name": "Ramakrishna Nagar",
+   "name:ta": "ராமகிருஷ்ணா நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3187965965,
+  "lat": 12.9854635,
+  "lon": 80.1896961,
+  "tags": {
+   "name": "NCBS Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3187965967,
+  "lat": 12.984889,
+  "lon": 80.1943346,
+  "tags": {
+   "name": "Ram Nagar",
+   "name:ta": "ராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3187965968,
+  "lat": 12.9886349,
+  "lon": 80.1955241,
+  "tags": {
+   "name": "Ram Nagar",
+   "name:ta": "ராம் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3187965969,
+  "lat": 12.9885827,
+  "lon": 80.1932884,
+  "tags": {
+   "name": "Thillai Ganga Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3233393892,
+  "lat": 13.0836939,
+  "lon": 80.270186,
+  "tags": {
+   "alt_name:ur": "چنائی",
+   "alt_name:zh": "钦奈;清奈;真奈",
+   "alt_name_2:ur": "چینئی",
+   "capital": "4",
+   "gns:dsg": "ADM2",
+   "gns:uni": "-2919695",
+   "is_capital": "state",
+   "name": "Chennai",
+   "name:ar": "تشيناي",
+   "name:az": "Çennai",
+   "name:be": "Чэнаі",
+   "name:bg": "Ченай",
+   "name:bn": "চেন্নাই",
+   "name:cs": "Čennaí",
+   "name:de": "Chennai",
+   "name:el": "Τσεννάι",
+   "name:en": "Chennai",
+   "name:es": "Chennai",
+   "name:fa": "چنای",
+   "name:fr": "Chennai",
+   "name:he": "צ'נאי",
+   "name:hi": "चेन्नई",
+   "name:hr": "Chennai",
+   "name:hu": "Csennai",
+   "name:hy": "Չեննայ",
+   "name:ja": "チェンナイ",
+   "name:kn": "ಚೆನ್ನೈ",
+   "name:ko": "첸나이",
+   "name:lt": "Čenajus",
+   "name:ml": "ചെന്നൈ",
+   "name:mr": "चेन्नई",
+   "name:ne": "चेन्नई",
+   "name:pl": "Ćennaj",
+   "name:ru": "Ченнаи",
+   "name:sa": "चेन्नै",
+   "name:sat": "ᱪᱮᱱᱱᱟᱭ",
+   "name:sk": "Čennai",
+   "name:sl": "Čenaj",
+   "name:sr": "Ченај",
+   "name:ta": "சென்னை",
+   "name:te": "చెన్నై",
+   "name:tr": "Chennai",
+   "name:uk": "Ченнаї",
+   "name:ur": "چنئی",
+   "name:zh": "金奈",
+   "old_name": "Madras",
+   "old_name:uk": "Мадрас",
+   "place": "city",
+   "place:cca": "a1",
+   "population": "4681087",
+   "postal_code": "600001",
+   "source": "GNS;http://en.wikipedia.org/wiki/Chennai",
+   "wikidata": "Q1352",
+   "wikipedia": "en:Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3507385209,
+  "lat": 13.0977956,
+  "lon": 80.1989321,
+  "tags": {
+   "name": "Malar Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3967636343,
+  "lat": 13.0834977,
+  "lon": 80.2164744,
+  "tags": {
+   "name": "AA Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3967636344,
+  "lat": 13.0835934,
+  "lon": 80.2141151,
+  "tags": {
+   "name": "AB Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 3967636345,
+  "lat": 13.0837153,
+  "lon": 80.2113538,
+  "tags": {
+   "name": "AC Block",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4089493731,
+  "lat": 12.9353253,
+  "lon": 80.1773204,
+  "tags": {
+   "name": "Nanmangalam",
+   "name:ml": "നൻമംഗലം",
+   "name:ta": "நன்மங்கலம்",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644648,
+  "lat": 12.9803651,
+  "lon": 80.2291946,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Baby Nagar",
+   "name:ta": "பேபி நகர்",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644649,
+  "lat": 12.9826389,
+  "lon": 80.224188,
+  "tags": {
+   "name": "Dhandeeswaram",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644651,
+  "lat": 12.9819509,
+  "lon": 80.2270333,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Seethapathy Nagar",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644652,
+  "lat": 12.9798387,
+  "lon": 80.2306689,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Seshadripuram",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644653,
+  "lat": 12.9864108,
+  "lon": 80.2293212,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Seva Nagar Velachery",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644654,
+  "lat": 12.9865105,
+  "lon": 80.2279906,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Sony Nagar",
+   "name:ta": "சோனி நகர்",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644655,
+  "lat": 12.9774585,
+  "lon": 80.2234467,
+  "tags": {
+   "name": "Tansi Nagar",
+   "name:ta": "டான்சி நகர்",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294644656,
+  "lat": 12.9791677,
+  "lon": 80.2321701,
+  "tags": {
+   "is_in": "Velachery;Chennai;Tamilnadu;TN;India;IN",
+   "name": "Udhayam Nagar",
+   "name:ta": "உதயம் நகர்",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294647426,
+  "lat": 12.9699099,
+  "lon": 80.2219533,
+  "tags": {
+   "name": "Bhuvaneswary Nagar",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294647427,
+  "lat": 12.9712216,
+  "lon": 80.2211034,
+  "tags": {
+   "name": "VGP Selva Nagar",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4294647428,
+  "lat": 12.9743952,
+  "lon": 80.2277223,
+  "tags": {
+   "name": "Venus Colony",
+   "name:ta": "வீனஸ் காலனி",
+   "place": "neighbourhood",
+   "postal_code": "600042"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4304426157,
+  "lat": 12.9846819,
+  "lon": 80.2218917,
+  "tags": {
+   "name": "JagannathaPuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4304426158,
+  "lat": 12.9852883,
+  "lon": 80.2187428,
+  "tags": {
+   "name": "Rajalakshmi Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4304450062,
+  "lat": 12.9827099,
+  "lon": 80.2322973,
+  "tags": {
+   "name": "New Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4486583995,
+  "lat": 13.0361219,
+  "lon": 80.1881078,
+  "tags": {
+   "name": "Annai Sathya Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4489923165,
+  "lat": 13.0443224,
+  "lon": 80.1879821,
+  "tags": {
+   "name": "Alwarthirunagar",
+   "place": "suburb",
+   "wikidata": "Q4738370",
+   "wikipedia": "en:Alwarthirunagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4489923166,
+  "lat": 13.0412679,
+  "lon": 80.1871827,
+  "tags": {
+   "name": "Gandhi Nagar",
+   "name:ta": "காந்தி நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 4604367125,
+  "lat": 13.0171314,
+  "lon": 80.1772628,
+  "tags": {
+   "name": "Mukti Enclave",
+   "place": "locality"
+  }
+ },
+ {
+  "type": "node",
+  "id": 5344512054,
+  "lat": 13.0060222,
+  "lon": 80.1967284,
+  "tags": {
+   "is_in:municipality": "Alandur",
+   "name": "St. Thomas Mount Cantonment",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 8688165341,
+  "lat": 12.9879605,
+  "lon": 80.1905915,
+  "tags": {
+   "name": "Nanganallur Co-op Society Colony",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10115681335,
+  "lat": 13.1067345,
+  "lon": 80.2764807,
+  "tags": {
+   "name": "Moolakothalam",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 10559615705,
+  "lat": 12.9978724,
+  "lon": 80.2691711,
+  "tags": {
+   "name": "GOCHS Colony",
+   "name:en": "GOCHS Colony",
+   "name:ta": "ஜிஓசிஹெச்எஸ் காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11039921594,
+  "lat": 13.0673606,
+  "lon": 80.2767992,
+  "tags": {
+   "alt_name": "Omandurar Government Estate",
+   "name": "Government Estate",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11144189642,
+  "lat": 13.1092682,
+  "lon": 80.2721885,
+  "tags": {
+   "name": "Stanley Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 11728015253,
+  "lat": 12.8878546,
+  "lon": 80.2451984,
+  "tags": {
+   "name": "Panaiyur",
+   "name:ml": "പനയൂർ",
+   "name:ta": "பனையூர்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12167706530,
+  "lat": 13.0776651,
+  "lon": 80.2222538,
+  "tags": {
+   "name": "Bharathipuram",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12255709754,
+  "lat": 13.0152345,
+  "lon": 80.1368538,
+  "tags": {
+   "name": "Gerugambakkam",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12255801857,
+  "lat": 13.0378289,
+  "lon": 80.231836,
+  "tags": {
+   "alt_name": "Thyagaraya Nagar",
+   "alt_name:hi": "त्यागराया नगर",
+   "name": "Thiyagaraya Nagar",
+   "name:en": "Thiyagaraya Nagar",
+   "name:hi": "तियागराया नगर",
+   "place": "suburb",
+   "short_name": "T Nagar",
+   "short_name:hi": "टी नगर"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12534285821,
+  "lat": 12.9445831,
+  "lon": 80.2158648,
+  "tags": {
+   "name": "Kamatchi Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12534286145,
+  "lat": 12.9410358,
+  "lon": 80.2132684,
+  "tags": {
+   "name": "Kamakoti Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12557371740,
+  "lat": 12.9914196,
+  "lon": 80.2120593,
+  "tags": {
+   "is_in:municipality": "Alandur",
+   "name": "TNHB Colony",
+   "name:ta": "டீஎன்ஹெச்பி காலனி",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12718947448,
+  "lat": 12.9516304,
+  "lon": 80.2344713,
+  "tags": {
+   "name": "Sai Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12809049259,
+  "lat": 13.0283489,
+  "lon": 80.1340918,
+  "tags": {
+   "name": "Keshavardhini Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12899837948,
+  "lat": 13.0407966,
+  "lon": 80.2029798,
+  "tags": {
+   "name": "K.K.Nagar",
+   "place": "suburb",
+   "wikidata": "Q6323457",
+   "wikipedia": "en:K. K. Nagar, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 12917009792,
+  "lat": 13.0126411,
+  "lon": 80.1989917,
+  "tags": {
+   "name": "Nazarethpuram",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 13743101395,
+  "lat": 13.0842692,
+  "lon": 80.2006456,
+  "tags": {
+   "alt_name": "Tirumangalam",
+   "name": "Thirumangalam",
+   "name:hi": "तिरुमंगलम",
+   "name:ta": "திருமங்கலம்",
+   "place": "suburb",
+   "wikidata": "Q7785335",
+   "wikipedia": "en:Thirumangalam, Chennai"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14041638035,
+  "lat": 12.9397621,
+  "lon": 80.1818236,
+  "tags": {
+   "name": "Kovilambakkam",
+   "name:ta": "கோவிலம்பாக்கம்",
+   "place": "suburb"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14061518908,
+  "lat": 13.1208988,
+  "lon": 80.2295103,
+  "tags": {
+   "name": "Thiru Vi Ka Nagar",
+   "place": "suburb",
+   "wikidata": "Q16902126",
+   "wikipedia": "en:Thiru. Vi. Ka. Nagar"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14069995115,
+  "lat": 13.0025358,
+  "lon": 80.2017241,
+  "tags": {
+   "is_in": "Chennai",
+   "is_in:municipality": "Greater Chennai Corporation",
+   "name": "Alandur",
+   "name:ta": "ஆலந்தூர்",
+   "place": "town",
+   "population": "164430",
+   "source:population": "wikipedia",
+   "wikidata": "Q584845",
+   "wikipedia": "en:Alandur"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14074374537,
+  "lat": 13.0715193,
+  "lon": 80.1998093,
+  "tags": {
+   "name": "Koyambedu",
+   "name:ta": "கோயம்பேடு",
+   "place": "suburb",
+   "wikidata": "Q3534941",
+   "wikipedia": "en:Koyambedu"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14074374538,
+  "lat": 13.0502979,
+  "lon": 80.2118301,
+  "tags": {
+   "name": "Vadapalani",
+   "name:ta": "வடபழனி",
+   "place": "suburb",
+   "wikidata": "Q3537400",
+   "wikipedia": "en:Vadapalani"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14185617496,
+  "lat": 13.1181607,
+  "lon": 80.2062484,
+  "tags": {
+   "name": "Srinivasa Nagar",
+   "name:ta": "ஸ்ரீனிவாச நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14185617497,
+  "lat": 13.128209,
+  "lon": 80.2023945,
+  "tags": {
+   "name": "Kumaran Nagar",
+   "name:ta": "குமரன் நகர்",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14197390558,
+  "lat": 13.0503537,
+  "lon": 80.1876226,
+  "tags": {
+   "name": "AVM Avenue",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14197390559,
+  "lat": 13.0578976,
+  "lon": 80.1927044,
+  "tags": {
+   "name": "Natesan Nagar",
+   "place": "neighbourhood"
+  }
+ },
+ {
+  "type": "node",
+  "id": 14211387567,
+  "lat": 13.0419995,
+  "lon": 80.1982446,
+  "tags": {
+   "is_in:suburb": "K.K.Nagar",
+   "name": "Sector 9",
+   "place": "neighbourhood"
+  }
+ }
+]

@@ -1,0 +1,128 @@
+{
+  "source": "Agmarknet (agmarknet.gov.in)",
+  "retrieved_at": "2026-09-24",
+  "currency": "INR",
+  "note": "Static seed. Fallback only.",
+  "commodities": {
+    "milk_cow": {
+      "unit": "litre",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 34, "mid": 37, "high": 40, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 32, "mid": 35, "high": 38, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 36, "mid": 38, "high": 42, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 33, "mid": 36, "high": 39, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 32, "mid": 35, "high": 38, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "milk_buffalo": {
+      "unit": "litre",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 42, "mid": 46, "high": 50, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 40, "mid": 45, "high": 48, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 45, "mid": 48, "high": 52, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 41, "mid": 45, "high": 49, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 40, "mid": 44, "high": 48, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "eggs_hen": {
+      "unit": "dozen",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 72, "mid": 78, "high": 84, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 70, "mid": 76, "high": 82, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 76, "mid": 82, "high": 88, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 70, "mid": 75, "high": 80, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 72, "mid": 77, "high": 83, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "broiler_chicken": {
+      "unit": "kg",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 105, "mid": 115, "high": 125, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 100, "mid": 112, "high": 122, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 110, "mid": 120, "high": 130, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 102, "mid": 114, "high": 124, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 105, "mid": 116, "high": 126, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "vegetables_tomato": {
+      "unit": "kg",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 22, "mid": 35, "high": 50, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 20, "mid": 32, "high": 48, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 25, "mid": 42, "high": 60, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 20, "mid": 34, "high": 52, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 22, "mid": 36, "high": 54, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "vegetables_onion": {
+      "unit": "kg",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 26, "mid": 36, "high": 46, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 25, "mid": 34, "high": 44, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 28, "mid": 38, "high": 50, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 25, "mid": 35, "high": 45, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 26, "mid": 35, "high": 46, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "vegetables_potato": {
+      "unit": "kg",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 24, "mid": 28, "high": 35, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 22, "mid": 27, "high": 34, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 26, "mid": 32, "high": 38, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 23, "mid": 28, "high": 35, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 24, "mid": 29, "high": 36, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "rice_raw": {
+      "unit": "kg",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 40, "mid": 46, "high": 52, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 38, "mid": 44, "high": 50, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 42, "mid": 47, "high": 52, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 39, "mid": 45, "high": 50, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 38, "mid": 43, "high": 48, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "maize": {
+      "unit": "quintal",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 1850, "mid": 2150, "high": 2450, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 1800, "mid": 2100, "high": 2400, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 1950, "mid": 2250, "high": 2500, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 1850, "mid": 2120, "high": 2420, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 1800, "mid": 2100, "high": 2380, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "groundnut": {
+      "unit": "quintal",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 5200, "mid": 6000, "high": 6700, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 5100, "mid": 5900, "high": 6600, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 5400, "mid": 6200, "high": 6800, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 5000, "mid": 5850, "high": 6650, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 5100, "mid": 5900, "high": 6600, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "coconut": {
+      "unit": "nut",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 14, "mid": 17, "high": 21, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 13, "mid": 16, "high": 20, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 16, "mid": 19, "high": 22, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 13, "mid": 16, "high": 20, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 12, "mid": 15, "high": 19, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    },
+    "banana": {
+      "unit": "dozen",
+      "markets": [
+        { "market": "coimbatore", "district": "coimbatore", "low": 38, "mid": 50, "high": 65, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "madurai", "district": "madurai", "low": 35, "mid": 48, "high": 62, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "chennai", "district": "chennai", "low": 42, "mid": 55, "high": 70, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "salem", "district": "salem", "low": 36, "mid": 48, "high": 62, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" },
+        { "market": "thanjavur", "district": "thanjavur", "low": 35, "mid": 45, "high": 60, "date": "2026-09-24", "source_url": "https://agmarknet.gov.in/" }
+      ]
+    }
+  }
+}

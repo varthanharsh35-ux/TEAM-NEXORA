@@ -1,6 +1,96 @@
-import {useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {MessageCircle,X,Send} from 'lucide-react';
-const terms={account:/login|sign in|password|register|உள்நுழை|கடவுச்சொல்|पंजीकरण|पासवर्ड|लॉगिन/i,schemes:/scheme|eligible|தகுதி|கடன் திட்ட|योजना पात्र|पात्रता/i,tracker:/track|expense|account|வரவு|செலவு|கணக்கு|खर्च|खाते|आमदनी/i,compare:/compare|alternative|ஒப்பிடு|மாற்று|तुलना|विकल्प/i,plan:/business|plan|start|facility|facilities|water|power|community|income|தொழில்|திட்டம்|व्यवसाय|शुरू/i,finance:/finance|repay|loan|money|கடன்|நிதி|தவணை|ऋण|किस्त|पैस/i,profile:/profile|history|previous|saved|வசதி|நீர்|மின்சாரம்|சமூகம்|வருமானம்|जानकारी|सुविधा|पानी|बिजली|समुदाय|आय/i,sources:/source|data|evidence|ஆதாரம்|தரவு|स्रोत|डेटा/i};
-export default function NavHelper({navigate}){const {t}=useTranslation();const [open,setOpen]=useState(false),[query,setQuery]=useState(''),[messages,setMessages]=useState([]);const topics=Object.keys(terms);function ask(e){e.preventDefault();if(!query.trim())return;const destination=topics.find(k=>terms[k].test(query));setMessages(v=>[...v.slice(-5),{question:query,key:destination?`help_${destination}`:'help_unknown',destination}]);setQuery('')}
-return <aside className="nav-helper">{open&&<section className="helper-panel" aria-label={t('nav_help')}><div className="helper-title"><h2>{t('nav_help')}</h2><button aria-label={t('help_close')} onClick={()=>setOpen(false)}><X aria-hidden="true"/></button></div><p>{t('help_intro')}</p><div className="helper-messages" aria-live="polite">{messages.map((m,i)=><div key={i}><p className="helper-question">{m.questionKey?t(m.questionKey):m.question}</p><p>{t(m.key)}</p>{m.destination&&<button onClick={()=>{navigate(m.destination);setOpen(false)}}>{t('help_open_page')}</button>}</div>)}</div><div className="helper-topics">{topics.map(k=><button key={k} onClick={()=>setMessages(v=>[...v.slice(-5),{questionKey:`nav_${k}`,key:`help_${k}`,destination:k}])}>{t(`nav_${k}`)}</button>)}</div><form onSubmit={ask}><input aria-label={t('help_placeholder')} placeholder={t('help_placeholder')} maxLength={200} value={query} onChange={e=>setQuery(e.target.value)}/><button aria-label={t('help_send')} type="submit"><Send aria-hidden="true"/></button></form></section>}<button className="helper-toggle" aria-expanded={open} onClick={()=>setOpen(!open)}><MessageCircle aria-hidden="true"/>{t('nav_help')}</button></aside>}
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { MessageCircle, X, Send } from 'lucide-react';
+const terms = {
+  account: /login|sign in|password|register|உள்நுழை|கடவுச்சொல்|पंजीकरण|पासवर्ड|लॉगिन/i,
+  schemes: /scheme|eligible|தகுதி|கடன் திட்ட|योजना पात्र|पात्रता/i,
+  tracker: /track|expense|account|வரவு|செலவு|கணக்கு|खर्च|खाते|आमदनी/i,
+  compare: /compare|alternative|ஒப்பிடு|மாற்று|तुलना|विकल्प/i,
+  plan: /business|plan|start|facility|facilities|water|power|community|income|தொழில்|திட்டம்|व्यवसाय|शुरू/i,
+  finance: /finance|repay|loan|money|கடன்|நிதி|தவணை|ऋण|किस्त|पैस/i,
+  profile:
+    /profile|history|previous|saved|வசதி|நீர்|மின்சாரம்|சமூகம்|வருமானம்|जानकारी|सुविधा|पानी|बिजली|समुदाय|आय/i,
+  sources: /source|data|evidence|ஆதாரம்|தரவு|स्रोत|डेटा/i,
+};
+export default function NavHelper({ navigate }) {
+  const { t } = useTranslation();
+  const [open, setOpen] = useState(false),
+    [query, setQuery] = useState(''),
+    [messages, setMessages] = useState([]);
+  const topics = ['plan', 'finance', 'profile', 'tracker', 'compare', 'account'];
+  function ask(e) {
+    e.preventDefault();
+    if (!query.trim()) return;
+    const rawDest = Object.keys(terms).find((k) => terms[k].test(query));
+    const destination = (rawDest === 'schemes' || rawDest === 'sources') ? 'finance' : rawDest;
+    setMessages((v) => [
+      ...v.slice(-5),
+      { question: query, key: destination ? `help_${destination}` : 'help_unknown', destination },
+    ]);
+    setQuery('');
+  }
+  return (
+    <aside className="nav-helper">
+      {open && (
+        <section className="helper-panel" aria-label={t('nav_help')}>
+          <div className="helper-title">
+            <h2>{t('nav_help')}</h2>
+            <button aria-label={t('help_close')} onClick={() => setOpen(false)}>
+              <X aria-hidden="true" />
+            </button>
+          </div>
+          <p>{t('help_intro')}</p>
+          <div className="helper-messages" aria-live="polite">
+            {messages.map((m, i) => (
+              <div key={i}>
+                <p className="helper-question">{m.questionKey ? t(m.questionKey) : m.question}</p>
+                <p>{t(m.key)}</p>
+                {m.destination && (
+                  <button
+                    onClick={() => {
+                      navigate(m.destination);
+                      setOpen(false);
+                    }}
+                  >
+                    {t('help_open_page')}
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
+          <div className="helper-topics">
+            {topics.map((k) => (
+              <button
+                key={k}
+                onClick={() =>
+                  setMessages((v) => [
+                    ...v.slice(-5),
+                    { questionKey: `nav_${k}`, key: `help_${k}`, destination: k },
+                  ])
+                }
+              >
+                {t(`nav_${k}`)}
+              </button>
+            ))}
+          </div>
+          <form onSubmit={ask}>
+            <input
+              aria-label={t('help_placeholder')}
+              placeholder={t('help_placeholder')}
+              maxLength={200}
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+            />
+            <button aria-label={t('help_send')} type="submit">
+              <Send aria-hidden="true" />
+            </button>
+          </form>
+        </section>
+      )}
+      <button className="helper-toggle" aria-expanded={open} onClick={() => setOpen(!open)}>
+        <MessageCircle aria-hidden="true" />
+        {t('nav_help')}
+      </button>
+    </aside>
+  );
+}
