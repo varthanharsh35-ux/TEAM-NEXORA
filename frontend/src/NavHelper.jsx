@@ -17,11 +17,12 @@ export default function NavHelper({ navigate }) {
   const [open, setOpen] = useState(false),
     [query, setQuery] = useState(''),
     [messages, setMessages] = useState([]);
-  const topics = Object.keys(terms);
+  const topics = ['plan', 'finance', 'profile', 'tracker', 'compare', 'account'];
   function ask(e) {
     e.preventDefault();
     if (!query.trim()) return;
-    const destination = topics.find((k) => terms[k].test(query));
+    const rawDest = Object.keys(terms).find((k) => terms[k].test(query));
+    const destination = (rawDest === 'schemes' || rawDest === 'sources') ? 'finance' : rawDest;
     setMessages((v) => [
       ...v.slice(-5),
       { question: query, key: destination ? `help_${destination}` : 'help_unknown', destination },

@@ -62,6 +62,7 @@ export default function Account({ snapshot, onLoad, onContinue }) {
       }
       setUser(result);
       onLoad(await api('/account/workspace'));
+      if (onContinue) onContinue();
     });
   }
   return (
@@ -214,10 +215,6 @@ export default function Account({ snapshot, onLoad, onContinue }) {
               {t(busy ? 'loading' : `account_${mode}`)}
             </button>
           </form>
-          <button disabled title={t('account_social_pending')}>
-            {t('account_social')}
-          </button>
-          <small>{t('account_social_pending')}</small>
         </>
       )}
     </section>

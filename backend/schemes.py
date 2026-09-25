@@ -6,6 +6,7 @@ import json
 import math
 from pathlib import Path
 
+from intelligence import sector_prefix
 
 CATALOG = json.loads(
     (Path(__file__).resolve().parents[1] / "data/scheme_catalog.json").read_text(encoding="utf-8")
@@ -58,6 +59,12 @@ def _normalise(data):
             if value in ("", "unspecified", "unknown", "prefer_not_to_say"):
                 value = None
             else:
+                if field == "sector":
+                    # Dropdown sends a taxonomy sector id or dotted activity id
+                    # (e.g. "retail.grocery"); reduce to the bare sector id only --
+                    # do NOT collapse allied_agriculture into agriculture here, the
+                    # ENUM_ALIASES table below depends on keeping them distinct.
+                    value = sector_prefix(value)
                 value = ENUM_ALIASES.get(field, {}).get(value, value)
         if value is not None and field in NUMERIC_FIELDS:
             try:
@@ -132,8 +139,12 @@ def _screen_one(original, values, invalid):
         actual = values.get(field)
         if actual is None:
             missing.add(field)
-        elif actual not in (allowed if isinstance(allowed, list) else [allowed]):
-            reasons.add(reason or "reasons." + field + "_mismatch")
+        else:
+            aliases = ENUM_ALIASES.get(field, {})
+            allowed_list = allowed if isinstance(allowed, list) else [allowed]
+            allowed_norm = [aliases.get(a.strip().lower() if isinstance(a, str) else a, a) for a in allowed_list]
+            if actual not in allowed_norm:
+                reasons.add(reason or "reasons." + field + "_mismatch")
 
     def bound(field, lower=None, upper=None, exclusive=False, prefix=None):
         if lower is None and upper is None:

@@ -88,16 +88,15 @@ export default function Compare({ report, history }) {
   }
 
   // Find best values for highlighting
+  const qpList = (items || []).filter((x) => Number(x.quarterly_payment) > 0).map((x) => Number(x.quarterly_payment));
   const best =
     items.length >= 2
       ? {
-          project_cost: Math.min(...items.map((x) => x.project_cost)),
-          net_after_debt: Math.max(...items.map((x) => x.net_after_debt)),
-          quarterly_payment: Math.min(
-            ...items.filter((x) => x.quarterly_payment > 0).map((x) => x.quarterly_payment)
-          ),
-          funding_gap: Math.min(...items.map((x) => x.funding_gap)),
-          readiness_score: Math.max(...items.map((x) => x.readiness_score)),
+          project_cost: Math.min(...items.map((x) => Number(x.project_cost) || 0)),
+          net_after_debt: Math.max(...items.map((x) => Number(x.net_after_debt) || 0)),
+          quarterly_payment: qpList.length ? Math.min(...qpList) : 0,
+          funding_gap: Math.min(...items.map((x) => Number(x.funding_gap) || 0)),
+          readiness_score: Math.max(...items.map((x) => Number(x.readiness_score) || 0)),
         }
       : null;
 

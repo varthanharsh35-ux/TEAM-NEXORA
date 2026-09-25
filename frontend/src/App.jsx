@@ -110,6 +110,77 @@ function Metric({ label, value, detail, accent = false }) {
     </div>
   );
 }
+
+function PlanReadinessWidget({ readiness, verdict }) {
+  const score = Number(readiness?.score ?? 0);
+  const maxScore = 10;
+  const pct = Math.min(100, Math.max(0, (score / maxScore) * 100));
+  const radius = 42;
+  const circumference = 2 * Math.PI * radius;
+  const strokeDashoffset = circumference - (pct / 100) * circumference;
+
+  const scoreColor = score >= 8 ? '#165f49' : score >= 6 ? '#d97706' : '#dc2626';
+  const tierTitle = score >= 8 ? 'High Viability Enterprise' : score >= 6 ? 'Moderate Viability' : 'Action Plan Needed';
+  const tierDesc = score >= 8
+    ? 'Your enterprise model demonstrates strong market demand coverage, achievable breakeven volume, and robust scheme/debt serviceability.'
+    : score >= 6
+      ? 'Viable rural enterprise with favorable demand conditions. Recommended to strengthen local infrastructure or verify margin subsidy.'
+      : 'Core operating metrics indicate elevated initial capital risk. Consider reviewing pricing or choosing a lower-cost activity.';
+
+  const checkLabels = {
+    demand: 'Local Market Demand',
+    break_even: 'Unit Break-Even Achievable',
+    working_capital: 'Working Capital Adequacy',
+    facilities: 'Production Infrastructure',
+    climate: 'Climate & Monsoon Resilience',
+  };
+
+  return (
+    <div className={`readiness-visual-card verdict-${verdict || 'viable'}`}>
+      <div className="gauge-container">
+        <svg className="radial-gauge-svg" width="110" height="110" viewBox="0 0 110 110">
+          <circle cx="55" cy="55" r={radius} fill="none" stroke="#e2e8f0" strokeWidth="10" />
+          <circle
+            cx="55"
+            cy="55"
+            r={radius}
+            fill="none"
+            stroke={scoreColor}
+            strokeWidth="10"
+            strokeDasharray={circumference}
+            strokeDashoffset={strokeDashoffset}
+            strokeLinecap="round"
+            transform="rotate(-90 55 55)"
+            style={{ transition: 'stroke-dashoffset 0.8s ease' }}
+          />
+          <text x="55" y="52" textAnchor="middle" fill="#0f172a" fontSize="20" fontWeight="bold">
+            {score.toFixed(1)}
+          </text>
+          <text x="55" y="68" textAnchor="middle" fill="#64748b" fontSize="11">
+            out of 10
+          </text>
+        </svg>
+        <div className="gauge-info">
+          <span className="readiness-badge" style={{ backgroundColor: scoreColor }}>
+            {tierTitle}
+          </span>
+          <p className="readiness-lead">{tierDesc}</p>
+        </div>
+      </div>
+
+      <div className="readiness-checks-grid">
+        {Object.entries(readiness?.checks || {}).map(([key, passed]) => (
+          <div key={key} className={`check-item ${passed ? 'passed' : 'pending'}`}>
+            <span className="check-icon">{passed ? '✓' : '⚠️'}</span>
+            <span className="check-label">{checkLabels[key] || key.replace(/_/g, ' ')}</span>
+            <span className="check-status-pill">{passed ? 'Ready' : 'Verify'}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language;
@@ -130,6 +201,7 @@ export default function App() {
   const [history, setHistory] = useState(() => restore('gs-history', []));
   const [showMap, setShowMap] = useState(false);
   const [stage, setStage] = useState('welcome');
+  const [wizardStep, setWizardStep] = useState(1);
   const seq = useRef(0),
     aborter = useRef(null),
     timer = useRef(null),
@@ -271,13 +343,20 @@ export default function App() {
   }, [report?.id, lang, online]);
   const run = async (data = form, focus = true) => {
     setError('');
+    const prepData = {
+      ...data,
+      business: data.business || data.category || 'other',
+      category: data.category || data.business || 'other',
+      margin: String(data.margin ?? '100000'),
+      radius: Number(data.radius) || 15,
+    };
     if (
-      !data.location.trim() ||
-      !data.business.trim() ||
-      !Number.isFinite(Number(data.margin)) ||
-      Number(data.margin) < 0 ||
-      Number(data.margin) > 100000000 ||
-      !data.start_date
+      !prepData.location.trim() ||
+      !prepData.business.trim() ||
+      !Number.isFinite(Number(prepData.margin)) ||
+      Number(prepData.margin) < 0 ||
+      Number(prepData.margin) > 100000000 ||
+      !prepData.start_date
     ) {
       setError('invalid_input');
       return;
@@ -287,29 +366,32 @@ export default function App() {
     aborter.current = new AbortController();
     setBusy(true);
     try {
-      if (data.lat == null) {
+      let finalData = { ...prepData };
+      if (finalData.lat == null) {
         try {
           const found = await api(
-            `/map/search?q=${encodeURIComponent(data.location)}`,
+            `/map/search?q=${encodeURIComponent(finalData.location)}`,
             undefined,
             aborter.current.signal
           );
           if (found.items.length === 1) {
             const { lat, lon, district, location } = found.items[0];
-            data = { ...data, lat, lon, district, location };
+            finalData = { ...finalData, lat, lon, district, location };
           }
         } catch {}
       }
       const r = await api(
         '/reports',
-        { ...data, margin: Number(data.margin), radius: 15, language: lang },
+        { ...finalData, margin: Number(finalData.margin), radius: finalData.radius, language: lang },
         aborter.current.signal
       );
       if (current !== seq.current) return;
       setReport(r);
-      setForm({ ...r.input, margin: String(r.input.margin) });
+      setForm({ ...r.input, margin: String(r.input.margin), radius: r.input.radius || finalData.radius });
       setEditing(false);
       setOnline(true);
+      setStage('app');
+      setTab('plan');
       if (!persist('gs-report', r)) setStorageError(true);
       const saved = [r, ...restore('gs-history', []).filter((x) => x.id !== r.id)].slice(0, 20);
       setHistory(saved);
@@ -321,7 +403,6 @@ export default function App() {
         history: saved,
       }).catch(() => {});
       if (focus) {
-        setTab('plan');
         setTimeout(() => reportHeading.current?.focus(), 0);
       }
     } catch (e) {
@@ -372,7 +453,7 @@ export default function App() {
     const fields = ['month', 'due_date', 'opening', 'interest', 'principal', 'payment', 'balance'];
     const lines = [
       fields.map((x) => t(x)),
-      ...report.finance.schedule.map((r) =>
+      ...(report?.finance?.schedule || []).map((r) =>
         fields.map((k) => (k === 'due_date' ? date(r[k]) : n(r[k], 2)))
       ),
     ];
@@ -393,6 +474,86 @@ export default function App() {
   const ai = report?.ai_status?.[lang],
     advice = report?.advice?.[lang];
   const text = (key) => advice?.[key] || t(`advice.${key}`);
+  const getDynamicSwot = (key) => {
+    if (advice?.[key]) return advice[key];
+    const cat = report?.business?.category || 'other';
+    const margin = Number(report?.input?.margin || 0);
+    const hasLoan = f?.loan > 0;
+    const missingFacs = report?.readiness?.missing || [];
+    const households = m?.households || 1000;
+    const competitors = m?.competitors || 0;
+
+    if (key === 'strengths') {
+      const parts = [];
+      if (margin >= 75000) {
+        parts.push(`Solid owner equity of ${money(margin)} provides strong safety margin and covers initial inventory.`);
+      } else {
+        parts.push(`Low capital barrier enables lean startup operations with fast break-even capability.`);
+      }
+      if (!hasLoan || f?.scheme === 'self_funded') {
+        parts.push(`Self-funded structure carries zero debt service burden, leaving operating cash flows fully retained.`);
+      } else {
+        parts.push(`Concessional debt rate (${n(f?.annual_rate || 6.5, 1)}%) structured with moratorium grace period.`);
+      }
+      parts.push(`Direct access to an immediate catchment of ${n(households)} local households within ${report?.input?.radius || 15} km.`);
+      return parts.join(' ');
+    }
+
+    if (key === 'weaknesses') {
+      const parts = [];
+      if (missingFacs.length > 0) {
+        const facNames = missingFacs.map((fc) => t(`facility.${fc}`) || fc).join(', ');
+        parts.push(`Pending infrastructure arrangements: ${facNames}. Arranging these before launch is essential.`);
+      } else {
+        parts.push(`Full baseline production facilities already secured, reducing pre-launch capital expenditure.`);
+      }
+      if (cat === 'fish') {
+        parts.push(`Fresh marine catch is highly perishable; lack of deep insulated ice storage can risk daily 5–8% spoilage.`);
+      } else if (cat === 'dairy') {
+        parts.push(`Strict daily shelf life requires disciplined twice-daily collection logistics and temperature control.`);
+      } else if (cat === 'tailoring') {
+        parts.push(`High reliance on individual craft speed; peak festival rush can strain single-tailor delivery commitments.`);
+      } else {
+        parts.push(`Initial customer acquisition requires trial discounts until repeat ordering patterns stabilize.`);
+      }
+      return parts.join(' ');
+    }
+
+    if (key === 'opportunity') {
+      const parts = [];
+      if (cat === 'fish') {
+        parts.push(`High demand for cleaned, dressed, and pre-weighed fresh fish delivery to residential households and local eateries.`);
+        parts.push(`Value-add: Sun-drying and spice-marinated packets during surplus catch periods to boost realization.`);
+      } else if (cat === 'dairy') {
+        parts.push(`Strong demand for morning doorstep delivery of pure, unadulterated milk and fresh curd.`);
+      } else if (cat === 'tailoring') {
+        parts.push(`Bulk orders for school uniforms, festive apparel (Pongal/Deepavali), and express alteration services.`);
+      } else {
+        parts.push(`Convenient evening doorstep delivery and small affordable pack sizes capture underserved rural consumers.`);
+      }
+      parts.push(`Eligible for government margin assistance under ${f?.scheme_name || t(f?.scheme) || 'verified state schemes'}.`);
+      return parts.join(' ');
+    }
+
+    if (key === 'threats') {
+      const parts = [];
+      if (cat === 'fish') {
+        parts.push(`Annual 61-day Coromandel marine fishing ban (Apr 15 – Jun 14) and monsoon weather restrict sea catch, requiring alternative freshwater sourcing.`);
+      } else if (cat === 'agriculture' || cat === 'dairy') {
+        parts.push(`Monsoon delays or seasonal fodder cost escalations can compress operating gross margins.`);
+      } else {
+        parts.push(`Monsoon transport disruptions and localized supplier price volatility.`);
+      }
+      if (competitors > 5) {
+        parts.push(`Presence of ${n(competitors)} established competitors in the block requires strict quality consistency and prompt service to avoid price wars.`);
+      } else {
+        parts.push(`Low competitor density reduces direct price competition, allowing healthy margin capture.`);
+      }
+      return parts.join(' ');
+    }
+
+    return advice?.[key] || t(`advice.${key}`);
+  };
   const showForm = !report || editing;
   const errKey = [
     'invalid_input',
@@ -439,13 +600,9 @@ export default function App() {
             {[
               ['plan', FileText],
               ['finance', Calculator],
-              ['sources', BookOpen],
               ['profile', Users],
-              ['schemes', Landmark],
-              ['allocation', Wallet],
-              ['repayment', Calculator],
               ['tracker', BookOpen],
-              ['compare', GitCompare],
+              // ['compare', GitCompare], -- temporarily removed, re-add this line to restore
               ['account', ShieldCheck],
             ].map(([key, icon]) => (
               <button key={key} className={tab === key ? 'active' : ''} onClick={() => setTab(key)}>
@@ -476,7 +633,10 @@ export default function App() {
         {stage === 'welcome' && (
           <section className="panel welcome">
             <div className="eyebrow">{t('brand')}</div>
-            <h1>{t('headline')}</h1>
+            <h1>GramSahayak</h1>
+            <p className="welcome-tagline" style={{ fontSize: '1.05rem', color: '#165f49', fontWeight: '600', marginBottom: '0.75rem' }}>
+              {t('tagline') || 'Local insight, financial planning, and government scheme navigator for rural & semi-urban enterprises.'}
+            </p>
             <p>{t('welcome_intro')}</p>
             <div className="report-grid">
               {['benefit_market', 'benefit_finance', 'benefit_action'].map((k) => (
@@ -486,17 +646,396 @@ export default function App() {
                 </article>
               ))}
             </div>
-            <button
-              className="primary"
-              onClick={() => {
-                setStage('app');
-                setTab('account');
-              }}
-            >
-              {t('get_started')}
-              <Icon as={ArrowRight} />
-            </button>
+            <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem', flexWrap: 'wrap' }}>
+              <button
+                className="primary"
+                onClick={() => {
+                  setStage('auth');
+                }}
+              >
+                {t('start_business') || 'Start Your Business'}
+                <Icon as={ArrowRight} />
+              </button>
+              <button
+                type="button"
+                className="secondary"
+                onClick={() => {
+                  setStage('auth');
+                }}
+              >
+                {t('explore_schemes') || 'Explore GramSahayak'}
+              </button>
+            </div>
           </section>
+        )}
+        {stage === 'auth' && (
+          <div className="auth-wrap">
+            <Account
+              snapshot={snapshot}
+              onLoad={loadWorkspace}
+              onContinue={() => {
+                setStage('wizard');
+                setWizardStep(1);
+              }}
+            />
+            <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+              <button
+                type="button"
+                style={{ background: 'transparent', border: 'none', color: '#64748b', cursor: 'pointer', textDecoration: 'underline' }}
+                onClick={() => setStage('welcome')}
+              >
+                ← {t('back_to_home') || 'Back to Home'}
+              </button>
+            </div>
+          </div>
+        )}
+        {stage === 'wizard' && (
+          <div className="wizard-container">
+            <div className="wizard-progress-bar">
+              {[
+                { step: 1, title: t('wizard_step_1_title') },
+                { step: 2, title: t('wizard_step_2_title') },
+                { step: 3, title: t('wizard_step_3_title') },
+                { step: 4, title: t('wizard_step_4_title') },
+              ].map((s) => (
+                <div
+                  key={s.step}
+                  className={`wizard-step-node ${wizardStep === s.step ? 'active' : ''} ${wizardStep > s.step ? 'completed' : ''}`}
+                  onClick={() => {
+                    if (s.step < wizardStep) setWizardStep(s.step);
+                  }}
+                >
+                  <div className="step-number-circle">
+                    {wizardStep > s.step ? '✓' : s.step}
+                  </div>
+                  <span className="step-title">{s.title}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="wizard-card">
+              {wizardStep === 1 && (
+                <div className="wizard-step-1">
+                  <h2>1. {t('business_information') || 'Business Information'}</h2>
+                  <p className="step-subtitle">{t('step1_subtitle')}</p>
+
+                  <label htmlFor="wizard-person-name">{t('person_name')}</label>
+                  <input
+                    id="wizard-person-name"
+                    maxLength={100}
+                    autoComplete="name"
+                    placeholder={t('placeholder_person_name')}
+                    value={form.person_name || ''}
+                    onChange={(e) => change('person_name', e.target.value)}
+                  />
+
+                  <label htmlFor="wizard-business-name">{t('business_name')}</label>
+                  <input
+                    id="wizard-business-name"
+                    maxLength={120}
+                    placeholder={t('placeholder_business_name')}
+                    value={form.business_name || ''}
+                    onChange={(e) => change('business_name', e.target.value)}
+                  />
+
+                  <label htmlFor="wizard-business-type">
+                    <Icon as={Store} /> {t('business_type') || 'Type of Business'}
+                  </label>
+                  <select
+                    id="wizard-business-type"
+                    value={form.category === 'auto' ? '' : form.category}
+                    onChange={(e) => {
+                      change('category', e.target.value);
+                      change('business', e.target.value);
+                    }}
+                  >
+                    <option value="">{t('choose_business')}</option>
+                    {categories.map((c) => (
+                      <option key={c} value={c}>
+                        {t(`sector.${c}`)}
+                      </option>
+                    ))}
+                  </select>
+
+                  <div className="step-actions">
+                    <button type="button" onClick={() => setStage('auth')}>
+                      ← {t('back_to_login')}
+                    </button>
+                    <button
+                      type="button"
+                      className="primary"
+                      disabled={!form.person_name?.trim() || !form.category || form.category === 'auto'}
+                      onClick={() => setWizardStep(2)}
+                    >
+                      {t('next_location_radius')} →
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {wizardStep === 2 && (
+                <div className="wizard-step-2">
+                  <h2>2. {t('location_and_radius') || 'Location & Coverage Radius'}</h2>
+                  <p className="step-subtitle">
+                    {t('step2_subtitle')}
+                  </p>
+
+                  <label htmlFor="wizard-location">
+                    <Icon as={MapPin} /> {t('location')}
+                  </label>
+                  <input
+                    id="wizard-location"
+                    autoComplete="off"
+                    maxLength={200}
+                    list="places"
+                    value={form.location}
+                    onChange={(e) =>
+                      setForm((f) => ({
+                        ...f,
+                        location: e.target.value,
+                        district: '',
+                        lat: null,
+                        lon: null,
+                      }))
+                    }
+                    placeholder={t('location_placeholder')}
+                  />
+                  <datalist id="places">
+                    {suggestions.map((s, i) => (
+                      <option key={`${s.id || s.name}-${i}`} value={`${s.name}, ${s.district}`} />
+                    ))}
+                  </datalist>
+
+                  <div className="radius-selector-group">
+                    <label>{t('coverage_radius') || 'Coverage Radius (Only selectable here)'}</label>
+                    <div className="radius-buttons">
+                      {[5, 10, 15].map((r) => (
+                        <button
+                          key={r}
+                          type="button"
+                          className={`radius-pill ${form.radius === r ? 'active' : ''}`}
+                          onClick={() => change('radius', r)}
+                        >
+                          {t('radius_km_button', { km: r })}
+                        </button>
+                      ))}
+                    </div>
+                    <small className="field-hint">
+                      {form.radius === 5 && t('radius_hint_5')}
+                      {form.radius === 10 && t('radius_hint_10')}
+                      {form.radius === 15 && t('radius_hint_15')}
+                    </small>
+                  </div>
+
+                  <Suspense fallback={<p>{t('map_loading')}</p>}>
+                    <LocationMap
+                      radius={form.radius || 15}
+                      value={form}
+                      onChoose={({ location, district, lat, lon }) =>
+                        setForm((f) => ({ ...f, location, district, lat, lon }))
+                      }
+                    />
+                  </Suspense>
+
+                  <div className="step-actions">
+                    <button type="button" onClick={() => setWizardStep(1)}>
+                      ← {t('back')}
+                    </button>
+                    <button
+                      type="button"
+                      className="primary"
+                      disabled={!form.location?.trim() && form.lat == null}
+                      onClick={() => setWizardStep(3)}
+                    >
+                      {t('next_financing_savings')} →
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {wizardStep === 3 && (
+                <div className="wizard-step-3">
+                  <h2>3. {t('funding_choice') || 'Business Investment & Savings'}</h2>
+                  <p className="step-subtitle">
+                    {t('step3_subtitle')}
+                  </p>
+
+                  <div className="choice-cards-grid">
+                    <div
+                      className={`choice-card ${form.funding_mode === 'savings' ? 'selected' : ''}`}
+                      onClick={() => {
+                        change('funding_mode', 'savings');
+                        if (Number(form.margin) <= 0) change('margin', '100000');
+                      }}
+                    >
+                      <div className="choice-card-icon">💰</div>
+                      <h3>{t('funding_savings') || 'I have personal savings'}</h3>
+                      <p>{t('funding_savings_desc')}</p>
+                      <input
+                        type="radio"
+                        checked={form.funding_mode === 'savings'}
+                        readOnly
+                      />
+                    </div>
+
+                    <div
+                      className={`choice-card ${form.funding_mode === 'loan' ? 'selected' : ''}`}
+                      onClick={() => {
+                        change('funding_mode', 'loan');
+                        change('margin', '0');
+                      }}
+                    >
+                      <div className="choice-card-icon">🤝</div>
+                      <h3>{t('funding_loan') || 'No savings / Full loan funding'}</h3>
+                      <p>{t('funding_loan_desc')}</p>
+                      <input
+                        type="radio"
+                        checked={form.funding_mode === 'loan'}
+                        readOnly
+                      />
+                    </div>
+                  </div>
+
+                  {form.funding_mode === 'savings' ? (
+                    <div className="savings-input-wrap">
+                      <label htmlFor="wizard-margin">{t('savings_amount') || 'Enter Your Savings Contribution (₹)'}</label>
+                      <div className="currency-input">
+                        <span aria-hidden="true">₹</span>
+                        <input
+                          id="wizard-margin"
+                          type="number"
+                          min="0"
+                          max="100000000"
+                          value={form.margin}
+                          onChange={(e) => change('margin', e.target.value)}
+                        />
+                      </div>
+                      <small className="field-hint">
+                        {t('savings_allocation_hint')}
+                      </small>
+                    </div>
+                  ) : (
+                    <div className="notice">
+                      <Icon as={Info} />
+                      <div>
+                        <strong>{t('zero_cash_required')}</strong>
+                        <p>{t('zero_cash_desc')}</p>
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="step-actions">
+                    <button type="button" onClick={() => setWizardStep(2)}>
+                      ← {t('back')}
+                    </button>
+                    <button
+                      type="button"
+                      className="primary"
+                      onClick={() => setWizardStep(4)}
+                    >
+                      {t('next_community_eligibility')} →
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {wizardStep === 4 && (
+                <div className="wizard-step-4">
+                  <h2>4. {t('community_and_demographics') || 'Community Category & Eligibility'}</h2>
+                  <p className="step-subtitle">
+                    {t('step4_subtitle')}
+                  </p>
+
+                  <div className="form-grid">
+                    <div>
+                      <label htmlFor="wizard-community">{t('community')}</label>
+                      <select
+                        id="wizard-community"
+                        value={form.community}
+                        onChange={(e) => change('community', e.target.value)}
+                      >
+                        <option value="unspecified">{t('unspecified') || 'Select Community'}</option>
+                        <option value="sc">{t('sc') || 'Scheduled Caste (SC)'}</option>
+                        <option value="st">{t('st') || 'Scheduled Tribe (ST)'}</option>
+                        <option value="obc">{t('obc') || 'Backward Classes (OBC/BC/MBC)'}</option>
+                        <option value="general">{t('general') || 'General Category'}</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label htmlFor="wizard-gender">{t('gender')}</label>
+                      <select
+                        id="wizard-gender"
+                        value={form.gender}
+                        onChange={(e) => change('gender', e.target.value)}
+                      >
+                        <option value="unspecified">{t('unspecified') || 'Unspecified'}</option>
+                        <option value="female">{t('female') || 'Female'}</option>
+                        <option value="male">{t('male') || 'Male'}</option>
+                        <option value="other_gender">{t('other_gender') || 'Other'}</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label htmlFor="wizard-age">{t('age') || 'Applicant Age'}</label>
+                      <input
+                        id="wizard-age"
+                        type="number"
+                        min="18"
+                        max="100"
+                        placeholder="e.g. 28"
+                        value={form.age ?? ''}
+                        onChange={(e) => change('age', e.target.value === '' ? null : Number(e.target.value))}
+                      />
+                    </div>
+
+                    <div>
+                      <label htmlFor="wizard-district">{t('district')}</label>
+                      <select
+                        id="wizard-district"
+                        value={form.district}
+                        onChange={(e) => change('district', e.target.value)}
+                      >
+                        <option value="">{t('choose_district')}</option>
+                        {coverage?.district_list?.map((d) => (
+                          <option key={d.id} value={d.id}>
+                            {d?.names?.[lang] || d?.names?.en || d.id}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  </div>
+
+                  <div style={{ marginTop: '1.25rem' }}>
+                    <h3>{t('facilities') || 'Production Infrastructure & Utilities'}</h3>
+                    <Facilities form={form} change={change} />
+                  </div>
+
+                  {error && (
+                    <div role="alert" style={{ marginTop: '1rem' }}>
+                      <Notice danger>{t(errKey)}</Notice>
+                    </div>
+                  )}
+
+                  <div className="step-actions">
+                    <button type="button" onClick={() => setWizardStep(3)}>
+                      ← {t('back')}
+                    </button>
+                    <button
+                      type="button"
+                      className="primary submit"
+                      disabled={busy}
+                      onClick={() => run()}
+                    >
+                      {busy ? <Icon as={RefreshCw} className="spin" /> : <Icon as={FileText} />}
+                      <span>{t(busy ? 'loading' : 'generate')}</span>
+                      <Icon as={ArrowRight} />
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
         )}
         {stage === 'app' && (
           <>
@@ -506,25 +1045,12 @@ export default function App() {
                 onLoad={loadWorkspace}
                 onContinue={() => {
                   setTab('plan');
-                  setEditing(true);
-                }}
-              />
-            )}
-            {tab === 'schemes' && (
-              <Schemes
-                form={report?.input || form}
-                onProfile={() => {
-                  setTab('plan');
-                  setEditing(true);
-                }}
-                onUse={async (id) => {
-                  await run({ ...(report?.input || form), scheme_id: id }, false);
-                  setTab('finance');
+                  setEditing(false);
                 }}
               />
             )}
             {tab === 'tracker' && <Tracker />}
-            {tab === 'compare' && <Compare report={report} history={history} />}
+            {/* {tab === 'compare' && <Compare report={report} history={history} />} -- temporarily removed, re-add this line to restore */}
             {tab === 'profile' && <History history={history} onOpen={openHistory} />}
             {storageError && <Notice danger>{t('storage_error')}</Notice>}
             {error && (
@@ -533,277 +1059,16 @@ export default function App() {
               </div>
             )}
             {report && !online && <Notice>{t('cached')}</Notice>}
-            {tab === 'plan' && showForm && (
-              <>
-                <div className="intro">
-                  <div className="eyebrow">{t('eyebrow')}</div>
-                  <h1>{t('headline')}</h1>
-                  <p>{t('intro')}</p>
-                </div>
-                <div className="intake-grid">
-                  <form
-                    className="intake panel"
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                      run();
-                    }}
-                    noValidate
-                  >
-                    <div className="panel-heading">
-                      <span className="step-number">01</span>
-                      <div>
-                        <h2>{t('new_plan')}</h2>
-                        <p>{t('required_hint')}</p>
-                      </div>
-                    </div>
-                    <label htmlFor="person-name">{t('person_name')}</label>
-                    <input
-                      id="person-name"
-                      maxLength={100}
-                      autoComplete="name"
-                      value={form.person_name || ''}
-                      onChange={(e) => change('person_name', e.target.value)}
-                    />
-                    <label htmlFor="business-name">{t('business_name')}</label>
-                    <input
-                      id="business-name"
-                      maxLength={120}
-                      value={form.business_name || ''}
-                      onChange={(e) => change('business_name', e.target.value)}
-                    />
-                    <label htmlFor="location">
-                      <Icon as={MapPin} />
-                      {t('location')}
-                    </label>
-                    <input
-                      id="location"
-                      autoComplete="off"
-                      maxLength={200}
-                      list="places"
-                      value={form.location}
-                      onChange={(e) =>
-                        setForm((f) => ({
-                          ...f,
-                          location: e.target.value,
-                          district: '',
-                          lat: null,
-                          lon: null,
-                        }))
-                      }
-                      placeholder={t('location_placeholder')}
-                      aria-describedby="location-help"
-                    />
-                    <datalist id="places">
-                      {suggestions.map((s, i) => (
-                        <option key={`${s.id || s.name}-${i}`} value={`${s.name}, ${s.district}`} />
-                      ))}
-                    </datalist>
-                    <small id="location-help" className="field-hint">
-                      {t('location_hint')}
-                    </small>
-                    <button
-                      type="button"
-                      className="map-toggle"
-                      onClick={() => setShowMap((v) => !v)}
-                      aria-expanded={showMap}
-                    >
-                      <Icon as={MapPin} />
-                      {t('map_label')}
-                    </button>
-                    {showMap && (
-                      <Suspense fallback={<p>{t('map_loading')}</p>}>
-                        <LocationMap
-                          radius={15}
-                          value={form}
-                          onChoose={({ location, district, lat, lon }) =>
-                            setForm((f) => ({ ...f, location, district, lat, lon }))
-                          }
-                        />
-                      </Suspense>
-                    )}
-                    <label htmlFor="business">
-                      <Icon as={Store} />
-                      {t('business')}
-                    </label>
-                    <select
-                      id="business"
-                      value={form.category === 'auto' ? '' : form.category}
-                      onChange={(e) =>
-                        setForm((f) => ({
-                          ...f,
-                          category: e.target.value,
-                          business: e.target.value,
-                        }))
-                      }
-                      aria-describedby="business-help"
-                    >
-                      <option value="">{t('choose_business')}</option>
-                      {categories.map((c) => (
-                        <option key={c} value={c}>
-                          {t(`sector.${c}`)}
-                        </option>
-                      ))}
-                    </select>
-                    <small id="business-help" className="field-hint">
-                      {t('business_select_hint')}
-                    </small>
-                    <fieldset className="funding-choice">
-                      <legend>{t('funding_choice')}</legend>
-                      {['savings', 'loan'].map((k) => (
-                        <label key={k}>
-                          <input
-                            type="radio"
-                            name="funding"
-                            value={k}
-                            checked={form.funding_mode === k}
-                            onChange={() => change('funding_mode', k)}
-                          />
-                          {t(`funding_${k}`)}
-                        </label>
-                      ))}
-                    </fieldset>
-                    <label htmlFor="margin">
-                      <Icon as={Wallet} />
-                      {t(form.funding_mode === 'loan' ? 'own_contribution' : 'savings_amount')}
-                    </label>
-                    <div className="currency-input">
-                      <span aria-hidden="true">₹</span>
-                      <input
-                        id="margin"
-                        inputMode="decimal"
-                        type="number"
-                        min="0"
-                        max="100000000"
-                        step="0.01"
-                        value={form.margin}
-                        onChange={(e) => change('margin', e.target.value)}
-                        aria-describedby="margin-help"
-                      />
-                    </div>
-                    <small id="margin-help" className="field-hint">
-                      {t('margin_hint')}
-                    </small>
-                    <details className="options">
-                      <summary>
-                        {t('more_options')}
-                        <Icon as={ChevronDown} />
-                      </summary>
-                      <div className="form-grid">
-                        <div>
-                          <label htmlFor="district">{t('district')}</label>
-                          <select
-                            id="district"
-                            value={form.district}
-                            onChange={(e) => change('district', e.target.value)}
-                          >
-                            <option value="">{t('choose_district')}</option>
-                            {coverage?.district_list.map((d) => (
-                              <option key={d.id} value={d.id}>
-                                {d.names[lang]}
-                              </option>
-                            ))}
-                          </select>
-                        </div>
-
-                        <div>
-                          <label htmlFor="community">{t('community')}</label>
-                          <select
-                            id="community"
-                            value={form.community}
-                            onChange={(e) => change('community', e.target.value)}
-                          >
-                            {['unspecified', 'sc', 'st', 'obc', 'general'].map((c) => (
-                              <option key={c} value={c}>
-                                {t(c)}
-                              </option>
-                            ))}
-                          </select>
-                        </div>
-                        <div>
-                          <label htmlFor="start-date">{t('start_date')}</label>
-                          <input
-                            id="start-date"
-                            type="date"
-                            value={form.start_date}
-                            onChange={(e) => change('start_date', e.target.value)}
-                          />
-                        </div>
-                        <div>
-                          <label htmlFor="intake-gender">{t('gender')}</label>
-                          <select
-                            id="intake-gender"
-                            value={form.gender}
-                            onChange={(e) => change('gender', e.target.value)}
-                          >
-                            {['unspecified', 'female', 'male', 'other_gender'].map((k) => (
-                              <option key={k} value={k}>
-                                {t(k)}
-                              </option>
-                            ))}
-                          </select>
-                        </div>
-                        <div>
-                          <label htmlFor="intake-income">{t('household_income')}</label>
-                          <input
-                            id="intake-income"
-                            type="number"
-                            min="0"
-                            value={form.household_income ?? ''}
-                            onChange={(e) =>
-                              change(
-                                'household_income',
-                                e.target.value === '' ? null : Number(e.target.value)
-                              )
-                            }
-                          />
-                        </div>
-                      </div>
-                    </details>
-                    <Facilities form={form} change={change} />
-                    {editing && <small className="field-hint">{t('edit_hint')}</small>}
-                    <button className="primary submit" type="submit" disabled={busy}>
-                      {busy ? <Icon as={RefreshCw} className="spin" /> : <Icon as={FileText} />}
-                      <span>{t(busy ? 'loading' : 'generate')}</span>
-                      <Icon as={ArrowRight} />
-                    </button>
-                    <button type="button" className="example" onClick={example}>
-                      {t('example')}
-                    </button>
-                    <p className="privacy">{t('privacy')}</p>
-                  </form>
-                  <aside className="intake-aside">
-                    <div className="coverage-pill">
-                      <Icon as={ShieldCheck} />
-                      {t('coverage_badge')}
-                    </div>
-                    <h2>{t('what_you_get')}</h2>
-                    {[
-                      ['benefit_market', MapPin],
-                      ['benefit_finance', Calculator],
-                      ['benefit_action', TrendingUp],
-                    ].map(([key, icon], index) => (
-                      <div className="benefit" key={key}>
-                        <div className="benefit-icon">
-                          <Icon as={icon} size={25} />
-                        </div>
-                        <div>
-                          <small>0{index + 1}</small>
-                          <h3>{t(key)}</h3>
-                          <p>{t(`${key}_desc`)}</p>
-                        </div>
-                      </div>
-                    ))}
-                    <div className="aside-note">
-                      <Icon as={Info} />
-                      <p>{t('data_note')}</p>
-                    </div>
-                    <details className="existing">
-                      <summary>{t('existing')}</summary>
-                      <p>{t('existing_desc')}</p>
-                    </details>
-                  </aside>
-                </div>
-              </>
+            {!report && tab === 'plan' && (
+              <div className="empty">
+                <Icon as={FileText} size={48} />
+                <h1>{t('no_active_plan_title')}</h1>
+                <p>{t('no_active_plan_desc')}</p>
+                <button className="primary" onClick={() => { setStage('wizard'); setWizardStep(1); }}>
+                  {t('create_business_plan')}
+                  <Icon as={ArrowRight} />
+                </button>
+              </div>
             )}
             {report && ['plan', 'finance', 'allocation', 'repayment', 'sources'].includes(tab) && (
               <div
@@ -819,7 +1084,6 @@ export default function App() {
                     <h1 ref={reportHeading} tabIndex={-1}>
                       {report.input.business_name || t('business_plan')}
                     </h1>
-                    <p>{t('report_subtitle')}</p>
                   </div>
                   <div className="actions">
                     <button
@@ -862,35 +1126,18 @@ export default function App() {
                   </p>
                 </div>
                 <div
-                  className={`report-section ${tab !== 'plan' || showForm ? 'screen-hidden' : ''}`}
+                  className={`report-section ${tab !== 'plan' ? 'screen-hidden' : ''}`}
                 >
-                  <div className={`verdict ${report.verdict}`}>
-                    <div className="verdict-icon">
-                      <Icon as={Sprout} size={30} />
-                    </div>
-                    <div>
-                      <h2>
-                        {t('plan_readiness')}: {n(report.readiness?.score ?? 0)} / {n(10)}
-                      </h2>
-                      <p>{t('score_note')}</p>
-                      <ul>
-                        {Object.entries(report.readiness?.checks || {}).map(([key, passed]) => (
-                          <li key={key}>
-                            {t(`check_${key}`)}: <b>{t(passed ? 'check_ready' : 'check_needed')}</b>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
+                  <PlanReadinessWidget readiness={report.readiness} verdict={report.verdict} />
                   {report.readiness && (
                     <Section icon={Check} title={t('readiness')}>
                       <p>
                         {t(
-                          report.readiness.missing.length ? 'readiness_missing' : 'readiness_ready'
+                          (report.readiness.missing || []).length ? 'readiness_missing' : 'readiness_ready'
                         )}
                       </p>
                       <div className="district-chips">
-                        {report.readiness.missing.map((k) => (
+                        {(report.readiness.missing || []).map((k) => (
                           <span key={k}>{t(`facility.${k}`)}</span>
                         ))}
                       </div>
@@ -910,9 +1157,9 @@ export default function App() {
                       detail={t('estimated')}
                     />
                     <Metric
-                      label={t('price')}
+                      label={report.business.category === 'fish' ? t('fish_catch_benchmark') : t('price')}
                       value={money(m.price)}
-                      detail={t(`unit_${m.unit}`)}
+                      detail={`${t(`unit_${m.unit}`)} · ${report.business.category === 'fish' ? t('retail_benchmark') : t('estimated')}`}
                     />
                     <Metric
                       label={t('competitors')}
@@ -920,9 +1167,9 @@ export default function App() {
                       detail={t('estimated')}
                     />
                     <Metric
-                      label={t('net_after_debt')}
-                      value={money(m.net_after_debt)}
-                      detail={t('estimated')}
+                      label={t('monthly_operating_surplus')}
+                      value={money(m.operating_profit)}
+                      detail={t('monthly_operating_surplus_desc')}
                       accent
                     />
                   </div>
@@ -940,14 +1187,14 @@ export default function App() {
                               : 'ai_curated'
                     )}
                   </div>
-                  <div className="report-grid">
+                  <div className="report-grid equal-height-grid" style={{ marginBottom: '22px' }}>
                     <Section icon={Users} title={t('market')}>
                       <p>
                         {report.input.location} · {t('radius_fixed')}
                       </p>
                       <p>{text('market')}</p>
                       <p>{t(`channels_${report.business.category}`)}</p>
-                      <div className="inline-stat">
+                      <div className="inline-stat" style={{ marginTop: 'auto', paddingTop: '15px' }}>
                         <span>{t('households')}</span>
                         <b>{n(m.households)}</b>
                       </div>
@@ -957,29 +1204,35 @@ export default function App() {
                       </div>
                     </Section>
                     <Section icon={TrendingUp} title={t('opportunity')}>
-                      <p>{text('opportunity')}</p>
-                      <div className="next-step">
+                      <p>{getDynamicSwot('opportunity')}</p>
+                      <div className="two-stats" style={{ marginTop: 'auto', paddingTop: '15px', borderTop: '1px solid var(--line)' }}>
+                        <Metric label={t('reachable_monthly_volume')} value={`${n(m.units)} ${t(`unit_${m.unit}`)}`} />
+                        <Metric label={t('break_even_monthly_target')} value={`${n(m.break_even_units)} ${t(`unit_${m.unit}`)}`} />
+                      </div>
+                      <div className="next-step" style={{ marginTop: '12px' }}>
                         <Icon as={Check} />
-                        {t('benefit_action_desc')}
+                        <span>{t('benefit_action_desc')}</span>
                       </div>
                     </Section>
-                    <Section icon={ShieldCheck} title={t('swot')} className="full">
-                      <div className="swot-grid">
-                        {['strengths', 'weaknesses', 'opportunity', 'threats'].map((k) => (
-                          <div key={k} className={`swot ${k}`}>
-                            <h3>{t(k)}</h3>
-                            <p>{text(k)}</p>
-                          </div>
-                        ))}
-                      </div>
-                    </Section>
+                  </div>
+                  <Section icon={ShieldCheck} title={t('swot')} className="full">
+                    <div className="swot-grid">
+                      {['strengths', 'weaknesses', 'opportunity', 'threats'].map((k) => (
+                        <div key={k} className={`swot ${k}`}>
+                          <h3>{t(k)}</h3>
+                          <p style={{ lineHeight: 1.6, margin: 0 }}>{getDynamicSwot(k)}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </Section>
+                  <div className="report-grid equal-height-grid" style={{ marginTop: '22px', marginBottom: '22px' }}>
                     <Section icon={Store} title={t('competition')}>
                       <div className="two-stats">
                         <Metric label={t('competitors')} value={n(m.competitors)} />
                         <Metric label={t('block_competitors')} value={n(m.block_competitors)} />
                       </div>
                       <p>{text('competition')}</p>
-                      <small>{t('competitor_map_note')}</small>
+                      <small style={{ marginTop: 'auto', display: 'block', paddingTop: '8px' }}>{t('competitor_map_note')}</small>
                     </Section>
                     <Section icon={Wallet} title={t('pricing')}>
                       <div className="price-callout">
@@ -989,9 +1242,67 @@ export default function App() {
                         </small>
                       </div>
                       <p>{text('pricing')}</p>
-                      <small>{t('price_disclaimer')}</small>
+                      <small style={{ marginTop: 'auto', display: 'block', paddingTop: '8px' }}>{t('price_disclaimer')}</small>
                     </Section>
                   </div>
+                  {report.pricing_strategy?.strategies && (
+                    <Section icon={Wallet} title={t('pricing_strategies') || 'Pricing Strategy Options'}>
+                      <p>{t('pricing_strategies_intro')}</p>
+                      <div className="pricing-strategies-grid">
+                        {(report.pricing_strategy.strategies || []).map((st) => (
+                          <div
+                            key={st.strategy_id}
+                            className={`strategy-card ${st.strategy_id === 'match' ? 'recommended' : ''}`}
+                          >
+                            <h4>{st.label}</h4>
+                            <div className="strategy-price">
+                              {money(st.unit_price)}
+                              <small> / {report.pricing_strategy.unit_label || t('unit_fallback')}</small>
+                            </div>
+                            <p style={{ fontSize: '0.85rem', color: '#64748b' }}>{st.description}</p>
+                            <div style={{ marginTop: '0.5rem', fontSize: '0.82rem' }}>
+                              <span>{t('break_even_volume_label')} </span>
+                              <b>{t('units_per_month_value', { count: n(st.break_even_units) })}</b>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </Section>
+                  )}
+                  {report.seasonality && (
+                    <Section icon={TrendingUp} title={t('seasonality_title') || 'Tamil Nadu Climate & Seasonal Cycles'}>
+                      <p>
+                        {report.seasonality_note_key ? t(report.seasonality_note_key) : t('seasonality_intro_fallback')}
+                      </p>
+                      <div className="seasonality-row">
+                        {(report.seasonality || []).map((mItem) => {
+                          const idx = mItem.index ?? 1.0;
+                          const isPeak = idx > 1.05;
+                          const isLean = idx < 0.95;
+                          const MONTH_KEYS = ['month_1', 'month_2', 'month_3', 'month_4', 'month_5', 'month_6', 'month_7', 'month_8', 'month_9', 'month_10', 'month_11', 'month_12'];
+                          const mName = t(MONTH_KEYS[mItem.month - 1]) || `M${mItem.month}`;
+                          const reasonText = mItem.reasons?.map((r) => t(r) || r).join(', ');
+                          return (
+                            <div
+                              key={mItem.month}
+                              className={`season-month-cell ${isPeak ? 'peak' : isLean ? 'lean' : ''}`}
+                              title={`${mName}: Demand ${(idx * 100).toFixed(0)}%${reasonText ? ' — ' + reasonText : ''}`}
+                            >
+                              <div><b>{mName}</b></div>
+                              <div>{(idx * 100).toFixed(0)}%</div>
+                              {isPeak && <small style={{ fontSize: '0.62rem', color: '#166534', fontWeight: 700 }}>{t('peak_label')}</small>}
+                              {isLean && <small style={{ fontSize: '0.62rem', color: '#991b1b', fontWeight: 700 }}>{t('lean_label')}</small>}
+                            </div>
+                          );
+                        })}
+                      </div>
+                      {report.business.category === 'fish' && (
+                        <div style={{ marginTop: '0.75rem', fontSize: '0.82rem', color: '#475569', background: '#f8fafc', padding: '8px 12px', borderRadius: '6px', border: '1px solid #e2e8f0' }}>
+                          🐟 <strong>{t('fish_seasonality_note_title')}</strong> {t('fish_seasonality_note_desc')}
+                        </div>
+                      )}
+                    </Section>
+                  )}
                   <Section icon={AlertTriangle} title={t('threat_identification')}>
                     <p>{text('threats')}</p>
                     <p>{t(`risk_${report.business.category}`)}</p>
@@ -1111,88 +1422,130 @@ export default function App() {
                       {f.cap_applied && <Notice danger>{t('cap_note')}</Notice>}
                     </>
                   )}
-                  <div className="report-grid">
-                    <Section icon={Wallet} title={t('operating')}>
+                  {report.budget && (
+                    <Section icon={Wallet} title={t('starter_inventory') || 'Use of Funds & Starter Inventory'}>
+                      <p>{t('inventory_note') || 'Itemized capital expenditure required to establish enterprise operations:'}</p>
                       <dl className="cost-list">
-                        {[
-                          'revenue',
-                          'fixed_cost',
-                          'variable_cost',
-                          'monthly_cost',
-                          'operating_profit',
-                          'net_after_debt',
-                          'working_capital',
-                          'working_allocated',
-                          'working_gap',
-                          'starter_cost',
-                          'established_cost',
-                        ].map((k) => (
-                          <div key={k} className={k === 'net_after_debt' ? 'total' : ''}>
-                            <dt>{t(k)}</dt>
-                            <dd>{money(m[k])}</dd>
+                        {(report.budget.items || []).map((item) => (
+                          <div key={item.key}>
+                            <dt>
+                              {item.key === 'tools'
+                                ? t(`tools_${report.business.category}`)
+                                : t(`inventory_${item.key}`)}
+                              {item.provided && <small> · {t('already_available')}</small>}
+                            </dt>
+                            <dd>{money(item.amount)}</dd>
                           </div>
                         ))}
-                      </dl>
-                      <div className="inline-stat">
-                        <span>{t('break_even_units')}</span>
-                        <b>
-                          {m.break_even_units === null ? t('no_break_even') : n(m.break_even_units)}
-                        </b>
-                      </div>
-                      <div className="stress">
-                        <span>{t('downside')}</span>
-                        <b>{money(m.downside_profit)}</b>
-                      </div>
-                    </Section>
-                    <div>
-                      <Section icon={Landmark} title={t('eligibility')}>
-                        <p>{t('eligibility_desc')}</p>
-                        <span className="badge">
-                          {t(
-                            report.scheme_screening?.schemes.find((s) => s.id === f.scheme)
-                              ?.status || 'need_details'
-                          )}
-                        </span>
-                        <p>{t(report.input.community === 'sc' ? 'agency_sc' : 'agency_other')}</p>
-                        <div className="source-links">
-                          <a
-                            href={
-                              report.scheme_screening?.schemes.find((s) => s.id === f.scheme)
-                                ?.source || 'https://nsfdc.nic.in/faqs'
-                            }
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {t('official_details')} ↗
-                          </a>
-                          <a
-                            href={
-                              report.input.community === 'sc'
-                                ? 'https://tahdco.com/'
-                                : 'https://www.bcmbcmw.tn.gov.in/'
-                            }
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {t('local_access')} ↗
-                          </a>
+                        <div className="total">
+                          <dt>{t('project_cost')}</dt>
+                          <dd>{money(report.budget.project_cost)}</dd>
                         </div>
-                        <small>{t('application_note')}</small>
-                      </Section>
-                    </div>
-                  </div>
+                      </dl>
+                    </Section>
+                  )}
+
                   <Schemes
                     form={report.input}
                     onProfile={() => {
-                      setTab('plan');
-                      setEditing(true);
+                      setStage('wizard');
+                      setWizardStep(4);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
                     onUse={async (id) => {
                       await run({ ...report.input, scheme_id: id }, false);
                       setTab('finance');
+                      setTimeout(() => {
+                        const el = document.getElementById('repayment-schedule-section');
+                        if (el) el.scrollIntoView({ behavior: 'smooth' });
+                      }, 150);
                     }}
                   />
-                  <Nearby key={report.id} report={report} mode="bank" scheme={f.scheme} />
+                  <Nearby key={`${report.id}-bank`} report={report} mode="bank" scheme={f.scheme} />
+
+                  {f.schedule.length > 0 && (
+                    <Section id="repayment-schedule-section" icon={Calculator} title={t('nav_repayment') || 'Loan Repayment & Amortization Schedule'}>
+                      <p>
+                        {t('selected_scheme')}: <b>{f.scheme_name || t(f.scheme) || f.scheme}</b>
+                      </p>
+
+                      {f.loan > 0 && f.loan <= 15000 && (
+                        <div style={{ background: '#f0fdf4', border: '1px solid #86efac', borderRadius: '8px', padding: '1rem', marginBottom: '1.25rem' }}>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: 700, color: '#166534', marginBottom: '4px' }}>
+                            <span>💡</span> Small Capital Gap ({money(f.loan)}) — Quick 3–6 Month Operating Clearance Viable
+                          </div>
+                          <p style={{ margin: 0, fontSize: '0.88rem', color: '#14532d', lineHeight: 1.5 }}>
+                            Your net funding shortfall is only <strong>{money(f.loan)}</strong>. While government scheme guidelines specify standard 36-month institutional terms (~{money(f.quarterly_payment)}/quarter), you are not locked into a 3-year term loan. You can comfortably clear this small gap within <strong>3 to 6 months</strong> (~{money(f.loan / 3)}/mo) directly from enterprise operating surplus without multi-year bank debt overhead.
+                          </p>
+                        </div>
+                      )}
+
+                      <div className="schedule-summary" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center', marginBottom: '1rem' }}>
+                        <span>
+                          {t('total_interest')}: <b>{money(f.total_interest)}</b>
+                        </span>
+                        <span>
+                          {t('total_repayment')}: <b>{money(f.total_repayment)}</b>
+                        </span>
+                        <button type="button" onClick={download}>
+                          <Icon as={Download} />
+                          {t('csv') || 'Export CSV'}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            if (saveRepaymentPlan(report)) {
+                              setTab('tracker');
+                            } else setStorageError(true);
+                          }}
+                        >
+                          <Icon as={BookOpen} />
+                          {t('track_plan') || 'Track in Daily Accounts'}
+                        </button>
+                      </div>
+                      <div className="table-wrap repayment-table" tabIndex={0}>
+                        <table>
+                          <caption>{t('schedule')}</caption>
+                          <thead>
+                            <tr>
+                              {[
+                                'month',
+                                'due_date',
+                                'opening',
+                                'interest',
+                                'principal',
+                                'payment',
+                                'balance',
+                              ].map((k) => (
+                                <th scope="col" key={k}>
+                                  {t(k)}
+                                </th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {(f.schedule || []).slice(0, 12).map((row) => (
+                              <tr key={row.month} className={row.moratorium ? 'grace-row' : ''}>
+                                <th scope="row">
+                                  {n(row.month)}
+                                  {row.moratorium && <small>{t('grace')}</small>}
+                                </th>
+                                <td>{date(row.due_date)}</td>
+                                {['opening', 'interest', 'principal', 'payment', 'balance'].map(
+                                  (k) => (
+                                    <td key={k}>{money(row[k])}</td>
+                                  )
+                                )}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                      {(f.schedule || []).length > 12 && (
+                        <small style={{ color: '#64748b' }}>Showing initial 12 months. Export CSV to view full tenure schedule.</small>
+                      )}
+                    </Section>
+                  )}
                   <Section icon={TrendingUp} title={t('projection')}>
                     <p>{t('projection_note')}</p>
                     <div className="projection-chart" role="img" aria-label={t('projection')}>
@@ -1201,17 +1554,17 @@ export default function App() {
                         <span className="cost">{t('costs')}</span>
                       </div>
                       <div className="chart-bars">
-                        {m.projection.map((row) => (
+                        {(m?.projection || []).map((row) => (
                           <div className="chart-column" key={row.month}>
                             <div className="bar-pair">
                               <i
                                 style={{
-                                  height: `${Math.max(2, (row.revenue / Math.max(...m.projection.flatMap((x) => [x.revenue, x.costs]), 1)) * 120)}px`,
+                                  height: `${Math.max(2, (row.revenue / Math.max(...(m.projection || []).flatMap((x) => [x.revenue, x.costs]), 1)) * 120)}px`,
                                 }}
                               />
                               <i
                                 style={{
-                                  height: `${Math.max(2, (row.costs / Math.max(...m.projection.flatMap((x) => [x.revenue, x.costs]), 1)) * 120)}px`,
+                                  height: `${Math.max(2, (row.costs / Math.max(...(m.projection || []).flatMap((x) => [x.revenue, x.costs]), 1)) * 120)}px`,
                                 }}
                               />
                             </div>
@@ -1240,7 +1593,7 @@ export default function App() {
                             </tr>
                           </thead>
                           <tbody>
-                            {m.projection.map((row) => (
+                            {(m?.projection || []).map((row) => (
                               <tr key={row.month}>
                                 {['month', 'revenue', 'costs', 'repayment', 'cash', 'balance'].map(
                                   (k) => (
@@ -1255,107 +1608,9 @@ export default function App() {
                     </details>
                   </Section>
                 </div>
-                <div className={`report-section ${tab !== 'allocation' ? 'screen-hidden' : ''}`}>
-                  <h2>{t('nav_allocation')}</h2>
-                  <p>{t('inventory_note')}</p>
-                  {report.budget && (
-                    <Section icon={Wallet} title={t('starter_inventory')}>
-                      <dl className="cost-list">
-                        {report.budget.items.map((item) => (
-                          <div key={item.key}>
-                            <dt>
-                              {item.key === 'tools'
-                                ? t(`tools_${report.business.category}`)
-                                : t(`inventory_${item.key}`)}
-                              {item.provided && <small> · {t('already_available')}</small>}
-                            </dt>
-                            <dd>{money(item.amount)}</dd>
-                          </div>
-                        ))}
-                        <div className="total">
-                          <dt>{t('project_cost')}</dt>
-                          <dd>{money(report.budget.project_cost)}</dd>
-                        </div>
-                      </dl>
-                    </Section>
-                  )}
-                </div>
-                <div
-                  className={`report-section repayment-section ${tab !== 'repayment' ? 'screen-hidden' : ''}`}
-                >
-                  <h2>{t('nav_repayment')}</h2>
-                  <p>
-                    {t('selected_scheme')}: {t(f.scheme)}
-                  </p>
-                  <p>{t('planned_not_sanctioned')}</p>
-                  <button
-                    onClick={() => {
-                      if (saveRepaymentPlan(report)) {
-                        setTab('tracker');
-                      } else setStorageError(true);
-                    }}
-                    disabled={!f.schedule.length}
-                  >
-                    {t('track_plan')}
-                  </button>{' '}
-                  {f.schedule.length > 0 && (
-                    <Section icon={Calculator} title={t('schedule')}>
-                      <div className="schedule-summary">
-                        <span>
-                          {t('total_interest')}: <b>{money(f.total_interest)}</b>
-                        </span>
-                        <span>
-                          {t('total_repayment')}: <b>{money(f.total_repayment)}</b>
-                        </span>
-                        <button onClick={download}>
-                          <Icon as={Download} />
-                          {t('csv')}
-                        </button>
-                      </div>
-                      <div className="table-wrap repayment-table" tabIndex={0}>
-                        <table>
-                          <caption>{t('schedule')}</caption>
-                          <thead>
-                            <tr>
-                              {[
-                                'month',
-                                'due_date',
-                                'opening',
-                                'interest',
-                                'principal',
-                                'payment',
-                                'balance',
-                              ].map((k) => (
-                                <th scope="col" key={k}>
-                                  {t(k)}
-                                </th>
-                              ))}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {f.schedule.map((row) => (
-                              <tr key={row.month} className={row.moratorium ? 'grace-row' : ''}>
-                                <th scope="row">
-                                  {n(row.month)}
-                                  {row.moratorium && <small>{t('grace')}</small>}
-                                </th>
-                                <td>{date(row.due_date)}</td>
-                                {['opening', 'interest', 'principal', 'payment', 'balance'].map(
-                                  (k) => (
-                                    <td key={k}>{money(row[k])}</td>
-                                  )
-                                )}
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    </Section>
-                  )}
-                </div>
               </div>
             )}
-            {!report && ['finance', 'allocation', 'repayment'].includes(tab) && (
+            {!report && tab === 'finance' && (
               <div className="empty">
                 <Icon as={Calculator} size={48} />
                 <h1>{t('empty')}</h1>
@@ -1386,8 +1641,8 @@ export default function App() {
                   </p>
                   <small>{t('named_places')}</small>
                   <div className="district-chips">
-                    {coverage?.district_list.map((d) => (
-                      <span key={d.id}>{d.names[lang]}</span>
+                    {(coverage?.district_list || []).map((d) => (
+                      <span key={d.id}>{d?.names?.[lang] || d?.names?.en || d?.id}</span>
                     ))}
                   </div>
                 </Section>
@@ -1432,7 +1687,7 @@ export default function App() {
                       </p>
                       <h3>{t('retrieved')}</h3>
                       <ul>
-                        {report.retrieval.map((r) => (
+                        {(report.retrieval || []).map((r) => (
                           <li key={r.id}>
                             {r.source === 'nabard' ? (
                               <a target="_blank" rel="noreferrer" href={`${r.url}#page=${r.page}`}>

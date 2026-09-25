@@ -848,6 +848,17 @@ summary {
   align-items: start;
 }
 
+.report-grid.equal-height-grid {
+  align-items: stretch;
+}
+
+.report-grid.equal-height-grid > .panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .report-grid > .panel {
   margin: 0;
 }
@@ -2948,4 +2959,393 @@ html:not([lang='en']) .metric > strong {
   .compare-cell.best {
     background: #f0f0f0 !important;
   }
+
+  /* Single sectioned unified report print */
+  .report-section {
+    display: block !important;
+    page-break-inside: avoid;
+    margin-bottom: 24px;
+  }
+
+  .screen-hidden {
+    display: block !important;
+  }
+}
+
+/* =========================================================
+   GRAMSAHAYAK PROGRESSIVE ONBOARDING & ENHANCED UI
+   ========================================================= */
+
+/* Social Login Buttons */
+.social-login-divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+.social-login-divider::before,
+.social-login-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid var(--line);
+}
+.social-login-divider span {
+  padding: 0 0.75rem;
+}
+
+.social-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 600px) {
+  .social-buttons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #ffffff;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.social-btn:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* Progressive Wizard */
+.wizard-container {
+  max-width: 780px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+}
+
+.wizard-progress-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.wizard-progress-bar::before {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  right: 30px;
+  height: 3px;
+  background: #e2e8f0;
+  z-index: 1;
+}
+.wizard-step-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+.step-number-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  color: #64748b;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+.wizard-step-node.active .step-number-circle {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(22, 95, 73, 0.15);
+}
+.wizard-step-node.completed .step-number-circle {
+  background: #165f49;
+  border-color: #165f49;
+  color: #ffffff;
+}
+.step-title {
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+  color: #64748b;
+  font-weight: 500;
+}
+.wizard-step-node.active .step-title {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.wizard-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+.wizard-card h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+  color: #0f172a;
+}
+.step-subtitle {
+  color: #64748b;
+  font-size: 0.92rem;
+  margin-bottom: 1.5rem;
+}
+
+.step-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+/* Radius Selector Group */
+.radius-selector-group {
+  margin: 1.25rem 0;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.radius-selector-group label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #1e293b;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.radius-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+.radius-pill {
+  flex: 1;
+  padding: 0.65rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+.radius-pill:hover {
+  border-color: #94a3b8;
+}
+.radius-pill.active {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(22, 95, 73, 0.25);
+}
+
+/* Choice Cards (Savings vs Loan) */
+.choice-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 600px) {
+  .choice-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.choice-card {
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  padding: 1.25rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  transition: all 0.2s ease;
+  position: relative;
+}
+.choice-card:hover {
+  border-color: #94a3b8;
+  transform: translateY(-2px);
+}
+.choice-card.selected {
+  border-color: var(--brand);
+  background: #f0fdf4;
+  box-shadow: 0 4px 12px rgba(22, 95, 73, 0.12);
+}
+.choice-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.choice-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #0f172a;
+}
+.choice-card p {
+  font-size: 0.85rem;
+  color: #64748b;
+  line-height: 1.4;
+  flex: 1;
+}
+.choice-card input[type="radio"] {
+  margin-top: 0.75rem;
+  align-self: flex-end;
+}
+
+/* Plan Readiness Visual Gauge */
+.readiness-visual-card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+.gauge-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+.radial-gauge-svg {
+  flex-shrink: 0;
+}
+.gauge-info {
+  flex: 1;
+  min-width: 200px;
+}
+.readiness-badge {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.readiness-lead {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.readiness-checks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+.check-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  font-size: 0.85rem;
+  border: 1px solid #e2e8f0;
+}
+.check-item.passed {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+}
+.check-status-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+.check-item.passed .check-status-pill {
+  background: #dcfce7;
+  color: #166534;
+}
+.check-item.pending .check-status-pill {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Seasonality & Pricing Cards in Business Plan */
+.pricing-strategies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+@media (max-width: 768px) {
+  .pricing-strategies-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.strategy-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.strategy-card.recommended {
+  border: 2px solid var(--brand);
+  background: #f0fdf4;
+}
+.strategy-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #0f172a;
+}
+.strategy-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #165f49;
+  margin-bottom: 0.5rem;
+}
+
+.seasonality-row {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding: 0.5rem 0;
+}
+.season-month-cell {
+  flex: 1;
+  min-width: 48px;
+  text-align: center;
+  padding: 0.5rem 0.25rem;
+  border-radius: 6px;
+  background: #f1f5f9;
+  font-size: 0.78rem;
+}
+.season-month-cell.peak {
+  background: #dcfce7;
+  font-weight: 700;
+  color: #166534;
+}
+.season-month-cell.lean {
+  background: #fee2e2;
+  color: #991b1b;
 }

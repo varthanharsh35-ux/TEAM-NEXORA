@@ -34,6 +34,19 @@ def monthly_emi(principal, rate, tenure_months):
     return money(principal * monthly / (1 - (1 + monthly) ** (-tenure_months)))
 
 
+import json
+from pathlib import Path
+
+CATALOG_PATH = Path(__file__).resolve().parents[1] / "data" / "scheme_catalog.json"
+SCHEMES_BY_ID = {}
+if CATALOG_PATH.exists():
+    try:
+        _cdata = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+        SCHEMES_BY_ID = {s["id"]: s for s in _cdata.get("schemes", [])}
+    except Exception:
+        pass
+
+
 def calculate(margin, start_date=None, scheme_id="auto", project_cost=None):
     try:
         raw = D(str(margin))
@@ -44,7 +57,12 @@ def calculate(margin, start_date=None, scheme_id="auto", project_cost=None):
     except (InvalidOperation, TypeError):
         raise ValueError('invalid_margin')
     start = date.fromisoformat(start_date) if start_date else date.today()
-    share=D('.85') if scheme_id=='nbcfdc' else D('.90')
+    cat_scheme = SCHEMES_BY_ID.get(scheme_id)
+    if cat_scheme:
+        sterms = cat_scheme.get('terms', {})
+        share = D(str(sterms.get('agency_share', 0.90) or 0.90))
+    else:
+        share = D('.85') if scheme_id=='nbcfdc' else D('.90')
     project = money(project_cost) if project_cost is not None else money(margin / (1-share))
     if project<=0:raise ValueError('invalid_input')
     margin=min(margin,project) if project_cost is not None else margin
@@ -52,7 +70,23 @@ def calculate(margin, start_date=None, scheme_id="auto", project_cost=None):
     base = dict(margin=float(margin), project_cost=float(project), maximum_loan=float(maximum), start_date=start.isoformat())
     if project_cost is not None and margin>=project:
         return dict(base,scheme='self_funded',loan=0,funding_gap=0,schedule=[],quarterly_payment=0,total_interest=0,total_repayment=0,annual_rate=0,tenure_months=0,moratorium_months=0,cap_applied=False)
-    if scheme_id not in ['auto','micro','term','nbcfdc']:raise ValueError('invalid_input')
+    if scheme_id not in ['auto','micro','term','nbcfdc'] and not cat_scheme:
+        raise ValueError('invalid_input')
+    if cat_scheme:
+        sterms = cat_scheme.get('terms', {})
+        p_max = sterms.get('project_max')
+        if p_max and project > p_max:
+            raise ValueError('scheme_project_limit')
+        cap = D(str(sterms.get('loan_cap', 5000000) or 5000000))
+        rate = D(str(sterms.get('interest_rate', 6.5) or 6.5)) / 100
+        tenure = int(sterms.get('tenure_months', 36) or 36)
+        moratorium = int(sterms.get('moratorium_months', 3) or 3)
+        loan = min(maximum, cap)
+        result = schedule_loan(loan, rate, tenure, moratorium, start)
+        return dict(base, scheme=scheme_id, scheme_name=cat_scheme.get('name', {}).get('en', scheme_id),
+                    loan=float(loan), funding_gap=float(project-margin-loan),
+                    cap_applied=loan<maximum, annual_rate=float(rate*100),
+                    tenure_months=tenure, moratorium_months=moratorium, **result)
     if scheme_id=='micro' and project>140000:raise ValueError('scheme_project_limit')
     if scheme_id=='term' and not 140000<project<=5000000:raise ValueError('scheme_project_limit')
     if project > 5000000 and scheme_id!='nbcfdc':

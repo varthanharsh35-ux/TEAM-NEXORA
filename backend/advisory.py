@@ -105,5 +105,35 @@ def build_report(data):
  result['readiness']['checks']=checks
  result['readiness']['score']=sum(checks.values())*2
  if result['readiness']['missing']:result['verdict']='caution'
+
+ # Integrate seasonality
+ try:
+  from seasonality import monthly_index, seasonality_note_key
+  dist_id = d.get('id') if isinstance(d, dict) else str(d)
+  curr_month = datetime.now(timezone.utc).month
+  result['seasonality'] = monthly_index(cat, dist_id)
+  result['seasonality_note_key'] = seasonality_note_key(cat, curr_month)
+ except Exception:
+  pass
+
+ # Integrate pricing strategy
+ try:
+  from pricing import strategy as calc_pricing_strategy
+  price_band = {'low': metrics['price_low'], 'mid': metrics['price'], 'high': metrics['price_high'], 'unit': s['unit'], 'source': 'Agmarknet / Sector Benchmark', 'date': datetime.now(timezone.utc).date().isoformat()}
+  result['pricing_strategy'] = calc_pricing_strategy(
+   activity_id=cat,
+   demand_score=round(metrics.get('density', 50)),
+   competitor_count=rivals,
+   competitor_within_1km=min(rivals, 1),
+   project_cost=p,
+   loan=f['loan'],
+   quarterly_payment=f['quarterly_payment'],
+   capacity_units_per_month=capacity,
+   unit_label=s['unit'],
+   sector_price_band=price_band
+  )
+ except Exception:
+  pass
+
  save_report(result)
  return result

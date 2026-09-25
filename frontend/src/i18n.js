@@ -11,7 +11,7 @@ try {
 i18n.use(initReactI18next).init({
   resources: { en: { translation: en }, ta: { translation: ta }, hi: { translation: hi } },
   lng: language,
-  fallbackLng: false,
+  fallbackLng: 'en',
   keySeparator: false,
   interpolation: { escapeValue: false },
 });
